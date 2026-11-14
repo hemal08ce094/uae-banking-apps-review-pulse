@@ -1,5 +1,5 @@
 {
- "headline": "ADCB's new app, launched on 21 April 2026, averages 2.9 across 10,857 written reviews; the previous app averaged 3.96 across 22,577. One and two stars are 51% of the new app's reviews against 22% of the old one's.",
+ "headline": "ADCB's new app, launched on 21 April 2026, averages 2.9 across 10,872 written reviews; the previous app averaged 3.96 across 22,577. One and two stars are 51% of the new app's reviews against 22% of the old one's.",
  "lede": "ADCB answers 76% of written reviews, typically within 1 day. The new app drew its first complaints about being forced on customers, then about mandatory face or fingerprint set-up and a SecurePass set-up that loops. July 2026 was the low point (average 2.02 across 3,296 new-app reviews). The older app's history stretches back to 2013 and its worst month was the December 2018 redesign (average 1.71).",
  "method": "ADCB is treated as one bank: the new ADCB. app (Google Play com.adcb.nexgen, App Store 6755109454) and the previous ADCB app (com.adcb.bank, 547172388) are merged, and each review carries a generation tag. Averages are of written reviews only; store ratings combine both apps by number of ratings and include star-only ratings, which are not public. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged, so a review can carry several themes. App Store coverage: complete.",
  "events": [
@@ -347,7 +347,7 @@
    "themes": [
     "usability"
    ],
-   "summary": "The new app has 4,972 four and five star reviews. The converts mention a cleaner interface and navigation, and from October the AI guidance.",
+   "summary": "The new app has 4,978 four and five star reviews. The converts mention a cleaner interface and navigation, and from October the AI guidance.",
    "quotes": [
     {
      "id": "play-7d8f46fe-cd9d-408a-9d96-13b5d819e8aa",

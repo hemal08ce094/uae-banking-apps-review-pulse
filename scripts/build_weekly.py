@@ -3,7 +3,7 @@ base=sys.argv[1]; out=sys.argv[2]
 apps=['enbdx','fab','adcb','wio','mashreq','adib']
 def wk(d):
     dt=datetime.date.fromisoformat(d); return (dt-datetime.timedelta(days=dt.weekday())).isoformat()
-end=datetime.date.fromisoformat('2026-11-13')
+end=datetime.date.today()
 last_mon=end-datetime.timedelta(days=end.weekday())
 weeks=[(last_mon-datetime.timedelta(weeks=i)).isoformat() for i in range(77,-1,-1)]
 wi={w:i for i,w in enumerate(weeks)}

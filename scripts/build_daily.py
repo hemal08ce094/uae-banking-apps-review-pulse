@@ -1,6 +1,6 @@
 import json,datetime,sys
 base=sys.argv[1]; out=sys.argv[2]
-end=datetime.date(2026,11,14); days=120; start=(end-datetime.timedelta(days=days-1)).isoformat()
+end=datetime.date.today(); days=120; start=(end-datetime.timedelta(days=days-1)).isoformat()
 res={'end':end.isoformat(),'days':days,'apps':{}}
 for a in ['enbdx','fab','adcb','wio','mashreq','adib']:
     o={'ios':{},'android':{}}

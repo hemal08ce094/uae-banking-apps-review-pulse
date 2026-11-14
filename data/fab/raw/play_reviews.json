@@ -272746,7 +272746,7 @@
   "author": "*.•bOppy_the_pineapple•.*",
   "version": "3.7.90",
   "date": "2026-11-04",
-  "votes_helpful": 3,
+  "votes_helpful": 4,
   "votes_total": null,
   "reply": {
    "body": "Dear Customer, thank you for reaching out. We're sorry to hear you're having trouble logging in. Kindly share your details in a private message on Facebook @FAB or X (formerly Twitter) @FABConnects so that our team can investigate the matter.",
@@ -274354,5 +274354,65 @@
    "body": "Dear Customer, thank you for your feedback. We've noted your concerns and will share them with the relevant team.",
    "date": "2026-11-10"
   }
+ },
+ {
+  "id": "play-990924a5-3285-45f2-b0d6-859d8c8438b6",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "good",
+  "author": "Sahabuddin Ansari",
+  "version": "3.7.90",
+  "date": "2026-11-12",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-a216d12c-5c85-4f2f-a427-a3b985249b33",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "WORST BANK EVER WORST CUSTOMER SERVICE Dont receive any big amount transfers into your account this bank hold your account without any information my account has been hold without information since 5th November i had gave them all clarification in month of September they dont care about customers",
+  "author": "umesh jashnani",
+  "version": "3.7.93",
+  "date": "2026-11-12",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-74e36d89-cdb7-47de-bac4-6980ff0d9ae0",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 1,
+  "title": "",
+  "body": "تطبيق سئ سئ سئ جدا كلما ترسل الاموال الى بلدك لازم توضح لماذا وكيف وليش وبين ووضح واعطي دلائل بدي اعرف هل هذا بنك ام غرفة تحقيقات",
+  "author": "نظرة بعيون بسيطة",
+  "version": "3.4",
+  "date": "2026-11-13",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-7317111f-2de6-4876-89ed-23e2e523a228",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "جيد",
+  "author": "جرح الزمن",
+  "version": "3.7.93",
+  "date": "2026-11-12",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
  }
 ]
