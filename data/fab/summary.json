@@ -24700,7 +24700,7 @@
   "ios": 2133,
   "rate_android": 0.713,
   "rate_ios": 0.762,
-  "median_lag_days": 9.0,
+  "median_lag_days": 9,
   "by_year": {
    "2026": 3236,
    "2025": 3322,

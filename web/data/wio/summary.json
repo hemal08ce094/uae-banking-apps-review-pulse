@@ -73,16 +73,16 @@
     "version": "1.76.0"
    },
    "android": {
-    "avg": 4.590799,
-    "count": 6231,
+    "avg": 4.591241,
+    "count": 6233,
     "reviews": 555,
     "version": "1.76.0",
     "histogram": [
-     421,
+     423,
      13,
-     165,
-     482,
-     5144
+     166,
+     469,
+     5156
     ],
     "installs": "500,000+"
    }
@@ -110,15 +110,15 @@
    "android": {
     "all": {
      "title": "Wio Personal",
-     "score": 4.590799,
-     "ratings": 6231,
+     "score": 4.591241,
+     "ratings": 6233,
      "reviews": 555,
      "histogram": [
-      421,
+      423,
       13,
-      165,
-      482,
-      5144
+      166,
+      469,
+      5156
      ],
      "version": "1.76.0",
      "installs": "500,000+",
@@ -135,7 +135,7 @@
   "ios": 491,
   "android": 835,
   "first": "2023-07-25",
-  "last": "2026-11-13",
+  "last": "2026-11-12",
   "avg": 3.43,
   "avg_ios": 3.19,
   "avg_android": 3.56,

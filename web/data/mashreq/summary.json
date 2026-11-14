@@ -217,7 +217,7 @@
    },
    "android": {
     "avg": 4.759997,
-    "count": 158294,
+    "count": 158303,
     "reviews": 11888,
     "version": "9.23.0",
     "histogram": [
@@ -225,7 +225,7 @@
      958,
      3059,
      10768,
-     138949
+     138957
     ],
     "installs": "1,000,000+"
    }
@@ -254,14 +254,14 @@
     "all": {
      "title": "Mashreq UAE - Digital Banking",
      "score": 4.759997,
-     "ratings": 158294,
+     "ratings": 158303,
      "reviews": 11888,
      "histogram": [
       4556,
       958,
       3059,
       10768,
-      138949
+      138957
      ],
      "version": "9.23.0",
      "installs": "1,000,000+",
