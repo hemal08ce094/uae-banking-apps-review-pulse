@@ -1,0 +1,429 @@
+{
+ "headline": "53% of Wio Personal's 1,320 written reviews are five stars and 37% are one or two. Praise is for onboarding and the interface; the complaints are about support that answers slowly and about access: video verification, device checks and VPN detection.",
+ "lede": "Wio answers 96% of written reviews, typically within 2 day. The review base is small (1,320 reviews since 25 July 2023), so the months with at least 15 reviews hold 16 to 51 reviews and move on a handful of voices. Written reviews average 3.43; reviews from 2026 average 3.15, those before 2025 average 3.63.",
+ "method": "Averages here are of written reviews only. Store ratings (4.80 App Store, 4.59 Google Play) include star-only ratings, which are not public and skew positive. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged, so a review can carry several themes. Months with fewer than 15 reviews are not read as trends. App Store coverage: complete.",
+ "events": [
+  {
+   "month": "2023-12",
+   "label": "Early transfer delays and a silent call centre",
+   "detail": "45 reviews in December 2023. 10 reviews across December and January mention being unable to reach support while a transfer or login OTP failed.",
+   "kind": "pain"
+  },
+  {
+   "month": "2024-01",
+   "label": "First outgoing transfer blocked by the address form",
+   "detail": "2 reviews in January 2024 describe the app rejecting a valid residential address on the first international transfer; the two most upvoted came from the same week.",
+   "kind": "pain"
+  },
+  {
+   "month": "2024-05",
+   "label": "Trading fees and a lower rate noticed",
+   "detail": "9 reviews in spring 2024 mention fees or the savings rate; the most helpful says trading was fee-free and the rate higher a few months earlier.",
+   "kind": "pain"
+  },
+  {
+   "month": "2023-09",
+   "label": "Best month with at least 15 reviews",
+   "detail": "Average 4.5 across 16 reviews.",
+   "kind": "win"
+  },
+  {
+   "month": "2026-02",
+   "label": "New card feature and export complaints",
+   "detail": "Average 3.4 across 47 reviews. Reviewers report a new feature that stopped card payments and an export that splits transactions into two files.",
+   "kind": "pain"
+  },
+  {
+   "month": "2026-07",
+   "label": "Device support dropped, custom OS flags",
+   "detail": "13 reviews between July and October 2026 mention an unsupported device, a custom operating system warning or VPN detection, including users abroad who cannot reach their money.",
+   "kind": "pain"
+  },
+  {
+   "month": "2025-05",
+   "label": "Lowest month with at least 15 reviews",
+   "detail": "Average 2.55 across 29 reviews. Negative themes: Call centre & chat (10), Missing features (3), Account & onboarding (3).",
+   "kind": "pain"
+  }
+ ],
+ "pains": [
+  {
+   "title": "Support that answers slowly, or not at all",
+   "themes": [
+    "support"
+   ],
+   "summary": "Support is the most common negative theme (157 reviews). People describe WhatsApp messages that go unanswered, calls only possible from inside the UAE, hour-long waits and agents who take several minutes per reply.",
+   "quotes": [
+    {
+     "id": "play-28196905-0529-4bcd-96ec-d0c19da60e40",
+     "platform": "android",
+     "rating": 1,
+     "date": "2025-05-08",
+     "version": "1.37.1",
+     "helpful": 9,
+     "title": "",
+     "body": "Difficult to setup. Freezes up often. Many features simply don't work with no explanation of why they don't work or what is needed to make them work. customer care basically doesn't exist. you have 2 options. whatsapp(they don't respond) or call them which you can only do from inside the UAE. So if you have a problem while abroad you're out of luck. They frequently block transactions with no explanation or even an alert that they did so. Don't deposit more than you are willing to lose!"
+    },
+    {
+     "id": "play-e0431b9d-d8f6-47c8-982c-3fb15fcbd982",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-18",
+     "version": "1.70.0",
+     "helpful": 9,
+     "title": "",
+     "body": "worst bank to bank with.... waiting time is just more than 1 hr for simple banking queries on a scale of 0 to 5, I'll definitely give them -100"
+    },
+    {
+     "id": "play-8d7dbe7b-7742-44a0-ae3d-b3ecb8c9a205",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-30",
+     "version": "1.71.0",
+     "helpful": 1,
+     "title": "",
+     "body": "App experience is best in class....but... the Support is so slow, At 2PM i contacted agent amd got reply at 10PM even then the agent was taking 9 to 10 mins per response and query remained un resolved..."
+    },
+    {
+     "id": "play-e7f434a4-15ea-45c6-9afc-73b66dd2ad29",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-02-15",
+     "version": "1.57.0",
+     "helpful": 2,
+     "title": "",
+     "body": "Everything was fine until I tried to open a family account. I contacted support via WhatsApp; a case was opened but not resolved. After follow-ups, another case was opened and later closed as “resolved” even though the issue remained. Agents said they could not reopen or escalate it, and one even said her shift had ended and she wanted to leave. The app is good, but the customer support is very poor and unprofessional. Reference case ID 519361, 530115, 4734024"
+    }
+   ]
+  },
+  {
+   "title": "Locked out by device and location checks",
+   "themes": [
+    "login",
+    "device"
+   ],
+   "summary": "Video verification repeats, a device stops being supported, a stock Android is read as a custom operating system, and users in Hong Kong or abroad are told they are on a VPN. Each leaves a customer unable to repay a card or move money.",
+   "quotes": [
+    {
+     "id": "play-747f4e88-de5a-4374-9063-68adc5256eae",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-07-28",
+     "version": "1.68.0",
+     "helpful": 9,
+     "title": "",
+     "body": "Imagine being completely locked out of your bank while you're abroad. Amazing experience. I can't repay my credit card, change my investments, approve transactions, or do anything at all. All because they decided to stop supporting my device. I highly discourage anyone from having their salary paid into this app or even using it in the first place, if you want to avoid ending up in the same situation. Now I have to buy a new device just to close my account and move everything elsewhere."
+    },
+    {
+     "id": "play-98ce2c01-051b-48b8-bb5b-c8390ad0932f",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-19",
+     "version": "1.70.0",
+     "helpful": 1,
+     "title": "",
+     "body": "Won't let me use the app today as it says my device is running a custom operating system - it's using standard Google issued Android 17 with no modifications or rooting. It has worked for 2 years without issue before today. I've tried rebooting. Please advise how I DM you - I cannot open the app, and the support email address listed isn't valid."
+    },
+    {
+     "id": "play-98ce2c01-051b-48b8-bb5b-c8390ad0932f",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-19",
+     "version": "1.70.0",
+     "helpful": 1,
+     "title": "",
+     "body": "Won't let me use the app today as it says my device is running a custom operating system - it's using standard Google issued Android 17 with no modifications or rooting. It has worked for 2 years without issue before today. I've tried rebooting. Please advise how I DM you - I cannot open the app, and the support email address listed isn't valid."
+    },
+    {
+     "id": "play-94e66b2a-8649-4356-955d-8276685e1e40",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-28",
+     "version": "1.70.0",
+     "helpful": 1,
+     "title": "",
+     "body": "Suddenly couldn't run the app without updates. Not the first time. Want to use - update your app. Are your IT department okay? Or should check up their intelligent abilities Also often cannot log in from Hong Kong and Mainland China, no matter WiFi or cellular data, always says it's VPN, bot no VPN actually. Seems you have a real mental abilities crisis in your IT dep"
+    },
+    {
+     "id": "play-a2bcd016-33a4-4b1b-a7ba-f4afb7ad7f1a",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-09-15",
+     "version": "1.71.0",
+     "helpful": 1,
+     "title": "",
+     "body": "It's crazy to think that this app doesn't work on GrapheneOS, the most secure OS out there. Please fix this."
+    }
+   ]
+  },
+  {
+   "title": "Transfers that stall at the first step",
+   "themes": [
+    "transfers",
+    "stability"
+   ],
+   "summary": "Early reviews describe local transfers taking an hour or more to land, and the first outgoing international transfer failing at an address form that rejected valid input.",
+   "quotes": [
+    {
+     "id": "play-c4e695ec-8f98-4073-b263-0443f070285f",
+     "platform": "android",
+     "rating": 2,
+     "date": "2023-12-30",
+     "version": "1.7.0",
+     "helpful": 66,
+     "title": "",
+     "body": "The app is good and easy to navigate. But the main thing \"service\" is extremely slow and not trustworthy. I tried transferring amount from wio to other banks, it almost always takes atleast half to one Hr. for the money to credit in other account. Yesterday I saw notification saying there is a delay and transfer can take upto 3 days ! Tried several times to get it touch with support. Never had a chance to talk even on chat. Very risky."
+    },
+    {
+     "id": "play-7ac16e18-9ed7-4918-ae39-0daf44a811f4",
+     "platform": "android",
+     "rating": 2,
+     "date": "2024-01-04",
+     "version": "1.8.1",
+     "helpful": 59,
+     "title": "",
+     "body": "I have recently opened an account and transferred it into the account. Yesterday, I tried to do an international from the app. The app asked me to register the address, but it was not accepting even though I didn't commit any error. The app would not allow me to proceed to the next step of transfer without inputing the address. I raised this issue with wio Care through WhatsApp and phone no, but I couldn't reach them. Now I got struck with my money in the account, not knowing how to get it out."
+    },
+    {
+     "id": "play-043c07d2-0cef-4b8e-a180-84e8c08177ba",
+     "platform": "android",
+     "rating": 2,
+     "date": "2023-12-17",
+     "version": "1.7.0",
+     "helpful": 10,
+     "title": "",
+     "body": "Brilliant app. Seamless on-boarding. Clear information throughout the process. 5 stars until I Transferred some money which has not reached my wio account even after 12 hrs. What makes it worse is that the Customer care seems non existent. Via WhatsApp no response. Via phone istayed online for 11 mins until I chose the option to receive a call back which I don't have high hopes of receiving given the trend. Happy to be wrong here! I need a reason from Wio to continue to keep my account with you."
+    },
+    {
+     "id": "play-94e66b2a-8649-4356-955d-8276685e1e40",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-28",
+     "version": "1.70.0",
+     "helpful": 1,
+     "title": "",
+     "body": "Suddenly couldn't run the app without updates. Not the first time. Want to use - update your app. Are your IT department okay? Or should check up their intelligent abilities Also often cannot log in from Hong Kong and Mainland China, no matter WiFi or cellular data, always says it's VPN, bot no VPN actually. Seems you have a real mental abilities crisis in your IT dep"
+    }
+   ]
+  },
+  {
+   "title": "Fees and rates that changed",
+   "themes": [
+    "fees",
+    "products"
+   ],
+   "summary": "A digital bank that markets itself as low fee is held to it: trading fees, a lower savings rate and a fixed saving rate that fell from 6% to 5% while the app still said 'up to 6%' are the complaints.",
+   "quotes": [
+    {
+     "id": "play-dc02f1c8-4678-400b-9c21-0a214cd80b5d",
+     "platform": "android",
+     "rating": 2,
+     "date": "2024-05-16",
+     "version": "1.14.0",
+     "helpful": 16,
+     "title": "",
+     "body": "The app and user experience are amazing. 2 comments. 1. There were no fees on trading and the interest rate was higher few months ago. No there are fees on every trade and the interest rate is lower. This breaks the trust and makes the user skeptical whether Wio will keep on adding fees and they used the high interest and zero fees to lure in customers. 2. Don't let the back button get you out of the app, ask if you want yo exit or not, otherwise i have to sign in again."
+    },
+    {
+     "id": "play-badb6a3d-bec3-4fbc-ba17-2cdee62a7d9a",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-02-11",
+     "version": "1.56.1",
+     "helpful": 21,
+     "title": "",
+     "body": "Edited to one star. They have released a new feature but it doesn't work. So I am not able to use my card to make any payments. The one thing I need a card to do. Very frustrating. The app itself works well, but there are too many hidden fees. Things are advertised as \"fee-free\" but are then so convoluted and hidden that they still charge you fees anyway. I've been charged aed1000 through these fees over the past few months and it's really irritating"
+    },
+    {
+     "id": "play-190b31a7-fece-456a-8669-87bbf31ec427",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-29",
+     "version": "1.71.0",
+     "helpful": 1,
+     "title": "",
+     "body": "Fixed saving is only 5% now instead of 6%. In the app is still written \"up to 6%\" but there is no such option any more."
+    }
+   ]
+  },
+  {
+   "title": "Missing everyday banking features",
+   "themes": [
+    "features",
+    "cards"
+   ],
+   "summary": "Tap-to-withdraw at ATMs, SMS cash withdrawal, one CSV export of all transactions and easy access to card details are the specific absences named.",
+   "quotes": [
+    {
+     "id": "play-037be1aa-8318-4d1d-8494-380075054b82",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-05-20",
+     "version": "1.14.0",
+     "helpful": 14,
+     "title": "",
+     "body": "Good app. But 2 problems: 1 - Tapping phone at ATM can withdrawal not working. (Google Pay/Garmin Pay not working) 2 - SMS cash withdrawal feature also not available. Since you are a digital bank, really surprising above 2 features are missing. Please fix the issues. Thank you."
+    },
+    {
+     "id": "play-e2871f7b-9023-481b-baff-4a8f5ffbac99",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-02-16",
+     "version": "1.57.0",
+     "helpful": 9,
+     "title": "",
+     "body": "Wio for god sake. Who decided, to do not give, one export with all transactions in csv! You give 2 exports and the credit transactions only as a pdf. Let go the person who decided this. Give us one export with all transactions in csv. I raided multiple tickets about the same"
+    },
+    {
+     "id": "play-ee1da91c-e4ec-48eb-9133-00cbd13e4b11",
+     "platform": "android",
+     "rating": 2,
+     "date": "2026-06-21",
+     "version": "1.64.0",
+     "helpful": 19,
+     "title": "",
+     "body": "I wish my bank app thought of itself as my personal bank app and not an advertising billboard. the app is FULL of advertisements, trying to upsell me products I don't care about. yet, when it comes to finding my card details it's buried beneath menus. wio should sort it's priorities out - stop trying to upsell your customers when you can't get basic user journeys to feel nice and intuitive. and STOP sending me notifications & emails every other day about space x IPOs or bitcoin - I DONT CARE!!!"
+    }
+   ]
+  }
+ ],
+ "wins": [
+  {
+   "title": "Onboarding in minutes, no paperwork",
+   "themes": [
+    "account"
+   ],
+   "summary": "The most repeated praise is how quickly an account opens, including for people who cannot supply a salary certificate, and that the physical card arrives early.",
+   "quotes": [
+    {
+     "id": "play-15f828f4-4906-4f71-8d65-09911c335541",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-05-17",
+     "version": "1.38.1",
+     "helpful": 20,
+     "title": "",
+     "body": "best online banking app ever with no spending and you can get everything sooo smoothly and easily. Especially for all those who cannot submit there salary certificates can easily get this bank in literally minutes without any hassle. Love it will definitely recommend to everyone i ever meet again."
+    },
+    {
+     "id": "play-e6b5077d-473d-4c60-8216-463a4e00a51b",
+     "platform": "android",
+     "rating": 5,
+     "date": "2023-10-17",
+     "version": "1.2",
+     "helpful": 14,
+     "title": "",
+     "body": "Amazing onboarding process. Brilliantly simple and efficient app. Digital banks need to take a cue from Wio. Even the physical card arrived ahead of schedule. Adding your own personal picture from the gallery for the saving space and the physical card would be a nice option to have."
+    },
+    {
+     "id": "play-043c07d2-0cef-4b8e-a180-84e8c08177ba",
+     "platform": "android",
+     "rating": 2,
+     "date": "2023-12-17",
+     "version": "1.7.0",
+     "helpful": 10,
+     "title": "",
+     "body": "Brilliant app. Seamless on-boarding. Clear information throughout the process. 5 stars until I Transferred some money which has not reached my wio account even after 12 hrs. What makes it worse is that the Customer care seems non existent. Via WhatsApp no response. Via phone istayed online for 11 mins until I chose the option to receive a call back which I don't have high hopes of receiving given the trend. Happy to be wrong here! I need a reason from Wio to continue to keep my account with you."
+    }
+   ]
+  },
+  {
+   "title": "An interface people call best in class",
+   "themes": [
+    "usability"
+   ],
+   "summary": "Reviewers across 2024 to 2026 describe the app as easy to navigate and fast, with several adding that the support is what lets it down.",
+   "quotes": [
+    {
+     "id": "play-dfb32819-30eb-41f3-a9f9-74ed53d2afcf",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-05-19",
+     "version": "1.14.0",
+     "helpful": 35,
+     "title": "",
+     "body": "The ux has been worked on and thought of a 100 times before the design. Kudos. Speed of app is perfect. Just one small bug but that I assume is cuz you designed for ios first is when I click the bsck button sometimes it just exits the app. If you can fix that. I would appreciate it you work on adding Samsung pay to the accepted mobile wallets."
+    },
+    {
+     "id": "play-11712ade-cb16-4fce-bfe3-a83a5cb8d02f",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-05-18",
+     "version": "1.14.0",
+     "helpful": 20,
+     "title": "",
+     "body": "Simply wow! Loving every bit of this app including amazing UI, Simple / easy navigation and most importantly gives the best value compared to any other bank in the region! Great job team Wio!!👏👏"
+    },
+    {
+     "id": "play-6addd9c8-cb0d-4d53-bba0-f538709a78ec",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-05-15",
+     "version": "1.38.0",
+     "helpful": 45,
+     "title": "",
+     "body": "The app itself is fantastic—it’s easy to use, has all the features I need, and works smoothly. However, I’m receiving multiple emails every day with the title *“Login activity detected ⚠️”*, even though there’s no suspicious activity on my account. I’ve already changed my PIN and contacted customer service, but the issue hasn’t been resolved. These emails feel more like spam than helpful notifications, and it’s becoming frustrating. \"Edit: I stopped receiving those emails since 17-4-2025\""
+    }
+   ]
+  },
+  {
+   "title": "One app for savings, stocks and cards",
+   "themes": [
+    "products"
+   ],
+   "summary": "Customers like having savings, stocks, crypto and credit card payments in one place, while asking for search and sort on the investment list.",
+   "quotes": [
+    {
+     "id": "play-867d2b2f-8ed5-472d-9113-5fe3e6bd54a0",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-11-18",
+     "version": "1.51.1",
+     "helpful": 22,
+     "title": "",
+     "body": "One stop complete solution for Savings, Stocks, Crypto investments, credit card payments etc. So everything under 1 nutshell is real Pros but the cons are like there is no sort or search or list only UAE related stocks, US stocks and Crypto (atleast crypto comes under separate list) seriously they need to find a way to list only UAE stocks or US stocks at the earliest because its so annoying to see huge list of US Stocks which am not going to do anything during UAE stock exchange open timings."
+    },
+    {
+     "id": "play-b2721835-a786-4b9b-b464-9ff6ec86777c",
+     "platform": "android",
+     "rating": 4,
+     "date": "2024-06-29",
+     "version": "1.17.0",
+     "helpful": 22,
+     "title": "",
+     "body": "Updated Review: Support reached out (a bit late) and explained the situation. Issues were resolved with a promise of minimising them in the future. Everything is running smoothly now. Some upgrades are much needed on the investment interface, though. Providing more trading related data, etc... Original Review: Unable to login to the app. I did everything, still doesn't work. Support are not responding. How can an app that offers investments, glitch in the middle of a trading day?! Very risky!"
+    }
+   ]
+  },
+  {
+   "title": "Real people when it works",
+   "themes": [
+    "support"
+   ],
+   "summary": "When support reaches a customer it is praised: no automated service, professional staff who respond, and follow-up after a public review.",
+   "quotes": [
+    {
+     "id": "play-6954ffaa-ffd1-4131-b8c0-392993accfd3",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-05-23",
+     "version": "1.38.2",
+     "helpful": 36,
+     "title": "",
+     "body": "I ve been banking with wio for 2 years now. It is the best customer service I've seen across any category for the past 10 years. No AI or automated service. you speak with real people who are very professional and responsive. Please do not change that Wio. I ve never been an advocate to any brand in my entire life but I ve been telling all my friends and family abt Wio. The success formula is basic: great product, great platform, superb customer service and consistency. Bravo!"
+    },
+    {
+     "id": "play-71a81842-83fe-41b9-b142-f3c61234303c",
+     "platform": "android",
+     "rating": 4,
+     "date": "2025-04-06",
+     "version": "1.36.2",
+     "helpful": 2,
+     "title": "",
+     "body": "Thank you for fixing the most recent issue where the WIO app stopped working for certain devices/ models. Will admit I'm slightly nervous to keep too many funds where the app is my only access point incase this issue occurs again but the swift resolution is reassurring."
+    }
+   ]
+  }
+ ],
+ "generated": "2026-11-14"
+}

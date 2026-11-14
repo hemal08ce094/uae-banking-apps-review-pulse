@@ -1,0 +1,386 @@
+{
+ "headline": "72% of ADIB's written reviews give five stars and 19% give one or two. The complaints that recur are release loops, face verification on a new phone and the move from SMS to push notifications.",
+ "lede": "ADIB answers 64% of written reviews, with a median gap of under a day. The best month with at least 100 reviews is 2020-09 (average 4.76); 83% of that month's reviews are under 40 characters, so volume rose faster than detail. 87 reviews since 2023 mention the selfie or face scan.",
+ "method": "Averages here are of written reviews only. Store ratings (4.69 App Store, 4.64 Google Play) include star-only ratings, which are not public and skew positive. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged in English and Arabic, so a review can carry several themes. App Store coverage: deep crawl phase 1 of 2 complete, phase 2 running.",
+ "events": [
+  {
+   "month": "2018-06",
+   "label": "Update prompt that never clears",
+   "detail": "56 reviews in June and July 2018 mention an update prompt; several say the store offers no update and the app stops working.",
+   "kind": "pain"
+  },
+  {
+   "month": "2019-06",
+   "label": "The same update loop, a year later",
+   "detail": "502 reviews in June 2019, average 3.16. 120 mention an update; reviewers say it keeps asking to update after installing, even after a reinstall.",
+   "kind": "pain"
+  },
+  {
+   "month": "2020-09",
+   "label": "Best month on record",
+   "detail": "Average 4.76 across 780 reviews, mostly version 3.7.0. 83% of that month's reviews are under 40 characters.",
+   "kind": "win"
+  },
+  {
+   "month": "2023-05",
+   "label": "Face scan fails on a new phone",
+   "detail": "87 reviews since January 2023 mention the selfie or face check. The common story: it worked on the old phone, fails on the new one, and the daily attempt limit runs out.",
+   "kind": "pain"
+  },
+  {
+   "month": "2025-01",
+   "label": "Transaction approvals move to push notifications",
+   "detail": "17 reviews in 2025 mention notifications; the most upvoted dislikes a pop-up asking to enable them in place of SMS alerts, and others report approvals that never arrive on Android.",
+   "kind": "pain"
+  },
+  {
+   "month": "2026-04",
+   "label": "Recent months stay steady",
+   "detail": "April 2026 averages 4.27 across 301 reviews and May 4.07 across 214; the negative themes are Crashes & errors (80), Login & access (64), App updates (52).",
+   "kind": "release"
+  }
+ ],
+ "pains": [
+  {
+   "title": "Face verification that will not pass",
+   "themes": [
+    "login",
+    "device"
+   ],
+   "summary": "Registering on a new phone needs a selfie scan. Reviewers describe the camera freezing, repeated 'could not capture' messages, handset-specific failures and a daily attempt limit that locks them out for a day.",
+   "quotes": [
+    {
+     "id": "play-7cd5fdf5-2ad2-41e0-a94f-49f272deb9db",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-07-31",
+     "version": "6.7.2",
+     "helpful": 23,
+     "title": "",
+     "body": "Horrible, I have not been able to log into due to face verification getting freezed and I have raised countless complaints in call center no response. They say keep trying and we will get an alternative option to verify but it's says try again after 24hours. 31/7/2024 - The issue still persists, face verification keeps freezing. No help provided"
+    },
+    {
+     "id": "play-6cc92623-1cd3-4a8d-894e-a16d23966e65",
+     "platform": "android",
+     "rating": 1,
+     "date": "2023-07-14",
+     "version": "5.2.0",
+     "helpful": 8,
+     "title": "",
+     "body": "This app is not working on my new phone. It was working perfectly on my old phone. I can't go past the selfie scan. I uninstalled and installed the app many times, but it repeatedly gives the message that there was an error. Please fix this problem at the earliest."
+    },
+    {
+     "id": "play-41e9245a-7c9c-4734-b090-e72fd407dd0d",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-03-07",
+     "version": "6.3.0",
+     "helpful": 21,
+     "title": "",
+     "body": "I am not able to register the mobile app in my other phone. I am always stuck in face scanning the camera it is not opening, it's always error until I lost daily attempts limit. For 3 weeks I cannot proceed with registration.kindly fix this issue. I need to transfer access to my current phone, since old one is not functioning well. currently using redmi phone. thank you ms.khadijah for helping me fix my issue."
+    },
+    {
+     "id": "play-c7f02fbc-d046-442c-b133-be12cf22322d",
+     "platform": "android",
+     "rating": 1,
+     "date": "2023-12-15",
+     "version": "5.7.6",
+     "helpful": 46,
+     "title": "",
+     "body": "التطبيق جيد والخدمات جميلة ولكن المشكلة تبدأ عند تغير الهاتف لايستجيب لمسح الصورة على هواتف هونر احاول فتح التطبيق ومحاولات كثيرة لاتوجد استجابة مع العلم ان كامل التطبيقات تعمل على الكاميرا بشكل جيد ولايوجد اي خلل تواصلت مع خدمة العملاء ولم اصل لنتيجة ودائما استنفاذ المحاولات الرجاء وضع خيارات لتسجيل الدخول عن طريق الصورة او عن طريق OTP"
+    }
+   ]
+  },
+  {
+   "title": "Updates that loop or change the rules",
+   "themes": [
+    "update",
+    "stability"
+   ],
+   "summary": "The most common negative theme after crashes. Two generations of reviews describe an app that demands an update it cannot complete, and later ones a release that changed services without notice.",
+   "quotes": [
+    {
+     "id": "play-ca1c9d7c-6905-46a7-b6e2-e13835811dbb",
+     "platform": "android",
+     "rating": 1,
+     "date": "2019-06-25",
+     "version": "8.2.0",
+     "helpful": 10,
+     "title": "",
+     "body": "Keeps promoting to upgrade the app, though the upgrade is done. cant use the app anymore."
+    },
+    {
+     "id": "play-bb189220-080b-4a70-a648-931ea6cfc124",
+     "platform": "android",
+     "rating": 1,
+     "date": "2019-06-27",
+     "version": "8.2.0",
+     "helpful": 7,
+     "title": "",
+     "body": "after updating the application, it's still asking for update, I tried: 1- restart my phone 2- forcestop and run again 3- uninstall and install again still the same issue this is bank application, development team should more professional and more trustworthy!"
+    },
+    {
+     "id": "play-c173bf79-cf63-4934-80a3-59252cb0ae82",
+     "platform": "android",
+     "rating": 1,
+     "date": "2021-04-04",
+     "version": "3.15.0",
+     "helpful": 57,
+     "title": "",
+     "body": "I am closing my account sooner or later this bank just changes services and site without notice or option to use old services, not every update is suitable for any one. Avoid this bank it was great but since the start of 2021 their services is going bad take my word this bank going down."
+    },
+    {
+     "id": "play-66ae5428-e2cf-47fd-af31-bea4ad4de22b",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-04-21",
+     "version": "4.15.4",
+     "helpful": 32,
+     "title": "",
+     "body": "After the last update it has become even more difficult to use the app, and adding beneficiary and choosing international currency is so difficult now. Just revert to the older version. It was much easier before than now after the latest update."
+    }
+   ]
+  },
+  {
+   "title": "OTPs and notifications that do not arrive",
+   "themes": [
+    "login",
+    "notifications"
+   ],
+   "summary": "Login and payment approval depend on an OTP or a push message. Reviewers report OTPs that never arrive, a push-notification switch forced on them, and approvals that show only when the app is open.",
+   "quotes": [
+    {
+     "id": "play-786efd53-213d-41a4-b2d4-9c3326f14061",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-05-15",
+     "version": "6.5.0",
+     "helpful": 55,
+     "title": "",
+     "body": "One of the worst banking apps ive used. Freezes often, OTP sometimes doesnt arrive on phone and generally frustrating to use. Same as the adib website. AdIB needs to fire their IT team and get a team that can deliver a seamless digital banking experience. Update: still frustrating to use, keep having issues so have to uninstall and reinstall. How incompetent is their IT team??"
+    },
+    {
+     "id": "play-0d513c01-0505-45fb-95da-f83c5e7fe23a",
+     "platform": "android",
+     "rating": 1,
+     "date": "2025-01-26",
+     "version": "7.0.2",
+     "helpful": 104,
+     "title": "",
+     "body": "I always receive SMS messages whenever I make a transaction. Recently, adib made a new service which includes receiving transaction details as a notification rather than SMS. So everyday I open the app, I get a stupid pop-up message asking me to enable the service (I don't want that. I want to receive sms messages), and there is no \"don't show this message again\" button to stop the pop-up notification. It is very frustrating and I hate it"
+    },
+    {
+     "id": "play-9ea63ed4-671e-47a1-9162-23ac1e53d7d5",
+     "platform": "android",
+     "rating": 1,
+     "date": "2025-08-21",
+     "version": "7.8.0",
+     "helpful": 59,
+     "title": "",
+     "body": "Unable to get any notification to approve transactions even though notifications are enabled for the application. So, simply I'm not able to use it for online transaction."
+    }
+   ]
+  },
+  {
+   "title": "Opening an account by scanning documents",
+   "themes": [
+    "account"
+   ],
+   "summary": "Digital onboarding is where patience runs out: document scans that take half an hour, a passport page rejected as 'incorrect document', and people who give up after a month.",
+   "quotes": [
+    {
+     "id": "play-8bcca83d-b2c1-4c05-9e7e-2267d053219a",
+     "platform": "android",
+     "rating": 2,
+     "date": "2020-09-19",
+     "version": "3.7.4",
+     "helpful": 50,
+     "title": "",
+     "body": "Opening of account takes more than 30 minutes or more. Scanning of document is very tiring. It consumes more than 30 minutes to open an account because you need to hold your phone and needs to fit on the box. Even if it fits it is taking too long. I suggest that they should consider allowing clients who want to open account to just attached the scanned files that they require. Until now and I am not done I just want to let you know since I'm already getting tired. Thank you."
+    },
+    {
+     "id": "play-9a299fe5-a2a2-4d01-9497-d54b0f6b9f3a",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-10-17",
+     "version": "4.22.0",
+     "helpful": 34,
+     "title": "",
+     "body": "Trying to open an account since more then a month. Everytime I reach the point where I should scan the address page of the passport, it says \"incorrect document\"!! I mean what does it actually looking for? Tried hundreds of times in all different lighting and angel and always a failure. No solution from the customer service either."
+    },
+    {
+     "id": "play-9a299fe5-a2a2-4d01-9497-d54b0f6b9f3a",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-10-17",
+     "version": "4.22.0",
+     "helpful": 34,
+     "title": "",
+     "body": "Trying to open an account since more then a month. Everytime I reach the point where I should scan the address page of the passport, it says \"incorrect document\"!! I mean what does it actually looking for? Tried hundreds of times in all different lighting and angel and always a failure. No solution from the customer service either."
+    }
+   ]
+  },
+  {
+   "title": "Missing features and fees",
+   "themes": [
+    "features",
+    "fees",
+    "transfers"
+   ],
+   "summary": "Requests that repeat: Google Wallet, utility and SIM recharge payments, a hidden-balance toggle, per-transaction cash-back detail, and clearer fees on the account.",
+   "quotes": [
+    {
+     "id": "play-eb21a21e-aba4-40c0-8d82-9db3819ba447",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-10-11",
+     "version": "",
+     "helpful": 2,
+     "title": "",
+     "body": "Why doesn’t ADIB support Google Wallet (GPay) like the other banks in the UAE? 👎🏻👎🏻👎🏻"
+    },
+    {
+     "id": "play-0d8cfd21-00eb-4cda-be07-c9bef7e2d8f6",
+     "platform": "android",
+     "rating": 4,
+     "date": "2022-07-25",
+     "version": "4.19.3",
+     "helpful": 45,
+     "title": "",
+     "body": "It's getting better , but still I can't add utility payment like recharge on the SIM card or like that ... I hope it will be sort it out soon"
+    },
+    {
+     "id": "play-0dab1483-aa55-417b-9224-515893b43fb8",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-01",
+     "version": "8.7.0",
+     "helpful": 3,
+     "title": "",
+     "body": "This is, without question, the worst bank I've ever dealt with. I have accounts with several banks across the UAE, and none of them come anywhere close to being this incompetent. The fees are absolutely ridiculous. They charge you for everything, including hidden or unexpected fees that are never made clear upfront. It feels like they're constantly looking for ways to take more money from customers. Customer support is completely useless. They don't resolve issues, I'm out. Go elsewhere"
+    },
+    {
+     "id": "play-dbd9422e-d0d9-401b-a1ae-b8f4e51bd645",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-09-20",
+     "version": "8.9.0",
+     "helpful": 2,
+     "title": "",
+     "body": "Accounts became difficult to follow after removing the ability to change individual icons on each account. Please bring it back. Or at least give the ability to add a custom name to each account in both languages Arabic and English. App added more steps to achieve less. Very annoying."
+    }
+   ]
+  }
+ ],
+ "wins": [
+  {
+   "title": "A calm, well-liked app for most customers",
+   "themes": [
+    "usability"
+   ],
+   "summary": "72% of written reviews are five stars. The long ones call it easy, secure and quick, and say it saved a trip to the branch.",
+   "quotes": [
+    {
+     "id": "play-5e2e9521-2552-408e-9abd-cf4a9beb6e2a",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-11-26",
+     "version": "6.12.0",
+     "helpful": 37,
+     "title": "",
+     "body": "I rarely face any problems or delays. A great application, easy to use, great services and clear instructions and sections. It changed my life for the better."
+    },
+    {
+     "id": "play-ff3eaff7-d9b1-40a5-8f28-9cc87c8d7128",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-09-18",
+     "version": "6.9.0",
+     "helpful": 25,
+     "title": "",
+     "body": "Firstly I would like to tell this the best bank to have in the UAE greatly secured. The app you have all options on services you might need saving you time from making travels to the bank, and if any help is needed the bank will call you very fast or also very easy to reach them. For security if the bank suspects something wrong they don't hesitate to reach you out. GREATLY RECOMMEND."
+    },
+    {
+     "id": "play-25d86207-40b8-48ce-bc69-764a3f23193e",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-05-06",
+     "version": "7.4.2",
+     "helpful": 42,
+     "title": "",
+     "body": "The App is excellent. It would be better to change the white background theme to off white or any other suitable color. Due to which some radio buttons are not visible. Also the app is not working on android phones without a camera. My main office phone is without a camera and cannot access the app."
+    }
+   ]
+  },
+  {
+   "title": "Complaints that get resolved fast",
+   "themes": [
+    "support"
+   ],
+   "summary": "Several reviewers raise a problem in the review or by complaint and return to say it was fixed, including an Android notification fault and a blocked card activation.",
+   "quotes": [
+    {
+     "id": "play-a24e3a66-4265-4e79-85d9-a36a35965975",
+     "platform": "android",
+     "rating": 4,
+     "date": "2023-04-08",
+     "version": "5.0.0",
+     "helpful": 31,
+     "title": "",
+     "body": "Was not able to login to the app. Was not able to activate my card. SMS, WhatsApp banking, nothing was working! But once I raised a complaint, the concerned teams quickly got in touch and resolved the issues on war footing! I was mighty impressed by how the customer support guy assisted me. He answered all queries and made some really good personalized suggestions (wherever it was required)! Kudos to the ADIB team! PS: I'm really liking the look & feel of the app. Great work on the UI front!"
+    },
+    {
+     "id": "play-f12255fe-3d21-415b-a76e-50764d6b6eca",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-08-05",
+     "version": "7.7.0",
+     "helpful": 47,
+     "title": "",
+     "body": "They want to force Customers to use push notification. but until now, they are not able to solve receiving the notification on android phones. you have to open the app to see the notification on the application Update: Issue had been fixed, Thank you for your fast support"
+    },
+    {
+     "id": "play-e8eaaabf-f060-4467-b073-4d40fb6cadc3",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-11-23",
+     "version": "7.11.0",
+     "helpful": 26,
+     "title": "",
+     "body": "It is a very convenience the application very safe and fast saving time.and Effort. Thanks for Mr Talla from macani mall Al Ain city for helping me to do it on line when I cannot reach to any branch. Thank you again."
+    }
+   ]
+  },
+  {
+   "title": "Everyday banking with clear sections",
+   "themes": [
+    "transfers",
+    "usability"
+   ],
+   "summary": "Customers describe simple transfers, international payments without trouble and clear instructions in the app.",
+   "quotes": [
+    {
+     "id": "play-7c9367a1-e227-4dbc-8bbc-b51e2163a194",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-06-11",
+     "version": "6.5.0",
+     "helpful": 20,
+     "title": "",
+     "body": "Excellent Bank Accounts and facilities, i have been using from a year without any complaints 😀. Keep working. I made i international transactions no worries."
+    },
+    {
+     "id": "play-5e2e9521-2552-408e-9abd-cf4a9beb6e2a",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-11-26",
+     "version": "6.12.0",
+     "helpful": 37,
+     "title": "",
+     "body": "I rarely face any problems or delays. A great application, easy to use, great services and clear instructions and sections. It changed my life for the better."
+    }
+   ]
+  }
+ ],
+ "generated": "2026-11-14"
+}

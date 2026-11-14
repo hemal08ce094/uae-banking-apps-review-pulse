@@ -1,0 +1,817 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UAE Banking Apps Review Pulse</title>
+<meta name="description" content="How six UAE banking apps are rated by the people who write reviews on the App Store and Google Play: ratings, complaints, replies and trends side by side.">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<style>
+/* Leadership briefing in Apple's own idiom: the SF Pro system stack, a #f5f5f7 ground, white 18px-radius panels with one soft shadow,
+   generous whitespace, semibold display type with tight tracking, calm motion (count-ups and line draws only).
+   Colour is data: blue = 4-5 stars and the accent, red = 1-2 stars, grey = 3 stars; indigo = App Store, orange = Google Play. */
+:root{
+  --bg:#f5f5f7; --panel:#ffffff; --panel-2:#f0f0f3; --ctl:#e8e8ed; --line:#d2d2d7; --line-soft:#e8e8ed;
+  --ink:#1d1d1f; --ink-2:#424245; --muted:#6e6e73;
+  --acc:#0071e3; --acc-wash:rgba(0,113,227,.10); --neg:#ff3b30; --neg-wash:rgba(255,59,48,.10); --neu:#c7c7cc;
+  --ios:#5e5ce6; --android:#d97b00; --good:#248a3d;
+  --shadow:0 2px 14px rgba(0,0,0,.06), 0 0 0 .5px rgba(0,0,0,.04);
+  --navbg:rgba(245,245,247,.72); --navline:rgba(0,0,0,.06); --tipbg:rgba(29,29,31,.92); --tipink:#f5f5f7;
+  --sans:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --r:18px; --r-sm:12px; --max:1120px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#000000; --panel:#1c1c1e; --panel-2:#2c2c2e; --ctl:#2c2c2e; --line:#3a3a3c; --line-soft:#2c2c2e;
+  --ink:#f5f5f7; --ink-2:#d1d1d6; --muted:#a1a1a6;
+  --acc:#2997ff; --acc-wash:rgba(41,151,255,.14); --neg:#ff453a; --neg-wash:rgba(255,69,58,.14); --neu:#48484a;
+  --ios:#7d7aff; --android:#ffa41c; --good:#30d158; --shadow:0 2px 14px rgba(0,0,0,.5), 0 0 0 .5px rgba(255,255,255,.06);
+  --navbg:rgba(0,0,0,.72); --navline:rgba(255,255,255,.08); --tipbg:rgba(44,44,46,.94); --tipink:#f5f5f7; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#000000; --panel:#1c1c1e; --panel-2:#2c2c2e; --ctl:#2c2c2e; --line:#3a3a3c; --line-soft:#2c2c2e;
+  --ink:#f5f5f7; --ink-2:#d1d1d6; --muted:#a1a1a6;
+  --acc:#2997ff; --acc-wash:rgba(41,151,255,.14); --neg:#ff453a; --neg-wash:rgba(255,69,58,.14); --neu:#48484a;
+  --ios:#7d7aff; --android:#ffa41c; --good:#30d158; --shadow:0 2px 14px rgba(0,0,0,.5), 0 0 0 .5px rgba(255,255,255,.06);
+  --navbg:rgba(0,0,0,.72); --navline:rgba(255,255,255,.08); --tipbg:rgba(44,44,46,.94); --tipink:#f5f5f7; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.47 var(--sans);letter-spacing:-.01em;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+button{font:inherit;color:inherit;letter-spacing:inherit}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:6px}
+h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.022em;text-wrap:balance}
+h1{font-size:clamp(34px,4.6vw,56px);line-height:1.07}
+h2{font-size:clamp(26px,3vw,36px);line-height:1.12}
+h3{font-size:19px;line-height:1.25;letter-spacing:-.015em}
+p{margin:0}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+.wrap{max-width:var(--max);margin:0 auto;padding-inline:clamp(20px,4vw,32px)}
+
+/* top bar, apple.com style: the one translucent surface on the page */
+.navbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--navbg);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--navline)}
+.navbar .wrap{display:flex;align-items:center;gap:16px 24px;min-height:52px;flex-wrap:wrap}
+.navbar .brand{font-weight:600;font-size:15px;white-space:nowrap;color:var(--ink)}
+.navbar a.brand{color:var(--acc)}
+.navbar .crumb{display:inline-flex;align-items:center;gap:10px;min-width:0}
+.navbar .crumb .sep{color:var(--line)}
+.navbar .crumb .sel select{min-height:32px;font-size:14px;font-weight:600;color:var(--ink);max-width:200px}
+.navbar .crumb .nm{display:none}
+.navbar nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
+.navbar nav::-webkit-scrollbar{display:none}
+.navbar nav a{color:var(--ink-2);font-size:13.5px;padding:8px 10px;border-radius:8px;white-space:nowrap;min-height:36px;display:inline-flex;align-items:center}
+.navbar nav a:hover{color:var(--ink);text-decoration:none;background:var(--ctl)}
+.navbar nav a.active{color:var(--ink);font-weight:600}
+
+/* hero */
+.hero{padding-block:44px 22px;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:28px 48px;align-items:center}
+.hero .cta{margin-top:22px}
+.hero .cta .toolbtn{display:inline-flex;align-items:center;min-height:40px;padding:8px 18px}
+.hero-vis{background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow);padding:18px 20px 14px;min-width:0}
+.hero-vis h3{font-size:14px;color:var(--muted);font-weight:500}
+.hero-vis svg{display:block;width:100%;height:auto;margin-top:8px;overflow:visible}
+.hero-vis svg text{font-size:11.5px;fill:var(--muted)}
+.hero .eyebrow{font-size:15px;color:var(--muted);font-weight:500;margin-bottom:14px}
+.hero h1{max-width:16ch}
+.hero .lede{font-size:clamp(17px,1.8vw,21px);line-height:1.4;color:var(--ink-2);max-width:46ch;margin:16px 0 0;font-weight:400;letter-spacing:-.012em;text-wrap:pretty}
+.hero .cov{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;margin-top:22px;font-size:14px;color:var(--muted)}
+.covchip{display:inline-block;padding:3px 10px;border-radius:999px;background:var(--ctl);color:var(--ink-2);font-size:13px;font-weight:500}
+.covnote{flex-basis:100%;text-align:center}
+.sw{display:inline-block;width:9px;height:9px;border-radius:50%;vertical-align:-1px;margin-right:7px}
+.sw.ios{background:var(--ios)} .sw.android{background:var(--android)} .sw.pos{background:var(--acc)} .sw.neg{background:var(--neg)} .sw.neu{background:var(--neu)}
+
+/* filters: segmented controls */
+.filters{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-end;gap:14px 18px;padding-block:8px 14px}
+.filters .grp{display:grid;gap:6px;justify-items:center}
+.filters .grp .lbl{font-size:12px;color:var(--muted);font-weight:500;letter-spacing:0}
+.mode{margin-left:12px}
+.mode button{padding:5px 11px;min-height:30px;font-size:12.5px}
+.seg{display:inline-grid;grid-auto-flow:column;grid-auto-columns:1fr;background:var(--ctl);border-radius:999px;padding:3px;gap:2px}
+.seg button{background:none;border:0;border-radius:999px;padding:7px 14px;min-height:34px;cursor:pointer;color:var(--ink-2);font-size:14px;font-weight:500;white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.seg button:focus-visible{outline-offset:-2px}
+.sel{position:relative;display:inline-flex;align-items:center}
+.sel select{appearance:none;-webkit-appearance:none;font:inherit;font-size:14px;font-weight:500;min-height:34px;padding:6px 32px 6px 14px;border:0;border-radius:999px;background:var(--ctl);color:var(--ink-2);cursor:pointer;max-width:240px}
+.sel::after{content:"";position:absolute;right:14px;top:50%;width:7px;height:7px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.stars{display:inline-grid;grid-auto-flow:column;gap:2px;background:var(--ctl);border-radius:999px;padding:3px}
+.stars button{min-width:40px;min-height:34px;border:0;border-radius:999px;background:none;cursor:pointer;color:var(--ink-2);font-size:14px;font-weight:500}
+.stars button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.filterline{text-align:center;font-size:14px;color:var(--muted);margin:0 0 28px;position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:4px 10px}
+.filterline b{color:var(--ink);font-weight:500}
+.linkbtn{background:none;border:0;padding:0;cursor:pointer;color:var(--acc);font-size:inherit}
+.linkbtn:hover{text-decoration:underline}
+
+/* panels */
+.panel{background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow);padding:26px 28px;min-width:0;position:relative}
+.panel h3{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px}
+.panel .sub{font-size:14px;color:var(--muted);margin-top:4px}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:16px}
+.stat{background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow);padding:22px 24px 18px;min-width:0;display:grid;gap:4px;align-content:start}
+.stat .lbl{font-size:14px;color:var(--muted);font-weight:500}
+.stat .val{font-size:44px;font-weight:600;letter-spacing:-.035em;line-height:1.05;margin-top:2px}
+.stat .delta{font-size:14px;color:var(--ink-2);margin-top:2px}
+.stat .delta b{font-weight:600}
+.stat .delta.up b{color:var(--good)} .stat .delta.down b{color:var(--neg)}
+.stat svg{display:block;width:100%;height:36px;margin-top:10px;overflow:visible}
+
+/* chart row */
+.row2{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:16px;margin-bottom:16px}
+.canvas .tabs{display:inline-grid;grid-auto-flow:column;gap:2px;background:var(--ctl);border-radius:999px;padding:3px}
+.canvas .tabs button{background:none;border:0;border-radius:999px;padding:5px 13px;cursor:pointer;color:var(--ink-2);font-weight:500;font-size:13.5px;min-height:30px}
+.canvas .tabs button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.canvas svg{display:block;width:100%;height:auto;margin-top:16px;overflow:visible}
+.canvas svg text,.theme-detail svg text{font-family:var(--sans);font-size:12px;fill:var(--muted);letter-spacing:0}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13.5px;color:var(--ink-2);margin-top:12px}
+.dim svg{opacity:.4}
+.month{outline:none}
+.month:focus-visible .ring{stroke:var(--ink);fill:none}
+.bar-hit{fill:transparent}
+.month:hover rect.d,.month:focus-visible rect.d{opacity:.8}
+.ringpanel{display:grid;grid-template-rows:auto auto 1fr auto;gap:10px}
+.ring{display:grid;place-items:center;position:relative;margin:6px auto 2px}
+.ring svg{width:176px;height:176px;transform:rotate(-90deg)}
+.ring .c{position:absolute;text-align:center}
+.ring .c .v{font-size:40px;font-weight:600;letter-spacing:-.035em;line-height:1}
+.ring .c .l{font-size:13px;color:var(--muted);margin-top:5px}
+.toplist{display:grid;gap:6px}
+.toplist .row{display:grid;grid-template-columns:minmax(0,1fr) 52px;gap:10px;align-items:center;font-size:14px;color:var(--ink-2);width:100%;min-height:36px;background:none;border:0;padding:4px 0;cursor:pointer;text-align:left;border-radius:8px}
+.toplist .row:hover{color:var(--ink)}
+.toplist .row>span:first-child{display:block;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.toplist .bar{display:block;height:6px;background:var(--panel-2);border-radius:3px;overflow:hidden;margin-top:6px}
+.toplist .bar i{display:block;height:100%;background:var(--neg);border-radius:3px;transform-origin:left}
+.toplist .n{text-align:right;color:var(--ink);font-weight:600}
+
+/* tooltip */
+.tip{position:fixed;z-index:30;pointer-events:none;background:var(--tipbg);color:var(--tipink);padding:9px 12px;border-radius:12px;font-size:13px;line-height:1.45;max-width:260px;box-shadow:0 8px 24px rgba(0,0,0,.25);display:none}
+.tip .row{display:flex;justify-content:space-between;gap:16px}
+.tip .k{display:inline-block;width:10px;height:3px;vertical-align:middle;margin-right:6px;border-radius:1px}
+
+/* sections */
+section{padding-top:72px}
+.sec-head{margin-bottom:26px}
+.sec-head p{color:var(--ink-2);max-width:60ch;margin:10px 0 0;font-size:17px}
+.toolbtn{min-height:36px;padding:7px 16px;border:0;border-radius:999px;background:var(--ctl);cursor:pointer;color:var(--ink);font-size:14px;font-weight:500}
+.toolbtn:hover{background:var(--line-soft)}
+.datatable{width:100%;border-collapse:collapse;font-size:14px}
+.datatable th,.datatable td{text-align:right;padding:11px 12px;border-bottom:1px solid var(--line-soft);white-space:nowrap}
+.datatable th:first-child,.datatable td:first-child{text-align:left}
+.datatable th{font-weight:500;color:var(--muted);position:sticky;top:0;background:var(--panel);font-size:13px}
+.datatable tr:last-child td{border-bottom:0}
+.table-wrap{overflow:auto;max-height:460px;background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow)}
+.datatable th button{background:none;border:0;padding:0;cursor:pointer;color:inherit;font:inherit;font-weight:500}
+.datatable th button:hover{color:var(--ink)}
+
+
+/* ---- comparison dashboard additions ---- */
+:root{
+  --c-enbdx:#2a78d6; --c-fab:#eb6834; --c-adcb:#1baf7a; --c-wio:#eda100; --c-mashreq:#e87ba4; --c-adib:#008300;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --c-enbdx:#3987e5; --c-fab:#d95926; --c-adcb:#199e70; --c-wio:#c98500; --c-mashreq:#d55181; --c-adib:#008300; } }
+:root[data-theme="dark"]{ --c-enbdx:#3987e5; --c-fab:#d95926; --c-adcb:#199e70; --c-wio:#c98500; --c-mashreq:#d55181; --c-adib:#008300; }
+.navbar .brand{color:var(--ink)}
+
+.tools{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:center;gap:14px 22px;margin-bottom:22px}
+.tools .grp{display:grid;gap:6px;justify-items:center}
+.tools .lbl{font-size:12px;color:var(--muted);font-weight:500}
+.sw-app{display:inline-block;width:12px;height:12px;border-radius:4px;flex:none}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.appcard{background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow);padding:22px 22px 20px;display:grid;gap:14px;align-content:start;color:var(--ink);min-width:0;transition:transform .18s ease, box-shadow .18s ease}
+.appcard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 6px 24px rgba(0,0,0,.10), 0 0 0 .5px rgba(0,0,0,.05)}
+.appcard:focus-visible{outline-offset:4px;border-radius:var(--r)}
+.appcard .ch{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center}
+.appcard h3{font-size:20px}
+.appcard .dev{font-size:13.5px;color:var(--muted);margin-top:1px}
+.appcard .go{color:var(--muted);font-size:22px;line-height:1}
+.appcard:hover .go{color:var(--acc)}
+.bignum{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.bignum .val{font-size:48px;font-weight:600;letter-spacing:-.035em;line-height:1}
+.bignum .lbl{font-size:14px;color:var(--muted)}
+.spark{display:block;width:100%;height:auto;overflow:visible}
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;margin:0}
+.kv div{min-width:0}
+.kv dt{font-size:12.5px;color:var(--muted);font-weight:500}
+.kv dd{margin:2px 0 0;font-size:17px;font-weight:600;letter-spacing:-.015em}
+.kv dd small{display:block;font-size:12px;color:var(--muted);font-weight:400;letter-spacing:0;margin-top:1px}
+.chips-label{font-size:12.5px;color:var(--muted);font-weight:500;margin-bottom:-6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.appcard .chips{display:grid;gap:6px}
+.appcard .chip{justify-content:space-between;width:100%;border-radius:10px}
+.chip{display:inline-flex;align-items:center;gap:7px;font-size:13px;padding:4px 11px;border-radius:999px;background:var(--ctl);color:var(--ink-2);font-weight:500;min-height:28px}
+.chip b{color:var(--ink);font-weight:600}
+.chip.big{font-size:14px;min-height:34px;padding:6px 14px}
+.covchip{display:inline-flex;align-self:start;justify-self:start;font-size:12.5px;padding:3px 10px;border-radius:999px;border:1px solid var(--line);color:var(--ink-2);font-weight:500}
+.pending{opacity:.8}
+.pending .bignum .val{color:var(--muted)}
+.panel+.panel{margin-top:16px}
+.chipbar{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.appchip{display:inline-flex;align-items:center;gap:8px;min-height:38px;padding:7px 14px;border:1px solid var(--line);border-radius:999px;background:var(--panel);cursor:pointer;color:var(--ink);font-size:14px;font-weight:500}
+.appchip[aria-pressed="false"]{color:var(--muted);background:transparent;border-style:dashed}
+.appchip[aria-pressed="false"] .sw-app{opacity:.35}
+.appchip[aria-pressed="true"]{box-shadow:var(--shadow)}
+.chartwrap svg{display:block;width:100%;height:auto;overflow:visible}
+.chartwrap svg text{font-family:var(--sans);font-size:12px;fill:var(--muted);letter-spacing:0}
+.chartwrap svg text.endlbl{fill:var(--ink);font-weight:600;font-size:12.5px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13.5px;color:var(--ink-2);margin-top:12px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.panel .head{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:10px 16px;margin-bottom:6px}
+.panel .head h3{display:block}
+.mini-seg{display:inline-grid;grid-auto-flow:column;gap:2px;background:var(--ctl);border-radius:999px;padding:3px}
+.mini-seg button{background:none;border:0;border-radius:999px;padding:5px 13px;cursor:pointer;color:var(--ink-2);font-weight:500;font-size:13.5px;min-height:30px}
+.mini-seg button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.smalls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 22px;margin-top:14px}
+.small1{min-width:0}
+.small1 .t{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600}
+.small1 .t span.n{margin-left:auto;font-weight:400;color:var(--muted);font-size:13px}
+.small1 svg{display:block;width:100%;height:96px;margin-top:6px;overflow:visible}
+.small1 .cap{font-size:12.5px;color:var(--muted)}
+.heat{display:grid;gap:3px;margin-top:14px}
+.heat .hh,.heat .hr{display:contents}
+.heat .hl{font-size:13.5px;color:var(--ink);padding:0 8px 0 0;display:flex;align-items:center;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.heat .hc{font-size:12.5px;color:var(--ink-2);text-align:center;display:flex;flex-direction:column;align-items:center;gap:4px;padding-bottom:6px;min-width:0;font-weight:500}
+.heat a.cell{display:flex;align-items:center;justify-content:center;min-height:36px;border-radius:8px;font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;text-decoration:none}
+.heat a.cell:hover{outline:2px solid var(--ink);outline-offset:-2px;text-decoration:none}
+.ramp{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:12.5px;color:var(--muted)}
+.ramp i{display:block;height:10px;width:160px;border-radius:5px}
+.datatable th.sorted{color:var(--ink)}
+.datatable th,.datatable td{padding:10px 9px}
+#kpi th{white-space:normal;vertical-align:bottom;line-height:1.25;min-width:68px}
+.datatable td:first-child,.datatable th:first-child{position:sticky;left:0;background:var(--panel);z-index:1}
+.datatable td.name{font-weight:600;color:var(--ink)}
+.datatable td.name a{color:var(--ink);display:inline-flex;align-items:center;gap:8px}
+.up{color:var(--good)} .down{color:var(--neg)}
+.tgrid{display:grid;gap:10px}
+.trow{display:grid;grid-template-columns:200px minmax(0,1fr);gap:8px 18px;align-items:center;background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow);padding:16px 20px;color:var(--ink)}
+.trow:hover{text-decoration:none}
+.trow:hover .nm{color:var(--acc)}
+.trow .nm{display:flex;align-items:center;gap:10px;font-weight:600;font-size:16px}
+.findings{counter-reset:f;list-style:none;margin:0;padding:0;display:grid;gap:0;max-width:820px}
+.findings li{counter-increment:f;display:grid;grid-template-columns:34px minmax(0,1fr);gap:14px;padding:16px 0;border-top:1px solid var(--line-soft);font-size:16.5px;line-height:1.45;align-items:start}
+.findings li::before{content:counter(f);width:26px;height:26px;border-radius:50%;background:var(--acc-wash);color:var(--acc);font-weight:600;font-size:13.5px;display:grid;place-items:center;margin-top:1px}
+.note{font-size:13px;color:var(--muted)}
+@media (max-width:1000px){ .hero{grid-template-columns:1fr} .grid{grid-template-columns:repeat(2,minmax(0,1fr))} .smalls{grid-template-columns:repeat(2,minmax(0,1fr))} .trow{grid-template-columns:1fr} }
+@media (max-width:640px){ .grid{grid-template-columns:1fr} .smalls{grid-template-columns:1fr} .bignum .val{font-size:44px} .hero{padding-top:48px} section{padding-top:56px} .panel{padding:20px 16px} .heat a.cell{min-height:40px;font-size:12px} .heat .hl{white-space:normal;font-size:12.5px;line-height:1.25} .heat .hc span.t{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap} .navbar .wrap{padding-block:6px;gap:4px 12px} .navbar nav{order:3;width:100%;margin-left:0} .mode{margin-left:auto} }
+@media (prefers-reduced-motion: reduce){ .appcard{transition:none} .appcard:hover{transform:none} }
+
+.state{padding:28px 20px;text-align:center;color:var(--ink-2);background:var(--panel);border-radius:var(--r-sm);box-shadow:var(--shadow);font-size:15px}
+.state b{color:var(--ink);font-weight:600}
+.progress{height:4px;background:var(--panel-2);border-radius:2px;overflow:hidden;margin-top:14px}
+.progress i{display:block;height:100%;background:var(--acc);width:0;transition:width .2s linear}
+/* ---- chat: floating button and panel (same tokens as the page) ---- */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.chat-fab{position:fixed;z-index:40;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));display:inline-flex;align-items:center;gap:8px;min-height:52px;padding:0 20px 0 16px;border:0;border-radius:999px;background:var(--acc);color:#fff;font-size:15px;font-weight:600;cursor:pointer;box-shadow:0 6px 22px rgba(0,0,0,.22), 0 0 0 .5px rgba(0,0,0,.1);transition:transform .15s ease, box-shadow .15s ease}
+.chat-fab:hover{transform:translateY(-1px);box-shadow:0 10px 28px rgba(0,0,0,.26), 0 0 0 .5px rgba(0,0,0,.1)}
+.chat-fab:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.chat-fab[aria-expanded="true"]{display:none}
+.chat-panel{position:fixed;z-index:40;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));width:min(400px,calc(100vw - 32px));height:min(620px,calc(100dvh - 32px));display:grid;grid-template-rows:auto minmax(0,1fr) auto auto;background:var(--panel);border-radius:var(--r);box-shadow:0 18px 56px rgba(0,0,0,.28), 0 0 0 .5px var(--line);overflow:hidden}
+.chat-panel[hidden]{display:none}
+.chat-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:16px 12px 12px 18px;border-bottom:1px solid var(--line-soft)}
+.chat-head h2{font-size:17px;line-height:1.2;letter-spacing:-.015em}
+.chat-head p{font-size:13px;color:var(--muted);margin-top:2px}
+.chat-x{display:grid;place-items:center;width:44px;height:44px;margin:-6px -2px 0 0;border:0;border-radius:50%;background:none;color:var(--ink-2);cursor:pointer}
+.chat-x:hover{background:var(--ctl)}
+.chat-log{overflow-y:auto;padding:14px 16px;display:flex;flex-direction:column;gap:12px;overscroll-behavior:contain}
+.chat-empty p{font-size:14px;color:var(--muted);margin-bottom:10px}
+.chat-sugg{display:grid;gap:8px}
+.chat-sugg button{min-height:44px;text-align:left;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);font-size:14px;line-height:1.3;cursor:pointer}
+.chat-sugg button:hover{background:var(--panel-2)}
+.msg{max-width:92%;padding:10px 14px;border-radius:16px;font-size:14.5px;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere}
+.msg.user{align-self:flex-end;background:var(--acc);color:#fff;border-bottom-right-radius:6px}
+.msg.bot{align-self:flex-start;background:var(--panel-2);color:var(--ink);border-bottom-left-radius:6px}
+.msg.bot.err{background:var(--neg-wash);color:var(--ink)}
+.msg .meta{display:block;margin-top:6px;font-size:12px;color:var(--muted)}
+.msg.wait{color:var(--muted)}
+.chat-form{display:flex;align-items:flex-end;gap:8px;padding:10px 12px 6px;border-top:1px solid var(--line-soft)}
+.chat-form textarea{flex:1;min-width:0;resize:none;max-height:120px;min-height:44px;padding:11px 14px;border:1px solid var(--line);border-radius:22px;background:var(--bg);color:var(--ink);font:inherit;font-size:16px;line-height:1.3;letter-spacing:-.01em}
+.chat-form textarea:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
+.chat-send,.chat-stop{flex:none;display:grid;place-items:center;width:44px;height:44px;border:0;border-radius:50%;cursor:pointer}
+.chat-send{background:var(--acc);color:#fff}
+.chat-send:disabled{background:var(--ctl);color:var(--muted);cursor:default}
+.chat-stop{background:var(--ctl);color:var(--ink)}
+.chat-foot{margin:0;padding:2px 16px 12px;font-size:12px;color:var(--muted);line-height:1.35}
+@media (max-width:640px){
+  .chat-panel{right:0;bottom:0;left:0;width:auto;height:min(82dvh,640px);border-radius:var(--r) var(--r) 0 0;padding-bottom:env(safe-area-inset-bottom)}
+}
+@media (prefers-reduced-motion: reduce){ .chat-fab{transition:none} .chat-fab:hover{transform:none} }
+
+footer{padding-block:72px 80px;color:var(--muted);font-size:13.5px;display:grid;gap:10px;max-width:72ch;margin-inline:auto;text-align:center}
+
+</style>
+<header class="navbar"><div class="wrap">
+  <span class="brand">UAE Banking Apps</span>
+  <nav aria-label="Sections">
+    <a href="#overview" data-nav>Overview</a><a href="#compare" data-nav>Compare</a><a href="#themes" data-nav>Themes</a><a href="#findings" data-nav>Findings</a>
+  </nav>
+  <div class="seg mode" role="group" aria-label="Appearance"><button type="button" data-mode="light" aria-pressed="true">Light</button><button type="button" data-mode="dark" aria-pressed="false">Dark</button></div>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <p class="eyebrow">Review Pulse</p>
+      <h1>How the UAE&rsquo;s banking apps are rated.</h1>
+      <p class="lede" id="heroLine">Loading the review data.</p>
+      <div class="cta"><a class="toolbtn primary" href="#compare">Compare the apps</a></div>
+    </div>
+    <div class="hero-vis" id="heroVis"><h3>Average rating of reviews, last 12 months</h3><div id="heroChart"></div><div class="legend" id="heroLegend"></div></div>
+  </div>
+
+  <section id="overview" style="padding-top:8px" aria-labelledby="ovh">
+    <div class="sec-head" style="margin-bottom:18px"><h2 id="ovh">Overview.</h2><p>One card per app, same measures, same layout. Select a card to read that app&rsquo;s reviews.</p></div>
+    <div class="tools"><div class="grp"><label class="lbl" for="sortSel">Sort by</label><span class="sel"><select id="sortSel">
+      <option value="avg">Average rating, highest first</option>
+      <option value="low">One and two star share, lowest first</option>
+      <option value="reply">Reviews answered, highest first</option>
+      <option value="count">Written reviews, most first</option></select></span></div></div>
+    <div class="grid" id="cards"><div class="state" style="grid-column:1/-1"><b>Loading the review data.</b></div></div>
+  </section>
+
+  <section id="compare" aria-labelledby="cph">
+    <div class="sec-head"><h2 id="cph">Compare.</h2><p>Choose the apps to set side by side. Each app keeps its colour whatever you select.</p></div>
+    <div class="tools">
+      <div class="grp"><span class="lbl" id="lblApps">Apps</span><div class="chipbar" id="chipbar" role="group" aria-labelledby="lblApps"></div></div>
+      <div class="grp"><span class="lbl" id="lblGran">Interval</span><div class="seg" role="group" aria-labelledby="lblGran"><button type="button" data-gran="month" aria-pressed="true">Monthly</button><button type="button" data-gran="week" aria-pressed="false">Weekly</button></div></div>
+      <div class="grp" id="storeGrp" hidden><span class="lbl" id="lblStore">Store</span><div class="seg" role="group" aria-labelledby="lblStore"><button type="button" data-store="all" aria-pressed="true">Both stores</button><button type="button" data-store="ios" aria-pressed="false">App Store</button><button type="button" data-store="android" aria-pressed="false">Google Play</button></div></div>
+      <div class="grp"><span class="lbl" id="lblPer">Period</span><div class="seg" id="periodSeg" role="group" aria-labelledby="lblPer"></div></div>
+    </div>
+    <div id="emptySel" class="state" hidden><b>No app selected.</b> Choose at least one app above to draw the charts.</div>
+    <div id="cmp">
+      <div class="panel" id="pLine">
+        <div class="head"><div><h3 id="lineTitle">Average rating per month</h3><div class="sub" id="lineSub"></div></div>
+          <span class="mini-seg" role="group" aria-label="Rating view"><button type="button" data-lview="chart" aria-pressed="true">Chart</button><button type="button" data-lview="table" aria-pressed="false">Table</button></span></div>
+        <div class="chartwrap" id="lineBody"></div>
+        <div class="legend" id="lineLegend"></div>
+      </div>
+      <div class="panel" id="pVol">
+        <div class="head"><div><h3 id="volTitle">Written reviews per month</h3><div class="sub" id="volSub"></div></div></div>
+        <div class="smalls" id="smalls"></div>
+      </div>
+      <div class="panel" id="pHeat">
+        <div class="head"><div><h3>What the one and two stars are about</h3><div class="sub">Share of each app&rsquo;s negative reviews that carry the theme. A review can carry several themes, so columns do not add up to 100%. Select a cell to open that app.</div></div></div>
+        <div class="heat" id="heat"></div>
+        <div class="ramp" id="ramp"></div>
+      </div>
+      <div class="panel" id="pKpi">
+        <div class="head"><div><h3>Side by side</h3><div class="sub">Every figure from the cards for the selected apps. Select a column heading to sort.</div></div></div>
+        <div class="table-wrap" style="box-shadow:none;border:1px solid var(--line-soft);max-height:none"><table class="datatable" id="kpi"></table></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="themes" aria-labelledby="thh">
+    <div class="sec-head"><h2 id="thh">Where each bank gets its one and two stars.</h2><p>The five themes that appear most often in each app&rsquo;s negative reviews, with the count of negative reviews that carry the theme.</p></div>
+    <div class="tgrid" id="tgrid"></div>
+  </section>
+
+  <section id="findings" aria-labelledby="fdh">
+    <div class="sec-head"><h2 id="fdh">Findings.</h2><p>Computed from the data above, not written by hand.</p></div>
+    <ol class="findings" id="findList"></ol>
+  </section>
+
+  <footer>
+    <p><b>Method.</b> Every rating counted here is a star rating that came with a written comment. Themes are tagged by keyword (English and Arabic) and the same tagging is used for every app. One and two stars are negative, four and five positive, three resolved by wording. ADCB combines two app generations: the new ADCB. app (April 2026 onward) and the previous ADCB app.</p>
+    <p>Sources: Apple App Store reviews via the public RSS feed and the apps.apple.com catalogue API; Google Play reviews via the store&rsquo;s review endpoint.</p>
+    <p id="generated"></p>
+  </footer>
+</main>
+<div class="tip" id="tip" role="tooltip"></div>
+<button type="button" class="chat-fab" id="chatFab" hidden aria-haspopup="dialog" aria-expanded="false" aria-controls="chatPanel" aria-label="Ask a question about this data">
+  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H11l-4.2 3.6a.5.5 0 0 1-.8-.4V16h-.5A2.5 2.5 0 0 1 4 13.5z"/></svg>
+  <span class="chat-fab-label">Ask</span>
+</button>
+<section class="chat-panel" id="chatPanel" role="dialog" aria-modal="false" aria-labelledby="chatTitle" hidden>
+  <header class="chat-head">
+    <div><h2 id="chatTitle">Ask about the data</h2><p>Type a question in English.</p></div>
+    <button type="button" class="chat-x" id="chatClose" aria-label="Close chat">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </header>
+  <div class="chat-log" id="chatLog" role="log" aria-live="polite" aria-relevant="additions text">
+    <div class="chat-empty" id="chatEmpty">
+      <p>Try one of these, or write your own.</p>
+      <div class="chat-sugg" id="chatSugg"></div>
+    </div>
+  </div>
+  <form class="chat-form" id="chatForm" autocomplete="off">
+    <label class="sr" for="chatInput">Your question</label>
+    <textarea id="chatInput" rows="1" maxlength="600" placeholder="For example: which app improved most in the last 8 weeks?"></textarea>
+    <button type="submit" class="chat-send" id="chatSend" aria-label="Send question" disabled>
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+    <button type="button" class="chat-stop" id="chatStop" aria-label="Stop answering" hidden>
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>
+    </button>
+  </form>
+  <p class="chat-foot">Answers use only the figures on this page. They count against your own Claude usage.</p>
+</section>
+
+<script>
+(function(){
+'use strict';
+const $ = (s, el=document) => el.querySelector(s);
+const el = (tag, attrs={}, ...kids) => { const n = document.createElement(tag); for (const [k,v] of Object.entries(attrs)) { if (v==null) continue; if (k==='class') n.className=v; else if (k==='text') n.textContent=v; else if (k.startsWith('on')) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v);} for (const k of kids.flat()) { if (k==null) continue; n.append(k.nodeType ? k : document.createTextNode(k)); } return n; };
+const ns='http://www.w3.org/2000/svg'; const mk=(t,a={})=>{const e=document.createElementNS(ns,t); for(const [k,v] of Object.entries(a)) e.setAttribute(k,v); return e;};
+const fmt = n => n==null ? 'n/a' : Math.round(n).toLocaleString('en-GB');
+const f2 = n => n==null ? 'n/a' : (+n).toFixed(2);
+const pc = x => x==null ? 'n/a' : Math.round(100*x) + '%';
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const mLabel = m => MONTHS[+m.slice(5,7)-1] + ' ' + m.slice(2,4);
+const mLong = m => MONTHS[+m.slice(5,7)-1] + ' ' + m.slice(0,4);
+const dLabel = d => { if(!d) return 'n/a'; const [y,m,dd] = d.split('-'); return `${+dd} ${MONTHS[+m-1]} ${y}`; };
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const G = window.gsap && !REDUCED ? window.gsap : null;
+const T = { stat:0.7, count:1.0, draw:1.2, stagger:0.06, ease:'power2.out' };
+const SHORT = { enbdx:'ENBD X', fab:'FAB', adcb:'ADCB', wio:'Wio', mashreq:'Mashreq', adib:'ADIB' };
+const MINN = 10; /* months with fewer reviews than this are left blank in rating lines */
+const col = slug => `var(--c-${slug})`;
+const short = a => SHORT[a.slug] || a.name;
+const tip = $('#tip');
+let C = null, REG = null, W = null, D = null;
+const MINW = 4; /* weeks with fewer reviews than this are left blank */
+const PERIODS = { month:[[36,'36 months'],[24,'24 months'],[12,'12 months']], week:[[52,'52 weeks'],[26,'26 weeks'],[12,'12 weeks']] };
+const wLabel = w => { const p=w.split('-'); return +p[2]+' '+MONTHS[+p[1]-1]; };
+const wLong = w => 'Week of '+dLabel(w);
+const state = { sort:'avg', selected:new Set(), gran:'month', store:'all', period:36, lview:'chart', kpi:{k:'name', d:1}, lastW:0 };
+
+async function getJSON(path){ const r = await fetch(path, {cache:'no-cache'}); if(!r.ok) throw new Error(`${path}: HTTP ${r.status}`); return r.json(); }
+
+/* ---------- tooltip ---------- */
+function showTip(ev, rows){ tip.replaceChildren(...rows.map(([k,v,color],i)=> el('div',{class:'row'}, el('span',{}, color?el('i',{class:'k',style:`background:${color}`}):null, i===0?el('b',{text:k}):k), el('span',{class:'num',text:v}))));
+  tip.style.display='block'; let x=ev.clientX+14, y=ev.clientY+14; const tw=tip.offsetWidth, th=tip.offsetHeight; if (x+tw>innerWidth-8) x=Math.max(8,x-tw-28); if (y+th>innerHeight-8) y=Math.max(8,y-th-28); tip.style.left=x+'px'; tip.style.top=y+'px'; }
+function hideTip(){ tip.style.display='none'; }
+
+/* ---------- helpers ---------- */
+const appList = () => C.apps;
+const storeAvg = a => { const i=a.store.ios, p=a.store.android; const n=(i.count||0)+(p.count||0); return n ? ((i.avg||0)*(i.count||0)+(p.avg||0)*(p.count||0))/n : null; };
+const sorters = { store:a=>storeAvg(a), avg:a=>a.totals.avg, low:a=>-a.totals.low_share, reply:a=>a.replies.rate, count:a=>a.totals.all };
+const sel = () => C.apps.filter(a=>state.selected.has(a.slug));
+const winMonths = () => { const n = state.period; return C.months.slice(C.months.length-n); };
+const idxOf = () => { const n = state.period; return C.months.map((_,i)=>i).slice(C.months.length-n); };
+const pointVal = (a,i) => (a.monthly_count[i] >= MINN && a.monthly_avg[i]!=null) ? a.monthly_avg[i] : null;
+const covText = a => (a.coverage && a.coverage.text && a.coverage.text!=='complete') ? 'Coverage: ' + a.coverage.text : null;
+
+/* ---------- hero ---------- */
+function renderHero(){
+  const total = C.apps.reduce((s,a)=>s+a.totals.all,0), first = C.apps.map(a=>a.first).sort()[0], last = C.apps.map(a=>a.last).sort().slice(-1)[0];
+  const words = ['no','one','two','three','four','five','six','seven','eight']; const n = C.apps.length;
+  const collected = C.apps.map(a=>a.collected).filter(Boolean).sort().slice(-1)[0] || C.generated;
+  $('#heroLine').textContent = `${fmt(total)} reviews across ${words[n]||n} apps on the App Store and Google Play, ${first.slice(0,4)} to ${mLong(last.slice(0,7))}.`;
+  renderHeroChart();
+  $('#generated').textContent = `Data collected ${dLabel(collected)}. Latest review ${dLabel(last)}.`;
+}
+
+
+function renderHeroChart(){
+  const body=$('#heroChart'), legend=$('#heroLegend'); if(!body) return; body.replaceChildren();
+  const apps=C.apps; const base=C.months.length-12; const idx=C.months.map((_,i)=>i).slice(base); const months=C.months.slice(base);
+  const W=Math.max(280, $('#heroVis').clientWidth-40), H=190, padL=30, padR=12, padT=12, padB=24; const n=months.length;
+  const vals=[]; apps.forEach(a=>idx.forEach(i=>{ const v=pointVal(a,i); if(v!=null) vals.push(v); }));
+  if(!vals.length){ body.append(el('div',{class:'state',text:'Not enough monthly reviews yet.'})); return; }
+  let lo=Math.floor((Math.min(...vals)-0.05)*2)/2, hi=Math.ceil((Math.max(...vals)+0.05)*2)/2; lo=Math.max(1,lo); hi=Math.min(5,hi); if(hi-lo<1){ hi=Math.min(5,lo+1); lo=Math.max(1,hi-1); }
+  const x=i=>padL+i*(W-padL-padR)/Math.max(1,n-1); const y=v=>padT+(H-padT-padB)*(hi-v)/(hi-lo);
+  const svg=mk('svg',{viewBox:`0 0 ${W} ${H}`,width:W,height:H,role:'img','aria-label':'Average rating of reviews per month for the six apps, last twelve months'}); body.append(svg);
+  for (let t=lo;t<=hi+1e-9;t+=0.5){ svg.append(mk('line',{x1:padL,x2:W-padR,y1:y(t),y2:y(t),stroke:'var(--line-soft)'})); const tx=mk('text',{x:padL-6,y:y(t)+4,'text-anchor':'end'}); tx.textContent=t.toFixed(1); svg.append(tx); }
+  months.forEach((m,i)=>{ if (i%3!==0 && i!==n-1) return; const t=mk('text',{x:x(i),y:H-6,'text-anchor':'middle'}); t.textContent=mLabel(m); svg.append(t); });
+  const lines=[];
+  apps.forEach(a=>{ let d='', pen=false, last=null; idx.forEach((gi,i)=>{ const v=pointVal(a,gi); if(v==null){ pen=false; return; } d+=(pen?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)+' '; pen=true; last=[x(i),y(v)]; });
+    if(!d) return; const p=mk('path',{d,fill:'none',stroke:col(a.slug),'stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'}); svg.append(p); lines.push(p);
+    if(last) svg.append(mk('circle',{cx:last[0],cy:last[1],r:4,fill:col(a.slug),stroke:'var(--panel)','stroke-width':2})); });
+  legend.replaceChildren(...apps.map(a=>el('span',{}, el('i',{class:'sw-app',style:`background:${col(a.slug)}`}), short(a))));
+  if(G){ lines.forEach((p,i)=>{ const L=p.getTotalLength(); p.style.strokeDasharray=L; p.style.strokeDashoffset=L; gsap.to(p,{strokeDashoffset:0,duration:T.draw,delay:.2+i*.06,ease:'power2.inOut'}); }); }
+}
+
+/* ---------- overview cards ---------- */
+function sparkDomain(){ const vals=[]; C.apps.forEach(a=>{ for (let i=C.months.length-12;i<C.months.length;i++){ const v=pointVal(a,i); if(v!=null) vals.push(v); } }); if(!vals.length) return [1,5]; let lo=Math.min(...vals), hi=Math.max(...vals); const pad=Math.max(0.15,(hi-lo)*0.15); return [Math.max(1,lo-pad), Math.min(5,hi+pad)]; }
+function spark(a, dom){
+  const W=300,H=60,pl=4,pr=8,pt=8,pb=8; const n=12; const x=i=>pl+i*(W-pl-pr)/(n-1); const y=v=>pt+(H-pt-pb)*(dom[1]-v)/(dom[1]-dom[0]||1);
+  const svg = mk('svg',{class:'spark',viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':`${a.name} monthly average rating, last 12 months`});
+  let d='', pen=false, lastPt=null; const base=C.months.length-12;
+  for (let i=0;i<n;i++){ const v=pointVal(a,base+i); if(v==null){ pen=false; continue; } d += (pen?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)+' '; pen=true; lastPt=[x(i),y(v),v]; }
+  svg.append(mk('line',{x1:pl,x2:W-pr,y1:H-pb+2,y2:H-pb+2,stroke:'var(--line-soft)'}));
+  if (!lastPt){ const t=mk('text',{x:pl,y:H/2,style:'font-size:12px;fill:var(--muted)'}); t.textContent='Too few reviews in the last 12 months'; svg.append(t); return svg; }
+  const line = mk('path',{d,fill:'none',stroke:col(a.slug),'stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'}); svg.append(line);
+  const dot = mk('circle',{cx:lastPt[0],cy:lastPt[1],r:4.5,fill:col(a.slug),stroke:'var(--panel)','stroke-width':2}); svg.append(dot);
+  svg._line=line; svg._dot=dot; return svg;
+}
+function renderCards(animate){
+  const dom = sparkDomain(); const fn = sorters[state.sort];
+  const list = C.apps.slice().sort((a,b)=> (fn(b)??-1e9) - (fn(a)??-1e9));
+  const pendingApps = REG.apps.filter(r=>!C.apps.some(a=>a.slug===r.slug));
+  const grid = $('#cards'); grid.replaceChildren();
+  const cards = list.map(a=>{
+    const cov = covText(a);
+    const sp = spark(a, dom);
+    const card = el('a',{class:'appcard',href:`app.html#${a.slug}`},
+      el('div',{class:'ch'}, el('i',{class:'sw-app',style:`background:${col(a.slug)}`}), el('div',{}, el('h3',{text:a.name}), el('p',{class:'dev',text:a.bank})), el('span',{class:'go','aria-hidden':'true',text:'›'})),
+      el('div',{class:'bignum'}, el('span',{class:'val num','data-to':a.totals.avg,'data-fmt':'f2',text:f2(a.totals.avg)}), el('span',{class:'lbl',text:'average rating'})),
+      el('div',{}, sp, el('div',{class:'note',text:`Monthly average, ${mLong(C.months[C.months.length-12])} to ${mLong(C.months[C.months.length-1])}`})),
+      el('dl',{class:'kv'},
+        el('div',{}, el('dt',{text:'Written reviews'}), el('dd',{class:'num','data-to':a.totals.all,'data-fmt':'int',text:fmt(a.totals.all)}, el('small',{text:`${fmt(a.totals.ios)} App Store, ${fmt(a.totals.android)} Play`}))),
+        el('div',{}, el('dt',{text:'One and two stars'}), el('dd',{class:'num',text:pc(a.totals.low_share)}, el('small',{text:`${fmt(a.totals.hist[0]+a.totals.hist[1])} reviews`}))),
+        el('div',{}, el('dt',{text:'Reviews answered'}), el('dd',{class:'num',text:pc(a.replies.rate)}, el('small',{text:a.replies.median_lag_days!=null?`median ${a.replies.median_lag_days} day${a.replies.median_lag_days===1?'':'s'}`:'no replies'}))),
+        el('div',{}, el('dt',{text:'Latest 90 days'}), el('dd',{class:'num',text:f2(a.recent.avg_90)}, el('small',{text: a.recent.delta==null ? 'not enough reviews' : `${a.recent.delta>=0?'up':'down'} ${Math.abs(a.recent.delta).toFixed(2)} on the 90 before`})))),
+      el('div',{class:'chips-label',text:'Most common complaints'}),
+      el('div',{class:'chips'}, a.top_complaints.map(t=>el('span',{class:'chip'}, t.label, el('b',{class:'num',text:fmt(t.negative)})))),
+      cov ? el('span',{class:'covchip',text:cov}) : null);
+    grid.append(card); return {card, sp};
+  });
+  pendingApps.forEach(r=>{ grid.append(el('div',{class:'appcard pending'}, el('div',{class:'ch'}, el('i',{class:'sw-app',style:`background:${col(r.slug)}`}), el('div',{}, el('h3',{text:r.name}), el('p',{class:'dev',text:r.bank})), el('span')), el('div',{class:'bignum'}, el('span',{class:'val',text:'n/a'}), el('span',{class:'lbl',text:'reviews still being collected'})), el('span',{class:'covchip',text:'Coverage: collection running'}))); });
+  if (!animate) return;
+  cards.forEach(({card,sp},ci)=>{
+    card.querySelectorAll('[data-to]').forEach(n=>{ const to=+n.dataset.to, f=n.dataset.fmt==='f2'?f2:fmt; if(!G){ n.textContent=f(to); return; } const o={v:0}; gsap.to(o,{v:to,duration:T.count,ease:T.ease,delay:ci*T.stagger,onUpdate:()=>{ n.textContent=f(o.v); }}); });
+    if (G){ gsap.from(card,{y:16,opacity:0,duration:T.stat,delay:ci*T.stagger,ease:T.ease});
+      if (sp._line){ const L=sp._line.getTotalLength(); sp._line.style.strokeDasharray=L; sp._line.style.strokeDashoffset=L; gsap.to(sp._line,{strokeDashoffset:0,duration:T.draw,delay:.2+ci*T.stagger,ease:'power2.inOut'}); gsap.from(sp._dot,{opacity:0,duration:.3,delay:.2+T.draw+ci*T.stagger}); } }
+  });
+}
+
+/* ---------- compare: controls ---------- */
+function renderChips(){
+  $('#chipbar').replaceChildren(...C.apps.map(a=>el('button',{type:'button',class:'appchip','aria-pressed':String(state.selected.has(a.slug)),'data-app':a.slug,onclick:()=>{ if(state.selected.has(a.slug)) state.selected.delete(a.slug); else state.selected.add(a.slug); renderChips(); renderCompare(false); }}, el('i',{class:'sw-app',style:`background:${col(a.slug)}`}), a.name)));
+}
+function syncPeriod(){
+  const want=PERIODS[state.gran]; if(!want.some(p=>p[0]===state.period)) state.period=want[0][0];
+  $('#periodSeg').replaceChildren(...want.map(([v,l])=>el('button',{type:'button','data-period':v,'aria-pressed':String(v===state.period),onclick:()=>{ state.period=v; renderCompare(false); }},l)));
+  $('#storeGrp').hidden = state.gran!=='week';
+  document.querySelectorAll('[data-gran]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.gran===state.gran)));
+  document.querySelectorAll('[data-store]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.store===state.store)));
+  document.querySelectorAll('[data-lview]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lview===state.lview)));
+  document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===(document.documentElement.getAttribute('data-theme')||'light'))));
+}
+
+/* ---------- compare: series (monthly or weekly) ---------- */
+function cfg(){
+  if (state.gran==='week' && W){
+    const len=state.period, off=W.weeks.length-len, st=state.store;
+    const nn=(a,i)=>{ const o=W.apps[a.slug]; return st==='all' ? o.ios.n[off+i]+o.android.n[off+i] : o[st].n[off+i]; };
+    const ss=(a,i)=>{ const o=W.apps[a.slug]; return st==='all' ? o.ios.s[off+i]+o.android.s[off+i] : o[st].s[off+i]; };
+    return { gran:'week', len, min:MINW, lab:i=>wLabel(W.weeks[off+i]), long:i=>wLong(W.weeks[off+i]), iso:i=>W.weeks[off+i], cnt:nn,
+      val:(a,i)=>{ const n=nn(a,i); return n>=MINW ? ss(a,i)/n : null; },
+      every:len>26?8:len>12?4:2, unit:'week', stName:st==='ios'?'App Store':st==='android'?'Google Play':'Both stores' };
+  }
+  const len=state.period, base=C.months.length-len;
+  return { gran:'month', len, min:MINN, lab:i=>mLabel(C.months[base+i]), long:i=>mLong(C.months[base+i]), cnt:(a,i)=>a.monthly_count[base+i],
+    val:(a,i)=>pointVal(a,base+i), every:len>24?6:len>12?3:2, unit:'month', stName:'Both stores' };
+}
+function labelX(svg, sr, xf, y){ const n=sr.len; for (let i=0;i<n;i++){ if ((n-1-i)%sr.every!==0) continue; const t=mk('text',{x:xf(i),y,'text-anchor':'middle'}); t.textContent=sr.lab(i); svg.append(t); } }
+const sgn = d => (d>=0?'+':'−')+Math.abs(d).toFixed(2);
+function renderLine(animate){
+  const body=$('#lineBody'), legend=$('#lineLegend'); const sr=cfg(); const apps=sel(); const n=sr.len;
+  const wk=sr.gran==='week';
+  $('#lineTitle').textContent = wk ? 'Average rating per week' : 'Average rating per month';
+  const blank = apps.filter(a=>!Array.from({length:n},(_,i)=>sr.val(a,i)).some(v=>v!=null));
+  $('#lineSub').textContent = wk
+    ? `${sr.stName}. Weeks start on Monday; ${sr.min} or more reviews are needed to draw a point. ${dLabel(sr.iso(0))} to ${dLabel(sr.iso(n-1))}; the latest week is partial.${blank.length?` No line for ${blank.map(short).join(', ')}: too few reviews per week on this store.`:''}`
+    : `Months with fewer than ${MINN} reviews are left blank. ${sr.long(0)} to ${sr.long(n-1)}; the latest month is partial.`;
+  legend.replaceChildren(...apps.map(a=>el('span',{}, el('i',{class:'sw-app',style:`background:${col(a.slug)}`}), a.name)));
+  body.replaceChildren();
+  if (state.lview==='table'){
+    const rows=Array.from({length:n},(_,i)=>i).reverse();
+    body.append(el('div',{class:'table-wrap',style:'box-shadow:none;border:1px solid var(--line-soft);max-height:420px;margin-top:12px'}, el('table',{class:'datatable'},
+      el('thead',{}, el('tr',{}, el('th',{text:wk?'Week of':'Month'}), ...apps.map(a=>el('th',{text:short(a)})))),
+      el('tbody',{}, ...rows.map(i=>el('tr',{}, el('td',{text:wk?dLabel(sr.iso(i)):sr.long(i)}), ...apps.map(a=>{ const v=sr.val(a,i); const c=sr.cnt(a,i); let t = v!=null ? `${f2(v)} (${fmt(c)})` : (c ? `under ${sr.min} (${c})` : 'none');
+        if (v!=null && i>0){ const p=sr.val(a,i-1); if(p!=null) t+=` ${sgn(v-p)}`; }
+        return el('td',{class:'num',text:t}); })))))));
+    return;
+  }
+  const Wd=Math.max(300,body.clientWidth), narrow=Wd<560, H=narrow?280:340, padL=34, padR=narrow?14:78, padT=14, padB=28; state.lastW=Wd;
+  const vals=[]; apps.forEach(a=>{ for(let i=0;i<n;i++){ const v=sr.val(a,i); if(v!=null) vals.push(v); } });
+  if(!vals.length){ body.append(el('div',{class:'state',text:wk?'Not enough weekly reviews on this store to draw a line. Try Both stores or a longer period.':'Not enough monthly reviews to draw a line for the selected apps.'})); return; }
+  let lo=Math.floor((Math.min(...vals)-0.05)*2)/2, hi=Math.ceil((Math.max(...vals)+0.05)*2)/2; lo=Math.max(1,lo); hi=Math.min(5,hi); if(hi-lo<1){ hi=Math.min(5,lo+1); lo=Math.max(1,hi-1); }
+  const x=i=>padL+i*(Wd-padL-padR)/Math.max(1,n-1); const y=v=>padT+(H-padT-padB)*(hi-v)/(hi-lo);
+  const svg=mk('svg',{viewBox:`0 0 ${Wd} ${H}`,width:Wd,height:H,role:'img',tabindex:'0','aria-label':`${wk?'Weekly':'Monthly'} average rating for ${apps.map(short).join(', ')}. Use left and right arrow keys to read each ${sr.unit}, or switch to the table view.`}); body.append(svg);
+  for (let t=lo;t<=hi+1e-9;t+=0.5){ svg.append(mk('line',{x1:padL,x2:Wd-padR,y1:y(t),y2:y(t),stroke:'var(--line-soft)'})); const tx=mk('text',{x:padL-8,y:y(t)+4,'text-anchor':'end'}); tx.textContent=t.toFixed(1); svg.append(tx); }
+  labelX(svg, sr, x, H-6);
+  const lines=[], ends=[];
+  apps.forEach(a=>{ let d='', pen=false, last=null; for(let i=0;i<n;i++){ const v=sr.val(a,i); if(v==null){ pen=false; continue; } d+=(pen?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)+' '; pen=true; last=[x(i),y(v),v]; }
+    if(!d) return; const p=mk('path',{d,fill:'none',stroke:col(a.slug),'stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'}); svg.append(p); lines.push(p); ends.push({a,last}); });
+  const cross=mk('line',{x1:0,x2:0,y1:padT,y2:H-padB,stroke:'var(--ink)','stroke-width':1,opacity:0}); svg.append(cross);
+  const dots=ends.map(({a,last})=>{ const c=mk('circle',{cx:last[0],cy:last[1],r:4.5,fill:col(a.slug),stroke:'var(--panel)','stroke-width':2}); svg.append(c); return c; });
+  if(!narrow){ const sorted=ends.slice().sort((p,q)=>p.last[1]-q.last[1]); let prev=-1e9; sorted.forEach(e=>{ e.ly=Math.max(e.last[1], prev+15); prev=e.ly; });
+    sorted.forEach(e=>{ const g=mk('g',{}); g.append(mk('line',{x1:e.last[0]+7,x2:Wd-padR+8,y1:e.last[1],y2:e.ly,stroke:'var(--line)'})); const t=mk('text',{class:'endlbl',x:Wd-padR+12,y:e.ly+4}); t.textContent=short(e.a); g.append(t); svg.append(g); }); }
+  const hit=mk('rect',{x:padL,y:padT,width:Wd-padL-padR,height:H-padT-padB,fill:'transparent'}); svg.append(hit);
+  const at=(i,ev)=>{ const cx=x(i); cross.setAttribute('x1',cx); cross.setAttribute('x2',cx); cross.setAttribute('opacity',.35);
+    const rows=apps.map(a=>{ const v=sr.val(a,i), p=i>0?sr.val(a,i-1):null; return {a,v,n:sr.cnt(a,i),d:(v!=null&&p!=null)?v-p:null}; }).sort((p,q)=>(q.v??-1)-(p.v??-1));
+    showTip(ev,[[sr.long(i),wk?'average (reviews), change':'average (reviews)',null], ...rows.map(r=>[short(r.a), r.v!=null?`${f2(r.v)} (${fmt(r.n)})${wk&&r.d!=null?' '+sgn(r.d):''}`:(r.n?`few (${r.n})`:'none'), col(r.a.slug)])]); };
+  const idxAt=ev=>{ const rect=svg.getBoundingClientRect(); const sx=(ev.clientX-rect.left)*(Wd/rect.width); return Math.min(n-1,Math.max(0,Math.round((sx-padL)/((Wd-padL-padR)/Math.max(1,n-1))))); };
+  hit.addEventListener('pointermove',ev=>at(idxAt(ev),ev)); hit.addEventListener('pointerleave',()=>{ cross.setAttribute('opacity',0); hideTip(); });
+  let ki=n-1; svg.addEventListener('keydown',e=>{ if(e.key==='ArrowLeft'||e.key==='ArrowRight'){ e.preventDefault(); ki=Math.min(n-1,Math.max(0,ki+(e.key==='ArrowLeft'?-1:1))); const r=svg.getBoundingClientRect(); at(ki,{clientX:r.left+x(ki)*(r.width/Wd)+10,clientY:r.top+40}); } if(e.key==='Escape'){ cross.setAttribute('opacity',0); hideTip(); } });
+  svg.addEventListener('blur',()=>{ cross.setAttribute('opacity',0); hideTip(); });
+  if(G && animate){ lines.forEach((p,i)=>{ const L=p.getTotalLength(); p.style.strokeDasharray=L; p.style.strokeDashoffset=L; gsap.to(p,{strokeDashoffset:0,duration:T.draw,delay:i*.08,ease:'power2.inOut'}); }); gsap.from(dots,{opacity:0,duration:.3,delay:T.draw}); }
+}
+
+/* ---------- compare: small multiples ---------- */
+function renderSmalls(animate){
+  const sr=cfg(), apps=sel(), n=sr.len; const box=$('#smalls'); box.replaceChildren();
+  const wk=sr.gran==='week', per=sr.unit;
+  $('#volTitle').textContent = wk ? 'Written reviews per week' : 'Written reviews per month';
+  const cnts=a=>Array.from({length:n},(_,i)=>sr.cnt(a,i));
+  const max=Math.max(1,...apps.flatMap(a=>cnts(a)));
+  $('#volSub').textContent = `${wk?sr.stName+'. ':''}One panel per app on the same scale, up to ${fmt(max)} reviews a ${per}. ${sr.long(0)} to ${sr.long(n-1)}.`;
+  apps.forEach((a,ai)=>{
+    const Wd=300,H=96,pt=4,pb=2; const c=cnts(a); const slot=Wd/n, bw=Math.max(1.5,slot-1.5), peak=Math.max(...c);
+    const svg=mk('svg',{viewBox:`0 0 ${Wd} ${H}`,preserveAspectRatio:'none',role:'img','aria-label':`${a.name} reviews per ${per}, peak ${fmt(peak)}`});
+    svg.append(mk('line',{x1:0,x2:Wd,y1:H-pb,y2:H-pb,stroke:'var(--line)','vector-effect':'non-scaling-stroke'}));
+    const bars=c.map((v,i)=>{ const h=(H-pt-pb)*v/max; const r=mk('rect',{x:i*slot+(slot-bw)/2,y:H-pb-h,width:bw,height:Math.max(v?1:0,h),fill:col(a.slug),rx:1}); svg.append(r); return r; });
+    const hit=mk('rect',{x:0,y:0,width:Wd,height:H,fill:'transparent'}); svg.append(hit);
+    hit.addEventListener('pointermove',ev=>{ const rect=svg.getBoundingClientRect(); const i=Math.min(n-1,Math.max(0,Math.floor((ev.clientX-rect.left)/rect.width*n))); showTip(ev,[[sr.long(i),'',null],[a.name,`${fmt(c[i])} reviews`,col(a.slug)]]); });
+    hit.addEventListener('pointerleave',hideTip);
+    const total=c.reduce((p,q)=>p+q,0);
+    box.append(el('div',{class:'small1'}, el('div',{class:'t'}, el('i',{class:'sw-app',style:`background:${col(a.slug)}`}), a.name, el('span',{class:'n num',text:`${fmt(total)} in period`})), svg, el('div',{class:'cap num',text:`Peak ${fmt(peak)} a ${per}`})));
+    if(G&&animate) gsap.from(bars,{scaleY:0,transformOrigin:'50% 100%',duration:.7,delay:ai*.05,ease:T.ease,stagger:{each:.004}});
+  });
+}
+
+/* ---------- compare: heatmap ---------- */
+const hex = h => [1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
+const lum = ([r,g,b]) => { const f=c=>{c/=255; return c<=.03928?c/12.92:Math.pow((c+.055)/1.055,2.4)}; return .2126*f(r)+.7152*f(g)+.0722*f(b); };
+const contrast = (a,b) => { const l1=lum(a), l2=lum(b); return (Math.max(l1,l2)+.05)/(Math.min(l1,l2)+.05); };
+function ramp(t){
+  const dark=document.documentElement.getAttribute('data-theme')==='dark'; const a=hex(dark?'#1b2b42':'#e6f0fc'), b=hex(dark?'#6cb2ff':'#0b4ea2');
+  const at=u=>a.map((v,i)=>Math.round(v+(b[i]-v)*u));
+  /* Skip the narrow luminance band where neither white nor near-black text reaches 4.5:1, so every cell label stays readable. */
+  const bad=u=>{ const l=lum(at(u)); return l>0.183 && l<0.229; };
+  if(!bad(t)) return at(t);
+  for(let d=0.004; d<1; d+=0.004){ if(t+d<=1 && !bad(t+d)) return at(t+d); if(t-d>=0 && !bad(t-d)) return at(t-d); }
+  return at(t);
+}
+function renderHeat(){
+  const apps=sel(); const box=$('#heat'); box.replaceChildren(); const keys=C.apps[0].themes.map(t=>t.key);
+  const label=Object.fromEntries(C.apps[0].themes.map(t=>[t.key,t.label]));
+  const get=(a,k)=>{ const t=a.themes.find(q=>q.key===k); return t?t.share_of_negatives:0; };
+  const rows=keys.map(k=>({k,vals:apps.map(a=>get(a,k))})).sort((p,q)=>Math.max(...q.vals)-Math.max(...p.vals));
+  const max=Math.max(0.01,...rows.flatMap(r=>r.vals));
+  box.style.gridTemplateColumns=`minmax(104px,1.5fr) repeat(${apps.length},minmax(0,1fr))`;
+  box.append(el('div',{class:'hl'}), ...apps.map(a=>el('div',{class:'hc'}, el('i',{class:'sw-app',style:`background:${col(a.slug)}`}), el('span',{class:'t'},short(a)))));
+  const dark=document.documentElement.getAttribute('data-theme')==='dark';
+  rows.forEach(r=>{ box.append(el('div',{class:'hl',title:label[r.k],text:label[r.k]}));
+    r.vals.forEach((v,i)=>{ const c=ramp(v/max); const ink=contrast(c,[255,255,255])>=contrast(c,[29,29,31])?'#ffffff':'#1d1d1f'; const a=apps[i];
+      box.append(el('a',{class:'cell',href:`app.html#${a.slug}`,style:`background:rgb(${c.join(',')});color:${ink}`,'aria-label':`${a.name}, ${label[r.k]}: ${pc(v)} of negative reviews. Open ${a.name}.`,text:pc(v)})); }); });
+  const lo=ramp(0), hi=ramp(1); $('#ramp').replaceChildren('0%', el('i',{style:`background:linear-gradient(90deg,rgb(${lo.join(',')}),rgb(${hi.join(',')}))`}), pc(max), el('span',{text:'of an app’s negative reviews'}));
+}
+
+/* ---------- compare: KPI table ---------- */
+const COLS = [
+  {k:'name',l:'App',v:a=>a.name,f:a=>null,left:true},
+  {k:'n',l:'Reviews',v:a=>a.totals.all,f:a=>fmt(a.totals.all)},
+  {k:'avg',l:'Average rating',v:a=>a.totals.avg,f:a=>f2(a.totals.avg)},
+  {k:'low',l:'One and two stars',v:a=>a.totals.low_share,f:a=>pc(a.totals.low_share)},
+  {k:'high',l:'Four and five stars',v:a=>a.totals.high_share,f:a=>pc(a.totals.high_share)},
+  {k:'reply',l:'Answered',v:a=>a.replies.rate,f:a=>pc(a.replies.rate)},
+  {k:'lag',l:'Median reply (days)',v:a=>a.replies.median_lag_days,f:a=>a.replies.median_lag_days==null?'n/a':String(a.replies.median_lag_days)},
+  {k:'r90',l:'Latest 90 days',v:a=>a.recent.avg_90,f:a=>f2(a.recent.avg_90)},
+  {k:'d90',l:'Change on prior 90',v:a=>a.recent.delta,f:a=>a.recent.delta==null?'n/a':(a.recent.delta>=0?'+':'−')+Math.abs(a.recent.delta).toFixed(2),cls:a=>a.recent.delta==null?'':a.recent.delta>=0?'up':'down'},
+  {k:'last',l:'Latest review',v:a=>a.last,f:a=>dLabel(a.last)},
+];
+function renderKpi(){
+  const apps=sel().slice(); const s=state.kpi; const col0=COLS.find(c=>c.k===s.k)||COLS[0];
+  apps.sort((p,q)=>{ const a=col0.v(p), b=col0.v(q); if(a==null&&b==null) return 0; if(a==null) return 1; if(b==null) return -1; return (a<b?-1:a>b?1:0)*s.d; });
+  const t=$('#kpi'); t.replaceChildren(
+    el('thead',{}, el('tr',{}, ...COLS.map(c=>el('th',{class:c.k===s.k?'sorted':'','aria-sort':c.k===s.k?(s.d>0?'ascending':'descending'):'none'}, el('button',{type:'button',onclick:()=>{ state.kpi = {k:c.k, d: s.k===c.k ? -s.d : (c.k==='name'||c.k==='low'?1:-1)}; renderKpi(); }}, c.l + (c.k===s.k?(s.d>0?' ▲':' ▼'):'')))))),
+    el('tbody',{}, ...apps.map(a=>el('tr',{}, ...COLS.map(c=> c.k==='name' ? el('td',{class:'name'}, el('a',{href:`app.html#${a.slug}`}, el('i',{class:'sw-app',style:`background:${col(a.slug)}`}), a.name)) : el('td',{class:'num '+(c.cls?c.cls(a):''),text:c.f(a)}))))));
+}
+
+/* ---------- themes + findings ---------- */
+function renderThemes(){
+  $('#tgrid').replaceChildren(...C.apps.map(a=>{
+    const top5=a.themes.slice().sort((p,q)=>q.negative-p.negative).slice(0,5); const cov=covText(a);
+    return el('a',{class:'trow',href:`app.html#${a.slug}`}, el('div',{class:'nm'}, el('i',{class:'sw-app',style:`background:${col(a.slug)}`}), a.name),
+      el('div',{class:'chips'}, top5.map(t=>el('span',{class:'chip big'}, t.label, el('b',{class:'num',text:fmt(t.negative)}), el('span',{class:'note num',text:pc(t.share_of_negatives)}))), cov?el('span',{class:'covchip',text:cov}):null));
+  }));
+}
+function renderFindings(){ const L=$('#findList'); if(!C.findings||!C.findings.length){ L.replaceChildren(el('li',{text:'Findings appear once at least two apps have data.'})); return; } L.replaceChildren(...C.findings.filter(f=>!/store rating/i.test(f)).map(f=>el('li',{text:f}))); }
+
+/* ---------- orchestration ---------- */
+function renderCompare(animate){
+  syncPeriod(); const none=state.selected.size===0; $('#emptySel').hidden=!none; $('#cmp').hidden=none; if(none) return;
+  renderLine(animate); renderSmalls(animate); renderHeat(); renderKpi();
+}
+function applyMode(mode){ document.documentElement.setAttribute('data-theme',mode); try{ localStorage.setItem('rp-mode',mode); }catch(e){} syncPeriod(); if(C&&state.selected.size){ renderHeat(); } }
+function wire(){
+  let hrt; addEventListener('resize', ()=>{ clearTimeout(hrt); hrt=setTimeout(renderHeroChart,150); });
+  $('#sortSel').addEventListener('change',e=>{ state.sort=e.target.value; renderCards(false); });
+  document.querySelectorAll('[data-gran]').forEach(b=>b.addEventListener('click',async()=>{ const g=b.dataset.gran; if(g===state.gran) return;
+    if(g==='week' && !W){ $('#lineBody').replaceChildren(el('div',{class:'state'},el('b',{text:'Loading weekly data.'}))); try{ W=await getJSON('data/weekly.json'); }catch(e){ $('#lineBody').replaceChildren(el('div',{class:'state'},el('b',{text:'Could not load weekly data. '}),e.message)); return; } }
+    state.gran=g; state.period=PERIODS[g][0][0]; renderCompare(true); }));
+  document.querySelectorAll('[data-store]').forEach(b=>b.addEventListener('click',()=>{ state.store=b.dataset.store; renderCompare(false); }));
+  document.querySelectorAll('[data-lview]').forEach(b=>b.addEventListener('click',()=>{ state.lview=b.dataset.lview; renderCompare(false); }));
+  document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>applyMode(b.dataset.mode)));
+  document.querySelectorAll('[data-nav]').forEach(a=>a.addEventListener('click',e=>{ const t=document.querySelector(a.getAttribute('href')); if(t){ e.preventDefault(); t.scrollIntoView({behavior:REDUCED?'auto':'smooth'}); history.replaceState(null,'',a.getAttribute('href')); } }));
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape') hideTip(); });
+  const links=[...document.querySelectorAll('[data-nav]')]; const secs=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  if('IntersectionObserver' in window){ const o=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting) links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id)); }),{rootMargin:'-40% 0px -55% 0px'}); secs.forEach(s=>o.observe(s)); }
+  let rt; const redo=()=>{ clearTimeout(rt); rt=setTimeout(()=>{ if(!C||!state.selected.size) return; const w=Math.max(300,$('#lineBody').clientWidth); if(Math.abs(w-state.lastW)>1 && state.lview==='chart') renderLine(false); },120); };
+  if('ResizeObserver' in window) new ResizeObserver(redo).observe($('#pLine')); addEventListener('resize',redo);
+}
+function fail(e){ const msg=el('div',{class:'state',style:'grid-column:1/-1'}, el('b',{text:'Could not load the comparison data. '}), el('span',{text:e.message+'. If you opened this file directly, serve the folder over HTTP so data/ can be fetched.'}));
+  $('#cards').replaceChildren(msg); $('#heroLine').textContent='The review data did not load.'; $('#cmp').hidden=true; }
+async function boot(){
+  let m='light'; try{ m=localStorage.getItem('rp-mode')||'light'; }catch(e){} document.documentElement.setAttribute('data-theme',m==='dark'?'dark':'light'); syncPeriod();
+  wire();
+  try{ [C,REG]=await Promise.all([getJSON('data/compare.json'),getJSON('data/apps.json')]); }catch(e){ fail(e); return; }
+  if(!C.apps||!C.apps.length){ fail(new Error('compare.json has no apps')); return; }
+  state.selected=new Set(C.apps.map(a=>a.slug));
+  renderHero(); renderCards(true); renderChips(); renderCompare(true); renderThemes(); renderFindings(); initChat();
+  if(G){ gsap.from('.hero > *',{y:12,opacity:0,duration:.6,stagger:.08,ease:T.ease}); }
+}
+/* ---------- chat: ask questions about the data ---------- */
+async function initChat(){
+  let sample = null;
+  try { sample = await claude.use('sample'); } catch(e){ sample = null; }
+  if (!sample) return;
+  const fab=$('#chatFab'), panel=$('#chatPanel'), log=$('#chatLog'), input=$('#chatInput'), send=$('#chatSend'), stop=$('#chatStop'), empty=$('#chatEmpty');
+  fab.hidden=false;
+  const SUGGEST = [
+    'Which app got the most 5-star ratings in the last month?',
+    'Which app has the best average rating right now?',
+    'Which app improved the most over the last 8 weeks on the App Store?',
+    'What do ADCB customers complain about most?',
+    'Which bank answers its reviews fastest?'
+  ];
+  $('#chatSugg').replaceChildren(...SUGGEST.map(q=>el('button',{type:'button',onclick:()=>ask(q)},q)));
+  const last = () => C.apps.map(a=>a.last).sort().slice(-1)[0];
+  const RULES = () => [
+    'You answer questions about a dashboard that compares six UAE banking apps by their ratings on the App Store and Google Play. Every rating is a 1 to 5 star rating that came with a written comment. Call them ratings or reviews; never mention store-level or star-only ratings, and never suggest the figures are incomplete for that reason.',
+    'Apps (slug: name): ' + C.apps.map(a=>`${a.slug}: ${a.name}`).join('; ') + '.',
+    `Data was collected on ${C.generated}; the latest review is dated ${last()}.`,
+    'Star counts for the last 120 days (for "how many 5-star ratings in the last month" style questions) come from the star_counts tool. Averages over weeks or months come from rating_series. One and two stars are negative. Monthly series cover both stores combined; weekly series and star_counts can be split by App Store or Google Play. A month needs 10 ratings and a week needs 4 to count as a data point.',
+    'Always use the tools to get numbers. Never guess or use outside knowledge about these banks. If the data cannot answer, say so in one sentence and say what is available.',
+    'For "most" or "best" questions across apps, call star_counts once with no slug and rank the result; give the winner and the next two with their counts and share. Say which dates the window covers. For "improvement" questions, fetch the weekly series and compare the start and end of the period; flag small samples.',
+    'Reply in English, plain text only: no markdown, no bullet symbols, no bold. Keep it under 110 words. Lead with the answer, then the numbers that support it.'
+  ].join('\n');
+  const pickApp = s => { const a=C.apps.find(x=>x.slug===String(s).toLowerCase()||x.name.toLowerCase()===String(s).toLowerCase()); if(!a) throw new Error('Unknown app. Use one of: '+C.apps.map(x=>x.slug).join(', ')); return a; };
+  const r2 = n => n==null?null:Math.round(n*100)/100;
+  const tools = [
+    { name:'overview', description:'Headline figures for one app: review totals and average rating, share of 1-2 and 4-5 star ratings, reply rate and median reply days, latest 90 days average and change versus the 90 days before, top complaint themes. Omit slug to get a one-line summary of every app.',
+      inputSchema:{type:'object',properties:{slug:{type:'string',description:'enbdx, fab, adcb, wio, mashreq or adib'}}},
+      execute:({slug})=>{
+        const f = a=>({ app:a.slug, name:a.name, reviews:a.totals.all, reviews_ios:a.totals.ios, reviews_play:a.totals.android, average_rating:r2(a.totals.avg), share_1_2_star:r2(a.totals.low_share), share_4_5_star:r2(a.totals.high_share),
+          reply_rate:r2(a.replies.rate), median_reply_days:a.replies.median_lag_days, avg_last_90_days:r2(a.recent.avg_90), change_vs_prior_90:r2(a.recent.delta),
+          first_review:a.first, latest_review:a.last, top_complaints:a.top_complaints.map(t=>({theme:t.label,negative_reviews:t.negative})) });
+        return slug ? f(pickApp(slug)) : C.apps.map(a=>({app:a.slug,average_rating:r2(a.totals.avg),avg_last_90_days:r2(a.recent.avg_90),change_vs_prior_90:r2(a.recent.delta),reply_rate:r2(a.replies.rate)}));
+      }},
+    { name:'rating_series', description:'Average review rating over time for one app, as rows of [period label, average or null, review count]. interval "week" (Monday start, up to 78 weeks, store can be all/ios/android) or "month" (up to 36 months, both stores combined only). Null average means too few reviews that period.',
+      inputSchema:{type:'object',properties:{slug:{type:'string'},interval:{type:'string',enum:['week','month']},store:{type:'string',enum:['all','ios','android']},last_n:{type:'integer',description:'how many most recent periods, default 12'}},required:['slug','interval']},
+      execute:async({slug,interval,store,last_n})=>{
+        const a=pickApp(slug); const st=store||'all'; let n=Math.max(2,Math.min(+last_n||12, interval==='week'?78:36));
+        if (interval==='month'){
+          if (st!=='all') throw new Error('Monthly data exists for both stores combined only. Use interval week to split by store.');
+          const base=C.months.length-n; return Array.from({length:n},(_,i)=>{ const g=base+i; return [C.months[g], r2(pointVal(a,g)), a.monthly_count[g]]; });
+        }
+        if (!W) W = await getJSON('data/weekly.json');
+        const o=W.apps[a.slug], base=W.weeks.length-n; const MINWK=MINW;
+        return Array.from({length:n},(_,i)=>{ const g=base+i; const c = st==='all'? o.ios.n[g]+o.android.n[g] : o[st].n[g]; const s = st==='all'? o.ios.s[g]+o.android.s[g] : o[st].s[g]; return ['week of '+W.weeks[g], c>=MINWK? r2(s/c):null, c]; });
+      }},
+    { name:'star_counts', description:'Counts of 1, 2, 3, 4 and 5 star ratings per app over the last N days (default 30, max 120, ending on the date in the result). Omit slug for all six apps. Returns per app: ratings, star1..star5, five_star_share, average. store can be all, ios or android. Use this for any question about how many 5-star (or 1-star) ratings an app got recently.',
+      inputSchema:{type:'object',properties:{slug:{type:'string'},days:{type:'integer'},store:{type:'string',enum:['all','ios','android']}}},
+      execute:async({slug,days,store})=>{
+        if (!D) D = await getJSON('data/daily.json');
+        const n=Math.max(1,Math.min(+days||30,D.days)), st=store||'all'; const end=new Date(D.end+'T00:00:00Z'); const from=new Date(end.getTime()-(n-1)*864e5).toISOString().slice(0,10);
+        const list = slug ? [pickApp(slug)] : C.apps;
+        const rows = list.map(a=>{ const c=[0,0,0,0,0]; for (const p of (st==='all'?['ios','android']:[st])) for (const [d,h] of Object.entries(D.apps[a.slug][p])) if (d>=from) h.forEach((v,i)=>c[i]+=v);
+          const t=c.reduce((x,y)=>x+y,0); return { app:a.slug, ratings:t, star1:c[0], star2:c[1], star3:c[2], star4:c[3], star5:c[4], five_star_share:t?r2(c[4]/t):null, average:t?r2(c.reduce((x,y,i)=>x+y*(i+1),0)/t):null }; });
+        return { from, to:D.end, store:st, note:'The newest days may be incomplete because reviews arrive with a delay.', apps:rows.sort((p,q)=>q.star5-p.star5) };
+      }},
+    { name:'themes', description:'Complaint themes for one app: each theme with the number of negative (1-2 star) reviews carrying it and its share of that app\'s negative reviews. Top 8.',
+      inputSchema:{type:'object',properties:{slug:{type:'string'}},required:['slug']},
+      execute:({slug})=>pickApp(slug).themes.slice().sort((p,q)=>q.negative-p.negative).slice(0,8).map(t=>({theme:t.label,negative_reviews:t.negative,share_of_negatives:r2(t.share_of_negatives)})) },
+    { name:'findings', description:'The list of computed cross-app findings shown in the Findings section of the page.', execute:()=>C.findings||[] }
+  ];
+
+  let turns=[], ctl=null, busy=false;
+  const scroll=()=>{ log.scrollTop=log.scrollHeight; };
+  const addMsg=(cls,text)=>{ const m=el('div',{class:'msg '+cls}); m.textContent=text; log.append(m); scroll(); return m; };
+  const COPY = { not_granted:'Claude access was declined for this page, so questions are switched off. The rest of the page works as before.', sampling_disabled:'Claude is not available on this account.', rate_limited:'Too many questions in a short time, or your usage limit is reached. Try again in a few minutes.', session_expired:'Your session expired. Reload the page and sign in again.', prompt_too_large:'That conversation got too long. Close and reopen the chat to start fresh.', refused:'Claude declined to answer that question. Try rephrasing it.', empty_completion:'No answer came back. Try rephrasing the question.', tools_unavailable:'This view cannot look up the data. Open the page in claude.ai to use chat.' };
+  const setBusy=b=>{ busy=b; stop.hidden=!b; send.hidden=b; input.disabled=false; sync(); };
+  const sync=()=>{ send.disabled = busy || !input.value.trim(); input.style.height='auto'; input.style.height=Math.min(input.scrollHeight,120)+'px'; };
+  async function ask(q){
+    q=String(q||'').trim(); if(!q||busy||!C) return;
+    empty.hidden=true; addMsg('user',q); input.value=''; sync();
+    turns.push({role:'user',content:q}); if(turns.length>12) turns=turns.slice(-12); if(turns[0].role!=='user') turns.shift();
+    const bubble=addMsg('bot wait','Looking at the data…'); setBusy(true); ctl=new AbortController();
+    try{
+      const res = await sample([{role:'user',content:RULES()}, {role:'assistant',content:'Understood. I will use the tools and answer briefly in plain English.'}, ...turns], { tools, modelTier:'quick', signal:ctl.signal,
+        onText:({text})=>{ bubble.classList.remove('wait'); bubble.textContent=text; scroll(); } });
+      bubble.classList.remove('wait'); bubble.textContent=res.text;
+      if(res.truncated) bubble.append(el('span',{class:'meta'},'Cut short. Ask for less at a time.'));
+      turns.push({role:'assistant',content:res.text});
+    }catch(e){
+      if(e&&e.code==='cancelled'){ if(e.text){ bubble.classList.remove('wait'); bubble.textContent=e.text; bubble.append(el('span',{class:'meta'},'Stopped.')); turns.push({role:'assistant',content:e.text}); } else { bubble.remove(); turns.pop(); } }
+      else { bubble.classList.remove('wait'); bubble.classList.add('err'); bubble.textContent = (e&&e.text? e.text+'\n\n':'') + (COPY[e&&e.code] || 'Something went wrong while answering. Try again.'); turns.pop(); if(e&&['not_granted','sampling_disabled','tools_unavailable'].includes(e.code)){ input.disabled=true; send.disabled=true; } }
+    } finally { ctl=null; setBusy(false); scroll(); if(!input.disabled) input.focus(); }
+  }
+  const open=()=>{ panel.hidden=false; fab.setAttribute('aria-expanded','true'); input.focus(); };
+  const close=()=>{ panel.hidden=true; fab.setAttribute('aria-expanded','false'); fab.focus(); };
+  fab.addEventListener('click',open); $('#chatClose').addEventListener('click',close);
+  stop.addEventListener('click',()=>ctl&&ctl.abort());
+  $('#chatForm').addEventListener('submit',e=>{ e.preventDefault(); ask(input.value); });
+  input.addEventListener('input',sync);
+  input.addEventListener('keydown',e=>{ if(e.key==='Enter'&&!e.shiftKey&&!e.isComposing){ e.preventDefault(); ask(input.value); } });
+  panel.addEventListener('keydown',e=>{ if(e.key==='Escape'){ e.stopPropagation(); close(); } });
+  sync();
+}
+
+boot();
+})();
+</script>
+
+
+</body></html>

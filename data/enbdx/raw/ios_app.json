@@ -1,0 +1,16 @@
+{
+ "trackName": "ENBD X",
+ "sellerName": "EMIRATES NBD Bank (P.J.S.C)",
+ "averageUserRating": 4.73409,
+ "userRatingCount": 335555,
+ "version": "26.11.0",
+ "currentVersionReleaseDate": "2026-11-12T18:59:07Z",
+ "releaseDate": "2021-12-19T08:00:00Z",
+ "minimumOsVersion": "16.0",
+ "contentAdvisoryRating": "4+",
+ "fileSizeBytes": "739971072",
+ "genres": [
+  "Finance"
+ ],
+ "releaseNotes": "In this release, we've made performance enhancements, and bug fixes to improve your overall banking experience.\nTo enjoy the latest enhancements and access all features and services, please update to the latest version of the app.\nThank you for banking with Emirates NBD."
+}

@@ -1,0 +1,9 @@
+{"apps":[
+{"slug":"enbdx","name":"ENBD X","bank":"Emirates NBD","developer":"Emirates NBD","gens":[{"gen":null,"ios":"1497518128","play":"com.emiratesnbd.android"}]},
+{"slug":"fab","name":"FAB Mobile","bank":"First Abu Dhabi Bank","developer":"First Abu Dhabi Bank","gens":[{"gen":null,"ios":"1383237548","play":"com.fab.personalbanking"}]},
+{"slug":"adcb","name":"ADCB","bank":"Abu Dhabi Commercial Bank","developer":"Abu Dhabi Commercial Bank","note":"Combines two app generations: the new ADCB. app (April 2026 onward) and the previous ADCB app (2012 to 2026).","gens":[{"gen":"new","ios":"6755109454","play":"com.adcb.nexgen"},{"gen":"old","ios":"547172388","play":"com.adcb.bank"}]},
+{"slug":"wio","name":"Wio Personal","bank":"Wio Bank","developer":"Wio Bank","gens":[{"gen":null,"ios":"1658472726","play":"io.wio.retail"}]},
+{"slug":"mashreq","name":"Mashreq UAE","bank":"Mashreq Bank","developer":"Mashreq Bank","gens":[{"gen":null,"ios":"378549193","play":"com.vipera.ts.starter.MashreqAE"}]},
+{"slug":"adib","name":"ADIB Mobile Banking","bank":"Abu Dhabi Islamic Bank","developer":"Abu Dhabi Islamic Bank","gens":[{"gen":null,"ios":"1128180440","play":"com.adib.mobile"}]}
+],
+"colors":{"enbdx":["#2a78d6","#3987e5"],"fab":["#eb6834","#d95926"],"adcb":["#1baf7a","#199e70"],"wio":["#eda100","#c98500"],"mashreq":["#e87ba4","#d55181"],"adib":["#008300","#008300"]}}

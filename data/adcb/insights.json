@@ -1,0 +1,415 @@
+{
+ "headline": "ADCB's new app, launched on 21 April 2026, averages 2.9 across 10,857 written reviews; the previous app averaged 3.96 across 22,577. One and two stars are 51% of the new app's reviews against 22% of the old one's.",
+ "lede": "ADCB answers 76% of written reviews, typically within 1 day. The new app drew its first complaints about being forced on customers, then about mandatory face or fingerprint set-up and a SecurePass set-up that loops. July 2026 was the low point (average 2.02 across 3,296 new-app reviews). The older app's history stretches back to 2013 and its worst month was the December 2018 redesign (average 1.71).",
+ "method": "ADCB is treated as one bank: the new ADCB. app (Google Play com.adcb.nexgen, App Store 6755109454) and the previous ADCB app (com.adcb.bank, 547172388) are merged, and each review carries a generation tag. Averages are of written reviews only; store ratings combine both apps by number of ratings and include star-only ratings, which are not public. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged, so a review can carry several themes. App Store coverage: complete.",
+ "events": [
+  {
+   "month": "2018-12",
+   "label": "Redesign: customers ask for the previous version",
+   "detail": "Average 1.71 across 203 reviews. 367 reviews between November 2018 and March 2019 ask for the previous version; the complaints are an animated welcome screen, too many taps to see balances, and an 'Invalid Device ID' lockout on some phones.",
+   "kind": "pain"
+  },
+  {
+   "month": "2020-12",
+   "label": "Best month on record",
+   "detail": "Average 4.72 across 825 reviews, all from the earlier app.",
+   "kind": "win"
+  },
+  {
+   "month": "2026-04",
+   "label": "New ADCB. app launches",
+   "detail": "The first new-app review is dated 21 April 2026. By the end of June it had 5,416 written reviews, against 1,852 for the old app so far in 2026.",
+   "kind": "release"
+  },
+  {
+   "month": "2026-05",
+   "label": "Mandatory biometrics and camera",
+   "detail": "125 new-app reviews in May and June say face or fingerprint set-up is forced; 40 mention a camera requirement; 18 mention the app refusing to run on a VPN.",
+   "kind": "pain"
+  },
+  {
+   "month": "2026-07",
+   "label": "Lowest month: beneficiaries vanish, 'Under Maintenance'",
+   "detail": "New-app reviews average 2.02 across 3,296 in July 2026, down from 3.31 in June. 256 July reviews mention beneficiaries or payees and 106 mention 'under maintenance'. Negative themes: Crashes & errors (985), Transfers & payments (845), App updates (473).",
+   "kind": "pain"
+  },
+  {
+   "month": "2026-08",
+   "label": "Partial recovery, SecurePass loop persists",
+   "detail": "New-app average 3.19 across 784 reviews in August and 3.19 across 626 in October. 35 reviews since August still describe the SecurePass PIN set-up looping.",
+   "kind": "pain"
+  }
+ ],
+ "pains": [
+  {
+   "title": "A new app that replaced the old one overnight",
+   "themes": [
+    "liv",
+    "update"
+   ],
+   "summary": "898 new-app reviews compare it with the old app, almost all unfavourably. Customers describe being moved without a choice, a lost transfer flow, and nowhere to go back to.",
+   "quotes": [
+    {
+     "id": "play-3e8562f0-7aef-4720-b77d-b22da7acadeb",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-22",
+     "version": "1.51",
+     "helpful": 40,
+     "title": "",
+     "body": "The old app worked perfectly but I have been forced to install the new app and it's a mess. IT DOES NOT WORK. I open the app and I have to set a new PIN but then the application freezes. I go through the process over and over but it's frozen. I cannot access my balance or do any transactions. ADCB get your act together. WAKE UP!! Take a look at the latest reviews in Google Play ... you get one star because ZERO is not available. Please stop messing around with your clients."
+    },
+    {
+     "id": "play-fa95af54-bce2-4fce-ba9d-ce66c9da68eb",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-07-07",
+     "version": "1.45",
+     "helpful": 8,
+     "title": "",
+     "body": "The new adcb app was forced on end users. Couple weeks later, app stops working and we can't pay our due bill on the credit card, water, electricity, etc. Have tried to connect from their website and it won't let me in either. Can't transfer money to my accounts in a different bank either. The new ai assistant on the phone doesn't allow you to talk to a human agent, making it impossible to find a solution."
+    },
+    {
+     "id": "play-566f5e77-645f-4fff-9c79-39483a23317e",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-07-03",
+     "version": "1.45",
+     "helpful": 18,
+     "title": "",
+     "body": "It is so frustrating that I cannot access the old app anymore as it worked way better than this AI version. I've been trying to transfer locally for 3 days now and the option is just not there anymore! When I tried to proceed with a previous transfer, it keeps giving me error! This is extremely inconvenient and time wasting. It is even affecting some online purchases."
+    },
+    {
+     "id": "play-26345c4e-92b8-46d8-a2c9-b4cb8e5fa4ee",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-06-21",
+     "version": "1.44",
+     "helpful": 9,
+     "title": "",
+     "body": "Another pointless \"upgrade\". Now I'm forced to use biometrics on my phone. The activation process is flawed, I've completed the \"one-time\" activation 3 times. I'm forced to ask AI to freeze a card, which used to be a couple of clicks. Utter rubbish."
+    }
+   ]
+  },
+  {
+   "title": "Set-up that cannot be completed",
+   "themes": [
+    "login",
+    "device"
+   ],
+   "summary": "The new security model needs biometrics, a camera, a SecurePass PIN and no VPN. Customers without a fingerprint sensor or camera, on work phones or abroad, cannot get in, and the PIN set-up screen can loop forever.",
+   "quotes": [
+    {
+     "id": "play-62be1f7a-d15c-4023-b87f-53f7a878b08d",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-05-02",
+     "version": "21.4.0",
+     "helpful": 5,
+     "title": "",
+     "body": "I don't have a fingerprinting option on my phone. I don't want to set up biometrics on my phone. But the ADCB application is forcing me to use it without an alternative. Plus, ADCB internet banking website doesn't have the same functionality: I cannot use securepass through it to approve transactions, which makes service useless for online shopping."
+    },
+    {
+     "id": "play-ef065520-bbb0-4bdc-a850-3dfc9573eee0",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-05-15",
+     "version": "1.36",
+     "helpful": 10,
+     "title": "",
+     "body": "Frustrated by the lack of support for cameless smartphones. Not every user has a camera enabled device, especially in secure work environments. Stop making the camera a hard requirement and start providing manual alternatives. Don't leave a segment of your customers behind. now not working this app and the old version to my phone. frustrating"
+    },
+    {
+     "id": "play-c206383e-5a64-40ad-8376-b6cbb656afe4",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-26",
+     "version": "1.51",
+     "helpful": 29,
+     "title": "",
+     "body": "Last 2 days I can't use the app at all. I open it \"setup your secure pass pin\" window pops up. I set it up get verified get success message even get sms verification. 3 second again this popups up and like this endless loop. you can't skip it or do anything it covers the whole app. haven't been able to do any financial operations. the old app was outdated but it was at least stable"
+    }
+   ]
+  },
+  {
+   "title": "Transfers and beneficiaries that disappear",
+   "themes": [
+    "transfers",
+    "stability"
+   ],
+   "summary": "July 2026 reviews describe saved payees gone, a missing local transfer option, 'Unauthorized Access' on the beneficiary screen and a maintenance message at the moment of paying.",
+   "quotes": [
+    {
+     "id": "play-92b3b2f5-fa9f-4079-899c-7cd52063f4ef",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-07-01",
+     "version": "1.45",
+     "helpful": 19,
+     "title": "",
+     "body": "The new app is horrible. Just two days ago, I transferred money without any issues, but now I can't even find the option to transfer funds. All my saved payees have disappeared, and every time I tap on Beneficiaries, I get an Unauthorized Access error. The AI support keeps telling me to try again later whenever I attempt to send a message, and even raising a complaint or query is crashing. I don't know if anything in the app is actually working properly."
+    },
+    {
+     "id": "play-a0b90cc9-a20c-4adc-a1c2-3168f34a3632",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-07-01",
+     "version": "1.45",
+     "helpful": 14,
+     "title": "",
+     "body": "The new update has made the app much more difficult to use. I can't find the money transfer options anymore, which were easy to access before. Whenever I open the app to complete an important transaction, it often displays an \"Under Maintenance. Please come back later.\" message. This is extremely frustrating, especially when I need to make urgent transfers. Please improve the app's usability and reliability."
+    },
+    {
+     "id": "play-6c498777-fe2a-414d-91a2-7ec50a794d29",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-07-01",
+     "version": "1.45",
+     "helpful": 16,
+     "title": "",
+     "body": "This app is not up to the mark. Expected things to be easy and straight forward. Could not transfer to my existing beneficiary. Count not add new beneficiary. Could not chekc my balance. Login was an issue. I installed the app and now under maintenance. Why did they launch it if it had so many glitches. This is the output if you make noobs incharge of AI app and hand over inexperienced companies to make an app for well known bank. Very disappointed!"
+    },
+    {
+     "id": "play-fa95af54-bce2-4fce-ba9d-ce66c9da68eb",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-07-07",
+     "version": "1.45",
+     "helpful": 8,
+     "title": "",
+     "body": "The new adcb app was forced on end users. Couple weeks later, app stops working and we can't pay our due bill on the credit card, water, electricity, etc. Have tried to connect from their website and it won't let me in either. Can't transfer money to my accounts in a different bank either. The new ai assistant on the phone doesn't allow you to talk to a human agent, making it impossible to find a solution."
+    }
+   ]
+  },
+  {
+   "title": "Features the old app had",
+   "themes": [
+    "features",
+    "usability"
+   ],
+   "summary": "Card statements that only share as PDF, no total on the transaction list, the minimum payment figure gone, and the advanced transaction filter missing are the specific losses customers name.",
+   "quotes": [
+    {
+     "id": "play-18cc3a7c-f141-4897-a688-ca11268efae6",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-05-29",
+     "version": "1.42",
+     "helpful": 23,
+     "title": "",
+     "body": "Is this app a joke? Do you people even think about the user? Impossible to download a card statement because it goes to sharing menu instead. Only pdf (!) format is available. No totals will be shown in the app when checking the transactions. Minimum payment amount to avoid charges is gone, now you can only see min amount or the full outstanding. And that's what I noticed within the first few minutes of using it, I am afraid to keep investigating further! And impossible to go back to old app!!!!"
+    },
+    {
+     "id": "play-e8691e71-7e7b-42bf-aae3-5e743d01867b",
+     "platform": "android",
+     "rating": 5,
+     "date": "2026-05-20",
+     "version": "1.40",
+     "helpful": 5,
+     "title": "",
+     "body": "I noticed that the previous ADCB app allowed advanced transaction filtering- such as searching for all credit transactions within a specific amount range (for example, between AED 450 and AED 500). In the new ADCB Mobile Banking app, this feature is missing, and currently, there is no way to filter transaction history by amount range or transaction type. This makes it harder to quickly find specific transactions, and I'd like to suggest reintroducing or enhancing this filter functionality"
+    },
+    {
+     "id": "play-7ad0986b-3a55-4a00-a885-6cd7ee763d9a",
+     "platform": "android",
+     "rating": 2,
+     "date": "2026-05-28",
+     "version": "1.42",
+     "helpful": 14,
+     "title": "",
+     "body": "The grey design does not look appealing or modern. When users try to enter the PIN code quickly, they can easily miss numbers because the cursor/input response is not fast enough. During money transfers, if a required field is missed (for example, the account holder name), there is no validation or error message informing the user that the field must be completed."
+    },
+    {
+     "id": "play-e067f4b1-b612-4e61-99d4-cc37f7047325",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-05-31",
+     "version": "1.42",
+     "helpful": 10,
+     "title": "",
+     "body": "Worst app ever! It's complicated and the fonts became too small, it's confusing to navigate, too many additional features which are not necessary. I don't understand the logic of upgrading the app but actually it made it annoying to operate while the old app was too easy and more organize to use and it was direct and clear to navigate."
+    }
+   ]
+  },
+  {
+   "title": "Face Pass on every transfer (the previous app)",
+   "themes": [
+    "login",
+    "transfers"
+   ],
+   "summary": "In 2024 the older app asked for Face Pass on transfers. Reviewers say it fails in low light, cannot be switched off for good and sends them back to the start.",
+   "quotes": [
+    {
+     "id": "play-314fa065-98c9-4477-8f4a-f9a748e6466c",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-02-23",
+     "version": "13.5.0",
+     "helpful": 72,
+     "title": "",
+     "body": "Face pass is so annoying, can't do a transfer in low or dark light, and don't feel comfortable using it in public. Even if you deactivate after the second transfer, it forces you to activate it again. Very inconvenient! Not all new technologies are good user experience. Listen to your customers and at least keep it optional."
+    },
+    {
+     "id": "play-701aa8e8-0308-4a0c-836b-17da60a44c0a",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-03-08",
+     "version": "13.6.0",
+     "helpful": 49,
+     "title": "",
+     "body": "Barely usable, very bad slow laggy application, animations are slow, face pass is an annoying feature that I don't use but still get prompted to use on every transfer I make, in the last update I couldn't make a transfer at all, as soon as I cancel the face pass request it goes back to where I was without suggesting the OTP option, very frustrating. I think ADCB should fire their app development team to be honest, we are in 2024 and a bad app like this exists."
+    },
+    {
+     "id": "play-64a06d1f-a867-43e7-8a68-5c16dc069b91",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-05-01",
+     "version": "14.2.0",
+     "helpful": 93,
+     "title": "",
+     "body": "FaceId is a another peice of idiotic implementation....Do you know that it doesn't work on Pixel devices for example?! After millions of updates. You still have stupid web wrapper with non working native android gestures and buttons. You cannot mark notifications as read. Every application run a notification preferences window will be shown... Developer team doesn't have any idea how the native application should look and work like."
+    }
+   ]
+  },
+  {
+   "title": "The 2018 redesign (the previous app)",
+   "themes": [
+    "usability",
+    "update"
+   ],
+   "summary": "The worst month in the older app's history was the version 5.9 redesign: balances that took many taps, a long welcome animation and crashes, with customers asking for the old version back.",
+   "quotes": [
+    {
+     "id": "play-9c29b6f6-49df-403d-9c9e-3d1903747a9e",
+     "platform": "android",
+     "rating": 1,
+     "date": "2018-12-06",
+     "version": "5.9",
+     "helpful": 165,
+     "title": "",
+     "body": "1 start review. Adcb mobile app used to be great in the previous version. Now in its current version its not really good. Too many movements to look the figures you want to check. Not like the previous version one look and all data are there to see. Current app version is not customer friendly, hassle to use. I hope ADCB IT team will revert back to the previous version which is neat and clean. No hassle and very iser friendly. Simple but very informative and functional."
+    },
+    {
+     "id": "play-3b840f7e-01b0-42a5-b979-aaee29b42d34",
+     "platform": "android",
+     "rating": 1,
+     "date": "2018-12-02",
+     "version": "5.9",
+     "helpful": 41,
+     "title": "",
+     "body": "I'd have to say that while the older version of this app looked terribly outdated, it worked flawlessly. All that was needed was a minor facelift but this new version is just awful. Very user unfriendly. And I have to use this app on a daily basis. Plus who on earth needs a 30 second animation welcoming them to the app? Nobody. That's who"
+    },
+    {
+     "id": "play-4565e5aa-db1a-47a1-a545-56f1ef6ca0f6",
+     "platform": "android",
+     "rating": 1,
+     "date": "2018-12-08",
+     "version": "5.9",
+     "helpful": 10,
+     "title": "",
+     "body": "Everything was fine until the latest update. Stopped working with the error message \" Invalid Device ID\". Customer service just responded that your phone is not supported. It's been almost one month and still they don't bother updating and solving the issues"
+    }
+   ]
+  }
+ ],
+ "wins": [
+  {
+   "title": "Fast bills and transfers in the older app",
+   "themes": [
+    "transfers"
+   ],
+   "summary": "The previous app averaged 3.96 over 22,577 reviews. Its long-time users describe fast bill payments and money transfers linked to partners.",
+   "quotes": [
+    {
+     "id": "play-a64b69a4-8dc3-4751-a7e9-8522c0705eca",
+     "platform": "android",
+     "rating": 5,
+     "date": "2021-08-01",
+     "version": "8.5",
+     "helpful": 98,
+     "title": "",
+     "body": "Excellent, I've been using the app since long time and never faced major issues, only some rare crashes here and there but nothing serious. I pay most of my bills on it and it's super fast and smartly linked to third party partners. Money transfers are also good but international rates are astronomical. The only useless things in the app and in ADCB in general are TouchPoints and Etihad Miles, whish there are more options."
+    },
+    {
+     "id": "play-095bd781-3ffb-44f4-aa62-00a9615842e4",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-10-22",
+     "version": "16.5.0",
+     "helpful": 63,
+     "title": "",
+     "body": "I've had an exceptional experience with ADCB's mobile banking app! The transactions are seamless, efficient, and secure. The app's intuitive interface makes managing my accounts a breeze. The customer service is top-notch! Responsive, knowledgeable, and courteous staff resolved my queries promptly. I highly recommend ADCB for hassle-free banking. Download the app and experience the difference!"
+    }
+   ]
+  },
+  {
+   "title": "Some customers prefer the new app",
+   "themes": [
+    "usability"
+   ],
+   "summary": "The new app has 4,972 four and five star reviews. The converts mention a cleaner interface and navigation, and from October the AI guidance.",
+   "quotes": [
+    {
+     "id": "play-7d8f46fe-cd9d-408a-9d96-13b5d819e8aa",
+     "platform": "android",
+     "rating": 5,
+     "date": "2026-05-15",
+     "version": "1.34",
+     "helpful": 5,
+     "title": "",
+     "body": "I was skeptical at first when the new app was launched as I had grown to love the simplicity of the old app. but this one is way better and UI is very easy and navigation perfectly arranged. I can't wait for the new updates, the future is bright, this app is very cool I love it! also I love the ai feature which provides answers when you need them,no need to call customer support. there is an assistant right there to support you."
+    },
+    {
+     "id": "ios-14633718238",
+     "platform": "ios",
+     "rating": 5,
+     "date": "2026-10-06",
+     "version": "",
+     "helpful": 0,
+     "title": "Great app",
+     "body": "Excellent app. Very easy to use. Follows all investments easily. The recently added AI feature is geneous."
+    },
+    {
+     "id": "play-d298da35-84ac-41bc-ba19-4e48cf85330d",
+     "platform": "android",
+     "rating": 5,
+     "date": "2026-10-20",
+     "version": "1.60",
+     "helpful": 0,
+     "title": "",
+     "body": "very fast Transfer money and recharge bill Also Ai guidance"
+    }
+   ]
+  },
+  {
+   "title": "Fast fixes after complaints",
+   "themes": [
+    "support"
+   ],
+   "summary": "ADCB answers 76% of written reviews, mostly within a day, and some reviewers return to say the problem was solved.",
+   "quotes": [
+    {
+     "id": "play-dd568151-ca4f-4fcd-9be2-c165bcaae98b",
+     "platform": "android",
+     "rating": 5,
+     "date": "2026-04-30",
+     "version": "1.30",
+     "helpful": 6,
+     "title": "",
+     "body": "Thank you now it works.but message pop up this app has bug close the app. Why this message appears ?"
+    },
+    {
+     "id": "play-84d67625-1a96-4c90-9e53-02f1d3ee6d7d",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-06-17",
+     "version": "14.7.0",
+     "helpful": 40,
+     "title": "",
+     "body": "Best Bank in the UAE Accessible ATM Machines, user friendly app. Now no need to look up inverifying faces 😂 Nice and easy access to informations both online and via agents. Overall amazing!!!"
+    }
+   ]
+  }
+ ],
+ "generated": "2026-11-14"
+}

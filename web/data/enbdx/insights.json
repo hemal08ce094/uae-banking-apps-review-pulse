@@ -1,0 +1,588 @@
+{
+ "headline": "56% of written reviews give ENBD X five stars, yet 36% give one or two. The deepest dips in the monthly rating follow changes to access: the forced migration, Smart Pass approvals, mandatory biometrics and device checks.",
+ "lede": "Emirates NBD answers 100% of Google Play reviews and 98% of App Store reviews, typically within a day, and customers notice when fixes land. The recurring damage comes from access: forced migration in 2022-23, Smart Pass approvals in 2024, mandatory biometrics in May 2026 and device-integrity checks in the 26.x releases. 3,040 of 13,798 negative reviews (22%) mention login, approvals or device checks.",
+ "method": "Averages here are of written reviews only. Store ratings (4.73 App Store, 4.74 Google Play) include star-only ratings, which are not public and skew positive: 87% of Google Play's star ratings are five stars against 56% of its written reviews. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged in English and Arabic, so a review can carry several themes and short reviews such as 'good app' carry none. Counts are written reviews only; star-only ratings are not public.",
+ "events": [
+  {
+   "month": "2021-12",
+   "label": "ENBD X appears on Google Play",
+   "detail": "Google Play lists the release date as 12 December 2021. The oldest public iOS review Apple serves is dated 19 December 2021, so both stores' review history starts together.",
+   "kind": "release"
+  },
+  {
+   "month": "2022-12",
+   "label": "Old app switched off, customers moved over",
+   "detail": "1117 reviews between Oct 2022 and Jun 2023 compare ENBD X with the old blue app. The most common ask is to be allowed back.",
+   "kind": "pain"
+  },
+  {
+   "month": "2023-07",
+   "label": "Quick Actions redesign and a wave of bugs",
+   "detail": "Developer replies in July 2023 describe a UI change that introduced a Quick Actions tab. 333 reviews that July and August report crashes or errors.",
+   "kind": "pain"
+  },
+  {
+   "month": "2024-01",
+   "label": "Smart Pass approvals replace OTP",
+   "detail": "264 reviews from Oct 2023 to Dec 2024 mention Smart Pass, tokens or approvals. Expired tokens and missed approval notifications dominate.",
+   "kind": "pain"
+  },
+  {
+   "month": "2025-01",
+   "label": "Best month on record",
+   "detail": "Average 4.68 across 981 reviews. 74% of the five-star reviews that month are under 40 characters, so volume rose faster than detail.",
+   "kind": "win"
+  },
+  {
+   "month": "2026-05",
+   "label": "Biometric-only login goes mandatory",
+   "detail": "1380 reviews in May 2026, 542 negative, average 3.39. 170 of them mention fingerprint or Face ID; 94 between May and July report the 'cannot be used with VoiceOver enabled' lockout.",
+   "kind": "pain"
+  },
+  {
+   "month": "2026-08",
+   "label": "Dark mode ships",
+   "detail": "58 earlier reviews had asked for a dark theme. Reviews in August 2026 thank the team for adding it.",
+   "kind": "win"
+  },
+  {
+   "month": "2026-09",
+   "label": "26.x releases: integrity checks and an outage",
+   "detail": "431 reviews in September 2026, 206 negative, average 3.11, the lowest month since the migration. 39 reviews mention the device integrity check; the most upvoted review of the year reports the app and mobile banking down on 30 September.",
+   "kind": "pain"
+  }
+ ],
+ "pains": [
+  {
+   "title": "Locked out by mandatory biometrics",
+   "themes": [
+    "login",
+    "device"
+   ],
+   "summary": "From May 2026 the app insists on fingerprint or face login. Phones with a broken sensor, Pixel face unlock, enterprise profiles or an accessibility setting cannot get in, and account recovery loops back to the same screen.",
+   "quotes": [
+    {
+     "id": "play-1941f7a3-447e-4a8d-be78-2459af7bd7f1",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-05-15",
+     "version": "16.16.1",
+     "helpful": 22,
+     "title": "",
+     "body": "They turned on login only with fingerprints, and I cannot turn this off. The problem is that it doesn't work well on all mobiles. For example, on my phone, due to some issue, the fingerprint sensor doesn't work and I simply cannot enter the application anymore. I keep recovering my account after unsuccessful attempts, but then fingerprint is the only way to enter the app, so it's an eternal loop."
+    },
+    {
+     "id": "play-19b5627c-eb7e-4462-aa80-38ce6d365ca6",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-05-08",
+     "version": "16.16.0",
+     "helpful": 8,
+     "title": "",
+     "body": "the app is not working since whatever recent change, as it requires \"Face ID\" and \"Touch ID\" (Apple terminology). I use a Google Pixel Fold phone, I have \"Face Unlock\" enabled, the phone doesn't have \"Fingerprint Unlock\". I still can't access the app because of your poorly implemented biometric authentication. I can't access my account, I can't authorise my transactions. Don't enforce requirements until you've tested your app with all device types. Other apps use Google Passkey for security."
+    },
+    {
+     "id": "play-2f5b7b8b-fef6-4340-b118-0497d74598e3",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-05-12",
+     "version": "16.16.1",
+     "helpful": 6,
+     "title": "",
+     "body": "⭐☆☆☆☆ Unable to access the Emirates NBD App for the past 3 days. Even after updating the app, clearing storage, uninstalling, and reinstalling, the issue still persists. The app keeps showing: “This app cannot be used with VoiceOver enabled,” even though no voice-over or accessibility feature is enabled on my phone. Very frustrating experience, especially for banking services where quick access is important. Kindly fix this issue urgently."
+    },
+    {
+     "id": "play-6353d659-261b-422f-891a-5c724c10c91c",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-09-27",
+     "version": "26.9.10",
+     "helpful": 1,
+     "title": "",
+     "body": "Very frustrating experience. I keep getting the error “Device integrity check failed – This device does not meet the security requirements” even though my phone is updated and I am using the official device/software. The app is completely inaccessible because of this issue. The developer should properly investigate the device integrity check and provide a solution instead of simply asking users to use another device. Please fix this issue"
+    }
+   ]
+  },
+  {
+   "title": "Payment approvals that fail at the last step",
+   "themes": [
+    "smartpass",
+    "transfers"
+   ],
+   "summary": "Smart Pass replaced SMS codes. When the token expires, the approval notification is missed or the app logs out mid-flow, the customer cannot pay, and the web banking session depends on the phone working.",
+   "quotes": [
+    {
+     "id": "play-255967e5-039e-4a19-9613-ec6a4409e9b1",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-01-16",
+     "version": "14.8.0",
+     "helpful": 150,
+     "title": "",
+     "body": "Update 16 Jan 2024 The new app X is terrible. You can never do a transaction in time. Whenever I have to make a payment, it says that your smart token is expired. I fixed it multiple times, but every other day, I get this error. If you open the app again after few hours the payment process smoothly with the same expired smart token. Extremely disappointing experience"
+    },
+    {
+     "id": "play-0421e06a-3aa3-4eef-8393-f78f69fb0f3b",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-01-27",
+     "version": "16.11.0",
+     "helpful": 5,
+     "title": "",
+     "body": "Unreliable. Fails around 50% of the time. Stopped OTP and replaced it with a technology that keeps failing. Can't complete a transaction. Highly frustrating experience. Transaction authorization fails 70% of the time. Can't approve a transaction while on a call. Highly disruptive app. Heavy and slow to load. Doesn't seem to scale on heavy demand."
+    },
+    {
+     "id": "play-f5064a37-03e0-4749-9792-bb882da1e6df",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-11-26",
+     "version": "15.12.1",
+     "helpful": 93,
+     "title": "",
+     "body": "if you are transaction from a laptop, it is difficult to find the approve transaction tab on the mobile app. one really has to be fast enought to tap on the notification message which is sent to the mobile and tap it to open the approval screen. if you miss this notification you have to cancel the transaction initiated on the web interface and redo the entire thing again...the older app was much more user-friendly, this app is useless. The above issues are not yet resolved."
+    },
+    {
+     "id": "play-19a264ec-15d3-4a3d-b9f6-ca992bc9ef49",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-09-30",
+     "version": "26.9.10",
+     "helpful": 181,
+     "title": "",
+     "body": "Upd ~5 years later: still absolutely frustrating app! The whole mobile banking and app are down, and I can't make any purchases that require authorization thru the app. When the bank switched to in-app payment confirmations, I knew one day will come when the app will not be functional, and I'll be stuck unable to pay. This just happened. I can't purchase food for my cats, I can't pay any bills, can't send money to a friend. It's like you have the money, but you actually don't. Unacceptable!"
+    }
+   ]
+  },
+  {
+   "title": "Losing what the old app did in two taps",
+   "themes": [
+    "liv",
+    "features"
+   ],
+   "summary": "The 2022-23 migration removed per-card daily limits, amount-due on bill payments, CSV statements and one-tap full card payment. Some came back; the one-tap payment was removed again in the August 2026 update.",
+   "quotes": [
+    {
+     "id": "play-06643c6b-ac60-4aae-a6a4-f0b20296993d",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-12-23",
+     "version": "12.1.1",
+     "helpful": 96,
+     "title": "",
+     "body": "DO NOT SWITCH TO THIS APP!! The first thing you notice when you switch is that the app interface is clean and nice, but that is about all the functionality this app has to offer. All your previous transactions, which could be done in a matter of 2 clicks, take 5-6 clicks now. It's like being penalized to switch to the new app as there is no going back to the old app. The app was built to only see your account info, transfer, and payments are a hassle. I'm thinking about changing banks now."
+    },
+    {
+     "id": "play-5882739c-adeb-4426-8787-8c668e87d493",
+     "platform": "android",
+     "rating": 2,
+     "date": "2025-08-22",
+     "version": "16.3.0",
+     "helpful": 20,
+     "title": "",
+     "body": "One of the best security features was setting daily transaction limits for each debit and credit card which was removed in the new app. By removing this daily limit setting you have spoiled our peace of mind. Now we have to closely monitor each SMS for unauthorized transactions. Some online transactions don't need OTPs. We cannot open bank app every now and then to enable and disable the credit card. Please bring back this setting in the app for the peace of mind and better security."
+    },
+    {
+     "id": "play-af70dca1-6f0b-420e-8a0c-277ee41c9cb7",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-26",
+     "version": "26.8.2",
+     "helpful": 3,
+     "title": "",
+     "body": "The app keeps getting worse with every update. The OTP replacement is still unreliable and often gives errors. Credit card payments have also been degraded: we used to be able to pay the full outstanding amount with one click. That option was removed, but at least the total balance was still shown on the payment screen. Now even the total amount is gone. Basic, useful features keep being removed while reliability gets worse. Please restore full-payment and total-balance display."
+    },
+    {
+     "id": "play-34be2f6c-5c7d-4ca2-a391-42aff13bf08b",
+     "platform": "android",
+     "rating": 4,
+     "date": "2026-01-14",
+     "version": "16.10.0",
+     "helpful": 4,
+     "title": "",
+     "body": "I don't know why Bank is Changing Mobile application without testing it properly. In the old version I was able to download my current and Previous months Credit card statement in CSV and Excel in the new version it is not available. Why are you not understanding it's very inconvenient to customers to reconcile and summarise transactions without excel. Please give this feature or revert back to old version. This new version is frustrating and there are many users with same view you can sée"
+    }
+   ]
+  },
+  {
+   "title": "A screen that is hard to read and navigate",
+   "themes": [
+    "usability"
+   ],
+   "summary": "Low contrast, thin fonts, a large blue diamond button and unpredictable navigation are the design complaints that repeat across three years of redesigns, most loudly after each major UI change.",
+   "quotes": [
+    {
+     "id": "play-4be4e5df-a592-449b-997c-bb1c4f4de414",
+     "platform": "android",
+     "rating": 1,
+     "date": "2023-05-04",
+     "version": "12.9.0",
+     "helpful": 132,
+     "title": "",
+     "body": "Horrible! And you can't go back to the old version. Visually speaking, it sucks. It's flat, zero contrast, can't tell sections apart... Performance, it keeps malfunctioning and i have to restart my phone for it to work. UI, horrible. Really hard to find what you're looking for. All in all this is a failure. Please bring back the old app as this one just sucks in all ways"
+    },
+    {
+     "id": "play-19d6a685-9adb-4f37-84ef-d75072a5aaca",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-01-15",
+     "version": "14.8.0",
+     "helpful": 87,
+     "title": "",
+     "body": "This app is supposedly to make your life easier. It does exactly the opposite. The GUI is a disaster. The navigation is unconventional and confusing . There is no visual hierarchy. The design is already outdated and this is a brand new app. The app loads very slowly and/or freezes. This app from Emirates NBD is not user‐centric at all and feels less than intuitive. User experience is awful. I have been with NBD for over 20 years now I am considering switching banks just because of this app."
+    },
+    {
+     "id": "play-6750cb60-8bff-47df-8f45-156629af84e4",
+     "platform": "android",
+     "rating": 2,
+     "date": "2023-09-30",
+     "version": "14.3.0",
+     "helpful": 78,
+     "title": "",
+     "body": "All banking functions are available and easily accessible. However, I do not like the choice of background color & fonts; they are not easily legible. There is no clear contrast; you have to stare hard in order to read the tiny & narrow text. The big blue diamond button on the home page is totally unnecessary & useless. I tried to revert to the old app, but it did not allow me! Other than the look & feel, it is a good app. I REALLY WISH YOU CHANGE THE FONT AND BACKGROUND COLORS. NO CONTRAST!!!!!"
+    },
+    {
+     "id": "ios-14143381281",
+     "platform": "ios",
+     "rating": 2,
+     "date": "2026-06-04",
+     "version": "16.17.1",
+     "helpful": 0,
+     "title": "The recent ui update ruined the whole NBD dominance for me.",
+     "body": "The experience is practically non usable for any transactions. It takes hours to update the balance. So technically all the important information that i want to see are practically outdated. \nThe navigation is totally unpredictable, for eg. Yesterday i was looking for the financial tool (which was really helpful to preview Instalments on loans etc) just to find out its not there anymore after 10 mins of toggling and searching through the mess, and when i tried to click on the loan tab to find out the available plans and options boom it sent an application to the bank - without informing me.\n\nThe refresh does practically nothing.\nSearch is of no use at all, cannot search through the rewards - it practically takes you to a new webpage - which is also cluttered to the top.\nAll the useful tools are either buried or gone.\n\nThe app feels like a mix of new and old and not in a good way - the overall feels like a wannabe new, which killed all the vibe of a solid functional app."
+    }
+   ]
+  },
+  {
+   "title": "False security flags on ordinary phones",
+   "themes": [
+    "device",
+    "security"
+   ],
+   "summary": "Work phones managed by Intune are detected as VPN or developer-mode devices, some handsets are declared rooted, and the 26.x integrity check rejects updated official devices. The only advice given is to change phones.",
+   "quotes": [
+    {
+     "id": "play-c47a20c9-ae85-43fd-8200-d7da4bc60fbe",
+     "platform": "android",
+     "rating": 1,
+     "date": "2023-12-13",
+     "version": "14.7.4",
+     "helpful": 123,
+     "title": "",
+     "body": "This app continues to be an infinite source of frustration for me. It does not open while MS intune/windows defender is running on the phone (i.e. any phone with a compay profile). detects it as \"vpn\". This is my work phone, it has no VPN applications on it. Local transfer besides NBD accounts is not working tonight and the app cannot navigate to any other services while/after you do a transfer. The bugs are just never-ending. I need to exit and login after every SINGLE activity."
+    },
+    {
+     "id": "play-146b4577-b484-4516-9f56-4333cf1b91b1",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-12-16",
+     "version": "15.13.2",
+     "helpful": 75,
+     "title": "",
+     "body": "The recent version does not allow me to use the application, mentioning that it is due to developer options enabled in Android, whereas my phone is controlled through MS Intune, which does not allow me to enable developer options. What a joke!!! Response to ENBD feedback: The point is that my phone doesn't even allow me to enable/disable the developer options, so it is by default disabled as a security from the organization due to their policy. So, technically, there is a bug in your code."
+    },
+    {
+     "id": "play-777d92e3-08b0-4f9b-b337-37f61224ed5f",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-09-09",
+     "version": "26.8.10",
+     "helpful": 1,
+     "title": "",
+     "body": "My phone’s fingerprint sensor is not working, and I am unable to access the app using my password. My mobile banking profile is also blocked. I contacted the call centre for assistance, but they advised me that I either need to repair the fingerprint sensor or change my phone, and that they cannot provide any other solution. Since the new update requires biometric authentication, does this mean I will be unable to use the mobile banking app until I repair or replace my phone?"
+    },
+    {
+     "id": "play-8c320456-ce84-475a-bd82-ab1a5f91e1bc",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-01-25",
+     "version": "14.9.0",
+     "helpful": 35,
+     "title": "",
+     "body": "Today is 25 January 2024, and still I can't access my account via this App😤👎 --- Adding to my previous feedback, today is 28 Dec., 2023, and I have been a month can't open the new version as it shows that \"your divce is rooted\" to where i don't know. 😬👎 --- The old version is way better than this update. The new app update is so bad in terms of displaying the most important details as it takes time to figure it out. In addition, I lost a lot of benefits was exist in the old version."
+    }
+   ]
+  },
+  {
+   "title": "Products and service outside the app",
+   "themes": [
+    "products",
+    "branch",
+    "disputes"
+   ],
+   "summary": "A share of one-star reviews is about the bank, not the software: loan balances shown wrongly, card applications that stall, in-app adverts, complaints raised in branch and online that go nowhere, and agents logging the wrong case.",
+   "quotes": [
+    {
+     "id": "play-cf142893-4944-42bc-9517-81d2f469eb40",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-07-27",
+     "version": "10.0.6",
+     "helpful": 49,
+     "title": "",
+     "body": "Horrible app. Doesn't show loan payments correctly. Instead of subtracting from the amount it's adding, shows the transactions that have been made however with no change in the balances, shows overdue for the transaction that the bank already got money for. Very slow in response. Zero out of ten. It's not an upgrade It's total downgrade from the previous app"
+    },
+    {
+     "id": "play-0bbd07a2-d79a-49d7-bbe3-eafb0bc09290",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-02-08",
+     "version": "14.11.0",
+     "helpful": 73,
+     "title": "",
+     "body": "We are forced to use this app they have taken the online banking away and all the features that it had. Now there is no option for future bill payments. I have raised several complaints online as well as in the branch but of no use. The reply seems to be by a BOT because it has clearly not understood the issue. I'm referring to future dated payments NOT STANDING INSTRUCTIONS!! hope you understand the difference. There is a calendar button next to the amount which is not highlighted."
+    },
+    {
+     "id": "play-38f50699-ccfb-42e5-8b0b-2506b3db18fc",
+     "platform": "android",
+     "rating": 2,
+     "date": "2025-04-29",
+     "version": "15.18.0",
+     "helpful": 60,
+     "title": "",
+     "body": "the application itself is good and easy to use but the pop-up advertisements are super annoying and there is no way to stop it. No one is using the bank account for fun we open the app to do some transactions and most of the time we are in a hurry so it's not acceptable to deal with Testahel or School loan / or any pop-up ads. another thing i can't find the communication page. if it's there somewhere please add it to a place we can easily find it!"
+    },
+    {
+     "id": "play-5b223926-29dc-4b0e-977c-547325df0458",
+     "platform": "android",
+     "rating": 1,
+     "date": "2025-06-12",
+     "version": "15.19.3",
+     "helpful": 7,
+     "title": "",
+     "body": "Very bad experience The support agents are untrained and unable to solve issues properly. I was in a critical situation and contacted them through WhatsApp, but the agent raised a complaint for the wrong transaction — not the one I was actually reporting. She wasted more than 30 minutes, and the problem remained unresolved, as if it was a joke to her. Extremely unprofessional service. Not recommended."
+    }
+   ]
+  },
+  {
+   "title": "Support loops when the app fails",
+   "themes": [
+    "support",
+    "disputes"
+   ],
+   "summary": "When the app blocks someone, the fallback is a paid call with long waits, chat replies that take days, and disputes closed without explanation. Review replies are fast, but the resolution behind them often is not.",
+   "quotes": [
+    {
+     "id": "play-ed99eb71-5b8e-49bb-9795-cf37c8d2fd62",
+     "platform": "android",
+     "rating": 1,
+     "date": "2023-07-09",
+     "version": "12.14.0",
+     "helpful": 117,
+     "title": "",
+     "body": "The app is still broken and has many bugs. When you try to disable the \"Data privacy and sharing\" , it says \"Call customer service\". When I called customer service it took me 2 weeks to speak with someone who actually had some idea about what I was talking about. At the end, the guy said it is not possible to turn this off as it is required for the app to run\". If we can't turn it off, then why add the \"Turn Off\" option in the app at the first place... Also, requesting cheque book doesn't work!"
+    },
+    {
+     "id": "ios-12461987126",
+     "platform": "ios",
+     "rating": 1,
+     "date": "2025-03-25",
+     "version": "",
+     "helpful": 0,
+     "title": "Transfers not getting through",
+     "body": "Transfers not getting through. Useless contact center . And the call is not free by the way"
+    },
+    {
+     "id": "play-dacceb96-9990-4e24-bd9d-b86a2cea666c",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-07-03",
+     "version": "16.19.1",
+     "helpful": 18,
+     "title": "",
+     "body": "It’s been an absolute nightmare. I haven’t been able to make a single transaction for three days because the Smart Pass PIN keeps failing. I’ve called the call center multiple times every day with no solution. Day 1: they admitted the issue and told me to try again later—still nothing. Day 2: they asked me to reset the PIN, still didn’t work. Day 3: same problem, no progress. Hard to believe this issue is still ongoing after three full days. and I really hope the issue gets fix soon."
+    },
+    {
+     "id": "play-fda68aa7-b9bc-449a-8675-a340e9d82902",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-09-06",
+     "version": "26.8.10",
+     "helpful": 1,
+     "title": "",
+     "body": "Last month, AED 2,120 was taken from my bank account without my authorization or permission. As soon as I noticed the transactions, I immediately reported them to the bank and raised a dispute. After approximately two weeks, the bank informed me that my case was closed and that the decision was not in my favour. However, I clearly explained and provided evidence that these transactions were not authorized by me. I am extremely disappointed that the bank has refused to return my money."
+    }
+   ]
+  }
+ ],
+ "wins": [
+  {
+   "title": "Every Play review gets an answer",
+   "themes": [
+    "support"
+   ],
+   "summary": "Emirates NBD replied to 100% of the Google Play reviews and 98% of the App Store reviews collected, with a median gap of 1 day. Several one-star reviewers came back to raise their rating after a callback.",
+   "quotes": [
+    {
+     "id": "play-197eb504-f0a8-45a4-ae95-89f1d0812d7a",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-01-22",
+     "version": "14.9.0",
+     "helpful": 38,
+     "title": "",
+     "body": "Update: EmiratesNBD Bank followed up proactively to resolve the issue and fix all the issues in the app. The team immediately called back and resolved. Now, the app is working perfectly fine. Thank you for the great support. The app is smooth and has no issues. However, the old banking app had more features that are absent. Maybe they will add more features soon."
+    },
+    {
+     "id": "play-f90df2bf-dc0e-4181-9800-bb812c6d1d17",
+     "platform": "android",
+     "rating": 5,
+     "date": "2023-08-31",
+     "version": "12.17.0",
+     "helpful": 39,
+     "title": "",
+     "body": "All reported issues with app has been fixed and working fine now. Gui is user-friendly as well. Customer support on mail was quick. Well done"
+    },
+    {
+     "id": "play-c78e038d-59fc-421e-9ad8-6f88cb9a4bf1",
+     "platform": "android",
+     "rating": 4,
+     "date": "2023-04-19",
+     "version": "12.9.0",
+     "helpful": 30,
+     "title": "",
+     "body": "Feels really good to see that concerns are being addressed. Seems to working without any issues now. Thank you."
+    },
+    {
+     "id": "play-f342d138-4f3c-41b8-a360-d2d5f394a27f",
+     "platform": "android",
+     "rating": 5,
+     "date": "2023-10-15",
+     "version": "14.5.0",
+     "helpful": 23,
+     "title": "",
+     "body": "Now I enjoy working on this app. All my previous problems have been resolved. I can do ALL my banking here very convenienly. The app is user friendly and the services are perfect."
+    }
+   ]
+  },
+  {
+   "title": "In-app messaging beats the phone queue",
+   "themes": [
+    "support",
+    "features"
+   ],
+   "summary": "Customers who discover the messaging feature describe it as the best part of the app: a written question, an answer within a day, no hold music.",
+   "quotes": [
+    {
+     "id": "play-95561440-debe-48c8-9c49-ca5c00b3d04f",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-08-23",
+     "version": "15.4.3",
+     "helpful": 19,
+     "title": "",
+     "body": "The best feature in this app is messaging. The biggest hassle in dealing eith banks is to get to their customer service agent for asking questions or seeking a clarification. This app's messages feature makes it breezy. Just ask a question and they respond within 24 hrs. This is an amazing service. Saves an hr or so because you need atleast that anount of time to get connected to a service representative. I love this feature. Thankyou ENBD for saving my time on IVR."
+    },
+    {
+     "id": "play-f90df2bf-dc0e-4181-9800-bb812c6d1d17",
+     "platform": "android",
+     "rating": 5,
+     "date": "2023-08-31",
+     "version": "12.17.0",
+     "helpful": 39,
+     "title": "",
+     "body": "All reported issues with app has been fixed and working fine now. Gui is user-friendly as well. Customer support on mail was quick. Well done"
+    }
+   ]
+  },
+  {
+   "title": "Requests that were shipped",
+   "themes": [
+    "features",
+    "usability"
+   ],
+   "summary": "Dark mode was the most repeated design request from 2022 onward and arrived in August 2026. Reviewers explicitly thank the team for listening.",
+   "quotes": [
+    {
+     "id": "play-ae6bb235-9d16-439c-a5de-7b57cd70d4a1",
+     "platform": "android",
+     "rating": 4,
+     "date": "2024-11-15",
+     "version": "15.10.2",
+     "helpful": 10,
+     "title": "",
+     "body": "okay, after using it for more than a year now I have changed my view. This works perfectly for me. Except for the fact the smart pass notifications are not popping if the app is open in the background or if am using an Android phone. Rest are fixed and so far working flawlessly. Thank you for listening"
+    },
+    {
+     "id": "play-dd773605-5aa6-492b-a6f9-fc69ad288052",
+     "platform": "android",
+     "rating": 4,
+     "date": "2023-08-10",
+     "version": "12.16.0",
+     "helpful": 40,
+     "title": "",
+     "body": "شكر خاص لموظف خدمة العملاء محمد وجدي عبد العزيز . وايضا لكل موظفي خدمة العملاء العرب بدون استثناء . حيث تعذر علي الدخول الى تطبيق X . وبعد عدة محاولات اتصلت وتم حل المشكلة بسهولة . وهي طلب نسيان كلمة المرور ...هكذا بكل بساطة . ويمكن ترجع تعينها نفس القديمة . وبمشي الحال. باقي يضيفوا سمة الوضع الداكن . يدعم اللغة العربية . لاتقلقوا ."
+    }
+   ]
+  },
+  {
+   "title": "Everyday banking feels fast",
+   "themes": [
+    "transfers",
+    "usability"
+   ],
+   "summary": "56% of written reviews are five stars. The long ones praise instant transfers, bill payments, card controls and quick cash on a credit card.",
+   "quotes": [
+    {
+     "id": "play-d2f26c69-75c9-4fb4-9fdf-c3cb4730d56e",
+     "platform": "android",
+     "rating": 5,
+     "date": "2026-01-08",
+     "version": "16.9.1",
+     "helpful": 36,
+     "title": "",
+     "body": "Excellent and User-Friendly Banking App!\" \"I have been using the ENBD app for a while now, and it’s hands down one of the best banking apps I’ve used. The interface is very intuitive and smooth. Transactions are fast, and I love how easy it is to manage my accounts and pay bills. Highly recommended for anyone looking for a seamless digital banking experience."
+    },
+    {
+     "id": "play-4ed9541f-3ef5-48f5-88ad-6c9ec8b7af12",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-10-16",
+     "version": "16.5.0",
+     "helpful": 38,
+     "title": "",
+     "body": "It's a really amazing banking and credit card service.. I have been using credit cards for more than 1 and half years ... in an emergency situation.. i can get quick cash up to 90 % of my limit with low processing fees without interest up to 12 months.. really, the bank provides a great option for the customer.. thank you for your offers and best services.. 👌"
+    },
+    {
+     "id": "ios-14233057035",
+     "platform": "ios",
+     "rating": 5,
+     "date": "2026-06-27",
+     "version": "16.18.0",
+     "helpful": 0,
+     "title": "Outstanding Banking App – Fast, Secure & Truly Next‑Level!",
+     "body": "I’ve been using the Emirates NBD ENBD X mobile banking app for a while, and it is honestly one of the best banking apps in the UAE. The app is beautifully designed, extremely fast, and very easy to navigate. Managing my accounts, cards, and transactions feels effortless.\n\nI love how the app offers 150+ instant banking services, from card controls to statements, bill payments, and even investment options—all in one place. The DirectRemit transfers are lightning fast, and the app’s security features give complete peace of mind.\n\nThe global dashboard showing a 360° view of all my finances is a game‑changer. Even updating Emirates ID, opening deposits, or checking offers happens instantly without visiting the branch.\n\nOverall, ENBD X sets a new standard for mobile banking. Smooth performance, powerful features, and excellent reliability. Truly a 5‑star experience!\n\n⭐ Highly recommended! ⭐"
+    }
+   ]
+  },
+  {
+   "title": "Arabic-speaking agents who fix it",
+   "themes": [
+    "support"
+   ],
+   "summary": "Arabic reviews single out named call-centre agents who resolved login problems in one call, even while asking for Arabic UI and a dark theme.",
+   "quotes": [
+    {
+     "id": "play-dd773605-5aa6-492b-a6f9-fc69ad288052",
+     "platform": "android",
+     "rating": 4,
+     "date": "2023-08-10",
+     "version": "12.16.0",
+     "helpful": 40,
+     "title": "",
+     "body": "شكر خاص لموظف خدمة العملاء محمد وجدي عبد العزيز . وايضا لكل موظفي خدمة العملاء العرب بدون استثناء . حيث تعذر علي الدخول الى تطبيق X . وبعد عدة محاولات اتصلت وتم حل المشكلة بسهولة . وهي طلب نسيان كلمة المرور ...هكذا بكل بساطة . ويمكن ترجع تعينها نفس القديمة . وبمشي الحال. باقي يضيفوا سمة الوضع الداكن . يدعم اللغة العربية . لاتقلقوا ."
+    },
+    {
+     "id": "play-3976211d-9295-429c-99ec-0dd22ca2c1ed",
+     "platform": "android",
+     "rating": 5,
+     "date": "2023-03-04",
+     "version": "12.5.0",
+     "helpful": 21,
+     "title": "",
+     "body": "اولا لايدعم اللغة العربية . ثانيا لايمكن الدخول على التطبيق وتم ايقاف التطبيق القديم مع العلم القديم افضل للاستخدام من الجديد . من اربعة ايام وانا اتواصل مع موظين البنك دون جدوى والتطبيق لايعمل . اشكر القائمين على التواصل مع العملاء . حيث تم التواصل معي وحل المشكلة بوقت قياسي ."
+    }
+   ]
+  }
+ ],
+ "generated": "2026-11-14"
+}

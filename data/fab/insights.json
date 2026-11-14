@@ -1,0 +1,464 @@
+{
+ "headline": "65% of written reviews give FAB Mobile five stars and 28% give one or two. Most of the low months follow a release: sign-in changes in 2021 and 2022, and an update in March 2026 that broke OTP delivery and device checks.",
+ "lede": "First Abu Dhabi Bank answered 72% of the written reviews collected, but the median wait for a reply is 9 days. The most common reasons for one and two stars are Call centre & chat (1167), Crashes & errors (1138), Login & access (998), App updates (700). The best month on record is 2021-07 (average 4.64); the worst with at least 100 reviews is 2018-12 (average 2.42).",
+ "method": "Averages here are of written reviews only. Store ratings (4.63 App Store, 4.26 Google Play) include star-only ratings, which are not public and skew positive. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged in English and Arabic, so a review can carry several themes and short reviews such as 'good app' carry none. The App Store side of this app is complete; Google Play holds 85% of the reviews here.",
+ "events": [
+  {
+   "month": "2018-12",
+   "label": "New app arrives and customers compare it with NBAD",
+   "detail": "459 reviews in December 2018, average 2.42. 88 reviews between December 2018 and March 2019 compare it with the earlier NBAD app or blame the merger; the top complaint is a system that hangs or is 'under maintenance'.",
+   "kind": "pain"
+  },
+  {
+   "month": "2021-10",
+   "label": "Update loops on Emirates ID authentication",
+   "detail": "311 reviews in October 2021, average 2.78. 23 reviews in the next two months mention ID or face authentication, and 60 mention the update itself.",
+   "kind": "pain"
+  },
+  {
+   "month": "2022-01",
+   "label": "Lowest month: swipe, PIN and two OTPs to log in",
+   "detail": "Average 2.47 across 338 reviews, 214 of them negative. 63 reviews in 2022 mention the swipe step, and several describe a login that needs fingerprint, PIN and an OTP by both SMS and email.",
+   "kind": "pain"
+  },
+  {
+   "month": "2021-07",
+   "label": "Best month on record",
+   "detail": "Average 4.64 across 117 reviews.",
+   "kind": "win"
+  },
+  {
+   "month": "2025-11",
+   "label": "Autumn 2025 dip",
+   "detail": "Average 2.47 across 112 reviews in November 2025 and 2.9 in October. The main negative themes were Call centre & chat (49), Fees & charges (28), Cards (22). 5 reviews report a 'screen sharing detected' block that stops the app opening.",
+   "kind": "pain"
+  },
+  {
+   "month": "2026-03",
+   "label": "March 2026 update: OTP delays and device limit",
+   "detail": "674 reviews in March 2026, against a typical 290 a month in 2026, average 2.92. 38 mention an OTP and 6 mention the device limit or delinking. Negative themes: Crashes & errors (109), Login & access (70), Call centre & chat (50).",
+   "kind": "pain"
+  }
+ ],
+ "pains": [
+  {
+   "title": "Signing in and re-registering on a new phone",
+   "themes": [
+    "login",
+    "device"
+   ],
+   "summary": "Logging in has changed shape in almost every major release: swipe, PIN, fingerprint and now OTPs by SMS and email. A new phone or a reinstall can trigger the device limit, an Emirates ID camera scan, or both, and the app gives no way to unlink the old device itself.",
+   "quotes": [
+    {
+     "id": "play-4e17d62c-299e-44a3-99df-d6caddf8fcd9",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-01-07",
+     "version": "3.3",
+     "helpful": 266,
+     "title": "",
+     "body": "The first basic step when using it is to set up the customer profile; this involves scanning the Emirates Id through the phone camera. There are countless apps doing this in the market and they work just fine; I have tried scanning mine no less than 50 times with different degrees of light, but no luck. And it seems to be a common, well-known problem. Does not give a high hope for the quality of the rest of the app, but I can't judge, as I have not been able to even see it so far..."
+    },
+    {
+     "id": "play-9eb018be-05c0-4a0b-8d22-02f4b31fe870",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-02-01",
+     "version": "2.6",
+     "helpful": 56,
+     "title": "",
+     "body": "VERY very disappointed! 1st o was unable to swipe and then uninstalled and installed on my other device. It was working and since last 4 days, I am unable to open the application and yesterday I received a notification asking to uninstall and then download again. And now when I am trying to log In , receiving error that \"maximum device limit reached!\" What am I supposed to do now?!"
+    },
+    {
+     "id": "play-b67f3098-0bb2-4042-9ee3-4cb2826c1d35",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-01-12",
+     "version": "2.6",
+     "helpful": 248,
+     "title": "",
+     "body": "Not able to sign in, I had issue with the app as not responding to my wipe, basically none of the buttons on swipe page before login is working, after uninstall and reinstall it's asking to take picture of my ID, the phone doesn't have camera and was working with previous versions. Now I don't have option to be able to sign in. I hope the app will be updated with alternative option not only taking ID photo."
+    },
+    {
+     "id": "play-020b49d4-a9c2-48ed-8e9a-3df4707b7171",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-07-26",
+     "version": "2.6",
+     "helpful": 197,
+     "title": "",
+     "body": "Can't log in most of the time. Gets stuck on loading screen, and often says under maintenance. And recently, it's sending 1 OTP by SMS and a 2nd OTP by email, and I have to input both just to log in, after I already used my fingerprint AND 6 digit pin code. All this so I can just log in? Terrible app from a terrible bank. NBAD was great. Was happy with them for 15 years. FAB is consistently getting worse over time."
+    }
+   ]
+  },
+  {
+   "title": "Updates that stop the app opening",
+   "themes": [
+    "update",
+    "stability"
+   ],
+   "summary": "Several of the lowest months follow a release: authentication that loops, OTP texts that arrive half an hour late, a security check that claims screen sharing is on. Reviewers describe the app as fine until the update and unusable after it.",
+   "quotes": [
+    {
+     "id": "play-6613b8d0-72ea-497b-a07c-b167c38c2532",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-03-10",
+     "version": "3.7.31",
+     "helpful": 29,
+     "title": "",
+     "body": "Very disappointed. The app is completely useless nowadays. it stopped working after update. Showing device limit reached. I was using the same device. No matter how many times i try to reach your customer service for help, just like the app, the customer service is also useless. un necessarily wasting our time and money. When trying to reset online banking password, the otp is not receiving even after several tries. Will seriously think about switching the service at this point."
+    },
+    {
+     "id": "play-e3eded65-d696-4429-aaf4-761da49f1dd3",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-03-31",
+     "version": "3.7.33",
+     "helpful": 108,
+     "title": "",
+     "body": "Can't open the application. Screen sharing detected Issue. Really it is very difficult to get the authentication due to these. Most of the bank apps disable the screenshot function through the app itself. Here your app doesn't show which screen sharing is enabled or whatever. If I restart the mobile, it works after 1 or 2 tries. What a dilemma!!? It's really disgusting!!!"
+    },
+    {
+     "id": "play-551223c3-2156-486b-9f9d-7f4fec28e407",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-03-06",
+     "version": "3.7.27",
+     "helpful": 16,
+     "title": "",
+     "body": "I've just updated the app and I got the SMS with the otpnearly 30 mins after placing the request. I tried the help section the app but what I type is not there in the FAQs and it's telling me to call the 600 number which is using a voice assistant which is wasting time."
+    },
+    {
+     "id": "play-94083036-09f2-4787-b95e-3c8e0782924b",
+     "platform": "android",
+     "rating": 1,
+     "date": "2021-10-17",
+     "version": "2.6",
+     "helpful": 55,
+     "title": "",
+     "body": "Horrible! Since the new update the app stopped working. Each time I get to the authentication stage with the Emirates ID, it takes me back to the homepage where I have to enter my account number again. I have tried the authentication stage multiple times, but the app is unable to process the ID. I have even deleted the app and reinstalled it."
+    }
+   ]
+  },
+  {
+   "title": "Reaching a person when the app fails",
+   "themes": [
+    "support"
+   ],
+   "summary": "The most upvoted complaints are about the bank phone line, not the screens: a voice assistant before any agent, 30-minute waits, emails answered by a no-reply message, and a help section that sends people back to the call centre.",
+   "quotes": [
+    {
+     "id": "play-bdd56a4f-81b7-46b5-a865-f1a837e95350",
+     "platform": "android",
+     "rating": 1,
+     "date": "2025-05-19",
+     "version": "",
+     "helpful": 251,
+     "title": "",
+     "body": "The app is fine, but the customer service is terribly horrible.. It makes you wait for more than 30 minutes to talk to the customers agent without any success. They don't even respond to your emails besides their auto generated \"don't reply\" emails. I requested a card change, and they haven't responded yet. It's frustrating. I am planning to switch to a different bank. Thirs class customer service!"
+    },
+    {
+     "id": "play-5481ed33-8b92-46f3-b39a-18506c1ff088",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-09-17",
+     "version": "3.7.70",
+     "helpful": 5,
+     "title": "",
+     "body": "Very difficult to reach a customer care executive through the app. Even for a simple request like loan closure, there is no easy way to get proper assistance. Customer support needs significant improvement."
+    },
+    {
+     "id": "play-3f8ab47e-6312-4cb5-ae9b-135c3bdbb88f",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-07",
+     "version": "3.7.65",
+     "helpful": 6,
+     "title": "",
+     "body": "Such a worst app in the banking network, app not working if u change the device, it says delink the previous device, fraustating, suppose if u forget pin than that's it, u can't recover your app access, no customer care support from this bank... IVR is irritating, u have to recharge some amount to waste customer care IVR calling, but still u can't open app..... such worst app I will give 0 rating, unfortunately no 0 rating available so given 1."
+    },
+    {
+     "id": "play-4a0706d7-dfd4-44e3-8ccb-93e3bb11926c",
+     "platform": "android",
+     "rating": 1,
+     "date": "2025-11-07",
+     "version": "3.6.9",
+     "helpful": 7,
+     "title": "",
+     "body": "This is by far the most frustrating bank app I’ve ever used. There’s no online chat support, and even when you try calling, the useless automated voice wastes half your day before you can actually speak to someone or solve your issue.if emergency better to use other bank cards."
+    }
+   ]
+  },
+  {
+   "title": "Money that is sent but not received",
+   "themes": [
+    "transfers",
+    "fees"
+   ],
+   "summary": "Transfers are praised when they are instant and criticised when they stall. The unhappy reviews describe local and overseas payments marked completed that do not arrive for days, with no transaction number to chase.",
+   "quotes": [
+    {
+     "id": "play-e7c68cdb-e8b7-4abf-aae9-d32ea72f1571",
+     "platform": "android",
+     "rating": 2,
+     "date": "2023-04-05",
+     "version": "3.0",
+     "helpful": 62,
+     "title": "",
+     "body": "Very poor banking experience. Very high payment processing time even local uae to uae payments. Lack of details for the transfer like transaction number etc once transfer is done. Some times transfer details are not there on list. Transfers is slow on top of that transfer gets failed after 2-3 days. Then you need to again retry. Very high waiting time to reach out to customers. Only app flow is good (Simple)"
+    },
+    {
+     "id": "play-0ff22130-f5df-40a8-aa66-8774d8094198",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-09",
+     "version": "3.7.65",
+     "helpful": 35,
+     "title": "",
+     "body": "Very disappointed with the customer service. One of my transactions is showing as “Completed,” but the amount has still not been credited to the beneficiary’s account. Separately, another amount has been on hold for more than 2 days. Despite contacting customer service, I was informed that the issue had been resolved, even though it was not. Very poor experience and extremely disappointing customer service. I expected much better from FAB."
+    },
+    {
+     "id": "play-28afa914-c767-480a-bc98-71a6882ecd18",
+     "platform": "android",
+     "rating": 1,
+     "date": "2025-11-11",
+     "version": "3.7.5",
+     "helpful": 20,
+     "title": "",
+     "body": "I had a bad experience while sending money to my account abroad through another reputed money sender from FAB. It's almost ten days money not yet credited in my account. I contacted the FAB customer support and it's not possible to talk directly with the customer representative as the past times and because of not being toll free wasted call charges and time as well. I see the send amount still in the app as hold. It will be much better if you assign a customer rep to respond for our concerns."
+    }
+   ]
+  },
+  {
+   "title": "Opening and closing accounts",
+   "themes": [
+    "account",
+    "branch"
+   ],
+   "summary": "The promise of an instant account in the app meets Emirates ID and UAE Pass steps that freeze, and closing an account from the app is reported as declined for 'internal bank procedures' while fees continue.",
+   "quotes": [
+    {
+     "id": "play-dc2b009a-4e59-4ea8-8953-ff1f554c8c80",
+     "platform": "android",
+     "rating": 1,
+     "date": "2023-10-24",
+     "version": "3.2",
+     "helpful": 76,
+     "title": "",
+     "body": "\"Open an account instantly on the FAB Mobile App\". What a joke that is. I am trying to open a current account but after providing UAE pass the app froze. Update: I managed to creat the account a few hours later. But now I am not able to register on the app because the face scan is failing. Customer service tells me this is becoming more common after the face scan mechanism was updated. They can't do anything so I just have to keep trying. Clearly not working so please fix!"
+    },
+    {
+     "id": "play-32d852c5-ea7e-48b7-9791-4987de743a22",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-10-10",
+     "version": "2.6",
+     "helpful": 63,
+     "title": "",
+     "body": "The function to close account from the app does not work! For four months I've tried it, the first time in the main branch in Abu Dhabi, after zeroing my balance, and each time the operation is declined due to \"internal bank procedures\". Then I get charged each month fees due to balance below the minimum. All the tickets opened to the customer service went nowhere. There is no actual feedback. Worst banking experience ever."
+    },
+    {
+     "id": "play-14054337-a207-48ad-b813-4acf9a409551",
+     "platform": "android",
+     "rating": 1,
+     "date": "2025-11-18",
+     "version": "3.7.5",
+     "helpful": 19,
+     "title": "",
+     "body": "I have never seen such a poorly written app in my life! I tried for 1 hour just to open an account, if the screen turns off due to inactivity after a few seconds, the whole app restarts and you have to restart the application all over. I kept trying forever, sometimes it would just randomly exit and restart the whole process. I wanted to open an account with this bank but I guess this is a sign not to even bother."
+    },
+    {
+     "id": "play-6059495e-64e9-488f-b28a-fccd70351fea",
+     "platform": "android",
+     "rating": 1,
+     "date": "2021-08-22",
+     "version": "2.5",
+     "helpful": 32,
+     "title": "",
+     "body": "Extremely disappointed from FAB service, just because of my Emirates ID and Visa was under renewal process and even I submitted over app updated documents, but they blocked my account, Really bad services by FAB, once reactivated i am 100% going to change my Bank... it should be related with Passport etc not with Visa or Emirates ID, I will also submit official complaint against that as I personally visited branch before updating documents and still I facing badly financial issue, Thanks"
+    }
+   ]
+  },
+  {
+   "title": "Fraud and cards handled slowly",
+   "themes": [
+    "security",
+    "cards",
+    "disputes"
+   ],
+   "summary": "A smaller group of one-star reviews concerns card fraud and card service: unauthorised transactions that stay unresolved for months, a card that cannot be unblocked, and credit card sections that spam notifications.",
+   "quotes": [
+    {
+     "id": "play-4dee5244-a304-4540-92de-d9abb1332519",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-06",
+     "version": "3.7.61",
+     "helpful": 5,
+     "title": "",
+     "body": "Worst banking experience. Ifaced issues with FAB for the last 2 years.It was very difficult to cancel my creditcard. Last year, unauthorized transactionsappeared from Canada, Ireland, andSharjah within a short time. I reported them immediately, but the support was poor. I didn't receive my card statements for nearly 2 months. When - requested a refund, I only received generic replies and was told to pay the outstanding amount. paid under protest to avoid penalties,very poor customerservice"
+    },
+    {
+     "id": "play-86458868-1ee8-44fb-9597-392d0ab1b413",
+     "platform": "android",
+     "rating": 1,
+     "date": "2025-11-22",
+     "version": "3.7.7",
+     "helpful": 7,
+     "title": "",
+     "body": "And the award for the worst bank 2025 goes to FAB. Even after 6 months follow-up they didn't resolve the fraud. in 3 months they couldn't unblock the card. atyourservices id never responds, customer care executive write complaint but never resolve when you call them next time you find they never registered the issue. I wonder how this kind of bank exist in this era. may god help FAB."
+    },
+    {
+     "id": "play-31da9a3a-a8f3-41e8-ba8a-9d65c41fdd43",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-07-19",
+     "version": "3.4",
+     "helpful": 66,
+     "title": "",
+     "body": "It is not about the app.it is more about how irresponsibly they treat their customers. I have been trying to contact them since a while ago regarding the status of my atm card, and I tried through all means, and They are not concerned about the mails and calls at all, all they want is only suggestions and not resolutions to our problems. Really frustrated and disappointed . And I lost my impression from the time I opened my account. Thank god at least you exposed me a way to some other banks"
+    },
+    {
+     "id": "play-669d95ee-1d9f-4f28-bb20-c3b20dca65b5",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-12-19",
+     "version": "3.0",
+     "helpful": 68,
+     "title": "",
+     "body": "Update: After their UI update I can't even logon to app, it just crashes. No longer can I use bank. Great app 👍 Old: Never open credit card section, as it will spam you with sms and notifications. There is no way to disable it, as app settings do absolutely nothing. Easier to just put sms number to spam"
+    }
+   ]
+  }
+ ],
+ "wins": [
+  {
+   "title": "Transfers and beneficiaries are fast",
+   "themes": [
+    "transfers"
+   ],
+   "summary": "Transfers and adding a beneficiary are the most repeated praise in the 65% of reviews that give five stars: no waiting period after adding someone, instant local transfers, and inward and outward payments that go through.",
+   "quotes": [
+    {
+     "id": "play-036df5ca-9cd9-4d69-8d8d-e3b691ba1a17",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-02-25",
+     "version": "3.5",
+     "helpful": 167,
+     "title": "",
+     "body": "\"FAB's app is super fast for money transfers and adding beneficiaries. It's all-in-one, making banking easy and convenient. I was able to block a lost card and get a new one instantly. Highly recommend for quick, efficient, and hassle-free banking!\""
+    },
+    {
+     "id": "play-6113ff87-8466-4e22-8696-5698aec27e77",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-12-30",
+     "version": "3.7.13",
+     "helpful": 73,
+     "title": "",
+     "body": "I think FAB is the best bank in the UAE. It is easy to open an account and transfer money. You don't have to wait after adding a beneficiary, and the service is fast and easy for both inward and outward transfers. Thank you for the good service and support"
+    },
+    {
+     "id": "play-c0a8529f-3c58-40ec-b840-3ece1a85957d",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-02-14",
+     "version": "3.5",
+     "helpful": 64,
+     "title": "",
+     "body": "I appreciate fab for there instant transfer,deposit and withdrawal,they have able able ATM Booth. Money withdraw,transfer and deposit is very easy.I had made transaction by using FAB mobile apps.its very easy to used.by using FAB mobile apps I can transfer money to mobile moneyapps, international transfer etc.my favorite bank is FAB."
+    }
+   ]
+  },
+  {
+   "title": "Card control that works in an emergency",
+   "themes": [
+    "cards"
+   ],
+   "summary": "Blocking a lost card and getting a replacement from the app is the concrete story customers tell when they recommend it.",
+   "quotes": [
+    {
+     "id": "play-036df5ca-9cd9-4d69-8d8d-e3b691ba1a17",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-02-25",
+     "version": "3.5",
+     "helpful": 167,
+     "title": "",
+     "body": "\"FAB's app is super fast for money transfers and adding beneficiaries. It's all-in-one, making banking easy and convenient. I was able to block a lost card and get a new one instantly. Highly recommend for quick, efficient, and hassle-free banking!\""
+    },
+    {
+     "id": "play-67e6fb0d-5ca7-409e-8350-c8eb59df399a",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-04-02",
+     "version": "3.4",
+     "helpful": 76,
+     "title": "",
+     "body": "\"I recently received a credit card from Fab Bank and I couldn't be happier with the experience. From the moment I applied, their staff was incredibly helpful and guided me through the process seamlessly. Not only did I receive my card promptly, but the benefits and rewards program have exceeded my expectations. Managing my finances has become much easier, thanks to Fab Bank's user-friendly online platform. I highly recommend Fab Bank's credit card to anyone looking for reliability, great custome"
+    }
+   ]
+  },
+  {
+   "title": "The redesigns were noticed",
+   "themes": [
+    "usability"
+   ],
+   "summary": "A few reviews single out the redesigned app, in 2023 and again in 2025, as clear and quick.",
+   "quotes": [
+    {
+     "id": "play-ba41235f-38b6-49ca-bcac-b33bdfa37dde",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-07-22",
+     "version": "3.5",
+     "helpful": 71,
+     "title": "",
+     "body": "Excellent banking experience. Highly recommended... Super easy when it comes to money transfer and adding a beneficiary. FABulous! NEW DESIGN in mobile banking app is sooooo FABuliriffic! Congrats everyone, keep it up ♥️"
+    },
+    {
+     "id": "play-7188a6b8-bca3-476a-9253-23033192c587",
+     "platform": "android",
+     "rating": 4,
+     "date": "2023-01-17",
+     "version": "3.0",
+     "helpful": 51,
+     "title": "",
+     "body": "The new look is good. But now I find it a 2 step process to see the transactions pertaining to a specific credit card. I have to select the Card Transactions to view txns. Earlier, it was simply selecting a credit card. Hopefully, the process is made simpler in next releases."
+    }
+   ]
+  },
+  {
+   "title": "Easy to open an account when it works",
+   "themes": [
+    "account"
+   ],
+   "summary": "Customers who get through onboarding describe it as quick, and some say FAB is the best bank in the UAE for it.",
+   "quotes": [
+    {
+     "id": "play-6113ff87-8466-4e22-8696-5698aec27e77",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-12-30",
+     "version": "3.7.13",
+     "helpful": 73,
+     "title": "",
+     "body": "I think FAB is the best bank in the UAE. It is easy to open an account and transfer money. You don't have to wait after adding a beneficiary, and the service is fast and easy for both inward and outward transfers. Thank you for the good service and support"
+    },
+    {
+     "id": "play-ba41235f-38b6-49ca-bcac-b33bdfa37dde",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-07-22",
+     "version": "3.5",
+     "helpful": 71,
+     "title": "",
+     "body": "Excellent banking experience. Highly recommended... Super easy when it comes to money transfer and adding a beneficiary. FABulous! NEW DESIGN in mobile banking app is sooooo FABuliriffic! Congrats everyone, keep it up ♥️"
+    }
+   ]
+  }
+ ],
+ "generated": "2026-11-14"
+}

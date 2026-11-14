@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en"><head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<title>Review Pulse</title>
+<meta name="description" id="metaDesc" content="Every public App Store and Google Play review of a UAE banking app, read as a briefing: trends, pain points and wins.">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<style>
+/* Leadership briefing in Apple's own idiom: the SF Pro system stack, a #f5f5f7 ground, white 18px-radius panels with one soft shadow,
+   generous whitespace, semibold display type with tight tracking, calm motion (count-ups and line draws only).
+   Colour is data: blue = 4-5 stars and the accent, red = 1-2 stars, grey = 3 stars; indigo = App Store, orange = Google Play. */
+:root{
+  --bg:#f5f5f7; --panel:#ffffff; --panel-2:#f0f0f3; --ctl:#e8e8ed; --line:#d2d2d7; --line-soft:#e8e8ed;
+  --ink:#1d1d1f; --ink-2:#424245; --muted:#6e6e73;
+  --acc:#0071e3; --acc-wash:rgba(0,113,227,.10); --neg:#ff3b30; --neg-wash:rgba(255,59,48,.10); --neu:#c7c7cc;
+  --ios:#5e5ce6; --android:#d97b00; --good:#248a3d;
+  --shadow:0 2px 14px rgba(0,0,0,.06), 0 0 0 .5px rgba(0,0,0,.04);
+  --navbg:rgba(245,245,247,.72); --navline:rgba(0,0,0,.06); --tipbg:rgba(29,29,31,.92); --tipink:#f5f5f7;
+  --sans:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --r:18px; --r-sm:12px; --max:1120px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#000000; --panel:#1c1c1e; --panel-2:#2c2c2e; --ctl:#2c2c2e; --line:#3a3a3c; --line-soft:#2c2c2e;
+  --ink:#f5f5f7; --ink-2:#d1d1d6; --muted:#a1a1a6;
+  --acc:#2997ff; --acc-wash:rgba(41,151,255,.14); --neg:#ff453a; --neg-wash:rgba(255,69,58,.14); --neu:#48484a;
+  --ios:#7d7aff; --android:#ffa41c; --good:#30d158; --shadow:0 2px 14px rgba(0,0,0,.5), 0 0 0 .5px rgba(255,255,255,.06);
+  --navbg:rgba(0,0,0,.72); --navline:rgba(255,255,255,.08); --tipbg:rgba(44,44,46,.94); --tipink:#f5f5f7; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#000000; --panel:#1c1c1e; --panel-2:#2c2c2e; --ctl:#2c2c2e; --line:#3a3a3c; --line-soft:#2c2c2e;
+  --ink:#f5f5f7; --ink-2:#d1d1d6; --muted:#a1a1a6;
+  --acc:#2997ff; --acc-wash:rgba(41,151,255,.14); --neg:#ff453a; --neg-wash:rgba(255,69,58,.14); --neu:#48484a;
+  --ios:#7d7aff; --android:#ffa41c; --good:#30d158; --shadow:0 2px 14px rgba(0,0,0,.5), 0 0 0 .5px rgba(255,255,255,.06);
+  --navbg:rgba(0,0,0,.72); --navline:rgba(255,255,255,.08); --tipbg:rgba(44,44,46,.94); --tipink:#f5f5f7; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.47 var(--sans);letter-spacing:-.01em;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+button{font:inherit;color:inherit;letter-spacing:inherit}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:6px}
+h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.022em;text-wrap:balance}
+h1{font-size:clamp(34px,4.6vw,56px);line-height:1.07}
+h2{font-size:clamp(26px,3vw,36px);line-height:1.12}
+h3{font-size:19px;line-height:1.25;letter-spacing:-.015em}
+p{margin:0}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+.wrap{max-width:var(--max);margin:0 auto;padding-inline:clamp(20px,4vw,32px)}
+
+/* top bar, apple.com style: the one translucent surface on the page */
+.navbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--navbg);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--navline)}
+.navbar .wrap{display:flex;align-items:center;gap:16px 24px;min-height:52px}
+.navbar .brand{font-weight:600;font-size:15px;white-space:nowrap;color:var(--ink)}
+.navbar a.brand{color:var(--acc)}
+.navbar .crumb{display:inline-flex;align-items:center;gap:10px;min-width:0}
+.navbar .crumb .sep{color:var(--line)}
+.navbar .crumb .sel select{min-height:32px;font-size:14px;font-weight:600;color:var(--ink);max-width:200px}
+.navbar .crumb .nm{display:none}
+.navbar nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;margin-left:auto;min-width:0}
+.navbar nav::-webkit-scrollbar{display:none}
+.navbar nav a{color:var(--ink-2);font-size:13.5px;padding:8px 10px;border-radius:8px;white-space:nowrap;min-height:36px;display:inline-flex;align-items:center}
+.navbar nav a:hover{color:var(--ink);text-decoration:none;background:var(--ctl)}
+.navbar nav a.active{color:var(--ink);font-weight:600}
+
+/* hero */
+.hero{padding-block:44px 22px;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:28px 48px;align-items:center}
+.hero .cta{margin-top:22px}
+.hero .cta .toolbtn{display:inline-flex;align-items:center;min-height:40px;padding:8px 18px}
+.hero .eyebrow{font-size:15px;color:var(--muted);font-weight:500;margin-bottom:14px}
+.hero h1{max-width:16ch}
+.hero .lede{font-size:clamp(17px,1.8vw,21px);line-height:1.4;color:var(--ink-2);max-width:48ch;margin:16px 0 0;font-weight:400;letter-spacing:-.012em;text-wrap:pretty}
+.cov{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0 0 18px;font-size:14px;color:var(--muted)}
+.covchip{display:inline-block;padding:3px 10px;border-radius:999px;background:var(--ctl);color:var(--ink-2);font-size:13px;font-weight:500}
+.covnote{flex-basis:100%;text-align:center}
+.sw{display:inline-block;width:9px;height:9px;border-radius:50%;vertical-align:-1px;margin-right:7px}
+.sw.ios{background:var(--ios)} .sw.android{background:var(--android)} .sw.pos{background:var(--acc)} .sw.neg{background:var(--neg)} .sw.neu{background:var(--neu)}
+
+/* filters: segmented controls */
+.filters{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-end;gap:14px 18px;padding-block:8px 14px}
+.filters .grp{display:grid;gap:6px;justify-items:center}
+.filters .grp .lbl{font-size:12px;color:var(--muted);font-weight:500;letter-spacing:0}
+.mode{margin-left:12px}
+.mode button{padding:5px 11px;min-height:30px;font-size:12.5px}
+.seg{display:inline-grid;grid-auto-flow:column;grid-auto-columns:1fr;background:var(--ctl);border-radius:999px;padding:3px;gap:2px}
+.seg button{background:none;border:0;border-radius:999px;padding:7px 14px;min-height:34px;cursor:pointer;color:var(--ink-2);font-size:14px;font-weight:500;white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.seg button:focus-visible{outline-offset:-2px}
+.sel{position:relative;display:inline-flex;align-items:center}
+.sel select{appearance:none;-webkit-appearance:none;font:inherit;font-size:14px;font-weight:500;min-height:34px;padding:6px 32px 6px 14px;border:0;border-radius:999px;background:var(--ctl);color:var(--ink-2);cursor:pointer;max-width:240px}
+.sel::after{content:"";position:absolute;right:14px;top:50%;width:7px;height:7px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.stars{display:inline-grid;grid-auto-flow:column;gap:2px;background:var(--ctl);border-radius:999px;padding:3px}
+.stars button{min-width:40px;min-height:34px;border:0;border-radius:999px;background:none;cursor:pointer;color:var(--ink-2);font-size:14px;font-weight:500}
+.stars button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.filterline{text-align:center;font-size:14px;color:var(--muted);margin:0 0 28px;position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:4px 10px}
+.filterline b{color:var(--ink);font-weight:500}
+.linkbtn{background:none;border:0;padding:0;cursor:pointer;color:var(--acc);font-size:inherit}
+.linkbtn:hover{text-decoration:underline}
+
+/* panels */
+.panel{background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow);padding:26px 28px;min-width:0;position:relative}
+.panel h3{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px}
+.panel .sub{font-size:14px;color:var(--muted);margin-top:4px}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:16px}
+.stat{background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow);padding:22px 24px 18px;min-width:0;display:grid;gap:4px;align-content:start}
+.stat .lbl{font-size:14px;color:var(--muted);font-weight:500}
+.stat .val{font-size:44px;font-weight:600;letter-spacing:-.035em;line-height:1.05;margin-top:2px}
+.stat .delta{font-size:14px;color:var(--ink-2);margin-top:2px}
+.stat .delta b{font-weight:600}
+.stat .delta.up b{color:var(--good)} .stat .delta.down b{color:var(--neg)}
+.stat svg{display:block;width:100%;height:36px;margin-top:10px;overflow:visible}
+
+/* chart row */
+.row2{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:16px}
+.canvas .tabs{display:inline-grid;grid-auto-flow:column;gap:2px;background:var(--ctl);border-radius:999px;padding:3px}
+.canvas .tabs button{background:none;border:0;border-radius:999px;padding:5px 13px;cursor:pointer;color:var(--ink-2);font-weight:500;font-size:13.5px;min-height:30px}
+.canvas .tabs button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.canvas svg{display:block;width:100%;height:auto;margin-top:16px;overflow:visible}
+.canvas svg text,.theme-detail svg text{font-family:var(--sans);font-size:12px;fill:var(--muted);letter-spacing:0}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13.5px;color:var(--ink-2);margin-top:12px}
+.dim svg{opacity:.4}
+.month{outline:none}
+.month:focus-visible .ring{stroke:var(--ink);fill:none}
+.bar-hit{fill:transparent}
+.month:hover rect.d,.month:focus-visible rect.d{opacity:.8}
+.ringpanel{display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto auto;gap:6px 22px;align-items:center}
+.ringpanel h3,.ringpanel .sub{grid-column:1/-1}
+.lead-h{font-size:19px;font-weight:600;line-height:1.35;color:var(--ink);margin-bottom:10px;max-width:70ch;text-wrap:pretty}
+.ring{display:grid;place-items:center;position:relative;margin:6px auto 2px}
+.ring svg{width:164px;height:164px;transform:rotate(-90deg)}
+.ring .c{position:absolute;text-align:center}
+.ring .c .v{font-size:34px;font-weight:600;letter-spacing:-.035em;line-height:1}
+.ring .c .l{font-size:12px;color:var(--muted);margin-top:4px;max-width:96px;line-height:1.2}
+.toplist{display:grid;gap:6px}
+.toplist .row{display:grid;grid-template-columns:minmax(0,1fr) 52px;gap:10px;align-items:center;font-size:14px;color:var(--ink-2);width:100%;min-height:36px;background:none;border:0;padding:4px 0;cursor:pointer;text-align:left;border-radius:8px}
+.toplist .row:hover{color:var(--ink)}
+.toplist .row>span:first-child{display:block;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.toplist .bar{display:block;height:6px;background:transparent;border-radius:3px;overflow:hidden;margin-top:6px}
+.toplist .bar i{display:block;height:100%;background:var(--neg);border-radius:3px;transform-origin:left}
+.toplist .n{text-align:right;color:var(--ink);font-weight:600}
+
+/* tooltip */
+.tip{position:fixed;z-index:30;pointer-events:none;background:var(--tipbg);color:var(--tipink);padding:9px 12px;border-radius:12px;font-size:13px;line-height:1.45;max-width:260px;box-shadow:0 8px 24px rgba(0,0,0,.25);display:none}
+.tip .row{display:flex;justify-content:space-between;gap:16px}
+.tip .k{display:inline-block;width:10px;height:3px;vertical-align:middle;margin-right:6px;border-radius:1px}
+
+/* sections */
+section{padding-top:72px}
+.sec-head{margin-bottom:26px}
+.sec-head p{color:var(--ink-2);max-width:60ch;margin:10px 0 0;font-size:17px}
+.toolbtn{min-height:36px;padding:7px 16px;border:0;border-radius:999px;background:var(--ctl);cursor:pointer;color:var(--ink);font-size:14px;font-weight:500}
+.toolbtn:hover{background:var(--line-soft)}
+.datatable{width:100%;border-collapse:collapse;font-size:14px}
+.datatable th,.datatable td{text-align:right;padding:11px 12px;border-bottom:1px solid var(--line-soft);white-space:nowrap}
+.datatable th:first-child,.datatable td:first-child{text-align:left}
+.datatable th{font-weight:500;color:var(--muted);position:sticky;top:0;background:var(--panel);font-size:13px}
+.datatable tr:last-child td{border-bottom:0}
+.table-wrap{overflow:auto;max-height:460px;background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow)}
+.datatable th button{background:none;border:0;padding:0;cursor:pointer;color:inherit;font:inherit;font-weight:500}
+.datatable th button:hover{color:var(--ink)}
+
+/* themes */
+.themes{background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow);padding:12px 14px;display:grid;gap:2px}
+.theme-row{display:grid;grid-template-columns:minmax(140px,210px) minmax(0,1fr) 128px;gap:16px;align-items:center;width:100%;background:none;border:0;border-radius:12px;padding:9px 12px;cursor:pointer;text-align:left;min-height:42px}
+.theme-row:hover{background:var(--panel-2)}
+.theme-row[aria-pressed="true"]{background:var(--acc-wash)}
+.theme-row .name{font-size:15px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:500}
+.theme-row .track{height:10px;display:flex;gap:2px;min-width:0;transform-origin:left}
+.theme-row .track i{display:block;height:100%}
+.theme-row .track i:first-child{border-radius:5px 0 0 5px} .theme-row .track i:last-child{border-radius:0 5px 5px 0}
+.theme-row .track i.n{background:var(--neg)} .theme-row .track i.u{background:var(--neu)} .theme-row .track i.p{background:var(--acc)}
+.theme-row .count{font-size:13.5px;color:var(--muted);text-align:right;white-space:nowrap}
+.theme-detail{margin-top:16px}
+.theme-detail svg{display:block;width:100%;height:auto;margin-top:12px}
+
+/* narrative */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.card{background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow);padding:26px 26px 16px;min-width:0;display:grid;gap:14px;align-content:start}
+.card .summary{color:var(--ink-2);font-size:15px;line-height:1.5}
+.card .tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:12.5px;padding:4px 11px;border:0;border-radius:999px;background:var(--ctl);color:var(--ink-2);cursor:pointer;min-height:26px;font-weight:500}
+.tag:hover{background:var(--acc-wash);color:var(--acc)}
+.quote{border-top:1px solid var(--line-soft);padding-top:14px;display:grid;gap:6px}
+.quote blockquote{margin:0;font-size:15.5px;line-height:1.5;color:var(--ink);position:relative;padding-left:18px}
+.quote blockquote.clamp{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.quote .more{justify-self:start;padding-left:18px;font-size:13px}
+.quote blockquote::before{content:"\201C";position:absolute;left:0;top:-2px;font-size:28px;line-height:1;color:var(--muted);font-weight:600}
+.quote blockquote[dir="rtl"]{padding-left:0;padding-right:18px}
+.quote blockquote[dir="rtl"]::before{left:auto;right:0}
+.quote .meta{font-size:12.5px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;padding-left:18px}
+.quote .meta .r{color:var(--ink-2)}
+
+.events{display:grid;gap:0;max-width:820px}
+.event{display:grid;grid-template-columns:96px minmax(0,1fr);gap:18px;padding:16px 0;border-top:1px solid var(--line-soft);align-items:start}
+.event .when{font-size:14px;color:var(--muted);padding-top:3px;font-weight:500}
+.event .what{font-weight:600;font-size:16px}
+.event .what::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:9px;vertical-align:1px;background:var(--neu)}
+.event.pain .what::before{background:var(--neg)} .event.win .what::before{background:var(--acc)}
+.event .detail{font-size:14.5px;color:var(--ink-2);margin-top:4px}
+
+/* releases */
+.mini{display:inline-flex;gap:2px;height:7px;width:96px;vertical-align:middle;background:var(--panel-2);border-radius:4px;overflow:hidden}
+.mini i{display:block;height:100%}
+
+/* explorer */
+.explorer-tools{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;margin-bottom:12px;align-items:center}
+.explorer-tools input[type=search]{font:inherit;font-size:15px;min-height:40px;padding:8px 16px;border:0;border-radius:999px;background:var(--panel);box-shadow:var(--shadow);color:var(--ink);width:100%}
+.years{display:flex;flex-wrap:wrap;gap:6px;font-size:13.5px;align-items:center;margin-bottom:14px;color:var(--muted)}
+.years button{min-height:30px;padding:4px 12px;border:0;border-radius:999px;background:var(--ctl);cursor:pointer;color:var(--ink-2);font-weight:500}
+.years button[disabled]{cursor:default;color:var(--acc);background:var(--acc-wash)}
+.reviews{display:grid;gap:12px}
+.review{background:var(--panel);border-radius:var(--r-sm);box-shadow:var(--shadow);padding:18px 22px;display:grid;gap:8px;min-width:0}
+.review .head{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;font-size:13px;color:var(--muted)}
+.review .rating{font-weight:600;color:var(--ink);font-size:13px;letter-spacing:.04em}
+.review .rating.lo{color:var(--neg)} .review .rating.hi{color:var(--acc)}
+.review .title{font-weight:600;font-size:16px}
+.review .body{line-height:1.5;overflow-wrap:anywhere;font-size:15.5px}
+.review .body.clamp{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.review .reply{border-left:2px solid var(--line);padding:6px 14px;font-size:14px;color:var(--ink-2);display:grid;gap:4px}
+.review .reply summary{cursor:pointer;color:var(--muted);font-size:13px;list-style:none}
+.review .reply summary::-webkit-details-marker{display:none}
+.review .reply summary::before{content:"+ "} .review .reply[open] summary::before{content:"\2013  "}
+.review .tags{display:flex;flex-wrap:wrap;gap:6px}
+.more{display:flex;justify-content:center;margin-top:18px}
+.state{padding:28px 20px;text-align:center;color:var(--ink-2);background:var(--panel);border-radius:var(--r-sm);box-shadow:var(--shadow);font-size:15px}
+.state b{color:var(--ink);font-weight:600}
+.progress{height:4px;background:var(--panel-2);border-radius:2px;overflow:hidden;margin-top:14px}
+.progress i{display:block;height:100%;background:var(--acc);width:0;transition:width .2s linear}
+footer{padding-block:72px 80px;color:var(--muted);font-size:13.5px;display:grid;gap:10px;max-width:72ch;margin-inline:auto;text-align:center}
+
+/* notification, macOS style */
+.toast{position:fixed;right:20px;top:calc(68px + env(safe-area-inset-top,0px));z-index:40;width:min(360px,calc(100vw - 32px));background:var(--panel);border-radius:16px;padding:14px 16px 14px;box-shadow:0 10px 40px rgba(0,0,0,.18),0 0 0 .5px rgba(0,0,0,.06);display:grid;gap:6px;transform:translateX(calc(100% + 40px))}
+.toast .h{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:12.5px;color:var(--muted);font-weight:500}
+.toast .h button{background:none;border:0;cursor:pointer;color:var(--muted);font-size:18px;line-height:1;padding:2px 6px;min-width:32px;min-height:32px;border-radius:8px}
+.toast .h button:hover{background:var(--ctl);color:var(--ink)}
+.toast .b{font-weight:600;font-size:15px}
+.toast .d{font-size:14px;color:var(--ink-2)}
+.toast .a{display:flex;gap:8px;margin-top:6px}
+
+@media (max-width:1000px){ .hero{grid-template-columns:1fr} }
+@media (max-width:820px){ .stats{grid-template-columns:repeat(2,minmax(0,1fr))} .stat .val{font-size:36px} .hero{padding-top:48px} }
+@media (max-width:760px){ .navbar .wrap{padding-block:6px;gap:2px 12px;flex-wrap:wrap} .navbar .crumb{flex-basis:100%} .navbar nav{order:3;flex:1;min-width:0;margin-left:0} .navbar .mode{order:4;margin-left:0} }
+@media (max-width:620px){
+  .toast{top:auto;bottom:calc(16px + env(safe-area-inset-bottom,0px));right:16px}
+  .ringpanel{grid-template-columns:1fr}
+  .events{gap:0}
+  .theme-row{grid-template-columns:minmax(0,1fr);gap:6px}
+  .theme-row .count{text-align:left}
+  .event{grid-template-columns:1fr;gap:4px}
+  .explorer-tools{grid-template-columns:1fr}
+  .filters{gap:8px}
+  .panel{padding:20px}
+}
+@media (prefers-reduced-motion: reduce){ *{transition:none !important} }
+</style>
+
+<header class="navbar"><div class="wrap">
+  <span class="crumb"><a class="brand" href="index.html">UAE Banking Apps</a><span class="sep" aria-hidden="true">/</span>
+    <span class="sel"><select id="appSwitch" aria-label="Choose a banking app"><option value="">Loading</option></select></span></span>
+  <nav aria-label="Sections">
+    <a href="#overview" data-nav>Overview</a><a href="#themes" data-nav>Themes</a><a href="#pains" data-nav>Pain points</a><a href="#wins" data-nav>Wins</a><a href="#timeline" data-nav>Timeline</a><a href="#releases" data-nav>Releases</a><a href="#explorer" data-nav>All reviews</a>
+  </nav>
+  <div class="seg mode" role="group" aria-label="Appearance"><button type="button" data-mode="light" aria-pressed="true">Light</button><button type="button" data-mode="dark" aria-pressed="false">Dark</button></div>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <p class="eyebrow" id="eyebrow">Voice of the customer</p>
+      <h1 id="heroTitle">What customers tell us about this app.</h1>
+      <p class="lede" id="heroLede">Reading the reviews…</p>
+      <div class="cta"><a class="toolbtn primary" href="#pains">Read the pain points</a></div>
+    </div>
+    <div class="panel ringpanel" id="ringPanel">
+        <h3>Four and five stars</h3>
+        <div class="sub" id="ringNote"></div>
+        <div class="ring" id="ring"><svg viewBox="0 0 176 176" aria-hidden="true"><circle cx="88" cy="88" r="76" fill="none" stroke="var(--panel-2)" stroke-width="11"/><circle id="ringArc" cx="88" cy="88" r="76" fill="none" stroke="var(--acc)" stroke-width="11" stroke-linecap="round" stroke-dasharray="477.52" stroke-dashoffset="477.52"/></svg><div class="c"><div class="v" id="ringVal">0%</div><div class="l" id="ringLbl">of reviews</div></div></div>
+        <div><div class="sub" style="margin-bottom:6px">Where the one and two stars go</div><div class="toplist" id="toplist"></div></div>
+    </div>
+  </div>
+  <div class="cov" id="coverage"></div>
+
+  <div class="filters" role="region" aria-label="Filters">
+    <div class="grp"><span class="lbl" id="lblStore">Store</span><div class="seg" role="group" aria-labelledby="lblStore"><button type="button" data-platform="all" aria-pressed="true">Both</button><button type="button" data-platform="ios" aria-pressed="false">App Store</button><button type="button" data-platform="android" aria-pressed="false">Google Play</button></div></div>
+    <div class="grp"><span class="lbl" id="lblPeriod">Period</span><div class="seg" role="group" aria-labelledby="lblPeriod"><button type="button" data-period="all" aria-pressed="true">All time</button><button type="button" data-period="24" aria-pressed="false">2 years</button><button type="button" data-period="12" aria-pressed="false">1 year</button><button type="button" data-period="6" aria-pressed="false">6 months</button></div></div>
+    <div class="grp"><span class="lbl" id="lblStars">Rating</span><div class="seg" role="group" aria-labelledby="lblStars"><button type="button" data-stars="all" aria-pressed="true">All</button><button type="button" data-stars="1" aria-pressed="false" aria-label="1 star only">1★</button><button type="button" data-stars="2" aria-pressed="false" aria-label="2 stars only">2★</button><button type="button" data-stars="3" aria-pressed="false" aria-label="3 stars only">3★</button><button type="button" data-stars="4" aria-pressed="false" aria-label="4 stars only">4★</button><button type="button" data-stars="5" aria-pressed="false" aria-label="5 stars only">5★</button></div></div>
+    <div class="grp"><label class="lbl" for="themeSelect">Theme</label><span class="sel"><select id="themeSelect"><option value="">All themes</option></select></span></div>
+  </div>
+  <div class="filterline" id="filterStatus"></div>
+
+  <section id="overview" style="padding-top:0">
+    <div class="stats" id="stats">
+      <div class="stat"><div class="lbl">Written reviews</div><div class="val num">…</div><div class="delta"></div></div>
+      <div class="stat"><div class="lbl">Average of reviews</div><div class="val">…</div><div class="delta"></div></div>
+      <div class="stat"><div class="lbl">One and two stars</div><div class="val">…</div><div class="delta"></div></div>
+      <div class="stat"><div class="lbl">Reviews answered</div><div class="val">…</div><div class="delta"></div></div>
+    </div>
+    <div class="row2">
+      <div class="panel canvas" id="canvas">
+        <h3><span id="canvasTitle">Average star rating per month</span><span class="tabs" role="group" aria-label="Chart"><button type="button" data-chart="avg" aria-pressed="true">Rating</button><button type="button" data-chart="vol" aria-pressed="false">Volume</button><button type="button" data-chart="table" aria-pressed="false">Table</button></span></h3>
+        <div class="sub" id="canvasSub">Hollow points are months with fewer than 20 reviews. Markers under the axis are timeline events.</div>
+        <div id="canvasBody"></div>
+      </div>
+    </div>
+    <div class="panel" id="leadPanel"><p id="headline" class="lead-h"></p><p id="lede" style="font-size:17px;line-height:1.55;color:var(--ink-2);max-width:80ch"></p></div>
+  </section>
+
+  <section id="themes">
+    <div class="sec-head"><h2>What people write about.</h2><p>Keyword-tagged themes, sorted by one and two star volume. Choose one to filter the whole page and see its monthly trend.</p></div>
+    <div class="themes" id="themeList" role="group" aria-label="Themes"></div>
+    <div class="panel theme-detail" id="themeDetail" hidden></div>
+  </section>
+
+  <section id="pains">
+    <div class="sec-head"><h2>Pain points.</h2><p>The recurring reasons for one and two stars, in customers' own words.</p></div>
+    <div class="cards" id="painCards"></div>
+  </section>
+
+  <section id="wins">
+    <div class="sec-head"><h2>Win moments.</h2><p>What earns five stars and what customers thank the team for.</p></div>
+    <div class="cards" id="winCards"></div>
+  </section>
+
+  <section id="timeline">
+    <div class="sec-head"><h2>Timeline.</h2><p>Releases and shifts visible in the review stream.</p></div>
+    <div class="events" id="events"></div>
+  </section>
+
+  <section id="releases">
+    <div class="sec-head"><h2>Releases.</h2><p>Versions with at least 15 reviews, credited with reviews written while they were current.</p></div>
+    <div class="table-wrap"><table class="datatable" id="versionTable"></table></div>
+  </section>
+
+  <section id="explorer">
+    <div class="sec-head"><h2>All reviews.</h2><p>Loaded one year at a time. The filters above apply here too.</p></div>
+    <div class="explorer-tools"><input type="search" id="q" placeholder="Search reviews" aria-label="Search reviews"><span class="sel"><select id="sort" aria-label="Sort"><option value="newest">Newest first</option><option value="helpful">Most helpful</option><option value="lowest">Lowest rating</option><option value="highest">Highest rating</option><option value="longest">Longest</option></select></span></div>
+    <div class="years" id="years"></div>
+    <div class="reviews" id="reviewList"></div>
+    <div class="more" id="more"></div>
+  </section>
+
+  <footer>
+    <p id="method"></p>
+    <p>Sources: Apple App Store reviews via the public RSS feed and the apps.apple.com catalogue API, every storefront; Google Play reviews via the store's review endpoint across languages and countries. Star-only ratings without text are not public and are not counted here.</p>
+    <p id="generated"></p>
+  </footer>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden>
+  <div class="h"><span id="toastK">Latest month</span><button type="button" id="toastX" aria-label="Dismiss">×</button></div>
+  <div class="b" id="toastB"></div><div class="d" id="toastD"></div>
+  <div class="a"><button type="button" class="toolbtn" id="toastGo">Show the trend</button></div>
+</div>
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script>
+(function(){
+'use strict';
+const $ = (s, el=document) => el.querySelector(s);
+const el = (tag, attrs={}, ...kids) => { const n = document.createElement(tag); for (const [k,v] of Object.entries(attrs)) { if (v==null) continue; if (k==='class') n.className=v; else if (k==='text') n.textContent=v; else if (k.startsWith('on')) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v);} for (const k of kids) if (k!=null) n.append(k); return n; };
+const ns='http://www.w3.org/2000/svg'; const mk=(t,a={})=>{const e=document.createElementNS(ns,t); for(const [k,v] of Object.entries(a)) e.setAttribute(k,v); return e;};
+const fmt = n => Math.round(n).toLocaleString('en-GB');
+const pct = (a,b) => b ? Math.round(100*a/b) + '%' : '0%';
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const mLabel = m => MONTHS[+m.slice(5,7)-1] + ' ' + m.slice(2,4);
+const mLong = m => MONTHS[+m.slice(5,7)-1] + ' ' + m.slice(0,4);
+const dLabel = d => { const [y,m,dd] = d.split('-'); return `${+dd} ${MONTHS[+m-1]} ${y}`; };
+const platName = p => p==='ios' ? 'App Store' : p==='android' ? 'Google Play' : 'Both stores';
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const G = window.gsap && !REDUCED ? window.gsap : null;
+/* Animation timings. Seconds. Retune the whole sequence here. */
+const T = { shell:0.7, stat:0.8, count:1.1, draw:1.3, ring:1.2, toast:0.5, stagger:0.07, ease:'power2.out' };
+
+const SLUGS_FALLBACK = ['enbdx','fab','adcb','wio','mashreq','adib'];
+const slugFromHash = () => { const m = /^#([a-z0-9]+)$/.exec(location.hash); return m ? m[1] : null; };
+const SLUG = (() => { const h = slugFromHash(); return h && SLUGS_FALLBACK.includes(h) ? h : 'enbdx'; })();
+const DATA = 'data/' + SLUG + '/';
+const state = { platform:'all', period:'all', theme:'', star:'all', q:'', sort:'newest', chart:'avg', full:false, loading:false, loadedYears:new Set(), reviews:[], page:1, verSort:'version' };
+let S=null, I=null, IDX=null, THEME_LABEL={};
+const tip = $('#tip');
+
+/* ---------- data ---------- */
+async function getJSON(path){ const r = await fetch(path, {cache:'no-cache'}); if(!r.ok) throw new Error(`${path}: HTTP ${r.status}`); return r.json(); }
+async function loadYear(year){ const c = S.chunks.find(c=>c.year===year); if(!c || state.loadedYears.has(year)) return; const rows = await getJSON(DATA + c.file); state.reviews = state.reviews.concat(rows); state.loadedYears.add(year); state.reviews.sort((a,b)=> a.date < b.date ? 1 : a.date > b.date ? -1 : 0); }
+let fullPromise = null;
+function ensureFull(){
+  if (state.full) return Promise.resolve(); if (fullPromise) return fullPromise;
+  state.loading = true; renderStatus();
+  const years = S.chunks.map(c=>c.year).filter(y=>!state.loadedYears.has(y));
+  const bar = el('div',{class:'progress'}, el('i'));
+  const note = el('div',{class:'state'}, el('span',{text:'Loading every review so the filters are exact… '}), el('span',{id:'loadNote'}), bar);
+  $('#reviewList').prepend(note); let done = 0;
+  fullPromise = (async()=>{ for (const y of years){ $('#loadNote').textContent = y; await loadYear(y); done++; bar.firstChild.style.width = Math.round(100*done/years.length)+'%'; } state.full = true; state.loading=false; note.remove(); fullPromise=null; renderAll(); })().catch(e=>{ state.loading=false; note.replaceChildren(el('b',{text:'Loading stopped: '}), el('span',{text:e.message})); });
+  return fullPromise;
+}
+const needsFull = () => !!state.q;
+const needsIndex = () => !!state.theme || state.star!=='all';
+const pending = () => (needsFull() && !state.full) || (!needsFull() && needsIndex() && !IDX);
+
+/* ---------- view model ---------- */
+function monthsInView(){ const all = S.months; if (state.period==='all') return all; return all.slice(Math.max(0, all.length - +state.period)); }
+function inPeriod(date){ const ms = monthsInView(); const m = date.slice(0,7); return m >= ms[0] && m <= ms[ms.length-1]; }
+function matches(r){
+  if (state.platform!=='all' && r.platform!==state.platform) return false;
+  if (!inPeriod(r.date)) return false;
+  if (state.theme && !r.themes.includes(state.theme)) return false;
+  if (state.star!=='all' && r.rating!==+state.star) return false;
+  if (state.q){ const q = state.q.toLowerCase(); if (!(r.title+' '+r.body).toLowerCase().includes(q)) return false; }
+  return true;
+}
+function view(){
+  const months = monthsInView(); const pls = state.platform==='all'?['ios','android']:[state.platform];
+  const fromSummary = () => {
+    const src = S.monthly[state.platform]; const idx = months.map(m=>S.months.indexOf(m)); const monthly = idx.map(i=>src[i]);
+    const hist=[0,0,0,0,0]; let count=0, neg=0, pos=0; monthly.forEach(m=>{ count+=m.count; neg+=m.neg; pos+=m.pos; m.hist.forEach((h,i)=>hist[i]+=h); });
+    const avg = count ? hist.reduce((s,h,i)=>s+h*(i+1),0)/count : null;
+    const themes = S.themes.map(t=>{ let c=0,n=0,p=0; idx.forEach(i=>{ for (const pl of pls){ const v=t.monthly[pl][i]; c+=v[0]; n+=v[1]; p+=v[2]; } }); return {key:t.key,label:t.label,count:c,neg:n,pos:p,neu:c-n-p, series: idx.map(i=> pls.reduce((a,pl)=>a+t.monthly[pl][i][1],0))}; }).filter(t=>t.count>0);
+    return {months, monthly, count, neg, pos, neu:count-neg-pos, hist, avg, themes};
+  };
+  const fromRecords = (rec) => {
+    /* rec yields [platformKey, monthKey, rating, sentimentIndex, themeKeys[]] */
+    const mIndex = new Map(months.map((m,i)=>[m,i])); const n = months.length;
+    const monthly = months.map(m=>({month:m,count:0,neg:0,pos:0,sum:0,hist:[0,0,0,0,0]})); const tc={}, tn={}, tp={}, ts={};
+    for (const [pl, mo, r, si, tks] of rec){ const mi = mIndex.get(mo); if (mi==null) continue; const m = monthly[mi]; m.count++; m.sum+=r; m.hist[r-1]++; if (si===0) m.neg++; else if (si===2) m.pos++;
+      for (const t of tks){ tc[t]=(tc[t]||0)+1; if (si===0){ tn[t]=(tn[t]||0)+1; (ts[t] ||= new Array(n).fill(0))[mi]++; } else if (si===2) tp[t]=(tp[t]||0)+1; } }
+    monthly.forEach(m=>{ m.avg = m.count ? +(m.sum/m.count).toFixed(2) : null; });
+    const hist=[0,0,0,0,0]; let count=0,neg=0,pos=0; monthly.forEach(m=>{ count+=m.count; neg+=m.neg; pos+=m.pos; m.hist.forEach((h,i)=>hist[i]+=h); });
+    const themes = S.themes.map(t=>({key:t.key,label:t.label,count:tc[t.key]||0,neg:tn[t.key]||0,pos:tp[t.key]||0,neu:(tc[t.key]||0)-(tn[t.key]||0)-(tp[t.key]||0), series: ts[t.key]||new Array(n).fill(0)})).filter(t=>t.count>0);
+    return {months, monthly, count, neg, pos, neu:count-neg-pos, hist, avg: count? hist.reduce((s,h,i)=>s+h*(i+1),0)/count : null, themes};
+  };
+  if (needsFull()){
+    if (!state.full) return fromSummary();
+    const SI = {negative:0,neutral:1,positive:2};
+    return fromRecords((function*(){ for (const r of state.reviews){ if (matches(r)) yield [r.platform, r.date.slice(0,7), r.rating, SI[r.sentiment], r.themes]; } })());
+  }
+  if (!needsIndex() || !IDX) return fromSummary();
+  const tbit = state.theme ? (1 << IDX.themes.indexOf(state.theme)) : 0; const star = state.star==='all' ? 0 : +state.star; const plat = state.platform==='all' ? -1 : (state.platform==='ios'?0:1);
+  const first = S.months.indexOf(months[0]), last = S.months.indexOf(months[months.length-1]); const TK = IDX.themes;
+  return fromRecords((function*(){ for (const row of IDX.rows){ const [p, mi, r, si, mask] = row; if (plat>=0 && p!==plat) continue; if (mi<first || mi>last) continue; if (star && r!==star) continue; if (tbit && !(mask & tbit)) continue; const tks=[]; for (let b=0;b<TK.length;b++) if (mask & (1<<b)) tks.push(TK[b]); yield [p?'android':'ios', S.months[mi], r, si, tks]; } })());
+}
+
+/* ---------- chrome ---------- */
+function renderStatus(){
+  const ms = monthsInView();
+  const parts = [platName(state.platform), state.period==='all' ? `${mLong(ms[0])} to ${mLong(ms[ms.length-1])}` : `last ${state.period} months`];
+  if (state.star!=='all') parts.push(`${state.star}-star reviews only`); if (state.theme) parts.push(THEME_LABEL[state.theme]); if (state.q) parts.push(`containing “${state.q}”`);
+  const st = $('#filterStatus'); st.replaceChildren(el('span',{text:'Showing: '}), el('b',{text: parts.join(', ')}), ...(state.loading ? [el('span',{text:'· loading review text for the search…'})] : []), ...(pending() && !state.loading ? [el('span',{text:'· preparing filters…'})] : []));
+  if (state.theme || state.star!=='all' || state.q || state.platform!=='all' || state.period!=='all') st.append(el('button',{class:'linkbtn',type:'button',text:'Reset filters', onclick:()=>{ state.platform='all'; state.period='all'; state.theme=''; state.star='all'; state.q=''; $('#q').value=''; syncControls(); renderAll(); }}));
+}
+function syncControls(){
+  document.querySelectorAll('[data-platform]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.platform===state.platform)));
+  document.querySelectorAll('[data-period]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.period===state.period)));
+  document.querySelectorAll('[data-stars]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.stars===String(state.star))));
+  document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.mode===(document.documentElement.getAttribute('data-theme')||'light'))));
+  document.querySelectorAll('[data-chart]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.chart===state.chart)));
+  $('#themeSelect').value = state.theme;
+}
+function renderCoverage(){
+  const Tt=S.totals, R=S.app.store_rating;
+  $('#coverage').replaceChildren(...[
+    el('span',{}, el('i',{class:'sw ios'}), el('a',{href:S.app.ios_url,target:'_blank',rel:'noopener',text:'App Store'}), ` ${fmt(Tt.ios)} reviews`),
+    el('span',{}, el('i',{class:'sw android'}), el('a',{href:S.app.play_url,target:'_blank',rel:'noopener',text:'Google Play'}), ` ${fmt(Tt.android)} reviews`),
+    el('span',{text:`${dLabel(Tt.first)} to ${dLabel(Tt.last)}`}),
+    (S.coverage && S.coverage.text && S.coverage.text !== 'complete') ? el('span',{class:'covchip',text:'Partial coverage: '+S.coverage.text}) : null,
+    S.app.note ? el('span',{class:'covnote',text:S.app.note}) : null].filter(Boolean));
+  document.title = S.app.name + ' reviews · UAE Banking Apps'; $('#heroTitle').textContent = `What customers tell us about ${S.app.name}.`;
+  $('#metaDesc').setAttribute('content', `Every public App Store and Google Play review of ${S.app.name} (${S.app.bank}): trends, pain points and wins.`);
+  $('#eyebrow').textContent = `Voice of the customer · Data collected ${dLabel(S.generated)}`;
+  $('#heroLede').textContent = `${fmt(Tt.all)} reviews, ${dLabel(Tt.first)} to ${dLabel(Tt.last)}. ${pct(Tt.hist[4],Tt.all)} give five stars, ${pct(Tt.hist[0]+Tt.hist[1],Tt.all)} give one or two.`;
+  $('#generated').textContent = `Collected ${dLabel(S.generated)}. ${fmt(Tt.all)} reviews in total; ${fmt(Tt.untagged)} longer reviews matched no theme keyword.`;
+}
+function storeNote(){ const R=S.app.store_rating, h=R.android.histogram; const five = h && h.length===5 ? Math.round(100*h[4]/h.reduce((a,b)=>a+b,0)) : null; const f=x=>x==null?'n/a':x.toFixed(2); return `Store ratings of ${f(R.ios.avg)} on the App Store and ${f(R.android.avg)} on Google Play include star-only ratings${five!=null?`, ${five}% of them five stars on Play`:''}`; }
+
+/* ---------- stats ---------- */
+function countUp(node, to, format, dur){ const from = parseFloat(node.dataset.v||'0'); node.dataset.v = to; if (!G){ node.textContent = format(to); return; } const o={v:from}; gsap.to(o,{v:to,duration:dur,ease:T.ease,onUpdate:()=>{ node.textContent = format(o.v); }}); }
+function spark(series, color){ const W=200,H=36; const max=Math.max(1,...series); const n=Math.max(2,series.length); const pts = series.map((v,i)=>[i*(W/(n-1)), H-3-(v/max)*(H-8)]); const d = pts.map((p,i)=>(i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' ');
+  const svg = mk('svg',{viewBox:`0 0 ${W} ${H}`,preserveAspectRatio:'none','aria-hidden':'true'}); const area = mk('path',{d:d+` L${W} ${H} L0 ${H} Z`,fill:color,opacity:.1}); const line = mk('path',{d,fill:'none',stroke:color,'stroke-width':2,'stroke-linejoin':'round','vector-effect':'non-scaling-stroke'}); const last = pts[pts.length-1]; const dot = mk('circle',{cx:last[0],cy:last[1],r:3,fill:color});
+  svg.append(area,line,dot); svg._line = line; return svg; }
+function renderStats(v, animate){
+  const R = S.replies; const recent = v.monthly.slice(-3), prev = v.monthly.slice(-6,-3);
+  const avgOf = arr => { const c = arr.reduce((s,m)=>s+m.count,0); if(!c) return null; return arr.reduce((s,m)=>s+m.hist.reduce((a,h,i)=>a+h*(i+1),0),0)/c; };
+  const ra = avgOf(recent), pa = avgOf(prev); const d = (ra!=null && pa!=null) ? ra-pa : null;
+  const replyVal = state.platform==='ios' ? R.ios/S.totals.ios : state.platform==='android' ? R.android/S.totals.android : R.count/S.totals.all;
+  const tiles = [
+    {label:'Written reviews', to:v.count, format:x=>fmt(x), delta: v.count ? `${pct(v.pos,v.count)} four or five stars` : 'Nothing matches these filters', series: v.monthly.map(m=>m.count), color:'var(--acc)'},
+    {label:'Average of reviews', to:v.avg||0, format:x=>x.toFixed(2), delta:'Written reviews only', series: v.monthly.map(m=>m.avg||0), color:'var(--muted)'},
+    {label:'One and two stars', to: v.count? 100*(v.hist[0]+v.hist[1])/v.count : 0, format:x=>Math.round(x)+'%', delta: v.count ? `${fmt(v.hist[0]+v.hist[1])} reviews` : '', series: v.monthly.map(m=>m.neg), color:'var(--neg)'},
+    {label:'Reviews answered', to:100*replyVal, format:x=>Math.round(x)+'%', delta: `${pct(R.android,S.totals.android)} on Play, ${pct(R.ios,S.totals.ios)} on the App Store, median ${R.median_lag_days} day`, series:null},
+  ];
+  const grid = $('#stats'); const nodes = [...grid.children];
+  tiles.forEach((t,i)=>{ const node = nodes[i]; node.children[0].textContent = t.label; countUp(node.children[1], t.to, t.format, animate?T.count:0.45);
+    const del = node.children[2]; del.className='delta';
+    if (i===1 && d!=null){ del.className = 'delta' + (d>=0?' up':' down'); del.replaceChildren(document.createTextNode(`Last 3 months ${ra.toFixed(2)}, `), el('b',{text:`${d>=0?'▲':'▼'} ${Math.abs(d).toFixed(2)}`}), document.createTextNode(' on the 3 before')); } else del.textContent = t.delta;
+    const old = node.querySelector('svg'); if (old) old.remove();
+    if (t.series){ const sv = spark(t.series, t.color); node.append(sv); if (G && animate){ const L = sv._line.getTotalLength(); sv._line.style.strokeDasharray = L; sv._line.style.strokeDashoffset = L; gsap.to(sv._line,{strokeDashoffset:0,duration:T.draw,ease:'power2.inOut',delay:.15}); } }
+  });
+  const share = v.count ? (v.hist[3]+v.hist[4])/v.count : 0; const arc = $('#ringArc'); const C = 477.52; const off = C*(1-share);
+  $('#ringLbl').textContent = v.count ? 'of reviews' : 'no reviews in view'; $('#ringNote').textContent = '';
+  if (G){ const o={v:parseFloat($('#ringVal').dataset.v||'0')}; gsap.to(o,{v:100*share,duration:animate?T.ring:0.45,ease:T.ease,onUpdate:()=>{ $('#ringVal').textContent=Math.round(o.v)+'%'; }}); gsap.to(arc,{strokeDashoffset:off,duration:animate?T.ring:0.45,ease:T.ease}); } else { $('#ringVal').textContent=Math.round(100*share)+'%'; arc.setAttribute('stroke-dashoffset',off); }
+  $('#ringVal').dataset.v = 100*share;
+  const top = v.themes.slice().sort((a,b)=>b.neg-a.neg).slice(0,4); const max = Math.max(1,...top.map(t=>t.neg));
+  $('#toplist').replaceChildren(...top.map(t=>{ const bar = el('i',{style:`width:${100*t.neg/max}%`}); const row = el('button',{type:'button',class:'row',onclick:()=>setTheme(t.key)}, el('span',{}, el('span',{text:t.label}), el('span',{class:'bar'}, bar)), el('span',{class:'n num',text:fmt(t.neg)})); if (G && animate) gsap.from(bar,{scaleX:0,duration:.9,ease:T.ease,delay:.4}); return row; }));
+  if (!top.length) $('#toplist').replaceChildren(el('div',{class:'small muted',text:'No themed complaints in view.'}));
+}
+
+/* ---------- chart canvas ---------- */
+function canvasWidth(){ return Math.max(300, $('#canvas').clientWidth - 56); }
+function renderCanvas(v, animate){
+  const body = $('#canvasBody'); body.replaceChildren();
+  $('#canvasTitle').textContent = state.chart==='avg' ? 'Average star rating per month' : state.chart==='vol' ? 'Reviews per month' : 'Monthly figures';
+  $('#canvasSub').textContent = state.chart==='avg' ? 'Hollow points are months with fewer than 20 reviews. Markers under the axis are timeline events.' : state.chart==='vol' ? 'Four and five stars above the line, one and two below, three in grey. Markers under the axis are timeline events.' : 'Every month in the current view.';
+  if (state.chart==='table'){ body.append(el('div',{class:'table-wrap',style:'margin-top:14px;box-shadow:none;border:1px solid var(--line-soft)'}, el('table',{class:'datatable'}, el('thead',{}, el('tr',{}, ...['Month','Reviews','4-5 stars','3 stars','1-2 stars','Average'].map(h=>el('th',{text:h})))), el('tbody',{}, ...v.monthly.slice().reverse().map(m=>el('tr',{}, el('td',{text:mLong(m.month)}), el('td',{class:'num',text:fmt(m.count)}), el('td',{class:'num',text:fmt(m.pos)}), el('td',{class:'num',text:fmt(m.count-m.pos-m.neg)}), el('td',{class:'num',text:fmt(m.neg)}), el('td',{class:'num',text:m.avg!=null?(+m.avg).toFixed(2):'no data'}))))))); return; }
+  const W = canvasWidth(), H = 320, padL=40, padR=12, padT=16, padB=30; const n=v.months.length; const slot=(W-padL-padR)/n;
+  const svg = mk('svg',{viewBox:`0 0 ${W} ${H}`,width:W,height:H,role:'img','aria-label':$('#canvasTitle').textContent}); body.append(svg);
+  const events = I ? I.events : []; const evSet = new Set(events.map(e=>e.month));
+  const markers = ()=>{ v.months.forEach((m,i)=>{ if (!evSet.has(m)) return; const x=padL+i*slot+slot/2; svg.append(mk('circle',{cx:x,cy:H-padB+11,r:3,fill:'var(--muted)'})); }); };
+  if (state.chart==='vol'){
+    const bw = Math.max(2, Math.min(20, slot-3)); const maxUp = Math.max(1,...v.monthly.map(m=>m.count-m.neg)), maxDn = Math.max(1,...v.monthly.map(m=>m.neg)); const span=maxUp+maxDn; const zero = padT + (H-padT-padB)*(maxUp/span); const k=(H-padT-padB)/span;
+    niceTicks(maxUp,3).concat(niceTicks(maxDn,2).slice(1).map(x=>-x)).forEach(t=>{ const y=zero-t*k; svg.append(mk('line',{x1:padL,x2:W-padR,y1:y,y2:y,stroke:'var(--line-soft)'})); const tx=mk('text',{x:padL-8,y:y+4,'text-anchor':'end'}); tx.textContent=fmt(Math.abs(t)); svg.append(tx); });
+    svg.append(mk('line',{x1:padL,x2:W-padR,y1:zero,y2:zero,stroke:'var(--line)'}));
+    const bars=[];
+    v.monthly.forEach((m,i)=>{ const x=padL+i*slot+(slot-bw)/2; const g=mk('g',{class:'month',tabindex:'0',role:'img','aria-label':`${mLong(m.month)}: ${m.count} reviews, ${m.pos} positive, ${m.neg} negative${m.avg?`, average ${(+m.avg).toFixed(2)}`:''}`}); const neu=m.count-m.neg-m.pos; let y=zero;
+      if (m.pos){ const h=m.pos*k; const r=mk('rect',{class:'d',x,y:y-h,width:bw,height:Math.max(0,h-1),fill:'var(--acc)',rx:2}); g.append(r); bars.push(r); y-=h+2; }
+      if (neu){ const h=neu*k; const r=mk('rect',{class:'d',x,y:Math.max(padT,y-h),width:bw,height:Math.max(0,h-1),fill:'var(--neu)',rx:2}); g.append(r); bars.push(r); }
+      if (m.neg){ const h=m.neg*k; const r=mk('rect',{class:'d',x,y:zero+1,width:bw,height:Math.max(0,h-1),fill:'var(--neg)',rx:2}); g.append(r); bars.push(r); }
+      g.append(mk('rect',{class:'ring',x:x-2,y:padT,width:bw+4,height:H-padT-padB,fill:'none',stroke:'none'})); g.append(mk('rect',{class:'bar-hit',x:padL+i*slot,y:padT,width:slot,height:H-padT-padB,fill:'transparent'}));
+      const show = ev=>showTip(ev, [[mLong(m.month), `${fmt(m.count)} reviews`, null], ['4-5 stars', fmt(m.pos),'var(--acc)'], ['3 stars', fmt(neu),'var(--neu)'], ['1-2 stars', fmt(m.neg),'var(--neg)'], m.avg?['Average', (+m.avg).toFixed(2), null]:null, ...events.filter(e=>e.month===m.month).map(e=>[e.label,'',null])].filter(Boolean), g);
+      g.addEventListener('pointermove',show); g.addEventListener('pointerleave',hideTip); g.addEventListener('focus',show); g.addEventListener('blur',hideTip); svg.append(g); });
+    if (G && animate) gsap.from(bars,{scaleY:0,transformOrigin:`50% ${zero}px`,duration:T.draw*0.6,ease:T.ease,stagger:{each:0.006}});
+    labelMonths(svg, v.months, padL, slot, H-6); markers();
+    body.append(el('div',{class:'legend'}, el('span',{}, el('i',{class:'sw pos'}),'4-5 stars'), el('span',{}, el('i',{class:'sw neu'}),'3 stars'), el('span',{}, el('i',{class:'sw neg'}),'1-2 stars')));
+    return;
+  }
+  const y = r => padT + (H-padT-padB)*(5-r)/4;
+  [1,2,3,4,5].forEach(r=>{ svg.append(mk('line',{x1:padL,x2:W-padR,y1:y(r),y2:y(r),stroke:'var(--line-soft)'})); const t=mk('text',{x:padL-8,y:y(r)+4,'text-anchor':'end'}); t.textContent=r+'★'; svg.append(t); });
+  const pts = v.monthly.map((m,i)=> m.avg!=null ? {x: padL+i*slot+slot/2, y:y(m.avg), m} : null).filter(Boolean);
+  if (pts.length){
+    const d = pts.map((p,i)=>(i?'L':'M')+p.x.toFixed(1)+' '+p.y.toFixed(1)).join(' ');
+    const area = mk('path',{d:d+` L${pts[pts.length-1].x} ${H-padB} L${pts[0].x} ${H-padB} Z`,fill:'var(--acc)',opacity:.07}); svg.append(area);
+    const line = mk('path',{d,fill:'none',stroke:'var(--acc)','stroke-width':2.5,'stroke-linejoin':'round','stroke-linecap':'round'}); svg.append(line);
+    const dots = pts.map(p=>{ const solid = p.m.count>=20; const c = mk('circle',{cx:p.x,cy:p.y,r:3.5,fill: solid?'var(--acc)':'var(--panel)',stroke: solid?'var(--panel)':'var(--acc)','stroke-width':2}); svg.append(c); return c; });
+    const last = pts[pts.length-1]; const lbl = mk('text',{x:Math.min(last.x+10, W-padR-36),y:last.y-12,'text-anchor':'start',style:'font-weight:600;fill:var(--ink);font-size:13px'}); lbl.textContent = (+last.m.avg).toFixed(2); svg.append(lbl);
+    if (G && animate){ const L=line.getTotalLength(); line.style.strokeDasharray=L; line.style.strokeDashoffset=L; gsap.to(line,{strokeDashoffset:0,duration:T.draw,ease:'power2.inOut'}); gsap.from(area,{opacity:0,duration:T.draw,delay:.3}); gsap.from(dots,{opacity:0,duration:.4,stagger:{each:T.draw/dots.length}}); gsap.from(lbl,{opacity:0,duration:.4,delay:T.draw}); }
+  }
+  const hit = mk('rect',{x:padL,y:padT,width:W-padL-padR,height:H-padT-padB,fill:'transparent'}); const cross = mk('line',{x1:0,x2:0,y1:padT,y2:H-padB,stroke:'var(--ink)','stroke-width':1,opacity:0}); svg.append(cross,hit);
+  hit.addEventListener('pointermove', ev=>{ const rect=svg.getBoundingClientRect(); const sx=(ev.clientX-rect.left)*(W/rect.width); const i=Math.min(n-1,Math.max(0,Math.floor((sx-padL)/slot))); const m=v.monthly[i]; const cx=padL+i*slot+slot/2; cross.setAttribute('x1',cx); cross.setAttribute('x2',cx); cross.setAttribute('opacity',.35); showTip(ev, [[mLong(m.month), m.avg!=null? `${(+m.avg).toFixed(2)} average` : 'no reviews', null], ['Reviews', fmt(m.count), null], ['1-2 stars', fmt(m.neg), 'var(--neg)'], m.count<20&&m.count? ['Small sample','under 20 reviews',null]:null, ...events.filter(e=>e.month===m.month).map(e=>[e.label,'',null])].filter(Boolean), svg); });
+  hit.addEventListener('pointerleave', ()=>{ cross.setAttribute('opacity',0); hideTip(); });
+  labelMonths(svg, v.months, padL, slot, H-6); markers();
+}
+function labelMonths(svg, months, padL, slot, y){ const every = Math.ceil(months.length / Math.max(3, Math.floor((slot*months.length)/76))); months.forEach((m,i)=>{ const lastI=months.length-1; if (i%every!==0 && i!==lastI) return; if (i!==lastI && lastI-i < Math.max(2, every*0.6)) return; const t=mk('text',{x:padL+i*slot+slot/2,y,'text-anchor':'middle'}); t.textContent = m.slice(5)==='01' || i===0 || every>=12 ? mLabel(m) : MONTHS[+m.slice(5,7)-1]; svg.append(t); }); }
+function niceTicks(max, n){ if (max<=0) return [0]; const step = Math.pow(10, Math.floor(Math.log10(max/n))); const cand=[1,2,2.5,5,10].map(x=>x*step); const s = cand.find(x=> max/x <= n) || cand[cand.length-1]; const out=[]; for(let t=0;t<=max;t+=s) out.push(t); return out; }
+function showTip(ev, rows, anchor){ tip.replaceChildren(...rows.map(([k,v2,color],i)=> el('div',{class:'row'}, el('span',{}, color?el('i',{class:'k',style:`background:${color}`}):null, i===0?el('b',{text:k}):document.createTextNode(k)), el('span',{class:'num',text:v2})))); tip.style.display='block';
+  let x,yy; if (ev && ev.clientX!=null){ x=ev.clientX+14; yy=ev.clientY+14; } else { const r=(anchor||ev.target).getBoundingClientRect(); x=r.left+r.width/2; yy=r.top-8; }
+  const tw=tip.offsetWidth, th=tip.offsetHeight; if (x+tw > innerWidth-8) x=Math.max(8,x-tw-28); if (yy+th > innerHeight-8) yy=Math.max(8,yy-th-28); tip.style.left=x+'px'; tip.style.top=yy+'px'; }
+function hideTip(){ tip.style.display='none'; }
+
+/* ---------- themes ---------- */
+function renderThemes(v){
+  const list = $('#themeList'); const themes = v.themes.slice().sort((a,b)=>b.neg-a.neg || b.count-a.count); const max = Math.max(1,...themes.map(t=>t.count));
+  if (!themes.length){ list.replaceChildren(el('div',{class:'state',style:'box-shadow:none'}, el('b',{text:'No themed reviews match. '}), 'Widen the period or include more star ratings.')); $('#themeDetail').hidden=true; return; }
+  list.replaceChildren(...themes.map(t=>{ const row = el('button',{type:'button',class:'theme-row','aria-pressed':String(state.theme===t.key), onclick:()=>setTheme(state.theme===t.key?'':t.key)},
+      el('span',{class:'name',text:t.label}),
+      el('span',{class:'track',role:'img','aria-label':`${t.neg} negative, ${t.neu} neutral, ${t.pos} positive`}, ...[['n',t.neg],['u',t.neu],['p',t.pos]].filter(([,n])=>n>0).map(([c,n])=>el('i',{class:c,style:`width:${100*n/max}%`}))),
+      el('span',{class:'count num',text:`${fmt(t.count)} · ${pct(t.neg,t.count)} negative`}));
+    const show = ev=>showTip(ev, [[t.label, `${fmt(t.count)} reviews`, null], ['1-2 stars', fmt(t.neg),'var(--neg)'], ['3 stars', fmt(t.neu),'var(--neu)'], ['4-5 stars', fmt(t.pos),'var(--acc)'], ['Share of all negatives', pct(t.neg, v.neg), null]], row);
+    row.addEventListener('pointermove',show); row.addEventListener('pointerleave',hideTip); row.addEventListener('focus',show); row.addEventListener('blur',hideTip); return row; }));
+  growOnView(list.querySelectorAll('.track'));
+  const d = $('#themeDetail'); if (!state.theme){ d.hidden=true; d.replaceChildren(); return; }
+  const t = themes.find(x=>x.key===state.theme); d.hidden=false;
+  d.replaceChildren(el('h3',{text:`${THEME_LABEL[state.theme]}: one and two star reviews per month`}), el('p',{class:'sub',text: t ? `${fmt(t.count)} reviews carry this theme in the current view; ${fmt(t.neg)} are one or two stars.` : 'No reviews with this theme in the current view.'}), sparkBars(t ? t.series : [], v.months));
+}
+function sparkBars(series, months){
+  const W = Math.max(300, $('#themeDetail').clientWidth-56), H=110, padL=32, padB=20, padT=8; const n=Math.max(1,series.length); const slot=(W-padL-8)/n; const max=Math.max(1,...series); const k=(H-padT-padB)/max;
+  const svg = mk('svg',{viewBox:`0 0 ${W} ${H}`,width:W,height:H,role:'img','aria-label':'Negative reviews per month for the selected theme'});
+  svg.append(mk('line',{x1:padL,x2:W-8,y1:H-padB,y2:H-padB,stroke:'var(--line)'})); const tx=mk('text',{x:padL-8,y:padT+8,'text-anchor':'end'}); tx.textContent=fmt(max); svg.append(tx);
+  const rects=[]; series.forEach((val,i)=>{ const bw=Math.max(2,Math.min(16,slot-2)); const x=padL+i*slot+(slot-bw)/2; const h=val*k; const r = mk('rect',{x,y:H-padB-h,width:bw,height:h,fill:'var(--neg)',rx:2}); const ti=mk('title'); ti.textContent=`${mLong(months[i])}: ${val}`; r.append(ti); svg.append(r); rects.push(r); });
+  labelMonths(svg, months, padL, slot, H-4);
+  if (G) gsap.from(rects,{scaleY:0,transformOrigin:`50% ${H-padB}px`,duration:.7,ease:T.ease,stagger:{each:0.008}});
+  return svg;
+}
+const grown = new WeakSet();
+const io = ('IntersectionObserver' in window) ? new IntersectionObserver(entries=>{ entries.forEach(e=>{ if (!e.isIntersecting || grown.has(e.target)) return; grown.add(e.target); if (G) gsap.from(e.target,{scaleX:0,duration:.8,ease:T.ease}); io.unobserve(e.target); }); },{threshold:.2}) : null;
+function growOnView(nodes){ if (!io || !G) return; nodes.forEach(n=>io.observe(n)); }
+
+/* ---------- narrative ---------- */
+const trim = (s,n) => s.length>n ? s.slice(0,n).replace(/\s+\S*$/,'') + '…' : s;
+function renderNarrative(){
+  $('#headline').textContent = I.headline; $('#lede').textContent = I.lede; $('#method').textContent = I.method;
+  const card = (item, cls) => el('article',{class:'card '+cls}, el('h3',{text:item.title}), el('p',{class:'summary',text:item.summary}),
+    el('div',{class:'tags'}, ...item.themes.filter(t=>THEME_LABEL[t]).map(t=>el('button',{class:'tag',type:'button',text:THEME_LABEL[t],title:'Filter the page by this theme', onclick:()=>setTheme(t)}))),
+    ...item.quotes.map(q=>{ const ar=/[؀-ۿ]/.test(q.body); const long = q.body.length > 170; const bq = el('blockquote',{class: long?'clamp':null, text: q.body, lang: ar?'ar':'en', dir: ar?'rtl':'ltr'}); return el('div',{class:'quote'}, bq, el('div',{class:'meta'}, el('span',{class:'r',text:'★'.repeat(q.rating)+'☆'.repeat(5-q.rating)}), el('span',{text:platName(q.platform)}), el('span',{text:dLabel(q.date)}), q.version?el('span',{text:'v'+q.version}):null, q.helpful?el('span',{text:`${fmt(q.helpful)} found helpful`}):null), long ? el('button',{type:'button',class:'linkbtn more',text:'Read the whole review', onclick:(e)=>{ bq.classList.remove('clamp'); e.target.remove(); }}) : null); }));
+  $('#painCards').replaceChildren(...I.pains.map(p=>card(p,'pain'))); $('#winCards').replaceChildren(...I.wins.map(w=>card(w,'win')));
+  $('#events').replaceChildren(...I.events.map(e=>el('div',{class:'event '+e.kind}, el('div',{class:'when',text:mLong(e.month)}), el('div',{}, el('div',{class:'what',text:e.label}), el('div',{class:'detail',text:e.detail})))));
+}
+
+/* ---------- releases ---------- */
+const cmpArr = (a,b)=>{ for (let i=0;i<Math.max(a.length,b.length);i++){ const d=(a[i]||0)-(b[i]||0); if(d) return d; } return 0; };
+function renderVersions(){
+  const t = $('#versionTable'); let rows = S.versions.filter(r=> state.platform==='all' || r.platform===state.platform); const key=state.verSort; const vkey = s => s.split(/[.\-]/).map(x=>+x||0);
+  rows = rows.slice().sort((a,b)=> key==='avg' ? a.avg-b.avg : key==='count' ? b.count-a.count : key==='neg' ? b.neg_share-a.neg_share : (b.last.localeCompare(a.last) || cmpArr(vkey(b.version), vkey(a.version))));
+  const th = (label,k) => el('th',{}, k ? el('button',{type:'button',text:label + (state.verSort===k?' ▾':''), onclick:()=>{state.verSort=k; renderVersions();}}) : document.createTextNode(label));
+  t.replaceChildren(el('thead',{}, el('tr',{}, th('Version','version'), th('Store'), th('Reviews','count'), th('Average','avg'), th('One and two stars','neg'), th('Top complaint themes'), th('Reviews dated'))),
+    el('tbody',{}, ...rows.map(r=>el('tr',{}, el('td',{text:r.version}), el('td',{}, el('i',{class:'sw '+r.platform}), platName(r.platform)), el('td',{class:'num',text:fmt(r.count)}), el('td',{class:'num',text:r.avg.toFixed(2)}),
+      el('td',{}, el('span',{class:'mini',role:'img','aria-label':Math.round(r.neg_share*100)+'% one or two stars'}, el('i',{style:`width:${Math.round(r.neg_share*100)}%;background:var(--neg)`}), el('i',{style:`width:${100-Math.round(r.neg_share*100)}%;background:var(--acc)`})), ' ', el('span',{class:'num small',text:Math.round(r.neg_share*100)+'%'})),
+      el('td',{text:r.top_themes.map(k=>THEME_LABEL[k]||k).join(', ') || 'none'}), el('td',{class:'small muted',text:`${mLabel(r.first.slice(0,7))} to ${mLabel(r.last.slice(0,7))}`})))));
+  if (!rows.length) t.replaceChildren(el('tbody',{}, el('tr',{}, el('td',{text:'No version has 15 or more reviews for this store.'}))));
+}
+
+/* ---------- explorer ---------- */
+function renderYears(){
+  const y = $('#years'); y.replaceChildren(el('span',{text:'Years loaded:'}), ...S.chunks.map(c=> el('button',{type:'button', disabled: state.loadedYears.has(c.year)?'':null, text:`${c.year} · ${fmt(c.count)}`, title: state.loadedYears.has(c.year)?'Loaded':`Load ${fmt(c.count)} reviews (${Math.round(c.bytes/1024)} KB)`, onclick: async()=>{ await loadYear(c.year); renderYears(); renderExplorer(); }})));
+  if (!state.full) y.append(el('button',{type:'button',text:'Load all years', onclick:()=>ensureFull()}));
+}
+function renderExplorer(){
+  const list = $('#reviewList'), more = $('#more'); more.replaceChildren();
+  const rows = state.reviews.filter(matches).slice();
+  const sorters = { newest:(a,b)=>b.date.localeCompare(a.date), helpful:(a,b)=>b.helpful-a.helpful||b.date.localeCompare(a.date), lowest:(a,b)=>a.rating-b.rating||b.date.localeCompare(a.date), highest:(a,b)=>b.rating-a.rating||b.date.localeCompare(a.date), longest:(a,b)=>b.len-a.len };
+  rows.sort(sorters[state.sort]); const existing = $('.progress', list)?.closest('.state');
+  if (!state.reviews.length){ list.replaceChildren(...[existing || el('div',{class:'state'}, el('b',{text:'Loading the most recent year…'}))]); return; }
+  if (!rows.length){ list.replaceChildren(...[existing, el('div',{class:'state'}, el('b',{text:'No loaded review matches. '}), el('span',{text: state.full ? 'Try a different theme, star rating or search term.' : 'Load more years below, or clear a filter.'}))].filter(Boolean)); return; }
+  const PAGE = 40; const shown = rows.slice(0, state.page*PAGE);
+  list.replaceChildren(...[existing, el('p',{class:'small muted',style:'text-align:center',text:`${fmt(rows.length)} of ${fmt(state.reviews.length)} loaded reviews match (${[...state.loadedYears].sort().join(', ')}). Showing ${fmt(shown.length)}.`}), ...shown.map(reviewCard)].filter(Boolean));
+  if (shown.length < rows.length) more.append(el('button',{type:'button',class:'toolbtn',text:`Show ${fmt(Math.min(PAGE, rows.length-shown.length))} more`, onclick:()=>{ state.page++; renderExplorer(); }}));
+  else if (!state.full) more.append(el('button',{type:'button',class:'toolbtn',text:'Load older years', onclick:()=>ensureFull()}));
+}
+function reviewCard(r){
+  const ar = /[؀-ۿ]/.test(r.body); const body = el('p',{class:'body'+(r.len>420?' clamp':''), text:r.body, lang: ar?'ar':null, dir: ar?'rtl':'ltr'});
+  const card = el('article',{class:'review'}, el('div',{class:'head'}, el('span',{class:'rating '+(r.rating<=2?'lo':r.rating>=4?'hi':''),text:'★'.repeat(r.rating)+'☆'.repeat(5-r.rating),'aria-label':`${r.rating} stars`}), el('span',{}, el('i',{class:'sw '+r.platform}), platName(r.platform) + (r.platform==='ios' && r.store ? ` (${r.store.toUpperCase()})` : '')), el('span',{text:dLabel(r.date)}), r.version?el('span',{text:'v'+r.version}):null, r.helpful?el('span',{text:`${fmt(r.helpful)} helpful`}):null, el('span',{text:r.author||'Anonymous'})), r.title?el('div',{class:'title',text:r.title}):null, body);
+  if (r.len>420) card.append(el('button',{type:'button',class:'linkbtn small',style:'justify-self:start',text:'Show full review', onclick:(e)=>{ body.classList.remove('clamp'); e.target.remove(); }}));
+  if (r.reply && r.reply.body) card.append(el('details',{class:'reply'}, el('summary',{text:`${S.app.bank} replied${r.reply.date?' on '+dLabel(r.reply.date):''}`}), el('div',{text:r.reply.body})));
+  if (r.themes.length) card.append(el('div',{class:'tags'}, ...r.themes.map(t=>el('button',{class:'tag',type:'button',text:THEME_LABEL[t]||t, onclick:()=>setTheme(t)}))));
+  return card;
+}
+
+/* ---------- notification ---------- */
+function showToast(v){
+  const last = v.monthly.slice().reverse().find(m=>m.count>0); if (!last) return; const t = $('#toast');
+  $('#toastK').textContent = `Latest month in the data · ${mLong(last.month)}`; $('#toastB').textContent = `${fmt(last.count)} reviews, average ${(+last.avg).toFixed(2)}`;
+  $('#toastD').textContent = `${fmt(last.neg)} at one or two stars (${pct(last.neg,last.count)}), ${fmt(last.pos)} at four or five.`;
+  t.hidden = false; if (G) gsap.to(t,{x:0,duration:T.toast,ease:'power2.out',delay:T.draw+1.2}); else t.style.transform='none';
+  const close = ()=>{ if (G) gsap.to(t,{x:'110%',duration:.35,ease:'power2.in',onComplete:()=>{t.hidden=true;}}); else t.hidden=true; };
+  $('#toastX').onclick = close; setTimeout(()=>{ if (!t.hidden) close(); }, 9000);
+  $('#toastGo').onclick = ()=>{ close(); state.chart='vol'; syncControls(); renderCanvas(view(), true); document.getElementById('overview').scrollIntoView({behavior:REDUCED?'auto':'smooth'}); };
+  document.addEventListener('keydown', e=>{ if (e.key==='Escape' && !t.hidden) close(); });
+}
+
+/* ---------- orchestration ---------- */
+function setTheme(t){ state.theme = t; state.page=1; syncControls(); renderAll(); if (t) document.getElementById('themes').scrollIntoView({behavior:REDUCED?'auto':'smooth',block:'start'}); }
+function renderAll(animate){
+  renderStatus(); if (needsFull() && !state.full) ensureFull();
+  const v = view(); const anim = animate===true;
+  renderStats(v, anim); renderCanvas(v, true); renderThemes(v); renderVersions(); renderYears(); renderExplorer();
+  const dim = pending(); $('#canvas').classList.toggle('dim', dim); $('#ringPanel').classList.toggle('dim', dim); $('#stats').style.opacity = dim ? .5 : 1;
+}
+function wire(){
+  document.querySelectorAll('[data-platform]').forEach(b=>b.addEventListener('click',()=>{ state.platform=b.dataset.platform; state.page=1; syncControls(); renderAll(); }));
+  document.querySelectorAll('[data-period]').forEach(b=>b.addEventListener('click',()=>{ state.period=b.dataset.period; state.page=1; syncControls(); renderAll(); }));
+  document.querySelectorAll('[data-stars]').forEach(b=>b.addEventListener('click',()=>{ state.star=b.dataset.stars; state.page=1; syncControls(); renderAll(); }));
+  document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>applyMode(b.dataset.mode)));
+  document.querySelectorAll('[data-chart]').forEach(b=>b.addEventListener('click',()=>{ state.chart=b.dataset.chart; syncControls(); renderCanvas(view(), true); }));
+  $('#themeSelect').addEventListener('change', e=>setTheme(e.target.value));
+  let qt; $('#q').addEventListener('input', e=>{ clearTimeout(qt); qt=setTimeout(()=>{ state.q=e.target.value.trim(); state.page=1; renderAll(); }, 250); });
+  $('#sort').addEventListener('change', e=>{ state.sort=e.target.value; state.page=1; renderExplorer(); });
+  let rt; addEventListener('resize', ()=>{ clearTimeout(rt); rt=setTimeout(()=>{ const v=view(); renderCanvas(v,false); if(state.theme) renderThemes(v); }, 150); });
+  document.addEventListener('keydown', e=>{ if (e.key==='Escape') hideTip(); });
+  const links=[...document.querySelectorAll('[data-nav]')]; const secs=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  if ('IntersectionObserver' in window){ const o = new IntersectionObserver(es=>{ es.forEach(e=>{ if (e.isIntersecting){ links.forEach(a=>a.classList.toggle('active', a.getAttribute('href')==='#'+e.target.id)); } }); },{rootMargin:'-40% 0px -55% 0px'}); secs.forEach(s=>o.observe(s)); }
+}
+function applyMode(mode){ document.documentElement.setAttribute('data-theme', mode); try { localStorage.setItem('rp-mode', mode); } catch(e){} syncControls(); }
+function choreograph(){
+  if (!G) return;
+  const tl = gsap.timeline({defaults:{ease:T.ease}});
+  tl.from('.hero > *',{y:14,opacity:0,duration:T.shell,stagger:0.08})
+    .from('.filters',{y:10,opacity:0,duration:T.shell},'-=0.4')
+    .from('.stat',{y:16,opacity:0,duration:T.stat,stagger:T.stagger},'-=0.35')
+    .from('#canvas',{y:18,opacity:0,duration:T.stat},'-=0.5')
+    .from('#leadPanel',{y:14,opacity:0,duration:T.stat},'-=0.5');
+}
+async function initSwitcher(){
+  const sel = $('#appSwitch');
+  try { const reg = await getJSON('data/apps.json'); sel.replaceChildren(...reg.apps.map(a=>el('option',{value:a.slug,text:a.name}))); }
+  catch(e){ sel.replaceChildren(...SLUGS_FALLBACK.map(s=>el('option',{value:s,text:s}))); }
+  sel.value = SLUG;
+  sel.addEventListener('change', e=>{ location.hash = e.target.value; });
+  addEventListener('hashchange', ()=>{ const h = slugFromHash(); if (h && h !== SLUG && SLUGS_FALLBACK.includes(h)) location.reload(); });
+  document.querySelectorAll('[data-nav]').forEach(a=>a.addEventListener('click', e=>{ e.preventDefault(); const t=document.querySelector(a.getAttribute('href')); if (t) t.scrollIntoView({behavior:REDUCED?'auto':'smooth'}); }));
+}
+async function boot(){
+  initSwitcher();
+  try { S = await getJSON(DATA + 'summary.json'); } catch(e){ $('#stats').replaceChildren(el('div',{class:'state',style:'grid-column:1/-1'}, el('b',{text:'Could not load the data. '}), el('span',{text:e.message+'. If you opened this file directly, serve the folder over HTTP so data/ can be fetched.'}))); $('#headline').textContent='The review data did not load.'; return; }
+  S.themes.forEach(t=>THEME_LABEL[t.key]=t.label); const sel=$('#themeSelect'); S.themes.forEach(t=>sel.append(el('option',{value:t.key,text:t.label})));
+  renderCoverage(); wire(); choreograph(); renderAll(true);
+  if (S.index) getJSON(DATA + S.index.file).then(d=>{ IDX=d; if (needsIndex()) renderAll(); else renderStatus(); }).catch(e=>{ $('#filterStatus').append(el('span',{text:' · exact theme and rating filters unavailable: '+e.message})); });
+  getJSON(DATA + 'insights.json').then(d=>{ I=d; renderNarrative(); renderCanvas(view(), false); showToast(view()); }).catch(e=>{ $('#headline').textContent='The written analysis did not load.'; $('#lede').textContent=e.message; });
+  await loadYear(S.chunks[0].year); renderYears(); renderExplorer();
+}
+(function(){ let m='light'; try { m = localStorage.getItem('rp-mode') || 'light'; } catch(e){} document.documentElement.setAttribute('data-theme', m==='dark'?'dark':'light'); })();
+boot();
+})();
+</script>

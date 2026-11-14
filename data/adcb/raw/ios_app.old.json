@@ -1,0 +1,16 @@
+{
+ "trackName": "ADCB",
+ "sellerName": "Abu Dhabi Commercial Bank",
+ "averageUserRating": 4.68132,
+ "userRatingCount": 113024,
+ "version": "21.6.0",
+ "currentVersionReleaseDate": "2026-10-30T19:04:45Z",
+ "releaseDate": "2012-10-15T07:00:00Z",
+ "minimumOsVersion": "13.0",
+ "contentAdvisoryRating": "4+",
+ "fileSizeBytes": "240881664",
+ "genres": [
+  "Finance"
+ ],
+ "releaseNotes": "Minor Improvements & Bug Fixes"
+}

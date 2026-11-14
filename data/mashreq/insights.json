@@ -1,0 +1,439 @@
+{
+ "headline": "64% of Mashreq UAE's written reviews give five stars and 26% give one or two. The deepest low was the January 2021 app release that broke sign-in; later complaints are about a 'not secure' device block in 2024-25 and mandatory biometrics in 2026.",
+ "lede": "Mashreq answers 95% of written reviews, typically the same day, though the replies are mostly short thanks. The lowest month with at least 100 reviews is 2021-01 (average 2); the highest is 2019-12 (average 4.43). In 2026, 66 reviews mention biometrics, 63 of them dated August or later.",
+ "method": "Averages here are of written reviews only. Store ratings (4.80 App Store, 4.76 Google Play) include star-only ratings, which are not public and skew positive. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged in English and Arabic, so a review can carry several themes. This app and Mashreq's separate Neo digital bank share the Mashreq name in reviews, so some complaints are about Neo. App Store coverage: complete.",
+ "events": [
+  {
+   "month": "2021-01",
+   "label": "New app release breaks sign-in",
+   "detail": "275 reviews in January 2021, average 2, 204 negative. 122 reviews across January and February mention the update; the usual fix described is to uninstall and reinstall, and some say the card-number sign-in is refused.",
+   "kind": "pain"
+  },
+  {
+   "month": "2021-02",
+   "label": "Blank page and missing features after the upgrade",
+   "detail": "Average 2.15 across 81 reviews. The most upvoted review that month reports a blank page after login and functions missing from the new version.",
+   "kind": "pain"
+  },
+  {
+   "month": "2024-07",
+   "label": "'App is not secure' device block begins",
+   "detail": "67 reviews between June 2024 and December 2025 say the app detects an unsecure or modified device, including people who had used the same phone for years and users travelling abroad.",
+   "kind": "pain"
+  },
+  {
+   "month": "2019-12",
+   "label": "Best month with at least 100 reviews",
+   "detail": "Average 4.43 across 205 reviews.",
+   "kind": "win"
+  },
+  {
+   "month": "2026-08",
+   "label": "Biometric security becomes mandatory at login",
+   "detail": "Average 4.01 across 562 reviews. 61 reviews from August onward mention biometrics; several describe a login that shows 'biometric security is mandatory' with no way to set it up.",
+   "kind": "pain"
+  }
+ ],
+ "pains": [
+  {
+   "title": "Locked out of login",
+   "themes": [
+    "login"
+   ],
+   "summary": "Login is the largest complaint theme. Reviewers describe screens stuck on loading, password reset loops, card activation that fails in the app and a call centre that cannot unlock the account.",
+   "quotes": [
+    {
+     "id": "play-6b9b9b23-a5c8-410b-bc3e-5fd9be6c87ee",
+     "platform": "android",
+     "rating": 2,
+     "date": "2024-02-01",
+     "version": "7.7.3",
+     "helpful": 126,
+     "title": "",
+     "body": "I use banking apps but none has been this difficult to load in my mobile phone. I am an android user. One of siblings uses it in their iphone and has never complained about the loading issue. My screen is stuch on loading and it take a very long time to get into the option where i can login. Almost 30 mins to 1 hour. Its not always like this. Sometimes i can use it swiftly but i face this psrtivular problem oftenly as well."
+    },
+    {
+     "id": "play-e8042c66-0f75-4377-ac50-e60632a3e562",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-06-06",
+     "version": "7.8.1",
+     "helpful": 64,
+     "title": "",
+     "body": "Registered as new user, when I logged in it asks me to reset the password. I reset the password and login and it again asks me to reset it... this cycle continues, tried from mobile and PC. Called support, they said there's no issue at their end, they asked me to do a 'forgot username' and 'forgot password' cycle. Nothing changed, same issue. The software quality is VERY LOW. Not trustworthy."
+    },
+    {
+     "id": "play-046866ac-b906-456b-b944-e16c5a2c66a5",
+     "platform": "android",
+     "rating": 1,
+     "date": "2023-11-13",
+     "version": "7.6.4",
+     "helpful": 74,
+     "title": "",
+     "body": "I have ordered a card which I was unable to activate through the app. My call to their Customercare centre didn't result in contacting the operator. All my written complains were processed and \"settled\" automatically without any attempt to contact with me. I put the lowest rate not just for the app, but for the service as a whole. The process doesn't allow the customer to get a real service. The service and the customer exist in different realities."
+    },
+    {
+     "id": "play-2e850ce4-b172-4d76-8205-610150f143f5",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-03-15",
+     "version": "7.7.6",
+     "helpful": 122,
+     "title": "",
+     "body": "A really bad app and the bank itself have very bad customer service. Almost 2 years now, I was about to transfer my salary but cannot log-in the app. I cannot contact neo and they do not accept in-person. 3 days before payday I asked the hr to cancel the tranfer. Now I still received billing. I tried to contact but no reply. Do not use this ap, it is like a trap."
+    }
+   ]
+  },
+  {
+   "title": "Mandatory biometrics with no set-up path",
+   "themes": [
+    "login",
+    "device"
+   ],
+   "summary": "From August 2026 users are told biometric security is mandatory, but the screen offers no way to enable it, the chat will not send and customer care does not pick up.",
+   "quotes": [
+    {
+     "id": "play-82571af1-e4b0-4d7e-b61e-086735d6aafe",
+     "platform": "android",
+     "rating": 2,
+     "date": "2026-08-09",
+     "version": "9.16.0",
+     "helpful": 15,
+     "title": "",
+     "body": "Just like the others, i am experiencing since few hours a failure for logging in. It has been showing for many times \" biometric security is mandatory\" but there is no option to fix it. All of the menus i have tried, the chat box will not go through and from the customer care, nobody is available. Can somebody help please."
+    },
+    {
+     "id": "play-04b61f85-982f-418a-b6d7-a6f46d5d5ca8",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-08-13",
+     "version": "9.16.0",
+     "helpful": 12,
+     "title": "",
+     "body": "Experiencing a severe issue while trying to log into the application. Even though I am entering my correct ID and password, the system continuously displays an \"invalid details\" error message. Additionally, the application shows a prompt stating that biometrics are required for login. However, there is no option or button available within the app interface to enable or configure biometric authentication."
+    },
+    {
+     "id": "play-41a46624-b20d-4666-999d-fb9f6e65bec5",
+     "platform": "android",
+     "rating": 1,
+     "date": "2023-12-26",
+     "version": "7.7.0",
+     "helpful": 16,
+     "title": "",
+     "body": "This is a rubbish app. So many services not available because I apparently have to do facial recognition, despite applying biometric log in. Have received more than 3 reminders & a final reminder to install this less than mediocre app. Why ask us to install the app in order to use our own accounts & yet limit our usage by insisting on facial recognition which requires I visit the ATM solely for that purpose. It's more infuriating than it is convenient"
+    }
+   ]
+  },
+  {
+   "title": "'Your app is not secure' on an ordinary phone",
+   "themes": [
+    "device",
+    "security"
+   ],
+   "summary": "In 2024 and 2025 a device check refuses ordinary phones: the same handset that worked for two years, a phone abroad, an unmodified system. The advice given in review replies is to raise a complaint through the app the user cannot open.",
+   "quotes": [
+    {
+     "id": "play-8c625291-acbc-4c96-a8b9-d6fe968bcffe",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-08-27",
+     "version": "7.9.3",
+     "helpful": 28,
+     "title": "",
+     "body": "Can't login to the app. Says your device is not secure. It's the same device I've been using for last 2 years to login. Now I can't access my funds to do an urgent transfer and no way to contact customer service since i dont use online banking. Worst banking app ever to be made in UAE"
+    },
+    {
+     "id": "play-4229a7e3-c333-4be1-9ef3-cad66b1e10c6",
+     "platform": "android",
+     "rating": 2,
+     "date": "2024-08-16",
+     "version": "7.9.1",
+     "helpful": 14,
+     "title": "",
+     "body": "Suddenly started to get error that app is not secure and I'm using modified device. Which is not true. I saw the same comment from other people here and response from mashreq to that was to raise complain through mobile banking or online banking. But mobile banking do not allow to login and contact due to this app issue and when access online banking via mobile browser it force me back to app. So we're stuck."
+    },
+    {
+     "id": "play-a3244ae1-58da-49aa-aca7-f7cb991c03b7",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-08-01",
+     "version": "7.8.9",
+     "helpful": 16,
+     "title": "",
+     "body": "The app stopped working on my device and a message is popping up stating that your app is not secure. In addition, i travelled to lebanon for 3 weeks and the app stopped working. The application is not reliable at all."
+    }
+   ]
+  },
+  {
+   "title": "An update that stops the app",
+   "themes": [
+    "update",
+    "stability"
+   ],
+   "summary": "The January 2021 release is the clearest case: no sign-in, a blank page, then reinstalling. Later reports describe an unfinished app with limits such as an IBAN box that stops at 19 characters.",
+   "quotes": [
+    {
+     "id": "play-fd51cc75-af8e-4657-b22b-8d9521b77fd8",
+     "platform": "android",
+     "rating": 1,
+     "date": "2021-01-19",
+     "version": "7.0.2",
+     "helpful": 78,
+     "title": "",
+     "body": "After the App update, I am unable to open it my mobile. I have to uninstall and reinstall just to be able to use it. Pls check what the issue is and have it fixed. Mobile banking is supposed to make it easier for us customers to make transactions with just a few clicks...it is very disappointing 😞 the old app version was manageable but this new/updated version is a such pain to use.."
+    },
+    {
+     "id": "play-c2e6582c-bcba-4c1a-a3af-bbb48a590404",
+     "platform": "android",
+     "rating": 1,
+     "date": "2021-02-02",
+     "version": "7.0.4",
+     "helpful": 119,
+     "title": "",
+     "body": "I upgraded to this newer version, but after logging in again, page is blank. After reading all the negative reviews here, i realized i'm not alone and accordingly it's a bug mashreq trying to resolve. Now i think the page is fixed but still missing all the required functionalities, i cannot add beneficiaries, no function shows to pay the credit card, i have explored the page but to no avail. So frustrating, the older version was much better. Please fix it!"
+    },
+    {
+     "id": "play-b9db9e56-1e24-4e16-a5ed-44c5b7856aab",
+     "platform": "android",
+     "rating": 1,
+     "date": "2023-12-20",
+     "version": "7.7.0",
+     "helpful": 154,
+     "title": "",
+     "body": "It's an unfinished app with a lot of limitations. I reported a few bugs and was told it's a system limitation and can't be fixed. And these are major bugs, like not being able to type in a full IBAN because the text box is limited to 19 characters and no option to view your transactions past a month. I use two other banks and I've never had these issues."
+    }
+   ]
+  },
+  {
+   "title": "Support that loops or costs money to reach",
+   "themes": [
+    "support",
+    "disputes"
+   ],
+   "summary": "Customers describe an automated line that never reaches a person, a need to top up a phone to wait on hold, and written complaints closed as 'settled' with no contact.",
+   "quotes": [
+    {
+     "id": "play-d62b1034-4bdd-4da5-9821-dfc7dc672fda",
+     "platform": "android",
+     "rating": 1,
+     "date": "2021-01-22",
+     "version": "7.0.2",
+     "helpful": 65,
+     "title": "",
+     "body": "Extremely poor service. Trying to sign up with the new Mashreq Noon credit. However, after entering card details, it shows an error \"The details you provided could not be validated. Please double check and try again.\" Tried calling customer care but it goes in loop without redirecting to representative. Never had to work so hard to activate a card."
+    },
+    {
+     "id": "play-3b8f227c-640c-4ae5-bc90-70922d156b3c",
+     "platform": "android",
+     "rating": 1,
+     "date": "2026-04-27",
+     "version": "9.9.0",
+     "helpful": 9,
+     "title": "",
+     "body": "Mashreq Bank has the worst customer service. They rarely answer calls, and reaching support is always frustrating. You must recharge at least AED 100 because they keep you on hold for a long time and have no toll-free number. They also ignore complaints. Very poor bank service."
+    },
+    {
+     "id": "play-046866ac-b906-456b-b944-e16c5a2c66a5",
+     "platform": "android",
+     "rating": 1,
+     "date": "2023-11-13",
+     "version": "7.6.4",
+     "helpful": 74,
+     "title": "",
+     "body": "I have ordered a card which I was unable to activate through the app. My call to their Customercare centre didn't result in contacting the operator. All my written complains were processed and \"settled\" automatically without any attempt to contact with me. I put the lowest rate not just for the app, but for the service as a whole. The process doesn't allow the customer to get a real service. The service and the customer exist in different realities."
+    },
+    {
+     "id": "play-7d2f90a4-092a-4874-b52a-6282d0993a66",
+     "platform": "android",
+     "rating": 2,
+     "date": "2026-08-19",
+     "version": "9.17.0",
+     "helpful": 9,
+     "title": "",
+     "body": "⭐️⭐️ Another frustrating experience with Mashreq customer support. There is no single proper customer care email for customers. Instead, there are different support email addresses for different issues, and getting a proper response or resolution is extremely difficult. My international payment has been pending since 10 August, and I still have not received any proper resolution or clear update. Despite contacting customer support, the issue remains unresolved."
+    }
+   ]
+  },
+  {
+   "title": "Fees noticed late",
+   "themes": [
+    "fees",
+    "account"
+   ],
+   "summary": "A balance-maintenance fee that begins after the first months, charged twice in one month, and a closure that continues to be charged are the fee stories.",
+   "quotes": [
+    {
+     "id": "play-64c5c57d-5bd4-4650-ad3b-74ab2721b454",
+     "platform": "android",
+     "rating": 3,
+     "date": "2026-02-20",
+     "version": "9.5.0",
+     "helpful": 9,
+     "title": "",
+     "body": "Attention! first six months you will not be charged for the Balance maintenance, after 6months it starts to change without prior notice, I was charged twice in the same month for fall below fee. without any notice in advance."
+    },
+    {
+     "id": "play-246504ed-c8ca-4247-a73a-f065ce495ee4",
+     "platform": "android",
+     "rating": 1,
+     "date": "2022-03-01",
+     "version": "7.1.46",
+     "helpful": 12,
+     "title": "",
+     "body": "I have a Very bad experienve about this app and account, because bank said before there was no minimum limit, but now fall below fee has been deducted"
+    },
+    {
+     "id": "play-985c4304-e0c9-42ac-9dc3-357ebf7ef73e",
+     "platform": "android",
+     "rating": 1,
+     "date": "2024-09-27",
+     "version": "7.9.6",
+     "helpful": 40,
+     "title": "",
+     "body": "I have been trying to close my account with virtual assistance in the app. It doesn't help with my concern. They already gave me the closure reference # and said they would give an update after 4 days. Now it has been a month, and they are charging me for a fall maintaining balance because my account already has a zero balance. For 1 month, I have left it with a zero balance because it can not be closed if there is an amount balance in it. Now I paid this charge, but they still can not close"
+    }
+   ]
+  }
+ ],
+ "wins": [
+  {
+   "title": "Easy account, no hidden fees",
+   "themes": [
+    "account",
+    "fees"
+   ],
+   "summary": "Five-star reviews (64% of the total) praise fast account opening, card delivery without hidden charges and cheap international transfers.",
+   "quotes": [
+    {
+     "id": "play-53a3dd41-e9f5-4262-8d56-0ed7b252bd15",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-04-07",
+     "version": "8.1.3",
+     "helpful": 132,
+     "title": "",
+     "body": "Itis very easy to open up account and they deliver the visa card without hidden fees. easy online banking and sending money. I have been using mashreq almost 1 and half years and I can strongly recommend it. You can make local and international transfers at a very low price. No monthly money deduction u can save your money with out complaining . And if u buy things, they will send u messages and emails immediately. Best bank in UAE and worldwide 🥰 STRONGLY RECOMMEND IT 👌"
+    },
+    {
+     "id": "play-2e725a1d-5b79-4b8c-addb-33d9c3656e1a",
+     "platform": "android",
+     "rating": 4,
+     "date": "2025-04-13",
+     "version": "8.1.4",
+     "helpful": 13,
+     "title": "",
+     "body": "Best banking services deposit or transfer .very easy to use no hidden charges .everything available at your finger tip .only one reason i can,t give 5 stars because there is no facilities of loan for low level persons at least 10.000.Dirhams or low which can help to apply for Driving licence or any other low level debit clearance and pay back with easy monthly instalments.please start this facility for low salary workers to improve their income for their families .i will thanksfull forever"
+    },
+    {
+     "id": "play-8fc67817-6498-42ea-912a-229d94d2ba98",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-05-08",
+     "version": "7.7.9",
+     "helpful": 92,
+     "title": "",
+     "body": "Everything is easy, very effective, control eveything in seconds, even transferring to other banks. Perfect banking solutions. Kept it up."
+    }
+   ]
+  },
+  {
+   "title": "Fast digital banking and bill payments",
+   "themes": [
+    "transfers",
+    "usability"
+   ],
+   "summary": "Long-time customers describe transfers, bills and card controls as quick, with ATMs everywhere and answers by phone.",
+   "quotes": [
+    {
+     "id": "play-acc8822c-04e5-4ef4-8402-1ce1e6ca879a",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-06-10",
+     "version": "8.2.1",
+     "helpful": 86,
+     "title": "",
+     "body": "Mashreq Bank has always been my favorite!I truly appreciate their excellent customer service, fast digital banking, and user-friendly app. It’s reliable, efficient, and always makes my banking experience smooth and hassle-free. Keep up the great work!"
+    },
+    {
+     "id": "play-6b84074c-fd44-4161-9cf3-531a9c7ec486",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-05-14",
+     "version": "7.7.9",
+     "helpful": 87,
+     "title": "",
+     "body": "The features are interactive and user-friendly. The only annoyingthing is the face recognition but over all I love using it as its mademy life with paying bills and transfers very convenient..."
+    },
+    {
+     "id": "play-96debbdb-f546-46bc-b36c-8aef0bf5f9e3",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-10-15",
+     "version": "8.3.1",
+     "helpful": 84,
+     "title": "",
+     "body": "everything about mashreq is good the best bank to keep your money safer,easier to transfer money and receive salary, their atm machines are everywhere and so it's makes wark easy to deposit the amount and withdraw your cash any day any time, they online landlines are ever active incase of any emergency, they deriver you visa card on time when apply,its easier to open bank account at your home comfort,using your phone,its easier to transfer money fro. another account to another,"
+    }
+   ]
+  },
+  {
+   "title": "Neo NXT for children",
+   "themes": [
+    "products"
+   ],
+   "summary": "Parents single out Mashreq's family product for pocket money and debit cards for kids.",
+   "quotes": [
+    {
+     "id": "play-ee8f9aa1-9be4-41e5-ad9b-f7cd678f91b3",
+     "platform": "android",
+     "rating": 5,
+     "date": "2024-04-08",
+     "version": "7.7.8",
+     "helpful": 39,
+     "title": "",
+     "body": "I really like NEO NXT for giving pocket money to kids and they can also use the provided debit card give them challenges etc. Amazing concept."
+    },
+    {
+     "id": "play-e5f00337-ff98-46b7-bff2-5b2f014fd332",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-06-23",
+     "version": "8.2.2",
+     "helpful": 23,
+     "title": "",
+     "body": "Mashreq Bank is one of the oldest and most innovative banks in the UAE. It offers strong digital banking services through Mashreq Neo and has a solid financial reputation. However, some customers report delays in support and technical issues. Overall, it’s a trusted bank with modern features, ideal for tech-savvy users who prefer online banking over branch visits."
+    }
+   ]
+  },
+  {
+   "title": "Replies arrive the same day",
+   "themes": [
+    "support"
+   ],
+   "summary": "Mashreq replied to 95% of written reviews with a median gap of the same day, though replies to praise are short thanks and replies to problems point to other channels.",
+   "quotes": [
+    {
+     "id": "play-acc8822c-04e5-4ef4-8402-1ce1e6ca879a",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-06-10",
+     "version": "8.2.1",
+     "helpful": 86,
+     "title": "",
+     "body": "Mashreq Bank has always been my favorite!I truly appreciate their excellent customer service, fast digital banking, and user-friendly app. It’s reliable, efficient, and always makes my banking experience smooth and hassle-free. Keep up the great work!"
+    },
+    {
+     "id": "play-96debbdb-f546-46bc-b36c-8aef0bf5f9e3",
+     "platform": "android",
+     "rating": 5,
+     "date": "2025-10-15",
+     "version": "8.3.1",
+     "helpful": 84,
+     "title": "",
+     "body": "everything about mashreq is good the best bank to keep your money safer,easier to transfer money and receive salary, their atm machines are everywhere and so it's makes wark easy to deposit the amount and withdraw your cash any day any time, they online landlines are ever active incase of any emergency, they deriver you visa card on time when apply,its easier to open bank account at your home comfort,using your phone,its easier to transfer money fro. another account to another,"
+    }
+   ]
+  }
+ ],
+ "generated": "2026-11-14"
+}
