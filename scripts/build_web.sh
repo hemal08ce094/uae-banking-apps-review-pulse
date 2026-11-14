@@ -1,6 +1,6 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 # Copy the analysed data next to the pages so web/ is a self-contained static site: scripts/build_web.sh <slug>
-cd ~/Documents/Github/ENBDXFeedback
+cd "$(dirname "$0")/.."
 slug=${1:?usage: build_web.sh <slug>}
 [ -f data/$slug/summary.json ] || { echo "no data for $slug"; exit 0; }
 rm -rf web/data/$slug && mkdir -p web/data/$slug/reviews

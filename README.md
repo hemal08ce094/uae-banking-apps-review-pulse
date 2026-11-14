@@ -44,3 +44,7 @@ scripts/sample.py --app <slug> [--months 2026-03] [--grep regex]   # reading sam
 - Apple's RSS feed stops at 500 reviews per storefront and sort order and returns little for some apps. The catalogue endpoint the apps.apple.com page uses pages past that with `offset`, ten at a time, and rate-limits hard; the deep collector adapts its pace and resumes from its state file.
 - Themes are keyword tags (English and Arabic) in `scripts/analyze.py`, identical for every app; sentiment comes from the star rating, with 3-star reviews resolved by wording.
 - `coverage` in each summary says how far the deep App Store crawl has got; pages and cards show a chip until it is complete.
+
+## Daily refresh
+
+`.github/workflows/daily-refresh.yml` runs every day at 03:00 UTC (and on demand from the Actions tab). It runs `scripts/ci_refresh.sh`: store-rating snapshot into `data/store_history.json`, reviews from the last 10 days from Google Play and the App Store RSS feed, analysis, `compare.json`, and the weekly and daily files in `web/data`. It commits the result to `main`.
