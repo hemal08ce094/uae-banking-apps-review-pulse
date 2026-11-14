@@ -459,8 +459,8 @@ function syncControls(){
 function renderCoverage(){
   const Tt=S.totals, R=S.app.store_rating;
   $('#coverage').replaceChildren(...[
-    el('span',{}, el('i',{class:'sw ios'}), el('a',{href:S.app.ios_url,target:'_blank',rel:'noopener',text:'App Store'}), ` ${fmt(Tt.ios)} reviews`),
-    el('span',{}, el('i',{class:'sw android'}), el('a',{href:S.app.play_url,target:'_blank',rel:'noopener',text:'Google Play'}), ` ${fmt(Tt.android)} reviews`),
+    el('span',{}, el('i',{class:'sw ios'}), el('a',{href:S.app.ios_url,target:'_blank',rel:'noopener',text:'App Store'}), ` ${fmt(Tt.ios)} reviews with comments · store rating ${R.ios.avg?R.ios.avg.toFixed(2):'–'}`),
+    el('span',{}, el('i',{class:'sw android'}), el('a',{href:S.app.play_url,target:'_blank',rel:'noopener',text:'Google Play'}), ` ${fmt(Tt.android)} reviews with comments · store rating ${R.android.avg?R.android.avg.toFixed(2):'–'}`),
     el('span',{text:`${dLabel(Tt.first)} to ${dLabel(Tt.last)}`}),
     (S.coverage && S.coverage.text && S.coverage.text !== 'complete') ? el('span',{class:'covchip',text:'Partial coverage: '+S.coverage.text}) : null,
     S.app.note ? el('span',{class:'covnote',text:S.app.note}) : null].filter(Boolean));
@@ -496,7 +496,7 @@ function renderStats(v, animate){
     if (t.series){ const sv = spark(t.series, t.color); node.append(sv); if (G && animate){ const L = sv._line.getTotalLength(); sv._line.style.strokeDasharray = L; sv._line.style.strokeDashoffset = L; gsap.to(sv._line,{strokeDashoffset:0,duration:T.draw,ease:'power2.inOut',delay:.15}); } }
   });
   const share = v.count ? (v.hist[3]+v.hist[4])/v.count : 0; const arc = $('#ringArc'); const C = 477.52; const off = C*(1-share);
-  $('#ringLbl').textContent = v.count ? 'of reviews' : 'no reviews in view'; $('#ringNote').textContent = '';
+  $('#ringLbl').textContent = v.count ? 'of reviews' : 'no reviews in view'; $('#ringNote').textContent = storeNote() + '.';
   if (G){ const o={v:parseFloat($('#ringVal').dataset.v||'0')}; gsap.to(o,{v:100*share,duration:animate?T.ring:0.45,ease:T.ease,onUpdate:()=>{ $('#ringVal').textContent=Math.round(o.v)+'%'; }}); gsap.to(arc,{strokeDashoffset:off,duration:animate?T.ring:0.45,ease:T.ease}); } else { $('#ringVal').textContent=Math.round(100*share)+'%'; arc.setAttribute('stroke-dashoffset',off); }
   $('#ringVal').dataset.v = 100*share;
   const top = v.themes.slice().sort((a,b)=>b.neg-a.neg).slice(0,4); const max = Math.max(1,...top.map(t=>t.neg));

@@ -312,16 +312,17 @@ footer{padding-block:72px 80px;color:var(--muted);font-size:13.5px;display:grid;
       <p class="lede" id="heroLine">Loading the review data.</p>
       <div class="cta"><a class="toolbtn primary" href="#compare">Compare the apps</a></div>
     </div>
-    <div class="hero-vis" id="heroVis"><h3>Average rating of reviews, last 12 months</h3><div id="heroChart"></div><div class="legend" id="heroLegend"></div></div>
+    <div class="hero-vis" id="heroVis"><h3>Monthly average rating in reviews with comments, last 12 months</h3><div id="heroChart"></div><div class="legend" id="heroLegend"></div></div>
   </div>
 
   <section id="overview" style="padding-top:8px" aria-labelledby="ovh">
     <div class="sec-head" style="margin-bottom:18px"><h2 id="ovh">Overview.</h2><p>One card per app, same measures, same layout. Select a card to read that app&rsquo;s reviews.</p></div>
     <div class="tools"><div class="grp"><label class="lbl" for="sortSel">Sort by</label><span class="sel"><select id="sortSel">
-      <option value="avg">Average rating, highest first</option>
+      <option value="overall">Overall rating, highest first</option>
+      <option value="avg">Average in reviews with comments, highest first</option>
       <option value="low">One and two star share, lowest first</option>
       <option value="reply">Reviews answered, highest first</option>
-      <option value="count">Written reviews, most first</option></select></span></div></div>
+      <option value="count">Reviews with comments, most first</option></select></span></div></div>
     <div class="grid" id="cards"><div class="state" style="grid-column:1/-1"><b>Loading the review data.</b></div></div>
   </section>
 
@@ -368,7 +369,7 @@ footer{padding-block:72px 80px;color:var(--muted);font-size:13.5px;display:grid;
   </section>
 
   <footer>
-    <p><b>Method.</b> Every rating counted here is a star rating that came with a written comment. Themes are tagged by keyword (English and Arabic) and the same tagging is used for every app. One and two stars are negative, four and five positive, three resolved by wording. ADCB combines two app generations: the new ADCB. app (April 2026 onward) and the previous ADCB app.</p>
+    <p><b>Method.</b> The overall rating is the store rating on the App Store and Google Play, direct star ratings included, averaged by the number of ratings on each store. Stores publish those as a running total with no dates, so trends, star counts by period and complaint themes come from the reviews that include a comment. Themes are tagged by keyword (English and Arabic) with the same tagging for every app. One and two stars are negative, four and five positive, three resolved by wording. ADCB combines two app generations: the new ADCB. app (April 2026 onward) and the previous ADCB app.</p>
     <p>Sources: Apple App Store reviews via the public RSS feed and the apps.apple.com catalogue API; Google Play reviews via the store&rsquo;s review endpoint.</p>
     <p id="generated"></p>
   </footer>
@@ -430,7 +431,7 @@ const MINW = 4; /* weeks with fewer reviews than this are left blank */
 const PERIODS = { month:[[36,'36 months'],[24,'24 months'],[12,'12 months']], week:[[52,'52 weeks'],[26,'26 weeks'],[12,'12 weeks']] };
 const wLabel = w => { const p=w.split('-'); return +p[2]+' '+MONTHS[+p[1]-1]; };
 const wLong = w => 'Week of '+dLabel(w);
-const state = { sort:'avg', selected:new Set(), gran:'month', store:'all', period:36, lview:'chart', kpi:{k:'name', d:1}, lastW:0 };
+const state = { sort:'overall', selected:new Set(), gran:'month', store:'all', period:36, lview:'chart', kpi:{k:'name', d:1}, lastW:0 };
 
 async function getJSON(path){ const r = await fetch(path, {cache:'no-cache'}); if(!r.ok) throw new Error(`${path}: HTTP ${r.status}`); return r.json(); }
 
@@ -442,7 +443,9 @@ function hideTip(){ tip.style.display='none'; }
 /* ---------- helpers ---------- */
 const appList = () => C.apps;
 const storeAvg = a => { const i=a.store.ios, p=a.store.android; const n=(i.count||0)+(p.count||0); return n ? ((i.avg||0)*(i.count||0)+(p.avg||0)*(p.count||0))/n : null; };
-const sorters = { store:a=>storeAvg(a), avg:a=>a.totals.avg, low:a=>-a.totals.low_share, reply:a=>a.replies.rate, count:a=>a.totals.all };
+const ratingsTotal = a => (a.store.ios.count||0)+(a.store.android.count||0);
+const play5 = a => { const h=a.store.android.histogram; const t=h?h.reduce((x,y)=>x+y,0):0; return t? h[4]/t : null; };
+const sorters = { overall:a=>storeAvg(a), avg:a=>a.totals.avg, low:a=>-a.totals.low_share, reply:a=>a.replies.rate, count:a=>a.totals.all };
 const sel = () => C.apps.filter(a=>state.selected.has(a.slug));
 const winMonths = () => { const n = state.period; return C.months.slice(C.months.length-n); };
 const idxOf = () => { const n = state.period; return C.months.map((_,i)=>i).slice(C.months.length-n); };
@@ -454,7 +457,7 @@ function renderHero(){
   const total = C.apps.reduce((s,a)=>s+a.totals.all,0), first = C.apps.map(a=>a.first).sort()[0], last = C.apps.map(a=>a.last).sort().slice(-1)[0];
   const words = ['no','one','two','three','four','five','six','seven','eight']; const n = C.apps.length;
   const collected = C.apps.map(a=>a.collected).filter(Boolean).sort().slice(-1)[0] || C.generated;
-  $('#heroLine').textContent = `${fmt(total)} reviews across ${words[n]||n} apps on the App Store and Google Play, ${first.slice(0,4)} to ${mLong(last.slice(0,7))}.`;
+  const rt=C.apps.reduce((q,a)=>q+ratingsTotal(a),0); $('#heroLine').textContent = `${fmt(rt)} ratings across ${words[n]||n} apps on the App Store and Google Play, with ${fmt(total)} reviews that include a comment, up to ${mLong(last.slice(0,7))}.`;
   renderHeroChart();
   $('#generated').textContent = `Data collected ${dLabel(collected)}. Latest review ${dLabel(last)}.`;
 }
@@ -502,11 +505,13 @@ function renderCards(animate){
     const sp = spark(a, dom);
     const card = el('a',{class:'appcard',href:`app.html#${a.slug}`},
       el('div',{class:'ch'}, el('i',{class:'sw-app',style:`background:${col(a.slug)}`}), el('div',{}, el('h3',{text:a.name}), el('p',{class:'dev',text:a.bank})), el('span',{class:'go','aria-hidden':'true',text:'›'})),
-      el('div',{class:'bignum'}, el('span',{class:'val num','data-to':a.totals.avg,'data-fmt':'f2',text:f2(a.totals.avg)}), el('span',{class:'lbl',text:'average rating'})),
-      el('div',{}, sp, el('div',{class:'note',text:`Monthly average, ${mLong(C.months[C.months.length-12])} to ${mLong(C.months[C.months.length-1])}`})),
+      el('div',{class:'bignum'}, el('span',{class:'val num','data-to':storeAvg(a),'data-fmt':'f2',text:f2(storeAvg(a))}), el('span',{class:'lbl',text:`overall rating from ${fmt(ratingsTotal(a))} ratings`})),
+      el('div',{}, sp, el('div',{class:'note',text:`Monthly average in reviews with comments, ${mLong(C.months[C.months.length-12])} to ${mLong(C.months[C.months.length-1])}`})),
       el('dl',{class:'kv'},
-        el('div',{}, el('dt',{text:'Written reviews'}), el('dd',{class:'num','data-to':a.totals.all,'data-fmt':'int',text:fmt(a.totals.all)}, el('small',{text:`${fmt(a.totals.ios)} App Store, ${fmt(a.totals.android)} Play`}))),
-        el('div',{}, el('dt',{text:'One and two stars'}), el('dd',{class:'num',text:pc(a.totals.low_share)}, el('small',{text:`${fmt(a.totals.hist[0]+a.totals.hist[1])} reviews`}))),
+        el('div',{}, el('dt',{text:'App Store rating'}), el('dd',{class:'num',text:f2(a.store.ios.avg)}, el('small',{text:a.store.ios.count?`${fmt(a.store.ios.count)} ratings`:''}))),
+        el('div',{}, el('dt',{text:'Google Play rating'}), el('dd',{class:'num',text:f2(a.store.android.avg)}, el('small',{text:a.store.android.count?`${fmt(a.store.android.count)} ratings`:''}))),
+        el('div',{}, el('dt',{text:'Five stars on Google Play'}), el('dd',{class:'num',text:pc(play5(a))}, el('small',{text:'of all Play ratings'}))),
+        el('div',{}, el('dt',{text:'Reviews with comments'}), el('dd',{class:'num','data-to':a.totals.all,'data-fmt':'int',text:fmt(a.totals.all)}, el('small',{text:`average ${f2(a.totals.avg)}`}))),
         el('div',{}, el('dt',{text:'Reviews answered'}), el('dd',{class:'num',text:pc(a.replies.rate)}, el('small',{text:a.replies.median_lag_days!=null?`median ${a.replies.median_lag_days} day${a.replies.median_lag_days===1?'':'s'}`:'no replies'}))),
         el('div',{}, el('dt',{text:'Latest 90 days'}), el('dd',{class:'num',text:f2(a.recent.avg_90)}, el('small',{text: a.recent.delta==null ? 'not enough reviews' : `${a.recent.delta>=0?'up':'down'} ${Math.abs(a.recent.delta).toFixed(2)} on the 90 before`})))),
       el('div',{class:'chips-label',text:'Most common complaints'}),
@@ -651,8 +656,13 @@ function renderHeat(){
 /* ---------- compare: KPI table ---------- */
 const COLS = [
   {k:'name',l:'App',v:a=>a.name,f:a=>null,left:true},
-  {k:'n',l:'Reviews',v:a=>a.totals.all,f:a=>fmt(a.totals.all)},
-  {k:'avg',l:'Average rating',v:a=>a.totals.avg,f:a=>f2(a.totals.avg)},
+  {k:'overall',l:'Overall rating',v:a=>storeAvg(a),f:a=>f2(storeAvg(a))},
+  {k:'rn',l:'Total ratings',v:a=>ratingsTotal(a),f:a=>fmt(ratingsTotal(a))},
+  {k:'ios',l:'App Store rating',v:a=>a.store.ios.avg,f:a=>f2(a.store.ios.avg)},
+  {k:'play',l:'Google Play rating',v:a=>a.store.android.avg,f:a=>f2(a.store.android.avg)},
+  {k:'p5',l:'Five stars on Play',v:a=>play5(a),f:a=>pc(play5(a))},
+  {k:'n',l:'Reviews with comments',v:a=>a.totals.all,f:a=>fmt(a.totals.all)},
+  {k:'avg',l:'Average in comments',v:a=>a.totals.avg,f:a=>f2(a.totals.avg)},
   {k:'low',l:'One and two stars',v:a=>a.totals.low_share,f:a=>pc(a.totals.low_share)},
   {k:'high',l:'Four and five stars',v:a=>a.totals.high_share,f:a=>pc(a.totals.high_share)},
   {k:'reply',l:'Answered',v:a=>a.replies.rate,f:a=>pc(a.replies.rate)},
@@ -677,7 +687,7 @@ function renderThemes(){
       el('div',{class:'chips'}, top5.map(t=>el('span',{class:'chip big'}, t.label, el('b',{class:'num',text:fmt(t.negative)}), el('span',{class:'note num',text:pc(t.share_of_negatives)}))), cov?el('span',{class:'covchip',text:cov}):null));
   }));
 }
-function renderFindings(){ const L=$('#findList'); if(!C.findings||!C.findings.length){ L.replaceChildren(el('li',{text:'Findings appear once at least two apps have data.'})); return; } L.replaceChildren(...C.findings.filter(f=>!/store rating/i.test(f)).map(f=>el('li',{text:f}))); }
+function renderFindings(){ const L=$('#findList'); if(!C.findings||!C.findings.length){ L.replaceChildren(el('li',{text:'Findings appear once at least two apps have data.'})); return; } L.replaceChildren(...C.findings.map(f=>el('li',{text:f}))); }
 
 /* ---------- orchestration ---------- */
 function renderCompare(animate){
@@ -720,8 +730,8 @@ async function initChat(){
   const fab=$('#chatFab'), panel=$('#chatPanel'), log=$('#chatLog'), input=$('#chatInput'), send=$('#chatSend'), stop=$('#chatStop'), empty=$('#chatEmpty');
   fab.hidden=false;
   const SUGGEST = [
-    'Which app got the most 5-star ratings in the last month?',
-    'Which app has the best average rating right now?',
+    'Which app got the most 5-star reviews in the last month?',
+    'Which app has the best overall rating?',
     'Which app improved the most over the last 8 weeks on the App Store?',
     'What do ADCB customers complain about most?',
     'Which bank answers its reviews fastest?'
@@ -729,24 +739,24 @@ async function initChat(){
   $('#chatSugg').replaceChildren(...SUGGEST.map(q=>el('button',{type:'button',onclick:()=>ask(q)},q)));
   const last = () => C.apps.map(a=>a.last).sort().slice(-1)[0];
   const RULES = () => [
-    'You answer questions about a dashboard that compares six UAE banking apps by their ratings on the App Store and Google Play. Every rating is a 1 to 5 star rating that came with a written comment. Call them ratings or reviews; never mention store-level or star-only ratings, and never suggest the figures are incomplete for that reason.',
+    'You answer questions about a dashboard that compares six UAE banking apps by their ratings on the App Store and Google Play.',
     'Apps (slug: name): ' + C.apps.map(a=>`${a.slug}: ${a.name}`).join('; ') + '.',
-    `Data was collected on ${C.generated}; the latest review is dated ${last()}.`,
-    'Star counts for the last 120 days (for "how many 5-star ratings in the last month" style questions) come from the star_counts tool. Averages over weeks or months come from rating_series. One and two stars are negative. Monthly series cover both stores combined; weekly series and star_counts can be split by App Store or Google Play. A month needs 10 ratings and a week needs 4 to count as a data point.',
+    `Store data was captured on ${C.generated}; the latest review with a comment is dated ${last()}.`,
+    'Two kinds of figures exist. (1) Overall rating: the store rating including direct star ratings, from the overview tool (overall_rating, total_ratings, app_store_rating, google_play_rating, google_play_five_star_share). This is the headline number; use it for "best rated", "highest rating" and similar. It is a current total with no dates. (2) Reviews with comments: dated, so only these can answer questions about a period such as the last month or weeks (star_counts and rating_series tools). When you answer a period question, say in a few words that it is based on reviews that include a comment, because stores publish direct star totals without dates.',
     'Always use the tools to get numbers. Never guess or use outside knowledge about these banks. If the data cannot answer, say so in one sentence and say what is available.',
-    'For "most" or "best" questions across apps, call star_counts once with no slug and rank the result; give the winner and the next two with their counts and share. Say which dates the window covers. For "improvement" questions, fetch the weekly series and compare the start and end of the period; flag small samples.',
-    'Reply in English, plain text only: no markdown, no bullet symbols, no bold. Keep it under 110 words. Lead with the answer, then the numbers that support it.'
+    'For "most" or "best" questions over a period, call star_counts once with no slug and rank the result; give the winner and the next two with counts and share, and the dates covered. For improvement questions use rating_series weekly and compare start and end; flag small samples. Monthly series cover both stores combined; weekly series and star_counts can be split by store. A month needs 10 reviews and a week needs 4 to count as a data point.',
+    'Reply in English, plain text only: no markdown, no bullet symbols, no bold. Keep it under 120 words. Lead with the answer, then the numbers that support it.'
   ].join('\n');
   const pickApp = s => { const a=C.apps.find(x=>x.slug===String(s).toLowerCase()||x.name.toLowerCase()===String(s).toLowerCase()); if(!a) throw new Error('Unknown app. Use one of: '+C.apps.map(x=>x.slug).join(', ')); return a; };
   const r2 = n => n==null?null:Math.round(n*100)/100;
   const tools = [
-    { name:'overview', description:'Headline figures for one app: review totals and average rating, share of 1-2 and 4-5 star ratings, reply rate and median reply days, latest 90 days average and change versus the 90 days before, top complaint themes. Omit slug to get a one-line summary of every app.',
+    { name:'overview', description:'Headline figures for one app: overall rating (store rating including direct stars) and total ratings, App Store and Google Play ratings, share of 5 stars on Google Play, plus reviews-with-comments totals and average, share of 1-2 and 4-5 star comments, reply rate and median reply days, latest 90 days average and change versus the 90 days before, top complaint themes. Omit slug to get a one-line summary of every app.',
       inputSchema:{type:'object',properties:{slug:{type:'string',description:'enbdx, fab, adcb, wio, mashreq or adib'}}},
       execute:({slug})=>{
-        const f = a=>({ app:a.slug, name:a.name, reviews:a.totals.all, reviews_ios:a.totals.ios, reviews_play:a.totals.android, average_rating:r2(a.totals.avg), share_1_2_star:r2(a.totals.low_share), share_4_5_star:r2(a.totals.high_share),
+        const f = a=>({ app:a.slug, name:a.name, overall_rating:r2(storeAvg(a)), total_ratings:ratingsTotal(a), app_store_rating:r2(a.store.ios.avg), app_store_ratings:a.store.ios.count, google_play_rating:r2(a.store.android.avg), google_play_ratings:a.store.android.count, google_play_five_star_share:r2(play5(a)), reviews_with_comments:a.totals.all, reviews_with_comments_ios:a.totals.ios, reviews_with_comments_play:a.totals.android, average_rating_in_comments:r2(a.totals.avg), share_1_2_star:r2(a.totals.low_share), share_4_5_star:r2(a.totals.high_share),
           reply_rate:r2(a.replies.rate), median_reply_days:a.replies.median_lag_days, avg_last_90_days:r2(a.recent.avg_90), change_vs_prior_90:r2(a.recent.delta),
           first_review:a.first, latest_review:a.last, top_complaints:a.top_complaints.map(t=>({theme:t.label,negative_reviews:t.negative})) });
-        return slug ? f(pickApp(slug)) : C.apps.map(a=>({app:a.slug,average_rating:r2(a.totals.avg),avg_last_90_days:r2(a.recent.avg_90),change_vs_prior_90:r2(a.recent.delta),reply_rate:r2(a.replies.rate)}));
+        return slug ? f(pickApp(slug)) : C.apps.map(a=>({app:a.slug,overall_rating:r2(storeAvg(a)),total_ratings:ratingsTotal(a),average_rating_in_comments:r2(a.totals.avg),avg_last_90_days:r2(a.recent.avg_90),change_vs_prior_90:r2(a.recent.delta),reply_rate:r2(a.replies.rate)}));
       }},
     { name:'rating_series', description:'Average review rating over time for one app, as rows of [period label, average or null, review count]. interval "week" (Monday start, up to 78 weeks, store can be all/ios/android) or "month" (up to 36 months, both stores combined only). Null average means too few reviews that period.',
       inputSchema:{type:'object',properties:{slug:{type:'string'},interval:{type:'string',enum:['week','month']},store:{type:'string',enum:['all','ios','android']},last_n:{type:'integer',description:'how many most recent periods, default 12'}},required:['slug','interval']},
@@ -760,7 +770,7 @@ async function initChat(){
         const o=W.apps[a.slug], base=W.weeks.length-n; const MINWK=MINW;
         return Array.from({length:n},(_,i)=>{ const g=base+i; const c = st==='all'? o.ios.n[g]+o.android.n[g] : o[st].n[g]; const s = st==='all'? o.ios.s[g]+o.android.s[g] : o[st].s[g]; return ['week of '+W.weeks[g], c>=MINWK? r2(s/c):null, c]; });
       }},
-    { name:'star_counts', description:'Counts of 1, 2, 3, 4 and 5 star ratings per app over the last N days (default 30, max 120, ending on the date in the result). Omit slug for all six apps. Returns per app: ratings, star1..star5, five_star_share, average. store can be all, ios or android. Use this for any question about how many 5-star (or 1-star) ratings an app got recently.',
+    { name:'star_counts', description:'Counts of 1, 2, 3, 4 and 5 star ratings among reviews that include a comment, per app, over the last N days (default 30, max 120, ending on the date in the result). Omit slug for all six apps. Returns per app: ratings, star1..star5, five_star_share, average. store can be all, ios or android. Use this for any question about how many 5-star (or 1-star) ratings an app got recently.',
       inputSchema:{type:'object',properties:{slug:{type:'string'},days:{type:'integer'},store:{type:'string',enum:['all','ios','android']}}},
       execute:async({slug,days,store})=>{
         if (!D) D = await getJSON('data/daily.json');
