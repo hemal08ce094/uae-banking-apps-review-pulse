@@ -1860,5 +1860,33 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14786683213",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 3,
+  "title": "Time to change",
+  "body": "Time to change the interface of FAB. Looks old compare to other banks how they are",
+  "author": "Nawaf alnaqbi",
+  "version": "3.0.01",
+  "date": "2026-11-13",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14783307612",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "Unable to apply for product",
+  "body": "When I click credit card popup shown coming back soon",
+  "author": "Adnanict",
+  "version": "3.0.01",
+  "date": "2026-11-12",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

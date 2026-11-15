@@ -754,5 +754,33 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14785902320",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 5,
+  "title": "Excellent app",
+  "body": "Very easy app",
+  "author": "AbuToty",
+  "version": "8.10.6",
+  "date": "2026-11-13",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14785129660",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "إعلانات",
+  "body": "صار تقول يوتيوب يحطون دعايات ويجبرونك تجوف عروضهم",
+  "author": "والد اطفال",
+  "version": "8.10.6",
+  "date": "2026-11-13",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

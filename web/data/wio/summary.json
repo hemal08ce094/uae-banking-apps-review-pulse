@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14",
+ "generated": "2026-11-15",
  "months": [
   "2023-07",
   "2023-08",
@@ -43,7 +43,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-14",
+ "collected": "2026-11-15",
  "coverage": {
   "phase": 2,
   "text": "complete",
@@ -68,21 +68,21 @@
   "play_url": "https://play.google.com/store/apps/details?id=io.wio.retail",
   "store_rating": {
    "ios": {
-    "avg": 4.79927,
-    "count": 7109,
+    "avg": 4.79943,
+    "count": 7115,
     "version": "1.76.0"
    },
    "android": {
-    "avg": 4.591241,
-    "count": 6233,
+    "avg": 4.595122,
+    "count": 6238,
     "reviews": 555,
     "version": "1.76.0",
     "histogram": [
-     423,
+     424,
      13,
-     166,
-     469,
-     5156
+     150,
+     470,
+     5172
     ],
     "installs": "500,000+"
    }
@@ -92,8 +92,8 @@
     "all": {
      "trackName": "Wio Personal",
      "sellerName": "WIO BANK P.J.S.C",
-     "averageUserRating": 4.79927,
-     "userRatingCount": 7109,
+     "averageUserRating": 4.79943,
+     "userRatingCount": 7115,
      "version": "1.76.0",
      "currentVersionReleaseDate": "2026-11-05T09:53:27Z",
      "releaseDate": "2023-07-25T07:00:00Z",
@@ -110,15 +110,15 @@
    "android": {
     "all": {
      "title": "Wio Personal",
-     "score": 4.591241,
-     "ratings": 6233,
+     "score": 4.595122,
+     "ratings": 6238,
      "reviews": 555,
      "histogram": [
-      423,
+      424,
       13,
-      166,
-      469,
-      5156
+      150,
+      470,
+      5172
      ],
      "version": "1.76.0",
      "installs": "500,000+",
@@ -131,16 +131,16 @@
   }
  },
  "totals": {
-  "all": 1326,
+  "all": 1327,
   "ios": 491,
-  "android": 835,
+  "android": 836,
   "first": "2023-07-25",
-  "last": "2026-11-12",
-  "avg": 3.43,
+  "last": "2026-11-13",
+  "avg": 3.42,
   "avg_ios": 3.19,
   "avg_android": 3.56,
   "hist": [
-   426,
+   427,
    64,
    56,
    80,
@@ -154,21 +154,21 @@
    231
   ],
   "hist_android": [
-   244,
+   245,
    36,
    29,
    57,
    469
   ],
   "sentiment": {
-   "negative": 493,
+   "negative": 494,
    "positive": 803,
    "neutral": 30
   },
   "langs": [
    [
     "en",
-    1216
+    1217
    ],
    [
     "ar",
@@ -249,7 +249,7 @@
     5
    ]
   ],
-  "with_text": 1326,
+  "with_text": 1327,
   "untagged": 231
  },
  "monthly": {
@@ -816,12 +816,12 @@
    },
    {
     "month": "2026-11",
-    "count": 15,
-    "avg": 2.87,
-    "neg": 8,
+    "count": 16,
+    "avg": 2.75,
+    "neg": 9,
     "pos": 7,
     "hist": [
-     7,
+     8,
      1,
      0,
      1,
@@ -1968,12 +1968,12 @@
    },
    {
     "month": "2026-11",
-    "count": 9,
-    "avg": 2.78,
-    "neg": 5,
+    "count": 10,
+    "avg": 2.6,
+    "neg": 6,
     "pos": 4,
     "hist": [
-     4,
+     5,
      1,
      0,
      1,
@@ -2849,7 +2849,7 @@
    "avg": 1.96,
    "ios": 91,
    "android": 80,
-   "share_of_negative": 0.258,
+   "share_of_negative": 0.257,
    "monthly": {
     "ios": [
      [
@@ -4561,7 +4561,7 @@
    "avg": 1.84,
    "ios": 50,
    "android": 79,
-   "share_of_negative": 0.203,
+   "share_of_negative": 0.202,
    "monthly": {
     "ios": [
      [
@@ -4989,7 +4989,7 @@
    "avg": 2.6,
    "ios": 59,
    "android": 44,
-   "share_of_negative": 0.118,
+   "share_of_negative": 0.117,
    "monthly": {
     "ios": [
      [
@@ -5417,7 +5417,7 @@
    "avg": 2.47,
    "ios": 42,
    "android": 57,
-   "share_of_negative": 0.124,
+   "share_of_negative": 0.123,
    "monthly": {
     "ios": [
      [
@@ -8406,14 +8406,14 @@
   {
    "key": "device",
    "label": "Device compatibility",
-   "count": 31,
-   "negative": 16,
+   "count": 32,
+   "negative": 17,
    "positive": 13,
    "neutral": 2,
-   "avg": 2.65,
+   "avg": 2.59,
    "ios": 8,
-   "android": 23,
-   "share_of_negative": 0.032,
+   "android": 24,
+   "share_of_negative": 0.034,
    "monthly": {
     "ios": [
      [
@@ -8824,8 +8824,8 @@
       1
      ],
      [
-      1,
-      1,
+      2,
+      2,
       0
      ]
     ]
@@ -9269,7 +9269,7 @@
    "avg": 1.85,
    "ios": 11,
    "android": 15,
-   "share_of_negative": 0.041,
+   "share_of_negative": 0.04,
    "monthly": {
     "ios": [
      [
@@ -10660,7 +10660,7 @@
   "count": 1270,
   "android": 814,
   "ios": 456,
-  "rate_android": 0.975,
+  "rate_android": 0.974,
   "rate_ios": 0.929,
   "median_lag_days": 2,
   "by_year": {
@@ -10674,8 +10674,8 @@
   {
    "year": "2026",
    "file": "reviews/2026.json",
-   "count": 418,
-   "bytes": 250284
+   "count": 419,
+   "bytes": 250600
   },
   {
    "year": "2025",
@@ -10698,6 +10698,6 @@
  ],
  "index": {
   "file": "index.json",
-  "bytes": 19987
+  "bytes": 20004
  }
 }

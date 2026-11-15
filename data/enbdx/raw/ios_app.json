@@ -1,14 +1,14 @@
 {
  "trackName": "ENBD X",
  "sellerName": "EMIRATES NBD Bank (P.J.S.C)",
- "averageUserRating": 4.73409,
- "userRatingCount": 335555,
- "version": "26.11.0",
- "currentVersionReleaseDate": "2026-11-12T18:59:07Z",
+ "averageUserRating": 4.73406,
+ "userRatingCount": 335775,
+ "version": "26.11.1",
+ "currentVersionReleaseDate": "2026-11-14T17:19:18Z",
  "releaseDate": "2021-12-19T08:00:00Z",
  "minimumOsVersion": "16.0",
  "contentAdvisoryRating": "4+",
- "fileSizeBytes": "739971072",
+ "fileSizeBytes": "743662592",
  "genres": [
   "Finance"
  ],

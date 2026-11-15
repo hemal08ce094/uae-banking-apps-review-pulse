@@ -460,5 +460,61 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14786651569",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 4,
+  "title": "Great app, with minor room to improve",
+  "body": "Really good app for daily banking. Transfers, bill payments and statements are all easy to find. Sometimes it takes a bit long to load or for OTPs to arrive, but overall very reliable and convenient.",
+  "author": "Shahnawazkhan2027",
+  "version": "9.23.0",
+  "date": "2026-11-13",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14785144508",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 5,
+  "title": "Be Careful",
+  "body": "Green job",
+  "author": "AkarimKhoka",
+  "version": "9.23.0",
+  "date": "2026-11-13",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14786367657",
+  "platform": "ios",
+  "storefront": "us",
+  "rating": 3,
+  "title": "Very good crevice",
+  "body": "👍👍",
+  "author": "Shamzishan19",
+  "version": "9.23.0",
+  "date": "2026-11-13",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14786173429",
+  "platform": "ios",
+  "storefront": "us",
+  "rating": 5,
+  "title": "Great app",
+  "body": "What a wonderful bank",
+  "author": "sagour dalla",
+  "version": "9.23.0",
+  "date": "2026-11-13",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]
