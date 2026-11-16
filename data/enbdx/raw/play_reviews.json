@@ -13312,8 +13312,8 @@
   "votes_helpful": 0,
   "votes_total": null,
   "reply": {
-   "body": "Hello Shriram, our team confirmed we reached out to you, and your issue is now resolved. We kindly ask if you would consider updating your app rating.",
-   "date": "2026-08-18"
+   "body": "Hi Shriram, please try removing and re-adding your fingerprint in your phone's settings. If you’re still having trouble, please contact us at mobilebankingdev@emiratesnbd.com with reference EBG-02532 so we can investigate further. If this solves your problem, we hope you’ll reconsider your rating for our app.",
+   "date": "2026-11-16"
   }
  },
  {
@@ -32839,11 +32839,11 @@
   "author": "Nk",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 3,
+  "votes_helpful": 4,
   "votes_total": null,
   "reply": {
-   "body": "Hello! we value your feedback regarding the fingerprint setup in our Mobile Banking App. We have put in place improved security features to ensure our users' safety. For Android users, fingerprint biometrics is necessary for access. We truly appreciate you’re understanding and support.",
-   "date": "2026-05-25"
+   "body": "Hello, thank you for taking the time to share your feedback about the latest update of our Mobile Banking App. We recognize your concerns regarding compatibility with different features and security software. For more assistance, please contact us at mobilebankingdev@emiratesnbd.com, and kindly include your concerns along with reference EBG-02133.",
+   "date": "2026-11-16"
   }
  },
  {
@@ -175835,15 +175835,15 @@
  {
   "id": "play-2f305b0c-abd2-4550-9ca9-df0d5aefa624",
   "platform": "android",
-  "storefront": "ae",
+  "storefront": "eg",
   "lang": "en",
   "rating": 1,
   "title": "",
-  "body": "I can't use the app anymore, because I have developer mode enabled. I guess I will have to find different bank... 😕",
+  "body": "Both ENBD X and Liv X stopped working after upgrade with error that VoiceOver must be disabled. Android does not have VoiceOver, iOS has. TalkBack is not enabled on my phone.",
   "author": "Evgeny Apenkin",
-  "version": "15.13.2",
-  "date": "2024-12-14",
-  "votes_helpful": 6,
+  "version": "26.11.0",
+  "date": "2026-11-15",
+  "votes_helpful": 7,
   "votes_total": null,
   "reply": {
    "body": "Hello Evgeny, we are happy to confirm that this issue has now been resolved. Kindly update the latest version of the App to 15.3.3 from the store and try to login again even with developer mode option enabled. Request you to re-consider App rating given earlier. Thank you for your ongoing trust in us.",
@@ -176041,11 +176041,11 @@
   "author": "Imran Arshad",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 7,
+  "votes_helpful": 8,
   "votes_total": null,
   "reply": {
-   "body": "Hi Imran, we are happy to confirm that this issue has now been resolved. Kindly update the latest version of the App to 15.3.3 from the store and try to login again even with developer mode option enabled. Request you to re-consider App rating given earlier. Thank you for your ongoing trust in us.",
-   "date": "2024-12-19"
+   "body": "Hi Imran, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02497. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-16"
   }
  },
  {
@@ -421657,7 +421657,7 @@
   "author": "Ejaz Ahmed",
   "version": "26.11.0",
   "date": "2026-11-12",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "Hi Ejaz, you may disable this by going to device Settings - scroll down to Accessibility - then choose Talkback and toggle off. Scroll down to Installed Apps and turn off all the apps seen under this menu. For further assistance please contact us via email at mobilebankingdev@emiratesnbd.com with reference number EBG-02919 in the subject line.",
@@ -421870,9 +421870,12 @@
   "author": "Roba Nayfeh",
   "version": "26.10.10",
   "date": "2026-11-14",
-  "votes_helpful": 0,
+  "votes_helpful": 2,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hi Roba, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02931. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-22987af8-6e86-49a8-a51d-7e582906d4c0",
@@ -421885,7 +421888,7 @@
   "author": "Kirill Zhirokhov",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 0,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": null
  },
@@ -421900,9 +421903,12 @@
   "author": "Moon Ray",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 0,
+  "votes_helpful": 2,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hi, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02928. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-73606134-e683-4fcb-b910-4aaf152758f6",
@@ -421917,7 +421923,10 @@
   "date": "2026-11-14",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Asif, we are thrilled to hear your positive feedback regarding our Mobile Banking App. It's wonderful to know that you consider our services excellent. Your support inspires us to continue providing exceptional banking experiences for all our customers.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-b34a80e9-7334-4be9-b06d-ae18b925c6e1",
@@ -421930,9 +421939,12 @@
   "author": "Data Backup",
   "version": "",
   "date": "2026-11-14",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hi, we appreciate your feedback regarding your experience with our services. We're dedicated to enhancing our offerings and would love to hear more about your concerns. Please reach out to us at mobilebankingdev@emiratesnbd.com and include reference number EBG-02926 in the subject line for assistance.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-04462bf4-8997-4607-a49c-545c0ed721ce",
@@ -421947,7 +421959,10 @@
   "date": "2026-11-14",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Dawood, we are thrilled to receive your positive feedback regarding our Mobile Banking App. It’s wonderful to know that you find our app easy to use and our services convenient. Your encouraging words motivate us to keep delivering outstanding service and enhance our offerings for you.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-2b7914b5-9073-4998-8db9-cb9185a90aec",
@@ -421962,7 +421977,10 @@
   "date": "2026-11-14",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Mohd, we truly appreciate your positive feedback regarding our Mobile Banking App. It's wonderful to know that you find it user-friendly. Your encouraging words inspire us to keep improving our services and delivering outstanding experiences for all our valued customers.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-cb2e39e4-01aa-4c82-9c3f-c830a02fcf51",
@@ -421977,7 +421995,10 @@
   "date": "2026-11-14",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Krishna, we greatly appreciate you taking the time to share your feedback on our Mobile Banking App. It brings us joy to know that you are satisfied with our services. Your encouraging words motivate us to continue improving our offerings for your convenience.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-525660d7-4d1f-489a-b2a6-c1e2fd197c13",
@@ -421992,7 +422013,10 @@
   "date": "2026-11-14",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Ganesh, we are delighted to hear your positive feedback about our Mobile Banking App. It’s wonderful to know that you consistently find our services satisfactory. Your support inspires us to keep delivering outstanding banking experiences.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-8d066824-d16f-47b3-bb1f-77b74a2ce804",
@@ -422005,9 +422029,12 @@
   "author": "Mohamed Imran Noorgat",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 3,
+  "votes_helpful": 4,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hi, Mohamed, please go to Settings > Accessibility, turn off TalkBack, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02497. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-cc0a1bae-7b41-4fed-89e9-5bad0df7b7f9",
@@ -422022,7 +422049,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Hafiz, thank you for your wonderful feedback about our Mobile Banking App. We are thrilled to know that you find our services impressive. Your support inspires us to keep improving your banking experience.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-0d5a3a3c-cc73-44d7-b96a-4b9b6d0f4eb4",
@@ -422037,7 +422067,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Jamshaid, we appreciate your feedback regarding our Mobile Banking App. We're glad to know that you are happy with our services. Your support inspires us to continue providing outstanding banking experiences for all our valued customers.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-d76cbb88-e310-4b75-8119-aa8655edf5c3",
@@ -422052,7 +422085,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Marilyn, we truly appreciate your fantastic feedback about our Mobile Banking App. It brings us joy to know you see us as a great bank. Your support motivates us to continue pursuing excellence in all our endeavors.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-59d32ad5-376d-4043-872e-5381c16b6859",
@@ -422067,7 +422103,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hi Khalil, thank you for your valuable feedback on our Mobile Banking App. We're thrilled to hear that you're satisfied with it. Your encouragement inspires us to continue providing top-notch services for all our customers.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-86ee3efb-8aee-4ccd-8a62-edc787aa8591",
@@ -422082,7 +422121,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Malik, we’re thrilled to receive your positive feedback on our Mobile Banking App. It’s fantastic to know that you see us as a great option for your banking needs. Your encouragement inspires us to keep delivering outstanding service to all our cherished customers.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-984bc00b-89e2-42bf-a820-3879acabe19e",
@@ -422097,7 +422139,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Shaikh, we appreciate your fantastic feedback about our Mobile Banking App. It's wonderful to hear that our services have met your expectations. Your support motivates us to continue delivering the best banking experience possible.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-aef2c605-216d-4f4a-806a-8eaa6fcdf2ed",
@@ -422112,7 +422157,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Akash, we are thrilled to learn about your experience with our Mobile Banking App. It’s wonderful to hear that you are enjoying our services. Your encouraging feedback motivates us to continue delivering outstanding banking experiences for all our customers.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-c7cf534b-ace7-46ed-a8fd-571a30784110",
@@ -422127,7 +422175,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Mo. Tayyab, thank you so much for your fantastic review of our Mobile Banking App. We're delighted to hear that you find our service exceptionally excellent. Your feedback inspires us to keep striving to deliver outstanding experiences for all our cherished customers.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-2028e122-a8f8-4f13-8212-5d01287de961",
@@ -422140,9 +422191,12 @@
   "author": "A HM",
   "version": "",
   "date": "2026-11-13",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hi, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02922. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-0ebf3f01-7811-478e-9fdb-593be07c5811",
@@ -422157,7 +422211,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Mohd, we are glad to receive your positive feedback about our Mobile Banking App. Your satisfaction means a lot to us and inspires our team to keep delivering excellent service. Thank you for your support, and we can't wait to assist you again in the future.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-8b990adf-18bd-4f00-8853-6de44d857a29",
@@ -422172,7 +422229,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Shazeem, we truly appreciate your positive feedback on our Mobile Banking App. It's wonderful to know that you are satisfied with our services. Your support is invaluable to us, and we are excited to keep fulfilling your banking needs.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-d30f1049-b0fa-484e-b5a0-f19f861cd62b",
@@ -422187,7 +422247,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Nasii, we greatly appreciate your wonderful feedback regarding our Mobile Banking App. It's truly rewarding to hear that you value our services. Your encouraging words motivate us to continue providing the best banking experience for all our cherished customers.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-c4d48de8-4c4a-408a-a564-b0986475d586",
@@ -422202,7 +422265,10 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello Mohammed, thank you so much for your wonderful feedback about our Mobile Banking App. We’re thrilled to hear that you find it user-friendly and perfect. Your positive experience inspires us to continue delivering outstanding service to all our users.",
+   "date": "2026-11-16"
+  }
  },
  {
   "id": "play-4e7ae3a8-159b-49ee-8439-9b10f3a38fdc",
@@ -422287,7 +422353,7 @@
   "author": "Rizwan Hussain",
   "version": "26.11.0",
   "date": "2026-11-13",
-  "votes_helpful": 7,
+  "votes_helpful": 8,
   "votes_total": null,
   "reply": null
  },
@@ -422326,5 +422392,350 @@
    "body": "Hi, Recently we have done changes on UI by bringing in “Quick Actions” tab on the home page to make navigation easy and also FAQs are incorporated. We are continuously working to deliver enhanced experience for our customers. For further concerns, send your details at mobilebankingdev@emiratesnbd.com & mention reference DBG-01344 in email subject.",
    "date": "2023-11-16"
   }
+ },
+ {
+  "id": "play-a55c0402-00d8-4639-ab31-2c45fe231163",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 3,
+  "title": "",
+  "body": "it's not good that we always have to reset settings just to have this app to work. there are reasons why settings can be personalised and having it reset for this app is not a good solution.",
+  "author": "Joseph Ongkeko Delos Reyes",
+  "version": "",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-c0cc513b-5b17-441d-8362-d15e341e2009",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "excellent",
+  "author": "Adnan Aasi",
+  "version": "26.8.10",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-e0801724-23b8-4148-ad08-38cc6d407651",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "after the update, it said that i should remove the voice-over option or else I cannot use it. it doesn't make any sense!",
+  "author": "A A",
+  "version": "26.11.1",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-cf9bd792-2daf-4ea8-b38a-1654c1bb8892",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "No option to generate OTP. No FAQs regarding the same",
+  "author": "Irfan Yusuf",
+  "version": "26.11.1",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-393e49eb-1e95-477b-bfdd-0f3280e03bb7",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Great Experience",
+  "author": "Nauman Khan",
+  "version": "26.10.10",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-20ea1450-0386-4042-9488-14456a2954ae",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "👍very good",
+  "author": "Anand Kumar",
+  "version": "26.11.0",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-dbf766e2-a500-4e1a-8e02-64f1dabc4c29",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Talk back is disabled but the app won't open because it says voice over needs to be disabled. So the app is unusable",
+  "author": "Sarah Vekhnik",
+  "version": "26.11.1",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-133a54d1-208d-4f1d-8fa5-b13274dc838d",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "this bank very smart",
+  "author": "Elisa Dani",
+  "version": "26.11.1",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-eaf9814d-ba1e-470a-8ab9-dcea0ec0c6c0",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "VoiceOver issue with my moto g84 5g phone cannot be fixed",
+  "author": "Mage Gaming",
+  "version": "",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-92e5c71b-712f-42d6-9f92-2cb7e6a6915e",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 3,
+  "title": "",
+  "body": "app is good. reducing stars because recent update added a security check for talk back/ voiceover check. two issues here: 1. for Android users it is not voiceover, I had to Google it. 2. talk back was already disabled. however, I have norton installed on my phone, and I had to disable its service under accessibility to use the app. Norton off course has elevated permissions under my consent. please review and update. you should exclude legitimate apps e.g. antivirus from your security checks",
+  "author": "saeed badar",
+  "version": "26.11.1",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-9768edc1-d9ec-40b2-9787-02bdc811a503",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "exelent",
+  "author": "anas aukkar",
+  "version": "26.10.10",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-91e2f288-d89f-4551-af1f-9eedfd000aa4",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 2,
+  "title": "",
+  "body": "showing voice over , unable to open the app ?? what to do",
+  "author": "Shyam K Madanan",
+  "version": "",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-74259cbd-f875-4af6-94aa-769b9e6d8ba3",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good",
+  "author": "Ram Dhivahar",
+  "version": "26.10.10",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-80e6bb56-8d5c-4e9e-944a-6f2dcd5bc186",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good serv",
+  "author": "Jashandeep singh Jassi",
+  "version": "26.10.10",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-4ac8e59e-a729-491c-a484-858a2c193bc4",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "The app gets blocked if you have any accessibility function activated because it thinks it is voiceover and, for \"security reasons,\" doesn't allow you to use it. It doesn't make sense because there are so many persons with accessibility issues and they cannot use this banking app, in addition if you use an AI dictation app, you cannot use your banking app.",
+  "author": "Rafael Lemaitre",
+  "version": "26.11.0",
+  "date": "2026-11-14",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-0b8f5749-dd74-42b9-be3a-795bb2511508",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 3,
+  "title": "",
+  "body": "I am facing the issue of login, it's showing that to disable voiceover permission. but it's already turned off. I didn't face any problems till yesterday.",
+  "author": "Mageswaran V",
+  "version": "26.11.0",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-b01bb087-c5b4-47a4-840d-5976de1ffb38",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "now the app doesnt work voiceover enabled. its disabled",
+  "author": "shinay daniels",
+  "version": "26.11.0",
+  "date": "2026-11-14",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-187d97eb-1605-486e-884c-008e78ccb999",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "good",
+  "author": "Thambi Rifayee",
+  "version": "26.10.10",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-39a9acae-8c58-4f7b-96cc-bffa2ad3526c",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Much better.",
+  "author": "roky bul",
+  "version": "26.11.0",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-de71b54d-d0dd-4e3c-85d2-031df54df6fb",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Disable voiceover? What's that? What new idiocy has been added in the name of security? How about warning me about a potential issue AND LETTING ME DECIDE IF I WANT TO PROCEED? Stop telling users how to use their devices. Secure your app, not my device.",
+  "author": "Mohammed Affan",
+  "version": "26.11.0",
+  "date": "2026-11-14",
+  "votes_helpful": 2,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-614a20ba-8278-4791-8660-28b1dd976cf4",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "nic",
+  "author": "Shihaz Khan",
+  "version": "26.10.10",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-79b2a15d-eb98-4ec3-8198-b9d0a5ae7063",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "hi I can't use the app after updates. They show the security alerts, disable the voiceover, but I am using the Android phone, give the solution, how to disable this.",
+  "author": "abdul aleem",
+  "version": "26.11.0",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-7d4513d4-5bb0-4037-b489-0bb830606f9f",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "good",
+  "author": "madridii isselmou",
+  "version": "26.11.1",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
  }
 ]

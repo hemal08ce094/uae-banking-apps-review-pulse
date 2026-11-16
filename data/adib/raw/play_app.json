@@ -1,19 +1,19 @@
 {
  "title": "ADIB Mobile Banking",
- "score": 4.6344447,
- "ratings": 46358,
- "reviews": 15368,
+ "score": 4.6340294,
+ "ratings": 46370,
+ "reviews": 15373,
  "histogram": [
-  2834,
+  2836,
   533,
-  833,
-  2334,
-  39818
+  834,
+  2347,
+  39815
  ],
- "version": "8.10.6",
+ "version": "8.11.0",
  "installs": "1,000,000+",
  "released": "Oct 16, 2016",
- "updated": 1793989308,
+ "updated": 1794814273,
  "developer": "Abu Dhabi Islamic Bank",
  "genre": "Finance"
 }

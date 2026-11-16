@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "months": [
   "2023-07",
   "2023-08",
@@ -43,7 +43,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-15",
+ "collected": "2026-11-16",
  "coverage": {
   "phase": 2,
   "text": "complete",
@@ -68,13 +68,13 @@
   "play_url": "https://play.google.com/store/apps/details?id=io.wio.retail",
   "store_rating": {
    "ios": {
-    "avg": 4.79943,
-    "count": 7115,
+    "avg": 4.79947,
+    "count": 7116,
     "version": "1.76.0"
    },
    "android": {
-    "avg": 4.595122,
-    "count": 6238,
+    "avg": 4.596107,
+    "count": 6241,
     "reviews": 555,
     "version": "1.76.0",
     "histogram": [
@@ -82,7 +82,7 @@
      13,
      150,
      470,
-     5172
+     5177
     ],
     "installs": "500,000+"
    }
@@ -92,8 +92,8 @@
     "all": {
      "trackName": "Wio Personal",
      "sellerName": "WIO BANK P.J.S.C",
-     "averageUserRating": 4.79943,
-     "userRatingCount": 7115,
+     "averageUserRating": 4.79947,
+     "userRatingCount": 7116,
      "version": "1.76.0",
      "currentVersionReleaseDate": "2026-11-05T09:53:27Z",
      "releaseDate": "2023-07-25T07:00:00Z",
@@ -110,15 +110,15 @@
    "android": {
     "all": {
      "title": "Wio Personal",
-     "score": 4.595122,
-     "ratings": 6238,
+     "score": 4.596107,
+     "ratings": 6241,
      "reviews": 555,
      "histogram": [
       424,
       13,
       150,
       470,
-      5172
+      5177
      ],
      "version": "1.76.0",
      "installs": "500,000+",
@@ -10657,14 +10657,14 @@
   }
  ],
  "replies": {
-  "count": 1270,
-  "android": 814,
+  "count": 1271,
+  "android": 815,
   "ios": 456,
-  "rate_android": 0.974,
+  "rate_android": 0.975,
   "rate_ios": 0.929,
-  "median_lag_days": 2,
+  "median_lag_days": 2.0,
   "by_year": {
-   "2026": 402,
+   "2026": 403,
    "2025": 357,
    "2024": 373,
    "2023": 138
@@ -10675,7 +10675,7 @@
    "year": "2026",
    "file": "reviews/2026.json",
    "count": 419,
-   "bytes": 250600
+   "bytes": 250764
   },
   {
    "year": "2025",

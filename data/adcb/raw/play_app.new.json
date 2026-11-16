@@ -1,19 +1,19 @@
 {
  "title": "ADCB.",
- "score": 4.6341205,
- "ratings": 89089,
- "reviews": 5728,
+ "score": 4.6347656,
+ "ratings": 89217,
+ "reviews": 5732,
  "histogram": [
-  4734,
-  936,
-  2034,
-  6771,
-  74609
+  4744,
+  923,
+  2036,
+  6755,
+  74753
  ],
- "version": "1.62",
+ "version": "1.63",
  "installs": "1,000,000+",
  "released": "Apr 20, 2026",
- "updated": 1793755482,
+ "updated": 1794556424,
  "developer": "Abu Dhabi Commercial Bank",
  "genre": "Finance"
 }

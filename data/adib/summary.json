@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "months": [
   "2016-10",
   "2016-11",
@@ -124,7 +124,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-15",
+ "collected": "2026-11-16",
  "coverage": {
   "phase": 1,
   "text": "deep crawl phase 1 of 2 complete, phase 2 running",
@@ -149,21 +149,21 @@
   "play_url": "https://play.google.com/store/apps/details?id=com.adib.mobile",
   "store_rating": {
    "ios": {
-    "avg": 4.69336,
-    "count": 258660,
-    "version": "8.10.6"
+    "avg": 4.69332,
+    "count": 258735,
+    "version": "8.11.10"
    },
    "android": {
-    "avg": 4.6344447,
-    "count": 46358,
-    "reviews": 15368,
-    "version": "8.10.6",
+    "avg": 4.6340294,
+    "count": 46370,
+    "reviews": 15373,
+    "version": "8.11.0",
     "histogram": [
-     2834,
+     2836,
      533,
-     833,
-     2334,
-     39818
+     834,
+     2347,
+     39815
     ],
     "installs": "1,000,000+"
    }
@@ -173,37 +173,37 @@
     "all": {
      "trackName": "ADIB Mobile Banking",
      "sellerName": "ABU DHABI ISLAMIC BANK",
-     "averageUserRating": 4.69336,
-     "userRatingCount": 258660,
-     "version": "8.10.6",
-     "currentVersionReleaseDate": "2026-11-06T18:00:26Z",
+     "averageUserRating": 4.69332,
+     "userRatingCount": 258735,
+     "version": "8.11.10",
+     "currentVersionReleaseDate": "2026-11-16T07:25:46Z",
      "releaseDate": "2016-09-29T11:47:00Z",
      "minimumOsVersion": "13.0",
      "contentAdvisoryRating": "4+",
-     "fileSizeBytes": "482373632",
+     "fileSizeBytes": "491063296",
      "genres": [
       "Finance"
      ],
-     "releaseNotes": "We continue to improve ADIB mobile app, thanks to your feedback.\nThis version includes bug fixes and performance improvements.\nIf you enjoy using ADIB mobile app, why not give us 5 stars!\n\n Thank you for banking with ADIB."
+     "releaseNotes": "We’re continuously enhancing the ADIB Mobile App to make your banking experience simpler, more accessible, and more convenient. Thank you for your feedback, which helps us deliver meaningful improvements with every release.\n\n •   Enjoy the new experience in ADIB Mobile using Hindi and Urdu languages, making banking more accessible in your preferred language.\n •   Explore the newly Universal Account, with an enhanced onboarding experience and updated eligibility.\n •   General enhancements, performance improvements, and bug fixes. \n\nWe continue to improve the ADIB Mobile App, thanks to your feedback."
     }
    },
    "android": {
     "all": {
      "title": "ADIB Mobile Banking",
-     "score": 4.6344447,
-     "ratings": 46358,
-     "reviews": 15368,
+     "score": 4.6340294,
+     "ratings": 46370,
+     "reviews": 15373,
      "histogram": [
-      2834,
+      2836,
       533,
-      833,
-      2334,
-      39818
+      834,
+      2347,
+      39815
      ],
-     "version": "8.10.6",
+     "version": "8.11.0",
      "installs": "1,000,000+",
      "released": "Oct 16, 2016",
-     "updated": 1793989308,
+     "updated": 1794814273,
      "developer": "Abu Dhabi Islamic Bank",
      "genre": "Finance"
     }
@@ -211,20 +211,20 @@
   }
  },
  "totals": {
-  "all": 19443,
+  "all": 19451,
   "ios": 2266,
-  "android": 17177,
+  "android": 17185,
   "first": "2016-10-19",
-  "last": "2026-11-13",
+  "last": "2026-11-15",
   "avg": 4.15,
   "avg_ios": 3.58,
   "avg_android": 4.22,
   "hist": [
-   3213,
+   3215,
    493,
    573,
    1086,
-   14078
+   14084
   ],
   "hist_ios": [
    652,
@@ -234,25 +234,25 @@
    1307
   ],
   "hist_android": [
-   2561,
+   2563,
    395,
    465,
    985,
-   12771
+   12777
   ],
   "sentiment": {
-   "positive": 15305,
-   "negative": 3799,
+   "positive": 15311,
+   "negative": 3801,
    "neutral": 339
   },
   "langs": [
    [
     "en",
-    9810
+    9816
    ],
    [
     "ar",
-    9510
+    9512
    ],
    [
     "fr",
@@ -329,8 +329,8 @@
     3
    ]
   ],
-  "with_text": 19443,
-  "untagged": 2814
+  "with_text": 19451,
+  "untagged": 2815
  },
  "monthly": {
   "all": [
@@ -2030,16 +2030,16 @@
    },
    {
     "month": "2026-11",
-    "count": 97,
-    "avg": 4.18,
-    "neg": 19,
-    "pos": 76,
+    "count": 105,
+    "avg": 4.16,
+    "neg": 21,
+    "pos": 82,
     "hist": [
-     15,
+     17,
      4,
      3,
      2,
-     73
+     79
     ]
    }
   ],
@@ -5450,16 +5450,16 @@
    },
    {
     "month": "2026-11",
-    "count": 80,
-    "avg": 4.3,
-    "neg": 13,
-    "pos": 65,
+    "count": 88,
+    "avg": 4.27,
+    "neg": 15,
+    "pos": 71,
     "hist": [
-     11,
+     13,
      2,
      2,
      2,
-     63
+     69
     ]
    }
   ]
@@ -6706,13 +6706,13 @@
   {
    "key": "stability",
    "label": "Crashes & errors",
-   "count": 1480,
-   "negative": 1131,
+   "count": 1481,
+   "negative": 1132,
    "positive": 293,
    "neutral": 56,
    "avg": 1.96,
    "ios": 389,
-   "android": 1091,
+   "android": 1092,
    "share_of_negative": 0.298,
    "monthly": {
     "ios": [
@@ -7934,8 +7934,8 @@
       1
      ],
      [
+      11,
       10,
-      9,
       1
      ]
     ]
@@ -11658,14 +11658,14 @@
   {
    "key": "login",
    "label": "Login & access",
-   "count": 711,
-   "negative": 526,
+   "count": 712,
+   "negative": 527,
    "positive": 152,
    "neutral": 33,
    "avg": 2.03,
    "ios": 176,
-   "android": 535,
-   "share_of_negative": 0.138,
+   "android": 536,
+   "share_of_negative": 0.139,
    "monthly": {
     "ios": [
      [
@@ -12886,8 +12886,8 @@
       1
      ],
      [
+      6,
       5,
-      4,
       0
      ]
     ]
@@ -12896,13 +12896,13 @@
   {
    "key": "account",
    "label": "Account & onboarding",
-   "count": 669,
-   "negative": 462,
+   "count": 670,
+   "negative": 463,
    "positive": 177,
    "neutral": 30,
    "avg": 2.2,
    "ios": 130,
-   "android": 539,
+   "android": 540,
    "share_of_negative": 0.122,
    "monthly": {
     "ios": [
@@ -14124,8 +14124,8 @@
       1
      ],
      [
+      3,
       2,
-      1,
       1
      ]
     ]
@@ -21562,13 +21562,13 @@
   {
    "key": "fees",
    "label": "Fees & charges",
-   "count": 202,
-   "negative": 95,
+   "count": 203,
+   "negative": 96,
    "positive": 94,
    "neutral": 13,
-   "avg": 2.96,
+   "avg": 2.95,
    "ios": 60,
-   "android": 142,
+   "android": 143,
    "share_of_negative": 0.025,
    "monthly": {
     "ios": [
@@ -22790,8 +22790,8 @@
       2
      ],
      [
+      3,
       2,
-      1,
       1
      ]
     ]
@@ -31440,11 +31440,11 @@
   {
    "platform": "android",
    "version": "6.13.0",
-   "count": 141,
-   "avg": 4.5,
-   "neg_share": 0.099,
+   "count": 142,
+   "avg": 4.48,
+   "neg_share": 0.106,
    "first": "2024-12-12",
-   "last": "2025-03-09",
+   "last": "2026-11-14",
    "top_themes": [
     "stability",
     "branch",
@@ -31969,11 +31969,11 @@
   {
    "platform": "android",
    "version": "8.10.6",
-   "count": 27,
-   "avg": 3.78,
-   "neg_share": 0.296,
+   "count": 32,
+   "avg": 3.97,
+   "neg_share": 0.25,
    "first": "2026-11-08",
-   "last": "2026-11-13",
+   "last": "2026-11-15",
    "top_themes": [
     "stability",
     "login",
@@ -31982,14 +31982,14 @@
   }
  ],
  "replies": {
-  "count": 12366,
-  "android": 10875,
+  "count": 12374,
+  "android": 10883,
   "ios": 1491,
   "rate_android": 0.633,
   "rate_ios": 0.658,
   "median_lag_days": 0,
   "by_year": {
-   "2026": 1933,
+   "2026": 1941,
    "2025": 2323,
    "2024": 1977,
    "2023": 2128,
@@ -32001,8 +32001,8 @@
   {
    "year": "2026",
    "file": "reviews/2026.json",
-   "count": 2031,
-   "bytes": 1326980
+   "count": 2039,
+   "bytes": 1331928
   },
   {
    "year": "2025",
@@ -32067,6 +32067,6 @@
  ],
  "index": {
   "file": "index.json",
-  "bytes": 274653
+  "bytes": 274773
  }
 }

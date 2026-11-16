@@ -1,16 +1,16 @@
 {
  "trackName": "ADIB Mobile Banking",
  "sellerName": "ABU DHABI ISLAMIC BANK",
- "averageUserRating": 4.69336,
- "userRatingCount": 258660,
- "version": "8.10.6",
- "currentVersionReleaseDate": "2026-11-06T18:00:26Z",
+ "averageUserRating": 4.69332,
+ "userRatingCount": 258735,
+ "version": "8.11.10",
+ "currentVersionReleaseDate": "2026-11-16T07:25:46Z",
  "releaseDate": "2016-09-29T11:47:00Z",
  "minimumOsVersion": "13.0",
  "contentAdvisoryRating": "4+",
- "fileSizeBytes": "482373632",
+ "fileSizeBytes": "491063296",
  "genres": [
   "Finance"
  ],
- "releaseNotes": "We continue to improve ADIB mobile app, thanks to your feedback.\nThis version includes bug fixes and performance improvements.\nIf you enjoy using ADIB mobile app, why not give us 5 stars!\n\n\u2028Thank you for banking with ADIB."
+ "releaseNotes": "We\u2019re continuously enhancing the ADIB Mobile App to make your banking experience simpler, more accessible, and more convenient. Thank you for your feedback, which helps us deliver meaningful improvements with every release.\n\n \u2022   Enjoy the new experience in ADIB Mobile using Hindi and Urdu languages, making banking more accessible in your preferred language.\n \u2022   Explore the newly Universal Account, with an enhanced onboarding experience and updated eligibility.\n \u2022   General enhancements, performance improvements, and bug fixes.\u2028\n\nWe continue to improve the ADIB Mobile App, thanks to your feedback."
 }

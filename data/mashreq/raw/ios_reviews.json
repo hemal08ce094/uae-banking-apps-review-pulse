@@ -516,5 +516,47 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14788875213",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "Slow service",
+  "body": "Very very bad service customer care very slow working not recommended",
+  "author": "Attaullah6736",
+  "version": "9.23.0",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14788456252",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 5,
+  "title": "Nice",
+  "body": "Very good",
+  "author": "Qammerii",
+  "version": "9.23.0",
+  "date": "2026-11-13",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14787793411",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "How we can talk to an agent.. Multiple times I tried",
+  "body": "Need to fix the problem",
+  "author": "Georgedeecee",
+  "version": "9.23.0",
+  "date": "2026-11-13",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

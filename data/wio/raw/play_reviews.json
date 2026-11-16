@@ -14979,6 +14979,9 @@
   "date": "2026-11-13",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Hello. We're sorry to hear about your experience. We appreciate your feedback and will share it with our team for further review and fix.",
+   "date": "2026-11-16"
+  }
  }
 ]
