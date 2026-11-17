@@ -726,10 +726,10 @@
   "lang": "en",
   "rating": 1,
   "title": "",
-  "body": "Marketing Spam",
+  "body": "Marketing Spam, you cant turn off notification they lock you out of the app. no action on the support email. you will lose my business if you keep going. final warning. will close account in 2 weeks",
   "author": "Sevag Abrahamian",
-  "version": "9.21.1",
-  "date": "2026-10-20",
+  "version": "9.23.0",
+  "date": "2026-11-15",
   "votes_helpful": 0,
   "votes_total": null,
   "reply": {
@@ -274255,7 +274255,7 @@
   "author": "عادل العيسائي",
   "version": "9.22.0",
   "date": "2026-11-12",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "أهلاً عادل العيسائي،\nنتفهّم ما واجهته من إزعاج، ونتقدّم إليك بخالص الاعتذار عن هذه التجربة. يُرجى التواصل معنا عبر البريد الإلكتروني smfeedback@mashreq.com وتزويدنا ببياناتك، مع الإشارة إلى الرقم المرجعي 675854#، ليتسنّى لفريقنا متابعة الأمر وتقديم المساعدة اللازمة في أقرب وقت ممكن.",
@@ -274674,6 +274674,132 @@
   "reply": {
    "body": "Hello Mary Chakoreka,\nThank you for your wonderful review! We’re happy to know you took the time to share your experience with us.\nRegards,\nMashreq",
    "date": "2026-11-14"
+  }
+ },
+ {
+  "id": "play-138e19c8-f948-4cf7-af4d-bbce85b9ca2b",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Great one",
+  "author": "Zohaib Hassan",
+  "version": "9.23.0",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Zohaib Hassan,\nWe appreciate your kind words and continued support. Thank you for choosing Mashreq.\nRegards,\nMashreq",
+   "date": "2026-11-16"
+  }
+ },
+ {
+  "id": "play-2d795260-5b63-4144-ab0c-73a19e1ec1c8",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Great work",
+  "author": "Ahad Khan",
+  "version": "9.23.0",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Ahad,\nThank you for the 5-star rating! We are thrilled you had a great experience with Mashreq and truly appreciate your support.",
+   "date": "2026-11-16"
+  }
+ },
+ {
+  "id": "play-0577d286-4b0a-476c-95d3-ee9b02f1ba49",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "perfect",
+  "author": "Fosso Gislen",
+  "version": "9.23.0",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Fosso Gislen,\n\nThank you for the 4-star rating. We’re glad to have earned your positive feedback.\n\nRegards,\nMashreq",
+   "date": "2026-11-15"
+  }
+ },
+ {
+  "id": "play-961d6896-69bd-4a7c-b30d-a2bef75e7314",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "very bad experience",
+  "author": "Sumuji786 Parvi",
+  "version": "",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi Sumuji Parvi,\nWe know how important seamless service is and are sorry for this experience. Please write to us at smfeedback@mashreq.com with your details, quoting reference number #676806, and our team will assist you at the earliest.",
+   "date": "2026-11-16"
+  }
+ },
+ {
+  "id": "play-2bd156b8-77dd-4650-a1f1-1539704dbe86",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 3,
+  "title": "",
+  "body": "good",
+  "author": "Tsedeke Kebede",
+  "version": "9.22.0",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Tsedeke Kebede,\nThank you for your 4-star. We appreciate you taking the time to share it with us.\nRegards,\nMashreq",
+   "date": "2026-11-16"
+  }
+ },
+ {
+  "id": "play-c0895049-df24-4e82-955b-40b0cc91a81d",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "nice app",
+  "author": "Dhaneesh Raveendran",
+  "version": "9.23.0",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Dhaneesh,\nWe’re delighted to hear your positive feedback. Thank you for your support.\nRegards,\nMashreq",
+   "date": "2026-11-15"
+  }
+ },
+ {
+  "id": "play-d5a6fc87-94af-46fe-b6fd-e7df8095da46",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "good",
+  "author": "Eng Abdou",
+  "version": "9.23.0",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Customer,\nWe appreciate your kind words and continued support. Thank you for choosing Mashreq.\nRegards,\nMashreq",
+   "date": "2026-11-15"
   }
  }
 ]

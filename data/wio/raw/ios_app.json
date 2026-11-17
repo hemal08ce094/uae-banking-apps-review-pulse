@@ -1,14 +1,14 @@
 {
  "trackName": "Wio Personal",
  "sellerName": "WIO BANK P.J.S.C",
- "averageUserRating": 4.79947,
- "userRatingCount": 7116,
- "version": "1.76.0",
- "currentVersionReleaseDate": "2026-11-05T09:53:27Z",
+ "averageUserRating": 4.79958,
+ "userRatingCount": 7120,
+ "version": "1.76.1",
+ "currentVersionReleaseDate": "2026-11-16T11:04:16Z",
  "releaseDate": "2023-07-25T07:00:00Z",
  "minimumOsVersion": "16.0",
  "contentAdvisoryRating": "4+",
- "fileSizeBytes": "456819712",
+ "fileSizeBytes": "456834048",
  "genres": [
   "Finance",
   "Lifestyle"

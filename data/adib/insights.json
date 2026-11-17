@@ -1,6 +1,6 @@
 {
  "headline": "72% of ADIB's written reviews give five stars and 19% give one or two. The complaints that recur are release loops, face verification on a new phone and the move from SMS to push notifications.",
- "lede": "ADIB answers 64% of written reviews, with a median gap of under a day. The best month with at least 100 reviews is 2020-09 (average 4.76); 83% of that month's reviews are under 40 characters, so volume rose faster than detail. 87 reviews since 2023 mention the selfie or face scan.",
+ "lede": "ADIB answers 64% of written reviews, with a median gap of under a day. The best month with at least 100 reviews is 2020-09 (average 4.76); 83% of that month's reviews are under 40 characters, so volume rose faster than detail. 86 reviews since 2023 mention the selfie or face scan.",
  "method": "Averages here are of written reviews only. Store ratings (4.69 App Store, 4.63 Google Play) include star-only ratings, which are not public and skew positive. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged in English and Arabic, so a review can carry several themes. App Store coverage: deep crawl phase 1 of 2 complete, phase 2 running.",
  "events": [
   {
@@ -24,7 +24,7 @@
   {
    "month": "2023-05",
    "label": "Face scan fails on a new phone",
-   "detail": "87 reviews since January 2023 mention the selfie or face check. The common story: it worked on the old phone, fails on the new one, and the daily attempt limit runs out.",
+   "detail": "86 reviews since January 2023 mention the selfie or face check. The common story: it worked on the old phone, fails on the new one, and the daily attempt limit runs out.",
    "kind": "pain"
   },
   {
@@ -382,5 +382,5 @@
    ]
   }
  ],
- "generated": "2026-11-16"
+ "generated": "2026-11-17"
 }

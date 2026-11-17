@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "months": [
   "2012-12",
   "2013-01",
@@ -170,7 +170,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-16",
+ "collected": "2026-11-17",
  "coverage": {
   "phase": 2,
   "text": "complete",
@@ -200,21 +200,21 @@
   "play_url": "https://play.google.com/store/apps/details?id=com.adcb.nexgen",
   "store_rating": {
    "ios": {
-    "avg": 4.600872930129907,
-    "count": 202991,
+    "avg": 4.60097969247585,
+    "count": 203106,
     "version": "1.63"
    },
    "android": {
-    "avg": 4.456020330326956,
-    "count": 153385,
-    "reviews": 20951,
+    "avg": 4.456676793023316,
+    "count": 153540,
+    "reviews": 20960,
     "version": "1.63",
     "histogram": [
-     13998,
-     2275,
-     3648,
-     13302,
-     120150
+     13984,
+     2276,
+     3673,
+     13288,
+     120306
     ],
     "installs": "1,000,000+"
    }
@@ -224,8 +224,8 @@
     "new": {
      "trackName": "ADCB.",
      "sellerName": "Abu Dhabi Commercial Bank",
-     "averageUserRating": 4.49988,
-     "userRatingCount": 89965,
+     "averageUserRating": 4.50021,
+     "userRatingCount": 90079,
      "version": "1.63",
      "currentVersionReleaseDate": "2026-11-16T08:54:03Z",
      "releaseDate": "2026-04-15T07:00:00Z",
@@ -240,8 +240,8 @@
     "old": {
      "trackName": "ADCB",
      "sellerName": "Abu Dhabi Commercial Bank",
-     "averageUserRating": 4.68126,
-     "userRatingCount": 113026,
+     "averageUserRating": 4.68129,
+     "userRatingCount": 113027,
      "version": "21.6.0",
      "currentVersionReleaseDate": "2026-10-30T19:04:45Z",
      "releaseDate": "2012-10-15T07:00:00Z",
@@ -257,15 +257,15 @@
    "android": {
     "new": {
      "title": "ADCB.",
-     "score": 4.6347656,
-     "ratings": 89217,
-     "reviews": 5732,
+     "score": 4.635341,
+     "ratings": 89372,
+     "reviews": 5741,
      "histogram": [
-      4744,
-      923,
-      2036,
-      6755,
-      74753
+      4734,
+      925,
+      2062,
+      6744,
+      74901
      ],
      "version": "1.63",
      "installs": "1,000,000+",
@@ -276,15 +276,15 @@
     },
     "old": {
      "title": "ADCB",
-     "score": 4.207499,
+     "score": 4.2078366,
      "ratings": 64168,
      "reviews": 15219,
      "histogram": [
-      9254,
-      1352,
-      1612,
-      6547,
-      45397
+      9250,
+      1351,
+      1611,
+      6544,
+      45405
      ],
      "version": "21.6.0",
      "installs": "1,000,000+",
@@ -297,20 +297,20 @@
   }
  },
  "totals": {
-  "all": 33475,
+  "all": 33484,
   "ios": 5640,
-  "android": 27835,
+  "android": 27844,
   "first": "2012-12-10",
-  "last": "2026-11-15",
+  "last": "2026-11-16",
   "avg": 3.62,
   "avg_ios": 2.54,
   "avg_android": 3.84,
   "hist": [
-   9420,
+   9422,
    1183,
-   1200,
+   1201,
    2671,
-   19001
+   19007
   ],
   "hist_ios": [
    3067,
@@ -320,25 +320,25 @@
    1840
   ],
   "hist_android": [
-   6353,
+   6355,
    864,
-   966,
+   967,
    2491,
-   17161
+   17167
   ],
   "sentiment": {
-   "positive": 22062,
-   "negative": 10817,
-   "neutral": 596
+   "neutral": 597,
+   "positive": 22068,
+   "negative": 10819
   },
   "langs": [
    [
     "en",
-    30045
+    30053
    ],
    [
     "ar",
-    3057
+    3058
    ],
    [
     "es",
@@ -415,8 +415,8 @@
     17
    ]
   ],
-  "with_text": 33469,
-  "untagged": 4748
+  "with_text": 33478,
+  "untagged": 4751
  },
  "monthly": {
   "all": [
@@ -2760,16 +2760,16 @@
    },
    {
     "month": "2026-11",
-    "count": 283,
-    "avg": 3.37,
-    "neg": 111,
-    "pos": 167,
+    "count": 292,
+    "avg": 3.39,
+    "neg": 113,
+    "pos": 173,
     "hist": [
-     101,
+     103,
      10,
-     8,
+     9,
      10,
-     154
+     160
     ]
    }
   ],
@@ -7468,16 +7468,16 @@
    },
    {
     "month": "2026-11",
-    "count": 237,
-    "avg": 3.51,
-    "neg": 84,
-    "pos": 150,
+    "count": 246,
+    "avg": 3.53,
+    "neg": 86,
+    "pos": 156,
     "hist": [
-     79,
+     81,
      5,
-     6,
+     7,
      9,
-     138
+     144
     ]
    }
   ]
@@ -15976,13 +15976,13 @@
   {
    "key": "login",
    "label": "Login & access",
-   "count": 1813,
-   "negative": 1482,
+   "count": 1812,
+   "negative": 1481,
    "positive": 259,
    "neutral": 72,
    "avg": 1.76,
    "ios": 476,
-   "android": 1337,
+   "android": 1336,
    "share_of_negative": 0.137,
    "monthly": {
     "ios": [
@@ -17664,8 +17664,8 @@
       2
      ],
      [
-      17,
-      13,
+      16,
+      12,
       4
      ]
     ]
@@ -41793,11 +41793,11 @@
   {
    "platform": "android",
    "version": "1.62",
-   "count": 145,
-   "avg": 3.32,
-   "neg_share": 0.4,
+   "count": 154,
+   "avg": 3.36,
+   "neg_share": 0.39,
    "first": "2026-11-04",
-   "last": "2026-11-15",
+   "last": "2026-11-16",
    "top_themes": [
     "update",
     "stability",
@@ -43365,14 +43365,14 @@
   }
  ],
  "replies": {
-  "count": 25371,
-  "android": 21498,
+  "count": 25372,
+  "android": 21499,
   "ios": 3873,
   "rate_android": 0.772,
   "rate_ios": 0.687,
   "median_lag_days": 1,
   "by_year": {
-   "2026": 9317,
+   "2026": 9318,
    "2025": 2438,
    "2024": 3049,
    "2023": 2826,
@@ -43387,8 +43387,8 @@
   {
    "year": "2026",
    "file": "reviews/2026.json",
-   "count": 12750,
-   "bytes": 6616481
+   "count": 12759,
+   "bytes": 6619707
   },
   {
    "year": "2025",
@@ -43477,6 +43477,6 @@
  ],
  "index": {
   "file": "index.json",
-  "bytes": 503423
+  "bytes": 503549
  }
 }

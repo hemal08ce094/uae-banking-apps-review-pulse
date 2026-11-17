@@ -288316,12 +288316,12 @@
   "platform": "android",
   "storefront": "eg",
   "lang": "en",
-  "rating": 1,
+  "rating": 2,
   "title": "",
-  "body": "can not do face verification. customer service can not assist as well. Stuck. they can not send new card as well.",
+  "body": "Covered card statement is generated on the 12th of every month but will receive the email and sms notification after 7-10 days. why is that, why this delay? why can't we receive it on the same day or max the following day the statement was generated so we can plan our payment and spending?",
   "author": "Tamer Koksalan",
   "version": "8.10.6",
-  "date": "2026-11-08",
+  "date": "2026-11-16",
   "votes_helpful": 0,
   "votes_total": null,
   "reply": {
@@ -290416,6 +290416,78 @@
   "author": "Abdogop1979 Eldagen",
   "version": "8.10.6",
   "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "عزيزي المتعامل,\nنفتخر برضاك عن خدماتنا. نواصل العمل بجد لإضافة ميزات وخدمات جديدة لتحسين تجربتك. في حال كان لديك أي استفسارات، لا تتردد في التواصل معنا في أي وقت!\nك.ي",
+   "date": "2026-11-16"
+  }
+ },
+ {
+  "id": "play-232ceeb5-46b8-4e53-b94d-544ecca100e3",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Good",
+  "author": "Ramnivash Yadav",
+  "version": "8.10.6",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Customer,\nThank you for your wonderful feedback. We are continuously working on adding more features to our app to make your experience better.\nWe appreciate your feedback and star rating. Please feel free to reach out to us anytime if you have any questions!\nK.Y",
+   "date": "2026-11-16"
+  }
+ },
+ {
+  "id": "play-fcf8a21f-d5f4-4550-bd83-44b324a3adf0",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "خدمات ممتازة",
+  "author": "saif Al jahoushi",
+  "version": "8.10.6",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "عزيزي المتعامل, نفتخر برضاك عن خدماتنا. نواصل العمل بجد لإضافة ميزات وخدمات جديدة لتحسين تجربتك. في حال كان لديك أي استفسارات، لا تتردد في التواصل معنا في أي وقت!\nك.ي",
+   "date": "2026-11-16"
+  }
+ },
+ {
+  "id": "play-dfaa9105-4c32-4198-9936-ad78732f827f",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "ممتاز",
+  "author": "وجيه الرحيبي",
+  "version": "8.10.6",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "عزيزي المتعامل,\nنفتخر برضاك عن خدماتنا. نواصل العمل بجد لإضافة ميزات وخدمات جديدة لتحسين تجربتك. في حال كان لديك أي استفسارات، لا تتردد في التواصل معنا في أي وقت!\nك.ي",
+   "date": "2026-11-16"
+  }
+ },
+ {
+  "id": "play-5a220cac-e35d-4e20-a5c0-070cb6844e37",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "ممتاز جدا",
+  "author": "Nimer Abou Halawa",
+  "version": "8.10.6",
+  "date": "2026-11-15",
   "votes_helpful": 0,
   "votes_total": null,
   "reply": {
