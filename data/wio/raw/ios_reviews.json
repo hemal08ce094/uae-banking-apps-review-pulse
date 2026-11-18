@@ -292,5 +292,33 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14797520737",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "Still no iPhone Duo support",
+  "body": "After a month of the iPhone Duo launch Wio still does not support the latest and greatest iPhone even though there have been 2 app updates already. Wio is completely useless as Duo users cannot access their accounts for a month. Epic let down for an app-only service.",
+  "author": "Lupambulus1409",
+  "version": "1.76.1",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14796288880",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 5,
+  "title": "Would be great if you can add trading hours to each stock",
+  "body": "Sometimes it’s hard to tell when to buy and sell, for both UAE and American stocks. If you could add UAE local trading hours info for each stock would be really handy for investors.",
+  "author": "alaskabutter",
+  "version": "1.76.0",
+  "date": "2026-11-15",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

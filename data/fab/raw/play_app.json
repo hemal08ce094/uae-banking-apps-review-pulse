@@ -1,19 +1,19 @@
 {
  "title": "FAB Mobile",
- "score": 4.269145,
- "ratings": 45011,
- "reviews": 12743,
+ "score": 4.270798,
+ "ratings": 45018,
+ "reviews": 12744,
  "histogram": [
-  6754,
+  6735,
   577,
-  980,
-  2175,
-  34518
+  979,
+  2186,
+  34535
  ],
- "version": "3.7.93",
+ "version": "3.7.96",
  "installs": "1,000,000+",
  "released": "Dec 3, 2018",
- "updated": 1793783090,
+ "updated": 1794895288,
  "developer": "FIRST ABU DHABI BANK",
  "genre": "Finance"
 }

@@ -3449,10 +3449,10 @@
   "lang": "en",
   "rating": 1,
   "title": "",
-  "body": "12 oct 26. upgrade won't work with accessibility options. and no roll-back is available. 14 nov 26. still cannot use the app. no fix has been released. Very difficult to do banking without the app",
+  "body": "12 oct 26. upgrade won't work with accessibility options. and no roll-back is available. 14 nov 26. still cannot use the app. no fix has been released. Very difficult to do banking without the app 17 nov 26. ADCB confirmed the app will not work with accessibility apps. Closing my account.",
   "author": "Robyn Webb",
   "version": "1.62",
-  "date": "2026-11-14",
+  "date": "2026-11-17",
   "votes_helpful": 1,
   "votes_total": null,
   "reply": {
@@ -143612,7 +143612,7 @@
   "author": "lyndon d'souza",
   "version": "1.62",
   "date": "2026-11-14",
-  "votes_helpful": 1,
+  "votes_helpful": 4,
   "votes_total": null,
   "reply": null,
   "generation": "new"
@@ -143756,7 +143756,7 @@
   "author": "Terrifying Terrifying",
   "version": "1.62",
   "date": "2026-11-13",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": null,
   "generation": "new"
@@ -144034,6 +144034,187 @@
   "votes_helpful": 0,
   "votes_total": null,
   "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-157b47b3-dc86-425b-bc6d-ad470621ac3c",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "very nice service.",
+  "author": "jujhar Singh",
+  "version": "1.61",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-db8edee8-3a2a-4ef5-aa6f-61419b35d4c9",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "Great service",
+  "author": "manoj gnawali",
+  "version": "1.63",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-00b1f0f1-5a4c-4b5c-9c30-9063d67e44cf",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "I like It's and my Have ADCB Islamic Saving account and my online eran reward maney I send my ADCB Bank account whit IBN And Gmail",
+  "author": "Mamun Md Akie",
+  "version": "1.62",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-ad2643ab-3c8f-4f79-8ca4-aab7bcc48417",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good",
+  "author": "Abdul Wahab",
+  "version": "1.63",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi there! Thanks a lot for your feedback! We’re delighted to see that you enjoy our app :) M.A",
+   "date": "2026-11-17"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-2100b56b-bf60-43c6-ae7a-2a3643d255c2",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "excellent",
+  "author": "Rehan Khan",
+  "version": "1.62",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Appreciate the love! We're glad the app is working well for you. M.A",
+   "date": "2026-11-17"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-f47d9314-8af7-4ffe-9c75-5b91865c8d46",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "This is the worst app with the new update. Each time I have to uninstall and install then only I can enable the login screen, becaue of this issue I am planning to close my account in adcb. We unable to transfer money when it is required. Please fix the bug in the app. Thank you",
+  "author": "Varun Kumar",
+  "version": "1.63",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again. M.A",
+   "date": "2026-11-17"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-35e01d4d-8d9d-4011-a1e1-d3161a21214a",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "it doesn't work properly on honor magic v6 phone , I need to fold and unfold after every operation to keep the app functioning",
+  "author": "prashant tambe",
+  "version": "1.63",
+  "date": "2026-11-16",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again. M.A",
+   "date": "2026-11-17"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-ef0db701-0858-4420-a73b-bfb853a5d95b",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "website is very slow now a days.",
+  "author": "Sajid Abid",
+  "version": "1.63",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi, I’m sorry to hear that. We will share your feedback with the concerned team. M.A.",
+   "date": "2026-11-17"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-f6787dab-2a47-4912-835e-b4fd868a53df",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "I'm experiencing a frustrating issue with the ADCB app on my mobile. It's the only application on my phone with this problem. The login button is often unresponsive, and even when I manage to log in after multiple attempts, other buttons remain unclickable. This is very disappointing, especially for a banking app. Please ask your development team to investigate and fix this compatibility issue as soon as possible.",
+  "author": "Rama Murthi",
+  "version": "1.63",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again. M.A",
+   "date": "2026-11-17"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-4837cbbe-1ab4-4c23-9182-33bef95a696d",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "ممتاز",
+  "author": "Jamal Jamal",
+  "version": "1.62",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "مرحبا عزيزي، شكراً على التقييم العالي. M.A",
+   "date": "2026-11-17"
+  },
   "generation": "new"
  }
 ]

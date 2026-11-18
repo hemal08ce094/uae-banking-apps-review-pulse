@@ -1888,5 +1888,61 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14797190831",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "App lagging",
+  "body": "The app is lagging and not smooth as before used to be .",
+  "author": "Aymenking0019",
+  "version": "3.0.01",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14796960795",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 5,
+  "title": "Abuali",
+  "body": "100% satisfied",
+  "author": "Abuali2023",
+  "version": "3.0.01",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14789448018",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 3,
+  "title": "App is slow",
+  "body": "App is slow while doing fund transfers",
+  "author": "Subin K Mani",
+  "version": "3.0.01",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14798691536",
+  "platform": "ios",
+  "storefront": "in",
+  "rating": 1,
+  "title": "Server issue and inconvenience",
+  "body": "Most bank apps now accept face id or uae pass but fab still uses the in-app face verification which is not effective and most of the times shows server issue",
+  "author": "Vnr1986",
+  "version": "3.0.01",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

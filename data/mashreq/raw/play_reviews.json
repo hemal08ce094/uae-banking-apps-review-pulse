@@ -274801,5 +274801,113 @@
    "body": "Dear Customer,\nWe appreciate your kind words and continued support. Thank you for choosing Mashreq.\nRegards,\nMashreq",
    "date": "2026-11-15"
   }
+ },
+ {
+  "id": "play-a92dcd95-2442-43d2-91c5-d8a8f86c40e1",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Awesome",
+  "author": "Jimmy Diamante Jr",
+  "version": "9.23.0",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Jimmy,\nThank you for your 5-star rating. We’re delighted to have your support.\nRegards,\nMashreq",
+   "date": "2026-11-17"
+  }
+ },
+ {
+  "id": "play-b5447e5e-96ca-4ed4-bfe2-152d84d6624f",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "always slow",
+  "author": "John V V",
+  "version": "9.23.0",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi John, We regret to learn about your experience. Please reach out to us at smfeedback@mashreq.com with reference number #677451, and our team will review this and assist you accordingly.",
+   "date": "2026-11-17"
+  }
+ },
+ {
+  "id": "play-b288eb45-e6cd-4792-92f5-3e4de4e4d598",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "👍",
+  "author": "Aryan Raj",
+  "version": "9.23.0",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Aryan Raj,\nYour 5-star rating is greatly appreciated. Thank you for choosing Mashreq.\nRegards,\nMashreq",
+   "date": "2026-11-17"
+  }
+ },
+ {
+  "id": "play-e2ad7b95-fec8-41d3-9531-e0441f908fb3",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Very disappointing experience with Mashreq Bank. I have been a customer for over 8 months with a monthly salary of AED 10,000. Despite multiple credit card applications, every request has been rejected without a clear explanation. Bank representatives repeatedly encourage me to apply, but the result is always the same. The entire process is frustrating, complicated, and a waste of time. I am seriously considering switching to another bank. Very poor customer experience!",
+  "author": "Amit dubey",
+  "version": "9.23.0",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi Amit,\nWe take customer experience very seriously and do everything we can to offer a great experience. We regret not meeting expectations. We would like to have this matter looked into. Please reach out to us at smfeedback@mashreq.com, quoting reference number #677284, and our team will review the matter and provide the necessary assistance.",
+   "date": "2026-11-17"
+  }
+ },
+ {
+  "id": "play-93bad2ff-a105-4859-92fb-2d902651968b",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "very nice",
+  "author": "Safiq Chappi",
+  "version": "9.22.0",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Safiq Chappi,\n\nThank you for the 5-star rating. We’re glad to have earned your positive feedback.\n\nRegards,\nMashreq",
+   "date": "2026-11-17"
+  }
+ },
+ {
+  "id": "play-682f88f6-8fbb-496e-a6d2-ef3cfbba7817",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good",
+  "author": "Dharmendra Shukla",
+  "version": "9.23.0",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Dharmendra,\nWe sincerely appreciate your kind words and are grateful for the opportunity to serve you.\nRegards,\nMashreq",
+   "date": "2026-11-16"
+  }
  }
 ]

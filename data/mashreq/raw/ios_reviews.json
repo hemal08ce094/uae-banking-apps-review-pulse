@@ -558,5 +558,33 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14792358215",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 3,
+  "title": "Please use old version of the app",
+  "body": "I can’t not open the app using the new version pls make it like before because new version not compatible in other phone",
+  "author": "chockieeeee",
+  "version": "9.23.0",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14792194823",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "Disappointed",
+  "body": "I was disappointed my account in apps mobile i cannot open even I send money online in my country for family financial I cannot acces",
+  "author": "chingtats",
+  "version": "9.23.0",
+  "date": "2026-11-14",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

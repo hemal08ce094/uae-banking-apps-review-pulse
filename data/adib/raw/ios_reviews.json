@@ -782,5 +782,47 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14797653423",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 5,
+  "title": "Thank You for Your Excellent Service",
+  "body": "Thank you to the bank’s customer service team for your professionalism, kindness, and prompt assistance. I truly appreciate your excellent service and support.",
+  "author": "FMASA1978",
+  "version": "8.11.10",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14797016292",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "Didn’t optimize for iPhone Duo unlike ENBD",
+  "body": "Didn’t optimize for iPhone Duo unlike ENBD",
+  "author": "Notty.tiger",
+  "version": "8.11.10",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14796789057",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "لم لا تكتبون بالعربية؟",
+  "body": "لم لا تشرحون التحديثات بالعربية؟ على الأقل إلى جانب الإنجليزية، الاكتفاء بالانجليزية وحدها وافتراض أن المستخدمين جميعا ولدوا في لندن أمر غريب مزعج، المفترض أنكم بنك إسلامي عربي في بلد عربي، اكتبوا بالعربية!.",
+  "author": "M.M. 1447",
+  "version": "8.11.10",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]
