@@ -1,16 +1,16 @@
 {
  "trackName": "FAB Mobile",
  "sellerName": "FIRST ABU DHABI BANK PJSC",
- "averageUserRating": 4.63318,
- "userRatingCount": 117281,
- "version": "3.0.01",
- "currentVersionReleaseDate": "2026-11-09T14:41:18Z",
+ "averageUserRating": 4.63302,
+ "userRatingCount": 117370,
+ "version": "3.0.02",
+ "currentVersionReleaseDate": "2026-11-18T04:17:02Z",
  "releaseDate": "2018-12-04T03:28:01Z",
  "minimumOsVersion": "14.0",
  "contentAdvisoryRating": "4+",
- "fileSizeBytes": "794631168",
+ "fileSizeBytes": "792781824",
  "genres": [
   "Finance"
  ],
- "releaseNotes": "\u2022\tWe\u2019ve made improvements behind the scenes so that you can bank seamlessly"
+ "releaseNotes": "\u2022\tOpen and manage a joint account \n\n\u2022\tApply for a Jaywan credit card through the app\n\n\u2022\tLog a complaint through Help & Support\n\n\u2022\tPlus, we\u2019ve made improvements across onboarding and account services for a smoother experience"
 }

@@ -274699,5 +274699,50 @@
   "votes_helpful": 0,
   "votes_total": null,
   "reply": null
+ },
+ {
+  "id": "play-374a09e7-d8e7-4853-af34-993c9b99dd65",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Kindergarten App: savings accounts don't even show interest rates, very basic. I would expect so much more from FAB, too basic. The only decent function: you're getting SMS / Email everytime you logged on, informing from which country it's being used. This is pretty much it. How on earth they market e.g. an iSave account and once you create and add the account, now where it shows the interest rate and when the account has been opened?",
+  "author": "Alexander Agostini (Squalo)",
+  "version": "",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-cb9d5829-fb37-485c-bcf7-7ee398c8b369",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Excellent banking experience! The FAB mobile app is very easy to use, user-friendly, and convenient. Transactions are smooth and hassle-free, and the overall service is excellent. Everything is easily accessible, making banking much easier and faster. Highly recommended! Keep up the great service!",
+  "author": "jayvi javier",
+  "version": "3.7.93",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-0d9f32ba-ea7a-45dc-a682-64670bc8be4d",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "This app is incredible, thanks for your service",
+  "author": "Muhammad Adnan Khan",
+  "version": "",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null
  }
 ]

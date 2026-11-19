@@ -11321,19 +11321,19 @@
  {
   "id": "play-7631beb2-f1f8-4376-bf0e-a96ef7c28f2b",
   "platform": "android",
-  "storefront": "ae",
+  "storefront": "eg",
   "lang": "en",
   "rating": 1,
   "title": "",
-  "body": "Had app issues but was resolved quite quickly. Good to finally start seeing good customer service in the banking sector. Well done. Update: thank you ENBD for the Mall gift card, just a pity that the card delivered expired in January 2026... how ironic! service recovery creating more dissatisfaction! well done!",
+  "body": "And so we are back to the same issue again Emirates NBD! I do not have VoiceOver enabled and can show you! yet again you guys make.it impossible to open the app!!! This is so damn frustrating - I will switch banks if you happens again or this is not resolved ASAP!!!! stop this behaviors!! Do you actually rear the whole review??Instead, you have copy-paste responses! If you paid attention, you would have seen that I DO NOT have this app enabled, yet you copy-paste the same message for all! Poor",
   "author": "Eugene Bosman",
-  "version": "26.8.10",
-  "date": "2026-09-02",
-  "votes_helpful": 1,
+  "version": "26.11.3",
+  "date": "2026-11-18",
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
-   "body": "Hi Eugene, thank you for your feedback! We're happy to know that your app issues were addressed promptly. To help you further with the MAF card, could you please provide the card number for our validation? You can contact us at mobilebankingdev@emiratesnbd.com, and kindly mention reference number EBG-02489 for swift assistance.",
-   "date": "2026-09-23"
+   "body": "Hello Eugene, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02489. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-18"
   }
  },
  {
@@ -13309,7 +13309,7 @@
   "author": "Shriram Srinivasan",
   "version": "",
   "date": "2026-11-11",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Shriram, please try removing and re-adding your fingerprint in your phone's settings. If you’re still having trouble, please contact us at mobilebankingdev@emiratesnbd.com with reference EBG-02532 so we can investigate further. If this solves your problem, we hope you’ll reconsider your rating for our app.",
@@ -13993,7 +13993,7 @@
   "author": "RiyasHasan",
   "version": "26.10.10",
   "date": "2026-11-11",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Riyas, please try removing and re-adding your fingerprint in your phone's settings. If you’re still having trouble, please contact us at mobilebankingdev@emiratesnbd.com with reference EBG-02523 so we can investigate further. If this solves your problem, we hope you’ll reconsider your rating for our app.",
@@ -16171,7 +16171,7 @@
   "author": "Mohammed Alhussain",
   "version": "26.11.2",
   "date": "2026-11-17",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello, thank you for sharing your concerns about our Mobile Banking App. We are dedicated to enhancing your experience. If you could provide more details about the issue, it would be very helpful for us to assist you. Please reach out to us at mobilebankingdev@emiratesnbd.com with reference number EBG-02492.",
@@ -32839,7 +32839,7 @@
   "author": "Nk",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 6,
+  "votes_helpful": 7,
   "votes_total": null,
   "reply": {
    "body": "Hello, thank you for taking the time to share your feedback about the latest update of our Mobile Banking App. We recognize your concerns regarding compatibility with different features and security software. For more assistance, please contact us at mobilebankingdev@emiratesnbd.com, and kindly include your concerns along with reference EBG-02133.",
@@ -41897,19 +41897,19 @@
  {
   "id": "play-47292bfa-f6ce-4830-ab7b-29980308da61",
   "platform": "android",
-  "storefront": "ae",
+  "storefront": "eg",
   "lang": "en",
   "rating": 1,
   "title": "",
-  "body": "What is voice over??? I'm unable to use this app.",
+  "body": "This voice over issue has appeared again.",
   "author": "Cod Gamer",
-  "version": "16.16.0",
-  "date": "2026-05-08",
+  "version": "26.11.3",
+  "date": "2026-11-17",
   "votes_helpful": 0,
   "votes_total": null,
   "reply": {
-   "body": "Hello Cod, thank you for your feedback about the latest update. We recommend checking the accessibility settings on your device and making sure all tabs are disabled. If the problem continues, please contact us via email mobilebankingdev@emiratesnbd.com, including the reference number EBG-01833 in the subject line.",
-   "date": "2026-05-09"
+   "body": "Hi, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-01833. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-18"
   }
  },
  {
@@ -49123,7 +49123,7 @@
   "author": "Nilesh M Soni",
   "version": "26.11.0",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02960. Once fixed, we would appreciate it if you could update your app rating.",
@@ -71587,7 +71587,7 @@
   "author": "Rami Sarieddine",
   "version": "26.11.0",
   "date": "2026-11-16",
-  "votes_helpful": 5,
+  "votes_helpful": 6,
   "votes_total": null,
   "reply": {
    "body": "Hello! Thank you for taking the time to share your experience with our Mobile Banking App. We truly value your feedback and recognize the importance of providing you with a seamless banking experience. Your suggestions will aid us in improving the app's performance and reliability.",
@@ -176041,7 +176041,7 @@
   "author": "Imran Arshad",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 9,
+  "votes_helpful": 11,
   "votes_total": null,
   "reply": {
    "body": "Hi Imran, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02497. Once fixed, we would appreciate it if you could update your app rating.",
@@ -335992,7 +335992,7 @@
   "author": "Bugoy Ramos",
   "version": "",
   "date": "2026-11-16",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Bugoy, thank you for sharing your feedback. We would like to know more about your experience. Please send us your details with relevant screenshots to mobilebankingdev@emiratesnbd.com from your Email ID registered with the bank so we can address it right away.",
@@ -383063,15 +383063,15 @@
  {
   "id": "play-b4f681d4-0542-4f3b-8b2a-55c642ae524a",
   "platform": "android",
-  "storefront": "us",
+  "storefront": "eg",
   "lang": "en",
-  "rating": 2,
+  "rating": 1,
   "title": "",
-  "body": "I liked the old version. Subtle changes would have been better, this is a new app from ground up. Not every user wants changes, option should be given to go back to the old app whereas new banking uses could have been given a chance to use this app. Miss the old app and trying to get used to it...",
+  "body": "voiceover app error which does not exist in Android. very difficult to use. I liked the old version. Subtle changes would have been better, this is a new app from ground up. Not every user wants changes, option should be given to go back to the old app whereas new banking uses could have been given a chance to use this app. Miss the old app and trying to get used to it...",
   "author": "Arvind Gaba",
-  "version": "12.1.3",
-  "date": "2023-01-04",
-  "votes_helpful": 1,
+  "version": "26.11.3",
+  "date": "2026-11-17",
+  "votes_helpful": 3,
   "votes_total": null,
   "reply": {
    "body": "Hi Arvind, thank you for reaching out to us. ENBD X offers a wide range of new and enhanced services for better banking experience. In case there’s a particular service you are looking for, please send us your details at mobilebankingdev@emiratesnbd.com from your Email ID registered with the bank, so we can connect.\n\n",
@@ -416095,7 +416095,7 @@
   "author": "Sam B1",
   "version": "26.10.10",
   "date": "2026-11-11",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Sam, thank you for your feedback regarding the visibility of the buying option in our Mobile Banking App. We strive to provide a smooth experience for all our users. For more detailed assistance, please contact us at mobilebankingdev@emiratesnbd.com with reference number EBG-02917 in the subject line.",
@@ -416203,7 +416203,7 @@
   "author": "Sara Ahmed",
   "version": "26.10.10",
   "date": "2026-11-11",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Dear Sara, thank you for sharing your feedback about the support experience you had. We recognize how essential it is to have dependable assistance. For any further clarification on your concerns, please contact us at mobilebankingdev@emiratesnbd.com, mentioning reference number EBG-02916 in the subject line.",
@@ -416221,7 +416221,7 @@
   "author": "JAYBEE FAMILY",
   "version": "16.5.0",
   "date": "2026-11-11",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello, thank you for sharing your thoughts on the recent update. We strive to make sure the Mobile Banking App operates smoothly for everyone. If you have more details about your experience, please reach out to us at mobilebankingdev@emiratesnbd.com, including reference number EBG-02915 in the subject line so we can connect with you.",
@@ -416257,7 +416257,7 @@
   "author": "Umer Gujjar",
   "version": "16.17.1",
   "date": "2026-11-11",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Umer, we appreciate you taking the time to express your concerns regarding the Mobile Banking App. We recognize the significance of having a smooth experience. If you wish to share more details about the issues you've encountered, please contact us at mobilebankingdev@emiratesnbd.com with reference number EBG-02914 in the subject line.",
@@ -416419,7 +416419,7 @@
   "author": "Hammad",
   "version": "",
   "date": "2026-11-10",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Hammad, thank you for highlighting this issue. We appreciate your feedback and understand the importance of improving our service. To address your concerns further, please reach out to us at mobilebankingdev@emiratesnbd.com, including reference number EBG-02913 in the subject line.",
@@ -416437,7 +416437,7 @@
   "author": "vel cute",
   "version": "26.10.10",
   "date": "2026-11-10",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello, thank you for your feedback about our customer care service. It’s important for us to offer you effective support. If you need further assistance, please email us at mobilebankingdev@emiratesnbd.com with details of your concerns and include reference number EBG-02911 in the subject line for prompt assistance.",
@@ -416527,7 +416527,7 @@
   "author": "Shahnawaz",
   "version": "14.5.0",
   "date": "2026-11-10",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Shahnawaz, please try removing and re-adding your fingerprint in your phone's settings. If you’re still having trouble, please contact us at mobilebankingdev@emiratesnbd.com with reference EBG-02910 so we can investigate further. If this solves your problem, we hope you’ll reconsider your rating for our app.",
@@ -416545,7 +416545,7 @@
   "author": "Antonii John",
   "version": "26.10.10",
   "date": "2026-11-10",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Antonii, please ensure that your date and time settings are set to automatic, turn off the switch for dual clock, and update the latest version of the Mobile Banking App from the store. If the issue persists, please reach out to us via email at mobilbankingdev@emiratesnbd.com including reference EBG-02908 in the subject line.",
@@ -416635,7 +416635,7 @@
   "author": "Arul N",
   "version": "26.10.10",
   "date": "2026-11-10",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Arul, we appreciate you taking the time to share your experience with us. We recognize the significance of receiving quality service, and your feedback is important for our improvement. For any further assistance, please contact us at mobilebankingdev@emiratesnbd.com, mentioning reference number EBG-02907 in the subject line.",
@@ -416671,7 +416671,7 @@
   "author": "Ajith K Venunathan",
   "version": "26.10.10",
   "date": "2026-11-10",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Ajith, we appreciate your feedback on the Mobile Banking App. We're dedicated to enhancing your experience and would love to learn more about the specific challenges you've faced. Please reach out to us at mobilebankingdev@emiratesnbd.com with reference number EBG-02906 in the subject line.",
@@ -416779,7 +416779,7 @@
   "author": "GP Gopalashamy R",
   "version": "26.10.10",
   "date": "2026-11-09",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Gopalashamy, thank you for taking the time to share your thoughts with us. We are dedicated to enhancing your experience and would love to learn more about your concerns. Please reach out to us at mobilebankingdev@emiratesnbd.com, including reference number EBG-02904 in the subject line.",
@@ -416815,7 +416815,7 @@
   "author": "ROYAL SEHGAL'S",
   "version": "12.17.0",
   "date": "2026-11-09",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi, thank you for highlighting this issue to us. Your feedback is very important as we strive to improve our services. For a more in-depth conversation regarding your concerns, please reach out to us at mobilebankingdev@emiratesnbd.com and include reference number EBG-02903 in the subject.",
@@ -416851,7 +416851,7 @@
   "author": "Hassan Bashir",
   "version": "26.10.10",
   "date": "2026-11-09",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Hassan, thank you for sharing your feedback about the login issue you're experiencing with our Mobile Banking App. We know how key it is to access your account smoothly. Please contact us at mobilebankingdev@emiratesnbd.com with details of your situation so we can help you more effectively. Kindly include reference number EBG-02902 in subject.",
@@ -421657,7 +421657,7 @@
   "author": "Ejaz Ahmed",
   "version": "26.11.0",
   "date": "2026-11-12",
-  "votes_helpful": 2,
+  "votes_helpful": 3,
   "votes_total": null,
   "reply": {
    "body": "Hi Ejaz, you may disable this by going to device Settings - scroll down to Accessibility - then choose Talkback and toggle off. Scroll down to Installed Apps and turn off all the apps seen under this menu. For further assistance please contact us via email at mobilebankingdev@emiratesnbd.com with reference number EBG-02919 in the subject line.",
@@ -421870,7 +421870,7 @@
   "author": "Roba Nayfeh",
   "version": "26.10.10",
   "date": "2026-11-14",
-  "votes_helpful": 2,
+  "votes_helpful": 3,
   "votes_total": null,
   "reply": {
    "body": "Hi Roba, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02931. Once fixed, we would appreciate it if you could update your app rating.",
@@ -421888,7 +421888,7 @@
   "author": "Kirill Zhirokhov",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 4,
+  "votes_helpful": 5,
   "votes_total": null,
   "reply": {
    "body": "Hi Kirill, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02929. Once fixed, we would appreciate it if you could update your app rating.",
@@ -421906,7 +421906,7 @@
   "author": "Moon Ray",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 2,
+  "votes_helpful": 3,
   "votes_total": null,
   "reply": {
    "body": "Hi, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02928. Once fixed, we would appreciate it if you could update your app rating.",
@@ -421942,7 +421942,7 @@
   "author": "Data Backup",
   "version": "",
   "date": "2026-11-14",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "Hi, we appreciate your feedback regarding your experience with our services. We're dedicated to enhancing our offerings and would love to hear more about your concerns. Please reach out to us at mobilebankingdev@emiratesnbd.com and include reference number EBG-02926 in the subject line for assistance.",
@@ -421960,7 +421960,7 @@
   "author": "Dawood Khan",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 4,
+  "votes_helpful": 8,
   "votes_total": null,
   "reply": {
    "body": "Hello Dawood, we are thrilled to receive your positive feedback regarding our Mobile Banking App. It’s wonderful to know that you find our app easy to use and our services convenient. Your encouraging words motivate us to keep delivering outstanding service and enhance our offerings for you.",
@@ -422032,7 +422032,7 @@
   "author": "Mohamed Imran Noorgat",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 5,
+  "votes_helpful": 7,
   "votes_total": null,
   "reply": {
    "body": "Hi, Mohamed, please go to Settings > Accessibility, turn off TalkBack, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02497. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422194,7 +422194,7 @@
   "author": "A HM",
   "version": "",
   "date": "2026-11-13",
-  "votes_helpful": 2,
+  "votes_helpful": 3,
   "votes_total": null,
   "reply": {
    "body": "Hi, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02922. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422302,7 +422302,7 @@
   "author": "Wael Qassar",
   "version": "26.11.0",
   "date": "2026-11-13",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "Hello Wael, to address the login issue, kindly verify your accessibility settings and make sure all features are disabled, including any downloaded apps. If you continue to experience difficulties, please don't hesitate to email us at mobilebankingdev@emiratesnbd.com including refence number EBG-02921 for additional help.",
@@ -422356,7 +422356,7 @@
   "author": "Rizwan Hussain",
   "version": "26.11.0",
   "date": "2026-11-13",
-  "votes_helpful": 9,
+  "votes_helpful": 11,
   "votes_total": null,
   "reply": null
  },
@@ -422407,7 +422407,7 @@
   "author": "Joseph Ongkeko Delos Reyes",
   "version": "",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Joseph, thank you for taking the time to share your thoughts on our Mobile Banking App. We understand how essential it is to have easy access to your banking services. For any further help, feel free to contact us at mobilebankingdev@emiratesnbd.com and please mention reference number EBG-02939 in the subject.",
@@ -422443,7 +422443,7 @@
   "author": "A A",
   "version": "26.11.1",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02941. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422461,7 +422461,7 @@
   "author": "Irfan Yusuf",
   "version": "26.11.1",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Irfan, thank you for your feedback regarding our Mobile Banking App. We strive to make every feature easily accessible. If you need further assistance, please contact us at mobilebankingdev@emiratesnbd.com and include reference number EBG-02940 in the subject line.",
@@ -422515,7 +422515,7 @@
   "author": "Sarah Vekhnik",
   "version": "26.11.1",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Sarah, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02938. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422551,7 +422551,7 @@
   "author": "Mage Gaming",
   "version": "",
   "date": "2026-11-14",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02937. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422569,7 +422569,7 @@
   "author": "saeed badar",
   "version": "26.11.1",
   "date": "2026-11-14",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Saeed, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02964. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422656,7 +422656,7 @@
   "author": "Rafael Lemaitre",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 4,
+  "votes_helpful": 5,
   "votes_total": null,
   "reply": {
    "body": "Hello Shinay, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02934. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422674,7 +422674,7 @@
   "author": "Mageswaran V",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Mageswaran, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02965. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422692,7 +422692,7 @@
   "author": "shinay daniels",
   "version": "26.11.0",
   "date": "2026-11-14",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "Hello Shinay, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02933. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422746,7 +422746,7 @@
   "author": "Mohammed Affan",
   "version": "26.11.2",
   "date": "2026-11-17",
-  "votes_helpful": 2,
+  "votes_helpful": 3,
   "votes_total": null,
   "reply": {
    "body": "Hello mohammed! We appreciate you taking the time to share your feedback regarding our Mobile Banking App. Your thoughts on our security protocols are important to us. If you wish to discuss this further, please reach out to us at mobilebankingdev@emiratesnbd.com and include reference number EBG-02932 in the subject line.",
@@ -422836,7 +422836,7 @@
   "author": "jas Ayappally",
   "version": "",
   "date": "2026-11-16",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Jas, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02959. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422890,7 +422890,7 @@
   "author": "Ibrahim Odeh",
   "version": "26.11.0",
   "date": "2026-11-16",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Ibrahim, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02956. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422944,7 +422944,7 @@
   "author": "Wael B.",
   "version": "26.11.0",
   "date": "2026-11-16",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "Hello Wael, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02953. Once fixed, we would appreciate it if you could update your app rating.",
@@ -422962,7 +422962,7 @@
   "author": "Dwi Nurfitrianto",
   "version": "26.11.0",
   "date": "2026-11-15",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "Hello, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02951. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423016,7 +423016,7 @@
   "author": "Vikram Bhalla",
   "version": "26.11.0",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Vikram, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02950. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423046,13 +423046,13 @@
   "platform": "android",
   "storefront": "eg",
   "lang": "en",
-  "rating": 3,
+  "rating": 2,
   "title": "",
   "body": "Last update made ENBD app complaint for the accessability feature (its says voiceover) . I intentionally installed that accessibility application on my phone. Its an application without internet access , which enables double tap to sleep. i don't see a security risk. Please remove unnecessary security checks.",
   "author": "Ijaz Ci",
-  "version": "26.11.1",
-  "date": "2026-11-15",
-  "votes_helpful": 0,
+  "version": "26.11.3",
+  "date": "2026-11-18",
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Ijaz, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02961. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423070,7 +423070,7 @@
   "author": "shahul hameed",
   "version": "26.11.1",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Shahul, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02962. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423088,7 +423088,7 @@
   "author": "Avishek Biswas",
   "version": "26.11.1",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Avishek, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-00116. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423160,7 +423160,7 @@
   "author": "Anastasiya Solodkaya",
   "version": "26.11.1",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Anastasiya, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02948. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423178,7 +423178,7 @@
   "author": "Jenny George",
   "version": "16.3.3",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Jenny, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02947. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423214,7 +423214,7 @@
   "author": "Sreejith Gopinathan",
   "version": "",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Sreejith, thank you for sharing your concerns about the Mobile Banking App. Your feedback is valuable to us, and we're here to help. For further assistance, please email us at mobilebankingdev@emiratesnbd.com, and include reference number EBG-02945 in the subject line.",
@@ -423268,7 +423268,7 @@
   "author": "Allen Abraham",
   "version": "26.11.1",
   "date": "2026-11-15",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Allen, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02942. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423322,7 +423322,7 @@
   "author": "Gaurav Manna",
   "version": "26.11.2",
   "date": "2026-11-17",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Gaurav, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02976. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423340,7 +423340,7 @@
   "author": "A Z",
   "version": "26.11.2",
   "date": "2026-11-17",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello, thank you for taking the time to share your thoughts on our Mobile Banking App. We value your feedback as it helps us improve our services and enhance your user experience. If you'd like to discuss this further, please contact us via email mobilebankingdev@emiratesnbd.com, including your reference number EBG-02975 in the subject line.",
@@ -423358,7 +423358,7 @@
   "author": "Nithin Suthin",
   "version": "26.11.2",
   "date": "2026-11-17",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Nithin, we truly appreciate your feedback. We recognize the importance of managing payments effectively. For any further support, feel free to reach out to us on WhatsApp at +971600540000 or via email at mobilebankingdev@emiratesnbd.com. Please remember to include your reference number EBG-02974 in the subject line.",
@@ -423430,7 +423430,7 @@
   "author": "Daniel Perez Vera",
   "version": "26.11.2",
   "date": "2026-11-17",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "Hi Daniel, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02973. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423502,7 +423502,7 @@
   "author": "Abdul Rahim",
   "version": "26.11.2",
   "date": "2026-11-16",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Abdul, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02969. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423628,7 +423628,7 @@
   "author": "NA NA (Kaworu)",
   "version": "26.11.0",
   "date": "2026-11-16",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02967. Once fixed, we would appreciate it if you could update your app rating.",
@@ -423718,7 +423718,7 @@
   "author": "Syed Daniyal Ali",
   "version": "26.11.1",
   "date": "2026-11-16",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello Syed, we appreciate your feedback on the Mobile Banking App. Your insights are important to us, and we are committed to enhancing our services. If you need further assistance, please reach out to us at mobilebankingdev@emiratesnbd.com and include reference number EBG-02966 in the subject line.",
@@ -423831,6 +423831,543 @@
   "reply": {
    "body": "Hi Mahmoud, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02970. Once fixed, we would appreciate it if you could update your app rating.",
    "date": "2026-11-17"
+  }
+ },
+ {
+  "id": "play-887af536-ac04-48ff-bb20-10819d9d6ee0",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Unable to use accessibility functions. Need to disable it every time to use the app. this is a pain. Developers need to think about users who need accessibility functions in mobile for their daily use. there are disabled people who needs these features. Forcing such disabled users to switch off accessibility features is crossing a line.",
+  "author": "dev das",
+  "version": "26.11.3",
+  "date": "2026-11-18",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Dev, thank you for your feedback on our Mobile Banking App. We value your input as it helps us enhance our services. We would love to hear more about the challenges you're experiencing. Please reach out to us at mobilebankingdev@emiratesnbd.com with your reference number EBG-02988 in the subject line.",
+   "date": "2026-11-19"
+  }
+ },
+ {
+  "id": "play-e9244186-b556-49be-a0c5-20578a6a3bd0",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "excellent app",
+  "author": "Ismail Orakzai",
+  "version": "26.11.0",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Ismail, we appreciate your fantastic review of our Mobile Banking App. It’s incredibly rewarding to learn that our services have fulfilled your expectations. Your encouragement inspires us to keep delivering the best banking experiences possible.",
+   "date": "2026-11-19"
+  }
+ },
+ {
+  "id": "play-7f360c42-cc43-4584-a904-373dca13552c",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good service",
+  "author": "Imran Khan",
+  "version": "",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Imran, we truly appreciate your kind feedback about our Mobile Banking App. It’s fantastic to hear that you had a great experience with our services. Your encouragement inspires us to continue providing outstanding banking experiences for all our valued customers.",
+   "date": "2026-11-19"
+  }
+ },
+ {
+  "id": "play-0de82741-6ba6-4d33-8ffa-d5a394ebec8b",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "*Attention Please:* Someone transferred *AED 5,000* from my account without my permission. This incident happened on *21 October 2026*. I reported it to Emirates NBD customer service the very next day. Today is *18 November 2026*, almost 1 month has passed, but my case is still not solved, and there has been no proper communication from the bank. I visited the *Mussafah Branch, Abu Dhabi 2 times*. They told me my case was closed without informing me. Secondly, they did not even know the reason.",
+  "author": "Naimat Ullah",
+  "version": "26.11.3",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi Naimat, thank you for your feedback! We're dedicated to addressing your concerns and ensuring everything is resolved effectively. For further assistance, please reach out to us at customercare@emiratesnbd.com where our team will review your case and assist your accordingly.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-70d6490c-68d6-49a5-9b85-ace1f09dfa6b",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 2,
+  "title": "",
+  "body": "The system's restrictive behavior, which prevents the use of essential security and utility applications requiring accessibility permissions -such as Bitdefender or Grammarly- is problematic. Furthermore, the persistent prompts to disable VoiceOver are disruptive; could you please clarify why this functionality is being suppressed?",
+  "author": "Mihai Carcu",
+  "version": "26.11.3",
+  "date": "2026-11-18",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": null
+ },
+ {
+  "id": "play-a96086f1-4d88-4839-852c-8c38e91ee285",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "No 1 banking of UAE",
+  "author": "Mohid Basra",
+  "version": "26.11.1",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Mohid, thank you so much for your fantastic review of our Mobile Banking App. We’re thrilled to hear that you consider us the top bank in the UAE. Your encouragement motivates us to continue delivering outstanding experiences for all our customers.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-f95ea0a1-9fcf-4637-a300-f10fbbd1ad8b",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "best ever best",
+  "author": "MUHAMMAD ERFAN FAISAL",
+  "version": "",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Muhammad, thank you for your wonderful feedback on our Mobile Banking App. We're thrilled to know that you had a fantastic experience. Your satisfaction motivates us to continue delivering the best banking experience possible.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-2fa78b64-cf6e-4bce-b56d-c5b034b11455",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Not working after the latest update , prompting to remove the voice over which I never enabled",
+  "author": "Usman Hameed",
+  "version": "26.11.3",
+  "date": "2026-11-18",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Usman, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02982. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-4b81ccd4-96ee-4d87-8230-d3d86f83c577",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good",
+  "author": "Baljinder Singh",
+  "version": "26.11.0",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Baljinder, we are delighted to hear your positive feedback about our Mobile Banking App. It’s great to know you’re happy with our services. Your support motivates us to keep providing outstanding banking experiences for all our esteemed customers.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-95869bf5-6983-4303-b4dc-7b847fdaff13",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "MASHALLAH",
+  "author": "Shakeel Hussain",
+  "version": "26.11.3",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Shakeel, thank you for your fantastic review of our Mobile Banking App. We're delighted to know that our services have met your expectations. Your support motivates us to keep providing outstanding banking experiences.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-a7500bf7-de10-499e-9d41-55054fd2ca08",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Pretty good app, it has improved dramatically since back in 2012. Sometimes app has it's moments and acts weird, especially when you're trying the multiple utility bill payment options. Payment was made double into Empower accounts. On fixed deposits, not sure why interest payout option cannot be amended, especially when it is renewed anyways. Even though app constantly seeks for improvement, updates required, it still works smoothly.",
+  "author": "Alexander Agostini (Squalo)",
+  "version": "16.10.0",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Alexander, we are thrilled to hear your positive feedback regarding our Mobile Banking App. It’s great to know that you consider it a suitable option for your banking needs. Your encouragement motivates us to keep delivering outstanding service to all our valued customers.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-4b91c9ad-9045-452d-88d5-91e0181f89a9",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good",
+  "author": "Zeeshan Ali",
+  "version": "26.11.3",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Zeeshan, we truly appreciate your fantastic review of our Mobile Banking App. It’s wonderful to hear that you are satisfied with our service. Your encouraging feedback inspires us to continue providing the best banking experience for all our valued customers.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-c01f1422-4d70-4308-87c3-989c9263bd43",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good service",
+  "author": "Arman Sikdar",
+  "version": "26.11.3",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Arman, we truly appreciate your fantastic feedback on our Mobile Banking App. It's great to hear that you find our service satisfactory. Your support motivates us to continue delivering outstanding service to all our customers.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-f68eb3e9-81d0-47cd-bad0-79e5f1baab40",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "i like",
+  "author": "Tanveer Hussain",
+  "version": "26.11.3",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Tanveer, we truly appreciate your fantastic feedback on our Mobile Banking App. It’s delightful to hear that you enjoy our services. Your encouraging words motivate us to keep delivering the best banking experience we can.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-e96439a9-7d42-4fbe-8571-801fb0fde53a",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Very easy use,very Good secure app",
+  "author": "Mian Joinrides",
+  "version": "",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Mian, we are delighted to hear your positive feedback about our Mobile Banking App. It's fantastic to know you find it easy to use and secure. Your encouraging words motivate us to continue providing outstanding banking experiences to all our valued customers.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-440e33e5-7f1a-4cd9-a56e-1738d24dc343",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "very happy with emirates nbd",
+  "author": "muhammad yousaf",
+  "version": "26.10.10",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Muhammad, we appreciate you taking the time to share your fantastic experience with our Mobile Banking App. It's great to hear that you are satisfied with our services. Your positive feedback inspires us to keep providing the best banking experience possible.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-0fd3d158-f0d8-45a1-89fa-593cca8f2ece",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "excellent",
+  "author": "Mohammed Rana",
+  "version": "26.11.3",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Mohammed, we are delighted to receive your positive feedback regarding our Mobile Banking App. It's wonderful to know that you had a great experience with our services. Your encouraging words motivate us to keep providing the best banking experience possible.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-79bb1a09-76b8-4a9c-bef5-411131b8094c",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "weak security. My card was used in fraud transaction without recieving and transaction sign in and after reporting very long time given for dispute settlement. Also i cannot connect to banking advisor because new card number and password is required.",
+  "author": "aasim deshmukh",
+  "version": "26.11.3",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Aasim, thank you for sharing your concerns about your account's security with us. Your feedback is invaluable for enhancing our services. For assistance, please reach out to us via email at mobilebankingdev@emiratesnbd.com, and remember to include your reference number EBG-02980 in the subject line.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-3b9a9c0e-ce7d-462c-bed6-1c0ffd05adab",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Nice service",
+  "author": "Smith's Channel",
+  "version": "26.11.3",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello, we truly appreciate your kind feedback regarding our Mobile Banking App. It's wonderful to know that you had a positive experience with our services, and we thank you for your support.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-45f5cfc2-4ed4-463d-a9d5-19fd345a9a74",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Best Bank and Services 👌",
+  "author": "saqib zafar",
+  "version": "26.11.3",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Saqib, we are thrilled to hear your positive feedback regarding our Mobile Banking App. It’s fantastic to know that you view us as the best in banking and services. Your encouraging words motivate us to keep providing outstanding experiences for all our customers.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-517623d2-6815-4da4-83ba-3e0d6c3fab0e",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "very professional and good bank of uae",
+  "author": "Nafeh Khan",
+  "version": "26.11.3",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Nafeh, we truly appreciate your fantastic review of our Mobile Banking App. It brings us joy to know that you view us as a professional and trustworthy bank in the UAE. Your support inspires us to continuously provide the best service to all our valued customers.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-2b1c3d86-bd0d-4eb2-84b6-0ef2604259c4",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Error after update \"For Security reasons, this app cannot be used with VoiceOver enabled. Please disable VoiceOver to continue using the app.\"",
+  "author": "Rijish Narayanan",
+  "version": "26.11.2",
+  "date": "2026-11-17",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi Rijish, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02979. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-c7e0b73f-2c2d-41e8-b752-908ad51e470e",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Voiceover issue - can't open the app even though I'm not on my call. Worst updates ever",
+  "author": "Rohit Darekar",
+  "version": "26.11.2",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi Rohit, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02978. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-ca2739d3-6062-47a3-9196-3a51bcb0ff31",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Great",
+  "author": "Saqlain Awan",
+  "version": "26.10.10",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Saqlain, thank you for your wonderful feedback regarding our Mobile Banking App. We are thrilled to hear that you had a great experience. Your support motivates us to continue delivering excellent service to all our valued customers.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-5dc0d381-79c6-4877-a8e3-bbaa1d357740",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 2,
+  "title": "",
+  "body": "I have clearly stated in my review that no such feature is activated. ENBD is the only banking app which has this issue and not FAB and other bank apps. ***reduced rating from 3 to 2. so many issues with the app. one common issue is intermittently hallucinating with the Phone into Voiceover mode even when no such feature is activated. guys pls test. FYI.. using the latest app on a latest device with latest Android version.",
+  "author": "Manish Gupta",
+  "version": "26.11.2",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Manish, thank you for your feedback and for sharing your detailed insights with us. Your experience is very important, and we are committed to improving it. If you need further assistance, please contact us at mobilebankingdev@emiratesnbd.com and include reference number EBG-02968 in the subject line.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-cce1e1c0-80b0-4275-9185-ca3b9e62fca4",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "app not working suddendly without any reason",
+  "author": "Hatem Elnemrawy",
+  "version": "26.11.2",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Hatem, thank you for highlighting this issue with our Mobile Banking App. Your experience is valuable to us. If you need more help, please contact us via email at mobilebankingdev@emiratesnbd.com, and include your reference number EBG-02977 in the subject line.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-016fe27e-b0b1-4ded-8f90-a73d943defe8",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 3,
+  "title": "",
+  "body": "Locked out of the app as of 17 Novdue to a \"VoiceOver\" warning. I already have TalkBack disabled. Talkback is an accessibility feature as well. Prior to this, I was also forced to use which allows the insecure 2D camera face unlock on my device since I don't have face id hardware. This now makes my login even less secure than just using my password. Let me know how to fix the voice-over issue.",
+  "author": "Ashik Salim",
+  "version": "26.11.2",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi Ashik, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02985. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-cd04bd3d-15ae-4447-a0a9-05b60232fbba",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "بنك مثالي بكل معاملاته",
+  "author": "ABDULHADI MARDINI",
+  "version": "26.10.10",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Abdulhadi, we are thrilled to receive your positive feedback about our Mobile Banking App. It’s fantastic to hear that you view us as the perfect bank. Your encouraging words motivate us to keep providing outstanding service to all our cherished customers.",
+   "date": "2026-11-19"
+  }
+ },
+ {
+  "id": "play-f7eaa4db-6157-44f4-a0ee-4b160a45ac4e",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "👌🏻👍🏻",
+  "author": "Ali GHEZAWI",
+  "version": "",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Ali, we truly appreciate your kind feedback. It’s fantastic to hear that you’re enjoying our Mobile Banking App. Your support motivates us to continue providing outstanding banking experiences for all our customers.",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-2697c905-950b-452c-8dbe-402ca0f1b624",
+  "platform": "android",
+  "storefront": "ru",
+  "lang": "ru",
+  "rating": 5,
+  "title": "",
+  "body": "после подсказки разработчика и перестановки приложения , приложение начало работать. спасибо",
+  "author": "Maksim Lavrinenko",
+  "version": "26.11.3",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Maksim, we’re thrilled to receive your positive feedback regarding our Mobile Banking App. It’s wonderful to hear that everything is functioning well for you now. Your kind words motivate us to continue providing excellent service.",
+   "date": "2026-11-19"
   }
  }
 ]

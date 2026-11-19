@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18",
+ "generated": "2026-11-19",
  "months": [
   "2018-12",
   "2019-01",
@@ -98,7 +98,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-18",
+ "collected": "2026-11-19",
  "coverage": {
   "phase": 2,
   "text": "complete",
@@ -123,21 +123,21 @@
   "play_url": "https://play.google.com/store/apps/details?id=com.fab.personalbanking",
   "store_rating": {
    "ios": {
-    "avg": 4.63318,
-    "count": 117281,
-    "version": "3.0.01"
+    "avg": 4.63302,
+    "count": 117370,
+    "version": "3.0.02"
    },
    "android": {
-    "avg": 4.270798,
-    "count": 45018,
+    "avg": 4.2704964,
+    "count": 45020,
     "reviews": 12744,
     "version": "3.7.96",
     "histogram": [
-     6735,
+     6741,
      577,
-     979,
-     2186,
-     34535
+     978,
+     2183,
+     34536
     ],
     "installs": "1,000,000+"
    }
@@ -147,32 +147,32 @@
     "all": {
      "trackName": "FAB Mobile",
      "sellerName": "FIRST ABU DHABI BANK PJSC",
-     "averageUserRating": 4.63318,
-     "userRatingCount": 117281,
-     "version": "3.0.01",
-     "currentVersionReleaseDate": "2026-11-09T14:41:18Z",
+     "averageUserRating": 4.63302,
+     "userRatingCount": 117370,
+     "version": "3.0.02",
+     "currentVersionReleaseDate": "2026-11-18T04:17:02Z",
      "releaseDate": "2018-12-04T03:28:01Z",
      "minimumOsVersion": "14.0",
      "contentAdvisoryRating": "4+",
-     "fileSizeBytes": "794631168",
+     "fileSizeBytes": "792781824",
      "genres": [
       "Finance"
      ],
-     "releaseNotes": "•\tWe’ve made improvements behind the scenes so that you can bank seamlessly"
+     "releaseNotes": "•\tOpen and manage a joint account \n\n•\tApply for a Jaywan credit card through the app\n\n•\tLog a complaint through Help & Support\n\n•\tPlus, we’ve made improvements across onboarding and account services for a smoother experience"
     }
    },
    "android": {
     "all": {
      "title": "FAB Mobile",
-     "score": 4.270798,
-     "ratings": 45018,
+     "score": 4.2704964,
+     "ratings": 45020,
      "reviews": 12744,
      "histogram": [
-      6735,
+      6741,
       577,
-      979,
-      2186,
-      34535
+      978,
+      2183,
+      34536
      ],
      "version": "3.7.96",
      "installs": "1,000,000+",
@@ -185,20 +185,20 @@
   }
  },
  "totals": {
-  "all": 18837,
+  "all": 18840,
   "ios": 2806,
-  "android": 16031,
+  "android": 16034,
   "first": "2018-12-04",
   "last": "2026-11-17",
   "avg": 3.82,
   "avg_ios": 2.99,
   "avg_android": 3.96,
   "hist": [
-   4685,
+   4686,
    534,
    492,
    982,
-   12144
+   12146
   ],
   "hist_ios": [
    1208,
@@ -208,21 +208,21 @@
    1222
   ],
   "hist_android": [
-   3477,
+   3478,
    384,
    365,
    883,
-   10922
+   10924
   ],
   "sentiment": {
-   "positive": 13261,
-   "negative": 5321,
+   "positive": 13263,
+   "negative": 5322,
    "neutral": 255
   },
   "langs": [
    [
     "en",
-    15543
+    15546
    ],
    [
     "ar",
@@ -303,8 +303,8 @@
     10
    ]
   ],
-  "with_text": 18837,
-  "untagged": 2904
+  "with_text": 18840,
+  "untagged": 2905
  },
  "monthly": {
   "all": [
@@ -1640,16 +1640,16 @@
    },
    {
     "month": "2026-11",
-    "count": 179,
-    "avg": 3.08,
-    "neg": 84,
-    "pos": 89,
+    "count": 182,
+    "avg": 3.09,
+    "neg": 85,
+    "pos": 91,
     "hist": [
-     74,
+     75,
      8,
      9,
      5,
-     83
+     85
     ]
    }
   ],
@@ -4332,16 +4332,16 @@
    },
    {
     "month": "2026-11",
-    "count": 129,
-    "avg": 3.25,
-    "neg": 56,
-    "pos": 70,
+    "count": 132,
+    "avg": 3.26,
+    "neg": 57,
+    "pos": 72,
     "hist": [
-     48,
+     49,
      7,
      5,
      3,
-     66
+     68
     ]
    }
   ]
@@ -4350,13 +4350,13 @@
   {
    "key": "usability",
    "label": "Design & usability",
-   "count": 2792,
+   "count": 2793,
    "negative": 248,
-   "positive": 2526,
+   "positive": 2527,
    "neutral": 18,
    "avg": 4.57,
    "ios": 448,
-   "android": 2344,
+   "android": 2345,
    "share_of_negative": 0.047,
    "monthly": {
     "ios": [
@@ -5318,9 +5318,9 @@
       19
      ],
      [
-      13,
+      14,
       4,
-      9
+      10
      ]
     ]
    }
@@ -6313,7 +6313,7 @@
    "avg": 1.6,
    "ios": 474,
    "android": 897,
-   "share_of_negative": 0.22,
+   "share_of_negative": 0.219,
    "monthly": {
     "ios": [
      [
@@ -12174,13 +12174,13 @@
   {
    "key": "fees",
    "label": "Fees & charges",
-   "count": 690,
-   "negative": 499,
+   "count": 691,
+   "negative": 500,
    "positive": 170,
    "neutral": 21,
    "avg": 2.07,
    "ios": 224,
-   "android": 466,
+   "android": 467,
    "share_of_negative": 0.094,
    "monthly": {
     "ios": [
@@ -13142,8 +13142,8 @@
       2
      ],
      [
-      5,
-      3,
+      6,
+      4,
       2
      ]
     ]
@@ -15108,14 +15108,14 @@
   {
    "key": "account",
    "label": "Account & onboarding",
-   "count": 447,
-   "negative": 348,
+   "count": 448,
+   "negative": 349,
    "positive": 86,
    "neutral": 13,
    "avg": 1.87,
    "ios": 122,
-   "android": 325,
-   "share_of_negative": 0.065,
+   "android": 326,
+   "share_of_negative": 0.066,
    "monthly": {
     "ios": [
      [
@@ -16076,8 +16076,8 @@
       0
      ],
      [
-      4,
-      4,
+      5,
+      5,
       0
      ]
     ]
@@ -17064,13 +17064,13 @@
   {
    "key": "products",
    "label": "Bank products",
-   "count": 400,
-   "negative": 275,
+   "count": 401,
+   "negative": 276,
    "positive": 109,
    "neutral": 16,
    "avg": 2.19,
    "ios": 124,
-   "android": 276,
+   "android": 277,
    "share_of_negative": 0.052,
    "monthly": {
     "ios": [
@@ -18032,8 +18032,8 @@
       2
      ],
      [
-      1,
-      1,
+      2,
+      2,
       0
      ]
     ]
@@ -20976,14 +20976,14 @@
   {
    "key": "notifications",
    "label": "Notifications",
-   "count": 143,
-   "negative": 119,
+   "count": 144,
+   "negative": 120,
    "positive": 21,
    "neutral": 3,
    "avg": 1.67,
    "ios": 44,
-   "android": 99,
-   "share_of_negative": 0.022,
+   "android": 100,
+   "share_of_negative": 0.023,
    "monthly": {
     "ios": [
      [
@@ -21944,8 +21944,8 @@
       1
      ],
      [
-      2,
-      2,
+      3,
+      3,
       0
      ]
     ]
@@ -24640,9 +24640,9 @@
   {
    "platform": "android",
    "version": "3.7.93",
-   "count": 29,
-   "avg": 2.83,
-   "neg_share": 0.517,
+   "count": 30,
+   "avg": 2.9,
+   "neg_share": 0.5,
    "first": "2026-11-10",
    "last": "2026-11-17",
    "top_themes": [
@@ -24717,8 +24717,8 @@
   {
    "year": "2026",
    "file": "reviews/2026.json",
-   "count": 3405,
-   "bytes": 1786163
+   "count": 3408,
+   "bytes": 1787795
   },
   {
    "year": "2025",
@@ -24771,6 +24771,6 @@
  ],
  "index": {
   "file": "index.json",
-  "bytes": 264504
+  "bytes": 264551
  }
 }
