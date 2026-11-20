@@ -288088,7 +288088,7 @@
   "author": "Salem Fareaa",
   "version": "8.10.6",
   "date": "2026-11-11",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Dear Customer,\nThank you for your wonderful feedback. We are continuously working on adding more features to our app to make your experience better.\nWe appreciate your feedback and star rating. Please feel free to reach out to us anytime if you have any questions!\nK.Y",
@@ -290506,7 +290506,7 @@
   "author": "Lm S",
   "version": "",
   "date": "2026-11-17",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Dear Customer, We are sorry for the inconvenient caused for while using ADIB App. We would like to know more about your experience.\nPlease write to us with your contact details on adibAppSupport@adib.com and our team will make this right for you. Please mention (TH-256449) in the subject line of your email.\nK.Y",
@@ -290665,7 +290665,7 @@
   "author": "Smiily",
   "version": "8.11.0",
   "date": "2026-11-17",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Dear Customer, We are sorry for the inconvenient caused for while using ADIB App. We would like to know more about your experience.\nPlease write to us with your contact details on adibAppSupport@adib.com and our team will make this right for you. Please mention (TH-256572) in the subject line of your email.\nA.H\n",
@@ -290683,7 +290683,7 @@
   "author": "WhyNot",
   "version": "8.11.0",
   "date": "2026-11-17",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "\"Hi Dear Customer,\nWe are truly sorry that your experience with us has been less than satisfactory. We would like to help change that.\nPlease write to us with your contact details on adibAppSupport@adib.com for us to address your concerns. Please mention (TH-#256536) in the subject line of your email.\n\nS.A\"\n",
@@ -290723,6 +290723,114 @@
   "votes_total": null,
   "reply": {
    "body": "عزيزي المتعامل,نفتخر برضاك عن خدماتنا. نعمل دائمًا على إضافة ميزات وخدمات جديدة لتحسين تجربتك. في حال وجود أي استفسارات، فلا تتردد في التواصل معنا في أي وقت!\nع.ح",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-b86b08dd-857d-4f08-b902-5cc1fe0dd996",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "the app is not working on my mobile samsung note 20 it always close and giving a message it has a bug or clear cashe?? also another android samsung A5 not working",
+  "author": "Timo Hassan",
+  "version": "",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Customer, We are sorry for the inconvenient caused for while using ADIB App. We would like to know more about your experience.\nPlease write to us with your contact details on adibAppSupport@adib.com and our team will make this right for you. Please mention (TH-256923) in the subject line of your email.\nK.Y",
+   "date": "2026-11-19"
+  }
+ },
+ {
+  "id": "play-f9439d88-8ec4-46ae-83e3-1b7e97f6c8c0",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "very easy to banking",
+  "author": "Jehan Zeb",
+  "version": "8.9.0",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Customer,\nThank you for your wonderful feedback. We are continuously working on adding more features to our app to make your experience better.\nWe appreciate your feedback and star rating. Please feel free to reach out to us anytime if you have any questions!\nK.Y",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-93a692d2-6bcb-42f8-8419-bc2599748780",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "I cant open the account",
+  "author": "Taher Presswala",
+  "version": "8.11.0",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Customer, We are sorry for the inconvenient caused for while using ADIB App. We would like to know more about your experience.\nPlease write to us with your contact details on adibAppSupport@adib.com and our team will make this right for you. Please mention (TH-256869) in the subject line of your email.\nK.Y",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-81203ab1-c40a-4689-8158-5819f75ee047",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "Good work",
+  "author": "Tariq Ali Abbasi",
+  "version": "",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Customer,\nThank you for your wonderful feedback. We are continuously working on adding more features to our app to make your experience better.\nWe appreciate your feedback and star rating. Please feel free to reach out to us anytime if you have any questions!\nK.Y",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "id": "play-bbf07b4b-7c60-4289-9238-7ea56c701dd3",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "ممتاذ",
+  "author": "ahmed Mohamed",
+  "version": "8.11.0",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "عزيزي المتعامل, نفتخر برضاك عن خدماتنا. نواصل العمل بجد لإضافة ميزات وخدمات جديدة لتحسين تجربتك. في حال كان لديك أي استفسارات، لا تتردد في التواصل معنا في أي وقت!\nك.ي",
+   "date": "2026-11-19"
+  }
+ },
+ {
+  "id": "play-faba5e04-ae94-42f2-93f9-9895aa6b7d08",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 1,
+  "title": "",
+  "body": "التطبيق لا يعمل تظهر رساله يوجد خطا بلبرنامج ويطلعني حذفته اكثر مره وثبته من جديد ونفس مشكله",
+  "author": "من دار زايد _ العين",
+  "version": "8.11.0",
+  "date": "2026-11-18",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"عزيزي المتعامل,,\nنعتذر منك عن أي إزعاج قد واجهته خلال استخدام تطبيق المصرف. نود الحصول على المزيد من المعلومات منك, لذا نرجو منك تزويدنا برقم الهاتف المسجل عن طريق إرسال بريد الكتروني إلى adibAppSupport@adib.com للاتصال بك و التحقق من الأمر.\nيرجى ذكر الرقم المرجعي في عنوان البريد الإلكتروني المرسل (TH-256854)\nك.ي",
    "date": "2026-11-18"
   }
  }

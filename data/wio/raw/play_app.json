@@ -1,19 +1,19 @@
 {
  "title": "Wio Personal",
- "score": 4.6029058,
- "ratings": 6253,
- "reviews": 556,
+ "score": 4.6004844,
+ "ratings": 6261,
+ "reviews": 558,
  "histogram": [
   423,
   13,
   135,
-  469,
-  5207
+  484,
+  5199
  ],
- "version": "1.76.0",
+ "version": "1.76.1",
  "installs": "500,000+",
  "released": "Apr 16, 2023",
- "updated": 1794465054,
+ "updated": 1795104097,
  "developer": "Wio Bank PJSC",
  "genre": "Finance"
 }

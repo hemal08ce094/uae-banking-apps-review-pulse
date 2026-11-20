@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19",
+ "generated": "2026-11-20",
  "months": [
   "2018-12",
   "2019-01",
@@ -98,7 +98,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-19",
+ "collected": "2026-11-20",
  "coverage": {
   "phase": 2,
   "text": "complete",
@@ -123,21 +123,21 @@
   "play_url": "https://play.google.com/store/apps/details?id=com.fab.personalbanking",
   "store_rating": {
    "ios": {
-    "avg": 4.63302,
-    "count": 117370,
+    "avg": 4.63278,
+    "count": 117437,
     "version": "3.0.02"
    },
    "android": {
-    "avg": 4.2704964,
-    "count": 45020,
-    "reviews": 12744,
+    "avg": 4.2695847,
+    "count": 45023,
+    "reviews": 12751,
     "version": "3.7.96",
     "histogram": [
-     6741,
-     577,
+     6739,
+     588,
      978,
-     2183,
-     34536
+     2196,
+     34516
     ],
     "installs": "1,000,000+"
    }
@@ -147,8 +147,8 @@
     "all": {
      "trackName": "FAB Mobile",
      "sellerName": "FIRST ABU DHABI BANK PJSC",
-     "averageUserRating": 4.63302,
-     "userRatingCount": 117370,
+     "averageUserRating": 4.63278,
+     "userRatingCount": 117437,
      "version": "3.0.02",
      "currentVersionReleaseDate": "2026-11-18T04:17:02Z",
      "releaseDate": "2018-12-04T03:28:01Z",
@@ -164,15 +164,15 @@
    "android": {
     "all": {
      "title": "FAB Mobile",
-     "score": 4.2704964,
-     "ratings": 45020,
-     "reviews": 12744,
+     "score": 4.2695847,
+     "ratings": 45023,
+     "reviews": 12751,
      "histogram": [
-      6741,
-      577,
+      6739,
+      588,
       978,
-      2183,
-      34536
+      2196,
+      34516
      ],
      "version": "3.7.96",
      "installs": "1,000,000+",
@@ -185,16 +185,16 @@
   }
  },
  "totals": {
-  "all": 18840,
+  "all": 18841,
   "ios": 2806,
-  "android": 16034,
+  "android": 16035,
   "first": "2018-12-04",
-  "last": "2026-11-17",
+  "last": "2026-11-18",
   "avg": 3.82,
   "avg_ios": 2.99,
   "avg_android": 3.96,
   "hist": [
-   4686,
+   4687,
    534,
    492,
    982,
@@ -208,21 +208,21 @@
    1222
   ],
   "hist_android": [
-   3478,
+   3479,
    384,
    365,
    883,
    10924
   ],
   "sentiment": {
+   "negative": 5323,
    "positive": 13263,
-   "negative": 5322,
    "neutral": 255
   },
   "langs": [
    [
     "en",
-    15546
+    15547
    ],
    [
     "ar",
@@ -303,7 +303,7 @@
     10
    ]
   ],
-  "with_text": 18840,
+  "with_text": 18841,
   "untagged": 2905
  },
  "monthly": {
@@ -1640,12 +1640,12 @@
    },
    {
     "month": "2026-11",
-    "count": 182,
-    "avg": 3.09,
-    "neg": 85,
+    "count": 183,
+    "avg": 3.08,
+    "neg": 86,
     "pos": 91,
     "hist": [
-     75,
+     76,
      8,
      9,
      5,
@@ -4332,12 +4332,12 @@
    },
    {
     "month": "2026-11",
-    "count": 132,
-    "avg": 3.26,
-    "neg": 57,
+    "count": 133,
+    "avg": 3.24,
+    "neg": 58,
     "pos": 72,
     "hist": [
-     49,
+     50,
      7,
      5,
      3,
@@ -8262,14 +8262,14 @@
   {
    "key": "login",
    "label": "Login & access",
-   "count": 1207,
-   "negative": 1003,
+   "count": 1208,
+   "negative": 1004,
    "positive": 173,
    "neutral": 31,
    "avg": 1.7,
    "ios": 319,
-   "android": 888,
-   "share_of_negative": 0.188,
+   "android": 889,
+   "share_of_negative": 0.189,
    "monthly": {
     "ios": [
      [
@@ -9230,8 +9230,8 @@
       2
      ],
      [
-      18,
-      15,
+      19,
+      16,
       2
      ]
     ]
@@ -10218,13 +10218,13 @@
   {
    "key": "update",
    "label": "App updates",
-   "count": 911,
-   "negative": 702,
+   "count": 912,
+   "negative": 703,
    "positive": 182,
    "neutral": 27,
    "avg": 1.94,
    "ios": 242,
-   "android": 669,
+   "android": 670,
    "share_of_negative": 0.132,
    "monthly": {
     "ios": [
@@ -11186,8 +11186,8 @@
       3
      ],
      [
-      18,
-      15,
+      19,
+      16,
       3
      ]
     ]
@@ -24695,14 +24695,14 @@
   }
  ],
  "replies": {
-  "count": 13545,
-  "android": 11412,
+  "count": 13562,
+  "android": 11429,
   "ios": 2133,
-  "rate_android": 0.712,
+  "rate_android": 0.713,
   "rate_ios": 0.76,
-  "median_lag_days": 9.0,
+  "median_lag_days": 9,
   "by_year": {
-   "2026": 3236,
+   "2026": 3253,
    "2025": 3322,
    "2024": 2541,
    "2023": 1984,
@@ -24717,8 +24717,8 @@
   {
    "year": "2026",
    "file": "reviews/2026.json",
-   "count": 3408,
-   "bytes": 1787795
+   "count": 3409,
+   "bytes": 1790374
   },
   {
    "year": "2025",
@@ -24771,6 +24771,6 @@
  ],
  "index": {
   "file": "index.json",
-  "bytes": 264551
+  "bytes": 264564
  }
 }
