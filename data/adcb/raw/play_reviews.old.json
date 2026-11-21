@@ -365978,5 +365978,21 @@
   "votes_total": null,
   "reply": null,
   "generation": "old"
+ },
+ {
+  "id": "play-cb3d1dd4-57d0-4199-b2d6-e56d314855df",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Very unprofessional. Designers should go for training first.",
+  "author": "Sunil Mehta",
+  "version": "21.6.0",
+  "date": "2026-11-19",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null,
+  "generation": "old"
  }
 ]

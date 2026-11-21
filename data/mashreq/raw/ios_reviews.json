@@ -586,5 +586,47 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14801253011",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 3,
+  "title": "Crashes and bugs",
+  "body": "I’m very disappointed with you mashreq, i’m using an iphone 7, 4 days ago you fixed bugs, before 4 days ago i used mashreq fine, i can’t enter the app anymore it just crashes, please fix this ASAP, Thank you.",
+  "author": "teaima",
+  "version": "9.23.0",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14801244529",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 4,
+  "title": "Mr.Abdullah Ghayas",
+  "body": "My Bank from Day 01 💜",
+  "author": "Abdullah Ghayas",
+  "version": "9.23.0",
+  "date": "2026-11-17",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14799970490",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 5,
+  "title": "Expats support and humanity",
+  "body": "Thank you Mashreq for supporting expats and giving us equal value to other humans thanks for the best services",
+  "author": "Behzad Fazeli",
+  "version": "9.23.0",
+  "date": "2026-11-16",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

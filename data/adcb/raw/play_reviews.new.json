@@ -143756,7 +143756,7 @@
   "author": "Terrifying Terrifying",
   "version": "1.62",
   "date": "2026-11-13",
-  "votes_helpful": 2,
+  "votes_helpful": 3,
   "votes_total": null,
   "reply": null,
   "generation": "new"
@@ -144489,7 +144489,7 @@
   "author": "Vishal Kumar",
   "version": "1.63",
   "date": "2026-11-19",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi there! Thanks a lot for your feedback! M.A",
@@ -144508,7 +144508,7 @@
   "author": "SWAMINATHAN MAHADEVAN",
   "version": "1.63",
   "date": "2026-11-19",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi there! Thanks a lot for your feedback! M.A",
@@ -144527,7 +144527,7 @@
   "author": "Christopher Armamento",
   "version": "1.63",
   "date": "2026-11-19",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "We apologize for any inconvenience. We're here to help - please reach out to us at appreview@adcb.com from your registered email address. M.A",
@@ -144546,7 +144546,7 @@
   "author": "Abid ali Shah",
   "version": "1.63",
   "date": "2026-11-19",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi there! Thanks a lot for your feedback! M.A",
@@ -144565,7 +144565,7 @@
   "author": "Gopal Davera",
   "version": "1.62",
   "date": "2026-11-19",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi there! Thanks a lot for your feedback! M.A",
@@ -144584,7 +144584,7 @@
   "author": "abin mathew",
   "version": "1.62",
   "date": "2026-11-19",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": null,
   "generation": "new"
@@ -144600,7 +144600,7 @@
   "author": "Mohammed Arshad Shaikh",
   "version": "",
   "date": "2026-11-18",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "Hi, I’m sorry for this experience. We will share your feedback with the dedicated team. M.A",
@@ -144752,6 +144752,244 @@
   "votes_helpful": 0,
   "votes_total": null,
   "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-18e7bf2c-ed3e-4985-af20-9a980155d4d0",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Not working properly",
+  "author": "Mary castilyn Castillon",
+  "version": "1.63",
+  "date": "2026-11-20",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-70942c08-a3db-49a9-9b84-e3c1c34a80fb",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 3,
+  "title": "",
+  "body": "After catche cleared. It occurring the same issue",
+  "author": "Sickander Mohammed",
+  "version": "1.63",
+  "date": "2026-11-20",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again. M.A",
+   "date": "2026-11-20"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-18027e53-9fca-4c54-b5af-cbbe3d2c340b",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "can't make any transactions on this account and have real emergency",
+  "author": "Navubya Jesca",
+  "version": "1.63",
+  "date": "2026-11-20",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "We're sorry to hear this. We'd like to better understand what went wrong so we can make it right. Please email us at appreview@adcb.com from your registered email address. M.A",
+   "date": "2026-11-20"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-75b1c03e-4aef-473a-8494-5a8d566692dd",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good service",
+  "author": "shafeek pm",
+  "version": "1.63",
+  "date": "2026-11-20",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi, thank you very much for your feedback.\nM.A",
+   "date": "2026-11-20"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-ef8f35a5-6aa1-4210-998e-0b8eccefd2c6",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "mail me the receipt",
+  "author": "Pradheep.K.R. Pillai",
+  "version": "1.63",
+  "date": "2026-11-20",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-6df825b7-f1f1-47a3-a211-d7cc0848e140",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "not working now",
+  "author": "Ali Abo khadra",
+  "version": "1.63",
+  "date": "2026-11-20",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again.\nM.A",
+   "date": "2026-11-20"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-e232f2a6-c41e-43cb-b874-9168215c7453",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "definitely always I love ADCB very quickly to send money anywhere",
+  "author": "Michel Ozo",
+  "version": "1.63",
+  "date": "2026-11-19",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Thank you so much for your review!\nM.A",
+   "date": "2026-11-20"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-595407ae-852c-4025-8608-9b1f2d038bee",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "please do not force us to lock or phone to use the app ADCB does not own ower phone privacy",
+  "author": "Marwan Al Marzouqi",
+  "version": "1.63",
+  "date": "2026-11-19",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-c1523774-ee92-4214-9cf0-f3376d40fa23",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good",
+  "author": "Vijay Singh",
+  "version": "",
+  "date": "2026-11-19",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi there! Thanks a lot for your feedback! M.A",
+   "date": "2026-11-20"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-0575c786-1720-41d9-94dd-1cab9c151352",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "very good experience",
+  "author": "Anzar Shaikh",
+  "version": "1.63",
+  "date": "2026-11-19",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi there! Thanks a lot for your feedback! M.A",
+   "date": "2026-11-20"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-db251a86-39e7-4feb-986b-7209755929ed",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "hi adcb my adcb app is not working i fogot the login password i will try reset the password if i went adcb bank you can uninstall and download after 2 hours now i install the agian showing that not login adcb",
+  "author": "Praveen Sunki",
+  "version": "",
+  "date": "2026-11-19",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi, we're sorry to hear that. Kindly contact our Contact Centre at 600502030 using your registered mobile number for assistance with your login issue. Our team will verify your details and help you accordingly. M.A",
+   "date": "2026-11-20"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-0735956d-bb8e-44e9-b4cb-5695864c249a",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Great fully",
+  "author": "MD SAHIN GAZI",
+  "version": "1.63",
+  "date": "2026-11-19",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi there! Thanks a lot for your feedback! M.A",
+   "date": "2026-11-20"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-63c5c51b-485b-4fbd-bcb8-17930cd0dcbd",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "biometric is not working even after registering. tried re installing also it not opening at all",
+  "author": "Ananth Kandasamy",
+  "version": "1.63",
+  "date": "2026-11-19",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi, we're sorry to hear that. Please ensure your device's date and time settings are set to automatic rather than manual. Once updated, restart your device and try logging in again. M.A.",
+   "date": "2026-11-20"
+  },
   "generation": "new"
  }
 ]

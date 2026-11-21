@@ -1,14 +1,14 @@
 {
  "title": "ADIB Mobile Banking",
- "score": 4.6256595,
- "ratings": 46408,
- "reviews": 15393,
+ "score": 4.6224513,
+ "ratings": 46418,
+ "reviews": 15402,
  "histogram": [
-  2937,
+  2971,
   533,
   845,
-  2325,
-  39763
+  2337,
+  39725
  ],
  "version": "8.11.0",
  "installs": "1,000,000+",

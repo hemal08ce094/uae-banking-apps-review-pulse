@@ -15001,5 +15001,41 @@
    "body": "Thank you.",
    "date": "2026-11-19"
   }
+ },
+ {
+  "id": "play-2988fe88-797d-4f9b-aee9-37bbc43f528a",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "happy😊",
+  "author": "Khalid Jashi",
+  "version": "1.76.1",
+  "date": "2026-11-20",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Thank you.",
+   "date": "2026-11-20"
+  }
+ },
+ {
+  "id": "play-8963c58a-cca2-446e-ba81-46060460eace",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 3,
+  "title": "",
+  "body": "It’s a great app with plenty of useful features, but I’m surprised it doesn’t support Arabic. I hope Arabic support is added in a future update.",
+  "author": "Ahmed Mohammed",
+  "version": "1.76.1",
+  "date": "2026-11-19",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Ahmed. Thank you for your feedback. We’re happy to let you know that the Wio does support Arabic. Please share your contact details with us via DM on any of our official social media channels so our team can assist you further.",
+   "date": "2026-11-20"
+  }
  }
 ]
