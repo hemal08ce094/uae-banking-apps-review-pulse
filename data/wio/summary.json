@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "months": [
   "2023-07",
   "2023-08",
@@ -43,7 +43,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-21",
+ "collected": "2026-11-22",
  "coverage": {
   "phase": 2,
   "text": "complete",
@@ -68,21 +68,21 @@
   "play_url": "https://play.google.com/store/apps/details?id=io.wio.retail",
   "store_rating": {
    "ios": {
-    "avg": 4.79885,
-    "count": 7139,
+    "avg": 4.7991,
+    "count": 7148,
     "version": "1.77.0"
    },
    "android": {
-    "avg": 4.604369,
+    "avg": 4.6053267,
     "count": 6271,
     "reviews": 558,
     "version": "1.76.1",
     "histogram": [
-     410,
-     15,
-     152,
-     487,
-     5205
+     409,
+     13,
+     150,
+     485,
+     5207
     ],
     "installs": "500,000+"
    }
@@ -92,8 +92,8 @@
     "all": {
      "trackName": "Wio Personal",
      "sellerName": "WIO BANK P.J.S.C",
-     "averageUserRating": 4.79885,
-     "userRatingCount": 7139,
+     "averageUserRating": 4.7991,
+     "userRatingCount": 7148,
      "version": "1.77.0",
      "currentVersionReleaseDate": "2026-11-20T08:51:50Z",
      "releaseDate": "2023-07-25T07:00:00Z",
@@ -110,15 +110,15 @@
    "android": {
     "all": {
      "title": "Wio Personal",
-     "score": 4.604369,
+     "score": 4.6053267,
      "ratings": 6271,
      "reviews": 558,
      "histogram": [
-      410,
-      15,
-      152,
-      487,
-      5205
+      409,
+      13,
+      150,
+      485,
+      5207
      ],
      "version": "1.76.1",
      "installs": "500,000+",
@@ -131,12 +131,12 @@
   }
  },
  "totals": {
-  "all": 1334,
-  "ios": 495,
+  "all": 1335,
+  "ios": 496,
   "android": 839,
   "first": "2023-07-25",
   "last": "2026-11-20",
-  "avg": 3.42,
+  "avg": 3.43,
   "avg_ios": 3.19,
   "avg_android": 3.56,
   "hist": [
@@ -144,14 +144,14 @@
    64,
    57,
    80,
-   704
+   705
   ],
   "hist_ios": [
    184,
    28,
    27,
    23,
-   233
+   234
   ],
   "hist_android": [
    245,
@@ -161,14 +161,14 @@
    471
   ],
   "sentiment": {
-   "positive": 808,
+   "positive": 809,
    "negative": 496,
    "neutral": 30
   },
   "langs": [
    [
     "en",
-    1224
+    1225
    ],
    [
     "ar",
@@ -202,7 +202,7 @@
   "storefronts_ios": [
    [
     "ae",
-    292
+    293
    ],
    [
     "in",
@@ -249,7 +249,7 @@
     5
    ]
   ],
-  "with_text": 1334,
+  "with_text": 1335,
   "untagged": 231
  },
  "monthly": {
@@ -816,16 +816,16 @@
    },
    {
     "month": "2026-11",
-    "count": 23,
-    "avg": 3,
+    "count": 24,
+    "avg": 3.08,
     "neg": 11,
-    "pos": 12,
+    "pos": 13,
     "hist": [
      10,
      1,
      1,
      1,
-     10
+     11
     ]
    }
   ],
@@ -1392,16 +1392,16 @@
    },
    {
     "month": "2026-11",
-    "count": 10,
-    "avg": 3,
+    "count": 11,
+    "avg": 3.18,
     "neg": 5,
-    "pos": 5,
+    "pos": 6,
     "hist": [
      5,
      0,
      0,
      0,
-     5
+     6
     ]
    }
   ],
@@ -2414,12 +2414,12 @@
   {
    "key": "support",
    "label": "Call centre & chat",
-   "count": 196,
+   "count": 197,
    "negative": 158,
-   "positive": 36,
+   "positive": 37,
    "neutral": 2,
-   "avg": 1.76,
-   "ios": 98,
+   "avg": 1.78,
+   "ios": 99,
    "android": 98,
    "share_of_negative": 0.319,
    "monthly": {
@@ -2625,9 +2625,9 @@
       0
      ],
      [
+      3,
       2,
-      2,
-      0
+      1
      ]
     ],
     "android": [
@@ -10661,7 +10661,7 @@
   "android": 818,
   "ios": 456,
   "rate_android": 0.975,
-  "rate_ios": 0.921,
+  "rate_ios": 0.919,
   "median_lag_days": 2,
   "by_year": {
    "2026": 406,
@@ -10674,8 +10674,8 @@
   {
    "year": "2026",
    "file": "reviews/2026.json",
-   "count": 426,
-   "bytes": 253763
+   "count": 427,
+   "bytes": 254084
   },
   {
    "year": "2025",
@@ -10698,6 +10698,6 @@
  ],
  "index": {
   "file": "index.json",
-  "bytes": 20109
+  "bytes": 20123
  }
 }
