@@ -1513,5 +1513,50 @@
   "votes_total": 0,
   "reply": null,
   "generation": "new"
+ },
+ {
+  "id": "ios-14816051454",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 5,
+  "title": "بنك مممتاز امان سرعه",
+  "body": "يستاهل 100نجمه",
+  "author": "ABO RFDAN",
+  "version": "1.63",
+  "date": "2026-11-21",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "ios-14815375539",
+  "platform": "ios",
+  "storefront": "ph",
+  "rating": 1,
+  "title": "Review",
+  "body": "Very hard to connect to a representative",
+  "author": "charlielopena29",
+  "version": "1.63",
+  "date": "2026-11-20",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "ios-14814021467",
+  "platform": "ios",
+  "storefront": "ca",
+  "rating": 5,
+  "title": "New Customer",
+  "body": "My first day as a customer and on the digital banking platform with ADCB… loving it so far.",
+  "author": "Hasibogak",
+  "version": "1.63",
+  "date": "2026-11-20",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null,
+  "generation": "new"
  }
 ]

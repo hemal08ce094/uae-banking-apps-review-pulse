@@ -2056,5 +2056,33 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14818040957",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "Complaint",
+  "body": "Honestly, I did a mistake using the bank. Keep blocking my money and I can’t use it to pay bills or buy food for absolutely no reason. Customer service of course they don’t do anything",
+  "author": "WaleedSamara",
+  "version": "3.0.02",
+  "date": "2026-11-21",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14816007705",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 5,
+  "title": "Easy to use",
+  "body": "Best bank application",
+  "author": "jeanhayek",
+  "version": "3.0.02",
+  "date": "2026-11-21",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "months": [
   "2023-07",
   "2023-08",
@@ -43,7 +43,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-22",
+ "collected": "2026-11-23",
  "coverage": {
   "phase": 2,
   "text": "complete",
@@ -68,21 +68,21 @@
   "play_url": "https://play.google.com/store/apps/details?id=io.wio.retail",
   "store_rating": {
    "ios": {
-    "avg": 4.7991,
-    "count": 7148,
+    "avg": 4.79852,
+    "count": 7157,
     "version": "1.77.0"
    },
    "android": {
-    "avg": 4.6053267,
-    "count": 6271,
+    "avg": 4.604369,
+    "count": 6275,
     "reviews": 558,
     "version": "1.76.1",
     "histogram": [
-     409,
-     13,
-     150,
-     485,
-     5207
+     410,
+     15,
+     152,
+     487,
+     5208
     ],
     "installs": "500,000+"
    }
@@ -92,8 +92,8 @@
     "all": {
      "trackName": "Wio Personal",
      "sellerName": "WIO BANK P.J.S.C",
-     "averageUserRating": 4.7991,
-     "userRatingCount": 7148,
+     "averageUserRating": 4.79852,
+     "userRatingCount": 7157,
      "version": "1.77.0",
      "currentVersionReleaseDate": "2026-11-20T08:51:50Z",
      "releaseDate": "2023-07-25T07:00:00Z",
@@ -110,15 +110,15 @@
    "android": {
     "all": {
      "title": "Wio Personal",
-     "score": 4.6053267,
-     "ratings": 6271,
+     "score": 4.604369,
+     "ratings": 6275,
      "reviews": 558,
      "histogram": [
-      409,
-      13,
-      150,
-      485,
-      5207
+      410,
+      15,
+      152,
+      487,
+      5208
      ],
      "version": "1.76.1",
      "installs": "500,000+",
@@ -131,25 +131,25 @@
   }
  },
  "totals": {
-  "all": 1335,
-  "ios": 496,
+  "all": 1336,
+  "ios": 497,
   "android": 839,
   "first": "2023-07-25",
-  "last": "2026-11-20",
+  "last": "2026-11-21",
   "avg": 3.43,
   "avg_ios": 3.19,
   "avg_android": 3.56,
   "hist": [
    429,
    64,
-   57,
+   58,
    80,
    705
   ],
   "hist_ios": [
    184,
    28,
-   27,
+   28,
    23,
    234
   ],
@@ -161,14 +161,14 @@
    471
   ],
   "sentiment": {
+   "neutral": 31,
    "positive": 809,
-   "negative": 496,
-   "neutral": 30
+   "negative": 496
   },
   "langs": [
    [
     "en",
-    1225
+    1226
    ],
    [
     "ar",
@@ -202,7 +202,7 @@
   "storefronts_ios": [
    [
     "ae",
-    293
+    294
    ],
    [
     "in",
@@ -249,7 +249,7 @@
     5
    ]
   ],
-  "with_text": 1335,
+  "with_text": 1336,
   "untagged": 231
  },
  "monthly": {
@@ -816,14 +816,14 @@
    },
    {
     "month": "2026-11",
-    "count": 24,
+    "count": 25,
     "avg": 3.08,
     "neg": 11,
     "pos": 13,
     "hist": [
      10,
      1,
-     1,
+     2,
      1,
      11
     ]
@@ -1392,14 +1392,14 @@
    },
    {
     "month": "2026-11",
-    "count": 11,
-    "avg": 3.18,
+    "count": 12,
+    "avg": 3.17,
     "neg": 5,
     "pos": 6,
     "hist": [
      5,
      0,
-     0,
+     1,
      0,
      6
     ]
@@ -2842,12 +2842,12 @@
   {
    "key": "features",
    "label": "Missing features",
-   "count": 172,
+   "count": 173,
    "negative": 76,
    "positive": 88,
-   "neutral": 8,
+   "neutral": 9,
    "avg": 3.01,
-   "ios": 93,
+   "ios": 94,
    "android": 79,
    "share_of_negative": 0.153,
    "monthly": {
@@ -3053,7 +3053,7 @@
       0
      ],
      [
-      3,
+      4,
       1,
       2
      ]
@@ -3698,12 +3698,12 @@
   {
    "key": "products",
    "label": "Bank products",
-   "count": 140,
+   "count": 141,
    "negative": 68,
    "positive": 68,
-   "neutral": 4,
+   "neutral": 5,
    "avg": 2.9,
-   "ios": 74,
+   "ios": 75,
    "android": 66,
    "share_of_negative": 0.137,
    "monthly": {
@@ -3909,7 +3909,7 @@
       1
      ],
      [
-      0,
+      1,
       0,
       0
      ]
@@ -5410,12 +5410,12 @@
   {
    "key": "account",
    "label": "Account & onboarding",
-   "count": 99,
+   "count": 100,
    "negative": 61,
    "positive": 37,
-   "neutral": 1,
-   "avg": 2.47,
-   "ios": 42,
+   "neutral": 2,
+   "avg": 2.48,
+   "ios": 43,
    "android": 57,
    "share_of_negative": 0.123,
    "monthly": {
@@ -5621,7 +5621,7 @@
       1
      ],
      [
-      1,
+      2,
       1,
       0
      ]
@@ -10661,7 +10661,7 @@
   "android": 818,
   "ios": 456,
   "rate_android": 0.975,
-  "rate_ios": 0.919,
+  "rate_ios": 0.918,
   "median_lag_days": 2,
   "by_year": {
    "2026": 406,
@@ -10674,8 +10674,8 @@
   {
    "year": "2026",
    "file": "reviews/2026.json",
-   "count": 427,
-   "bytes": 254084
+   "count": 428,
+   "bytes": 254549
   },
   {
    "year": "2025",
@@ -10698,6 +10698,6 @@
  ],
  "index": {
   "file": "index.json",
-  "bytes": 20123
+  "bytes": 20141
  }
 }
