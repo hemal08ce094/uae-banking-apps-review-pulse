@@ -290827,7 +290827,7 @@
   "author": "من دار زايد _ العين",
   "version": "8.11.0",
   "date": "2026-11-18",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "\"عزيزي المتعامل,,\nنعتذر منك عن أي إزعاج قد واجهته خلال استخدام تطبيق المصرف. نود الحصول على المزيد من المعلومات منك, لذا نرجو منك تزويدنا برقم الهاتف المسجل عن طريق إرسال بريد الكتروني إلى adibAppSupport@adib.com للاتصال بك و التحقق من الأمر.\nيرجى ذكر الرقم المرجعي في عنوان البريد الإلكتروني المرسل (TH-256854)\nك.ي",
@@ -290917,7 +290917,7 @@
   "author": "Zainab Alkaabi",
   "version": "8.11.0",
   "date": "2026-11-20",
-  "votes_helpful": 1,
+  "votes_helpful": 4,
   "votes_total": null,
   "reply": {
    "body": "\"عزيزي المتعامل,,\nنعتذر منك عن أي إزعاج قد واجهته خلال استخدام تطبيق المصرف. نود الحصول على المزيد من المعلومات منك, لذا نرجو منك تزويدنا برقم الهاتف المسجل عن طريق إرسال بريد الكتروني إلى adibAppSupport@adib.com للاتصال بك و التحقق من الأمر.\nيرجى ذكر الرقم المرجعي في عنوان البريد الإلكتروني المرسل (TH-257102)\nك.ي",
@@ -291295,7 +291295,7 @@
   "author": "Elsayed Ahmed",
   "version": "8.11.0",
   "date": "2026-11-22",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "\"عزيزي المتعامل,\nنعتذر عن تجربة الخدمة غير المرضية التي واجهتها. نرجو منك تزويدنا برقم الهاتف المسجل عن طريق إرسال بريد الكتروني إلى adibAppSupport@adib.com للاتصال بك و التحقق من الأمر.\nيرجى ذكر الرقم المرجعي في عنوان البريد الإلكتروني المرسل (TH-257322)\nع.ح\"\n",
@@ -291331,7 +291331,7 @@
   "author": "Abdulrahman",
   "version": "8.11.0",
   "date": "2026-11-22",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "عزيزي المتعامل,\nنعتذر عن تجربة الخدمة غير المرضية التي واجهتها. نرجو منك تزويدنا برقم الهاتف المسجل عن طريق إرسال بريد الكتروني إلى adibAppSupport@adib.com للاتصال بك و التحقق من الأمر.\nيرجى ذكر الرقم المرجعي في عنوان البريد الإلكتروني المرسل (TH-257313)\nع.ح\n",
@@ -291372,6 +291372,312 @@
   "reply": {
    "body": "\"السلام عليكم عميلنا العزيز،\nنعتذر عن تجربة الخدمة غير المرضية التي واجهتها. نرجو منك تزويدنا برقم الهاتف المسجل عن طريق إرسال بريد الكتروني إلى adibAppSupport@adib.com للاتصال بك و التحقق من الأمر.\nيرجى ذكر الرقم المرجعي في عنوان البريد الإلكتروني المرسل (TH-#257265)\n\nس.ع\"\n",
    "date": "2026-11-21"
+  }
+ },
+ {
+  "id": "play-c986fbd9-0aac-471d-b7a8-c0f22857a2f7",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "why the app is doesn't work",
+  "author": "Mohamed Salah solo",
+  "version": "8.11.0",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"Hi Dear Customer,\nWe are truly sorry that your experience with us has been less than satisfactory. We would like to help change that.\nPlease write to us with your contact details on adibAppSupport@adib.com for us to address your concerns. Please mention (TH-#257434) in the subject line of your email.\n\nS.A\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-60e98ba5-5c69-46a4-b1df-047460e100e3",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Refuses to open and keeps crashing. Support refused to do anything simply because nothing appears to be wrong on their side.",
+  "author": "abdulla alteneiji",
+  "version": "8.11.0",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"Hi Dear Customer,\nWe are truly sorry that your experience with us has been less than satisfactory. We would like to help change that.\nPlease write to us with your contact details on adibAppSupport@adib.com for us to address your concerns. Please mention (TH-#257433) in the subject line of your email.\n\nS.A\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-072c593c-fa3d-449a-8120-0f2c69297888",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good serves",
+  "author": "Adnan tariq Aziz",
+  "version": "",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"Dear Customer, Your positive feedback is a delight! We're continuously enhancing our app with additional features to enhance your overall experience. Thank you for the star rating and feedback. Feel free to contact us for any questions!\nA.H\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-686645db-76b8-4341-8c89-7a1bb1dc8e1e",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "App is crashing when I open it",
+  "author": "Odai Badus",
+  "version": "8.11.0",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"Dear Customer, We are sorry for the inconvenient caused for while using ADIB App. We would like to know more about your experience.\nPlease write to us with your contact details on adibAppSupport@adib.com and our team will make this right for you. Please mention (TH-257388) in the subject line of your email.\nA.H\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-82a42ad7-7a89-4395-a491-07c748499190",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Good app",
+  "author": "Waqas Ahmed",
+  "version": "8.11.0",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"Dear Customer, We're grateful for your positive feedback! Enhancing our app features is an ongoing process to elevate your experience. Your star rating and feedback are truly valued. Don't hesitate to contact us with any queries!\nA.H\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-5f4ccb02-4096-4b6e-9311-78914fa5f4da",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "adib bank is a to much good bank it's safe and fast response every situation",
+  "author": "Tayyab bintariq",
+  "version": "8.11.0",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"Dear Customer, Your feedback has brightened our day! We're committed to enriching our app experience through the addition of new features. Thank you for the star rating and valuable feedback. Don't hesitate to contact us for any assistance!\nA.H\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-dfb210b8-530d-464e-98b4-c825f79b1838",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "very bad",
+  "author": "سبع سنابل هذا جديدي للعبايات",
+  "version": "8.10.0",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"Dear Customer, We are truly sorry that your experience with us has been less than satisfactory. We would like to help change that.\nPlease write to us with your contact details on adibAppSupport@adib.com for us to address your concerns. Please mention (TH-257379) in the subject line of your email.\nA.H\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-28efa26c-8df6-428b-bf01-55b63ea27e1a",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Good",
+  "author": "Khokhar bhai",
+  "version": "8.11.0",
+  "date": "2026-11-22",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"Dear Customer, Your positive feedback is a boost to our efforts! Adding more features to our app is an ongoing process to ensure a better experience for you. Thank you for the star rating and feedback. Please reach out if you have any questions!\nA.H\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-9a09883d-4eab-45e2-81cc-c6800d4b1afa",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "App is not working",
+  "author": "Abdelrhman Elsonbaty",
+  "version": "8.11.0",
+  "date": "2026-11-22",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"Dear Customer, We are truly sorry that your experience with us has been less than satisfactory. We would like to help change that.\nPlease write to us with your contact details on adibAppSupport@adib.com for us to address your concerns. Please mention (TH-257359) in the subject line of your email.\nA.H\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-15edaf45-9341-46c4-8734-0241e5de2547",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Dear ADIB, The ADIB mobile banking application has been broken on android phones for 2 days, i am unable to open the app on my phone (Galaxy S25 Ultra, Oct 2026 Update) The app simply crashes, i am unable to do any operations, open OTP or even access my online banking at all, i tried to re-install the app to no success, please advise I have sent two emails regarding this matter.",
+  "author": "Anan Jaser",
+  "version": "8.11.0",
+  "date": "2026-11-22",
+  "votes_helpful": 1,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Customer, We are sorry for the inconvenient caused for while using ADIB App. We would like to know more about your experience.\nPlease write to us with your contact details on adibAppSupport@adib.com and our team will make this right for you. Please mention (TH-257350) in the subject line of your email.\nA.H",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-a2c46478-eba4-4d7c-b518-5ca74fd9dc43",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "my banking app not opening recently",
+  "author": "Fahad Muhammed",
+  "version": "8.11.0",
+  "date": "2026-11-22",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Customer, We are sorry for the inconvenient caused for while using ADIB App. We would like to know more about your experience.\nPlease write to us with your contact details on adibAppSupport@adib.com and our team will make this right for you. Please mention (TH-257347) in the subject line of your email.\nA.H",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-9ce46fdb-27bc-4081-a9bf-2437d4ca0a04",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "يشتغل ويطفي عندي",
+  "author": "Abdulrahman AlNabhan",
+  "version": "8.11.0",
+  "date": "2026-11-22",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "عزيزي المتعامل,\nنعتذر عن تجربة الخدمة غير المرضية التي واجهتها. نرجو منك تزويدنا برقم الهاتف المسجل عن طريق إرسال بريد الكتروني إلى adibAppSupport@adib.com للاتصال بك و التحقق من الأمر.\nيرجى ذكر الرقم المرجعي في عنوان البريد الإلكتروني المرسل (TH-257335)\nع.ح\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-30c6d682-3b8b-4b7d-9a01-59470729c168",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 1,
+  "title": "",
+  "body": "سلام عليكم بعد التحديث البرنامج لايعمل على اجهزه الاندرويد يرجى حل المشكله",
+  "author": "KHALED AL MAAMRI",
+  "version": "8.11.0",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "عزيزي المتعامل,\nنعتذر عن تجربة الخدمة غير المرضية التي واجهتها. نرجو منك تزويدنا برقم الهاتف المسجل عن طريق إرسال بريد الكتروني إلى adibAppSupport@adib.com للاتصال بك و التحقق من الأمر.\nيرجى ذكر الرقم المرجعي في عنوان البريد الإلكتروني المرسل (TH-257406)\nع.ح",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-cbd73c97-7fbb-4b5a-bde9-1383889c9c22",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "جيد",
+  "author": "Jasim Alaleeli",
+  "version": "8.9.0",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"عزيزي المتعامل,نفتخر برضاك عن خدماتنا. نعمل دائمًا على إضافة ميزات وخدمات جديدة لتحسين تجربتك. في حال وجود أي استفسارات، فلا تتردد في التواصل معنا في أي وقت!\nع.ح\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-5c9ec7dd-efd4-40de-bbf0-d6fdab006b26",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "ممتاااااز روعة صراحة",
+  "author": "Ahjar Hama",
+  "version": "8.11.0",
+  "date": "2026-11-22",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"عزيزي المتعامل,نفتخر برضاك عن خدماتنا. نواصل العمل بجدية لإضافة مزايا وخدمات جديدة لتحسين تجربتك. في حال وجود أي استفسارات، يُرجى التواصل معنا في أي وقت!\nع.ح\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-ae7392b1-c370-4c68-9cd3-fe1a14f6883a",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "ممتاز",
+  "author": "Ahmed Roby",
+  "version": "8.11.0",
+  "date": "2026-11-22",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"عزيزي المتعامل, نفخر بسعادتك بخدماتنا. نواصل العمل على إضافة ميزات وخدمات جديدة لتعزيز تجربتك. في حال وجود أي استفسارات، يُرجى التواصل معنا في أي وقت!\nع.ح\"\n",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "id": "play-3fe69a49-7678-4c6d-b746-119f6ff445f1",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "الحمد لله ممتازة",
+  "author": "أمينة الحمصي",
+  "version": "",
+  "date": "2026-11-22",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "\"عزيزي المتعامل,نفتخر برضاك عن خدماتنا. نعمل دائمًا على إضافة ميزات وخدمات جديدة لتحسين تجربتك. في حال وجود أي استفسارات، فلا تتردد في التواصل معنا في أي وقت!\nع.ح\"\n",
+   "date": "2026-11-23"
   }
  }
 ]

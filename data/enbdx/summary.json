@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23",
+ "generated": "2026-11-24",
  "months": [
   "2021-12",
   "2022-01",
@@ -62,7 +62,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-23",
+ "collected": "2026-11-24",
  "coverage": {
   "phase": 2,
   "text": "complete",
@@ -87,21 +87,21 @@
   "play_url": "https://play.google.com/store/apps/details?id=com.emiratesnbd.android",
   "store_rating": {
    "ios": {
-    "avg": 4.73381,
-    "count": 337535,
+    "avg": 4.73365,
+    "count": 337693,
     "version": "26.11.1"
    },
    "android": {
-    "avg": 4.740573,
-    "count": 239158,
-    "reviews": 18049,
+    "avg": 4.7410574,
+    "count": 239374,
+    "reviews": 18065,
     "version": "26.11.3",
     "histogram": [
-     7866,
-     1414,
-     4375,
-     17573,
-     207924
+     7861,
+     1426,
+     4373,
+     17507,
+     208203
     ],
     "installs": "1,000,000+"
    }
@@ -111,8 +111,8 @@
     "all": {
      "trackName": "ENBD X",
      "sellerName": "EMIRATES NBD Bank (P.J.S.C)",
-     "averageUserRating": 4.73381,
-     "userRatingCount": 337535,
+     "averageUserRating": 4.73365,
+     "userRatingCount": 337693,
      "version": "26.11.1",
      "currentVersionReleaseDate": "2026-11-14T17:19:18Z",
      "releaseDate": "2021-12-19T08:00:00Z",
@@ -128,15 +128,15 @@
    "android": {
     "all": {
      "title": "ENBD X",
-     "score": 4.740573,
-     "ratings": 239158,
-     "reviews": 18049,
+     "score": 4.7410574,
+     "ratings": 239374,
+     "reviews": 18065,
      "histogram": [
-      7866,
-      1414,
-      4375,
-      17573,
-      207924
+      7861,
+      1426,
+      4373,
+      17507,
+      208203
      ],
      "version": "26.11.3",
      "installs": "1,000,000+",
@@ -149,48 +149,48 @@
   }
  },
  "totals": {
-  "all": 37830,
-  "ios": 14146,
-  "android": 23684,
+  "all": 37858,
+  "ios": 14153,
+  "android": 23705,
   "first": "2021-12-19",
-  "last": "2026-11-22",
+  "last": "2026-11-23",
   "avg": 3.48,
   "avg_ios": 3.42,
   "avg_android": 3.52,
   "hist": [
-   12284,
+   12292,
    1393,
-   1142,
-   1829,
-   21182
+   1143,
+   1832,
+   21198
   ],
   "hist_ios": [
-   4869,
+   4872,
    540,
-   390,
-   508,
-   7839
+   391,
+   509,
+   7841
   ],
   "hist_android": [
-   7415,
+   7420,
    853,
    752,
-   1321,
-   13343
+   1323,
+   13357
   ],
   "sentiment": {
-   "negative": 13925,
-   "positive": 23336,
-   "neutral": 569
+   "positive": 23355,
+   "negative": 13933,
+   "neutral": 570
   },
   "langs": [
    [
     "en",
-    35624
+    35650
    ],
    [
     "ar",
-    1757
+    1759
    ],
    [
     "ru",
@@ -220,11 +220,11 @@
   "storefronts_ios": [
    [
     "ae",
-    9882
+    9886
    ],
    [
     "in",
-    1082
+    1084
    ],
    [
     "us",
@@ -248,7 +248,7 @@
    ],
    [
     "eg",
-    120
+    121
    ],
    [
     "ca",
@@ -267,8 +267,8 @@
     83
    ]
   ],
-  "with_text": 37830,
-  "untagged": 5385
+  "with_text": 37858,
+  "untagged": 5391
  },
  "monthly": {
   "all": [
@@ -1044,12 +1044,12 @@
    },
    {
     "month": "2026-07",
-    "count": 665,
+    "count": 664,
     "avg": 3.91,
-    "neg": 177,
+    "neg": 176,
     "pos": 481,
     "hist": [
-     144,
+     143,
      29,
      19,
      25,
@@ -1100,16 +1100,16 @@
    },
    {
     "month": "2026-11",
-    "count": 679,
-    "avg": 3.93,
-    "neg": 171,
-    "pos": 500,
+    "count": 708,
+    "avg": 3.91,
+    "neg": 180,
+    "pos": 519,
     "hist": [
-     154,
+     163,
      10,
-     24,
-     35,
-     456
+     25,
+     38,
+     472
     ]
    }
   ],
@@ -1942,16 +1942,16 @@
    },
    {
     "month": "2026-11",
-    "count": 227,
-    "avg": 4.06,
-    "neg": 51,
-    "pos": 173,
+    "count": 234,
+    "avg": 4.03,
+    "neg": 54,
+    "pos": 176,
     "hist": [
-     46,
+     49,
      3,
-     5,
-     10,
-     163
+     6,
+     11,
+     165
     ]
    }
   ],
@@ -2728,12 +2728,12 @@
    },
    {
     "month": "2026-07",
-    "count": 360,
-    "avg": 3.99,
-    "neg": 88,
+    "count": 359,
+    "avg": 4.0,
+    "neg": 87,
     "pos": 270,
     "hist": [
-     68,
+     67,
      18,
      9,
      18,
@@ -2784,16 +2784,16 @@
    },
    {
     "month": "2026-11",
-    "count": 452,
+    "count": 474,
     "avg": 3.86,
-    "neg": 120,
-    "pos": 327,
+    "neg": 126,
+    "pos": 343,
     "hist": [
-     108,
+     114,
      7,
      19,
-     25,
-     293
+     27,
+     307
     ]
    }
   ]
@@ -3420,12 +3420,12 @@
   {
    "key": "features",
    "label": "Missing features",
-   "count": 4223,
+   "count": 4224,
    "negative": 2971,
    "positive": 1116,
-   "neutral": 136,
+   "neutral": 137,
    "avg": 2.16,
-   "ios": 2241,
+   "ios": 2242,
    "android": 1982,
    "share_of_negative": 0.213,
    "monthly": {
@@ -3726,7 +3726,7 @@
       8
      ],
      [
-      24,
+      25,
       12,
       10
      ]
@@ -4038,13 +4038,13 @@
   {
    "key": "stability",
    "label": "Crashes & errors",
-   "count": 4109,
-   "negative": 3366,
+   "count": 4108,
+   "negative": 3365,
    "positive": 661,
    "neutral": 82,
    "avg": 1.77,
    "ios": 1712,
-   "android": 2397,
+   "android": 2396,
    "share_of_negative": 0.242,
    "monthly": {
     "ios": [
@@ -4626,8 +4626,8 @@
       14
      ],
      [
-      33,
-      25,
+      32,
+      24,
       7
      ],
      [
@@ -4656,13 +4656,13 @@
   {
    "key": "update",
    "label": "App updates",
-   "count": 3946,
+   "count": 3947,
    "negative": 3021,
-   "positive": 856,
+   "positive": 857,
    "neutral": 69,
    "avg": 1.94,
    "ios": 1622,
-   "android": 2324,
+   "android": 2325,
    "share_of_negative": 0.217,
    "monthly": {
     "ios": [
@@ -5264,9 +5264,9 @@
       6
      ],
      [
-      42,
+      43,
       33,
-      8
+      9
      ]
     ]
    }
@@ -5274,12 +5274,12 @@
   {
    "key": "transfers",
    "label": "Transfers & payments",
-   "count": 3548,
+   "count": 3549,
    "negative": 2494,
-   "positive": 979,
+   "positive": 980,
    "neutral": 75,
    "avg": 2.19,
-   "ios": 1871,
+   "ios": 1872,
    "android": 1677,
    "share_of_negative": 0.179,
    "monthly": {
@@ -5580,9 +5580,9 @@
       6
      ],
      [
-      15,
+      16,
       9,
-      6
+      7
      ]
     ],
     "android": [
@@ -6510,13 +6510,13 @@
   {
    "key": "login",
    "label": "Login & access",
-   "count": 3064,
-   "negative": 2427,
-   "positive": 568,
+   "count": 3067,
+   "negative": 2428,
+   "positive": 570,
    "neutral": 69,
    "avg": 1.84,
-   "ios": 1063,
-   "android": 2001,
+   "ios": 1064,
+   "android": 2003,
    "share_of_negative": 0.174,
    "monthly": {
     "ios": [
@@ -6816,9 +6816,9 @@
       7
      ],
      [
-      3,
+      4,
       2,
-      1
+      2
      ]
     ],
     "android": [
@@ -7118,9 +7118,9 @@
       4
      ],
      [
-      32,
-      27,
-      3
+      34,
+      28,
+      4
      ]
     ]
    }
@@ -7135,7 +7135,7 @@
    "avg": 2.13,
    "ios": 1343,
    "android": 924,
-   "share_of_negative": 0.117,
+   "share_of_negative": 0.116,
    "monthly": {
     "ios": [
      [
@@ -7746,13 +7746,13 @@
   {
    "key": "support",
    "label": "Call centre & chat",
-   "count": 2153,
-   "negative": 1561,
-   "positive": 565,
-   "neutral": 27,
+   "count": 2159,
+   "negative": 1563,
+   "positive": 568,
+   "neutral": 28,
    "avg": 2.12,
-   "ios": 1223,
-   "android": 930,
+   "ios": 1225,
+   "android": 934,
    "share_of_negative": 0.112,
    "monthly": {
     "ios": [
@@ -8052,9 +8052,9 @@
       3
      ],
      [
-      24,
+      26,
       18,
-      5
+      6
      ]
     ],
     "android": [
@@ -8354,9 +8354,9 @@
       2
      ],
      [
+      24,
       20,
-      18,
-      2
+      4
      ]
     ]
    }
@@ -8364,12 +8364,12 @@
   {
    "key": "speed",
    "label": "Speed & loading",
-   "count": 1198,
+   "count": 1199,
    "negative": 961,
    "positive": 194,
-   "neutral": 43,
+   "neutral": 44,
    "avg": 1.8,
-   "ios": 523,
+   "ios": 524,
    "android": 675,
    "share_of_negative": 0.069,
    "monthly": {
@@ -8670,7 +8670,7 @@
       2
      ],
      [
-      5,
+      6,
       3,
       2
      ]
@@ -10218,13 +10218,13 @@
   {
    "key": "security",
    "label": "Security & fraud",
-   "count": 940,
-   "negative": 385,
-   "positive": 542,
+   "count": 943,
+   "negative": 387,
+   "positive": 543,
    "neutral": 13,
    "avg": 3.34,
    "ios": 388,
-   "android": 552,
+   "android": 555,
    "share_of_negative": 0.028,
    "monthly": {
     "ios": [
@@ -10826,9 +10826,9 @@
       9
      ],
      [
-      44,
-      27,
-      16
+      47,
+      29,
+      17
      ]
     ]
    }
@@ -10843,7 +10843,7 @@
    "avg": 1.75,
    "ios": 375,
    "android": 561,
-   "share_of_negative": 0.055,
+   "share_of_negative": 0.054,
    "monthly": {
     "ios": [
      [
@@ -14544,14 +14544,14 @@
   {
    "key": "notifications",
    "label": "Notifications",
-   "count": 324,
-   "negative": 255,
-   "positive": 66,
+   "count": 328,
+   "negative": 258,
+   "positive": 67,
    "neutral": 3,
-   "avg": 1.85,
-   "ios": 139,
-   "android": 185,
-   "share_of_negative": 0.018,
+   "avg": 1.86,
+   "ios": 140,
+   "android": 188,
+   "share_of_negative": 0.019,
    "monthly": {
     "ios": [
      [
@@ -14850,8 +14850,8 @@
       0
      ],
      [
-      0,
-      0,
+      1,
+      1,
       0
      ]
     ],
@@ -15152,9 +15152,9 @@
       1
      ],
      [
+      11,
       8,
-      6,
-      2
+      3
      ]
     ]
    }
@@ -16979,9 +16979,9 @@
   {
    "platform": "android",
    "version": "16.20.1",
-   "count": 22,
-   "avg": 3.14,
-   "neg_share": 0.455,
+   "count": 21,
+   "avg": 3.24,
+   "neg_share": 0.429,
    "first": "2026-07-28",
    "last": "2026-07-31",
    "top_themes": [
@@ -17119,15 +17119,15 @@
   {
    "platform": "android",
    "version": "26.11.3",
-   "count": 94,
+   "count": 114,
    "avg": 3.69,
-   "neg_share": 0.309,
+   "neg_share": 0.307,
    "first": "2026-11-17",
-   "last": "2026-11-22",
+   "last": "2026-11-23",
    "top_themes": [
     "security",
-    "stability",
-    "features"
+    "login",
+    "stability"
    ]
   },
   {
@@ -18505,11 +18505,11 @@
   {
    "platform": "ios",
    "version": "26.11.1",
-   "count": 87,
-   "avg": 4.17,
-   "neg_share": 0.207,
+   "count": 94,
+   "avg": 4.07,
+   "neg_share": 0.223,
    "first": "2026-11-14",
-   "last": "2026-11-21",
+   "last": "2026-11-22",
    "top_themes": [
     "support",
     "cards",
@@ -18518,14 +18518,14 @@
   }
  ],
  "replies": {
-  "count": 37226,
-  "android": 23605,
+  "count": 37247,
+  "android": 23626,
   "ios": 13621,
   "rate_android": 0.997,
-  "rate_ios": 0.963,
-  "median_lag_days": 1.0,
+  "rate_ios": 0.962,
+  "median_lag_days": 1,
   "by_year": {
-   "2026": 8306,
+   "2026": 8327,
    "2025": 7345,
    "2024": 8040,
    "2023": 11600,
@@ -18537,8 +18537,8 @@
   {
    "year": "2026",
    "file": "reviews/2026.json",
-   "count": 8596,
-   "bytes": 5361554
+   "count": 8624,
+   "bytes": 5377260
   },
   {
    "year": "2025",
@@ -18573,6 +18573,6 @@
  ],
  "index": {
   "file": "index.json",
-  "bytes": 547098
+  "bytes": 547488
  }
 }

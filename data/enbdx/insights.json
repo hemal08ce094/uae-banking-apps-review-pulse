@@ -1,6 +1,6 @@
 {
  "headline": "56% of written reviews give ENBD X five stars, yet 36% give one or two. The deepest dips in the monthly rating follow changes to access: the forced migration, Smart Pass approvals, mandatory biometrics and device checks.",
- "lede": "Emirates NBD answers 100% of Google Play reviews and 96% of App Store reviews, typically within a day, and customers notice when fixes land. The recurring damage comes from access: forced migration in 2022-23, Smart Pass approvals in 2024, mandatory biometrics in May 2026 and device-integrity checks in the 26.x releases. 3,074 of 13,925 negative reviews (22%) mention login, approvals or device checks.",
+ "lede": "Emirates NBD answers 100% of Google Play reviews and 96% of App Store reviews, typically within a day, and customers notice when fixes land. The recurring damage comes from access: forced migration in 2022-23, Smart Pass approvals in 2024, mandatory biometrics in May 2026 and device-integrity checks in the 26.x releases. 3,075 of 13,933 negative reviews (22%) mention login, approvals or device checks.",
  "method": "Averages here are of written reviews only. Store ratings (4.73 App Store, 4.74 Google Play) include star-only ratings, which are not public and skew positive: 87% of Google Play's star ratings are five stars against 56% of its written reviews. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged in English and Arabic, so a review can carry several themes and short reviews such as 'good app' carry none. Counts are written reviews only; star-only ratings are not public.",
  "events": [
   {
@@ -36,7 +36,7 @@
   {
    "month": "2026-05",
    "label": "Biometric-only login goes mandatory",
-   "detail": "1377 reviews in May 2026, 540 negative, average 3.39. 170 of them mention fingerprint or Face ID; 92 between May and July report the 'cannot be used with VoiceOver enabled' lockout.",
+   "detail": "1377 reviews in May 2026, 540 negative, average 3.39. 170 of them mention fingerprint or Face ID; 91 between May and July report the 'cannot be used with VoiceOver enabled' lockout.",
    "kind": "pain"
   },
   {
@@ -127,7 +127,7 @@
      "rating": 3,
      "date": "2026-11-16",
      "version": "26.11.0",
-     "helpful": 6,
+     "helpful": 7,
      "title": "",
      "body": "The app team was very helpful. Called to fix it as app didn't even load. Apparently cannot be used with voice over enabled. It was already unreliable previously. Fails around 50% of the time. Stopped OTP and replaced it with a technology that keeps failing. Can't complete a transaction. Highly frustrating experience. Transaction authorization fails 70% of the time. Can't approve a transaction while on a call. Highly disruptive app. Heavy and slow to load. Doesn't seem to scale on heavy demand."
     },
@@ -584,5 +584,5 @@
    ]
   }
  ],
- "generated": "2026-11-23"
+ "generated": "2026-11-24"
 }
