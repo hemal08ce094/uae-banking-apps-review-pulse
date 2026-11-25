@@ -1,6 +1,6 @@
 {
  "headline": "64% of Mashreq UAE's written reviews give five stars and 26% give one or two. The deepest low was the January 2021 app release that broke sign-in; later complaints are about a 'not secure' device block in 2024-25 and mandatory biometrics in 2026.",
- "lede": "Mashreq answers 95% of written reviews, typically the same day, though the replies are mostly short thanks. The lowest month with at least 100 reviews is 2021-01 (average 2); the highest is 2019-12 (average 4.43). In 2026, 66 reviews mention biometrics, 63 of them dated August or later.",
+ "lede": "Mashreq answers 95% of written reviews, typically the same day, though the replies are mostly short thanks. The lowest month with at least 100 reviews is 2021-01 (average 2); the highest is 2019-12 (average 4.43). In 2026, 67 reviews mention biometrics, 64 of them dated August or later.",
  "method": "Averages here are of written reviews only. Store ratings (4.80 App Store, 4.76 Google Play) include star-only ratings, which are not public and skew positive. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged in English and Arabic, so a review can carry several themes. This app and Mashreq's separate Neo digital bank share the Mashreq name in reviews, so some complaints are about Neo. App Store coverage: complete.",
  "events": [
   {
@@ -435,5 +435,5 @@
    ]
   }
  ],
- "generated": "2026-11-24"
+ "generated": "2026-11-25"
 }

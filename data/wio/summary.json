@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24",
+ "generated": "2026-11-25",
  "months": [
   "2023-07",
   "2023-08",
@@ -43,7 +43,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-24",
+ "collected": "2026-11-25",
  "coverage": {
   "phase": 2,
   "text": "complete",
@@ -73,16 +73,16 @@
     "version": "1.77.0"
    },
    "android": {
-    "avg": 4.6062803,
-    "count": 6280,
+    "avg": 4.604369,
+    "count": 6285,
     "reviews": 558,
     "version": "1.76.1",
     "histogram": [
-     408,
-     13,
-     150,
-     484,
-     5217
+     411,
+     15,
+     152,
+     487,
+     5215
     ],
     "installs": "500,000+"
    }
@@ -110,15 +110,15 @@
    "android": {
     "all": {
      "title": "Wio Personal",
-     "score": 4.6062803,
-     "ratings": 6280,
+     "score": 4.604369,
+     "ratings": 6285,
      "reviews": 558,
      "histogram": [
-      408,
-      13,
-      150,
-      484,
-      5217
+      411,
+      15,
+      152,
+      487,
+      5215
      ],
      "version": "1.76.1",
      "installs": "500,000+",

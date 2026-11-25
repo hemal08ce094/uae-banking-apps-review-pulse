@@ -144336,7 +144336,7 @@
   "author": "Genie Pasno",
   "version": "1.63",
   "date": "2026-11-17",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "We're sorry to hear this. We'd like to better understand what went wrong so we can make it right. Please email us at appreview@adcb.com from your registered email address. H.A",
@@ -144527,7 +144527,7 @@
   "author": "Christopher Armamento",
   "version": "1.63",
   "date": "2026-11-19",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "We apologize for any inconvenience. We're here to help - please reach out to us at appreview@adcb.com from your registered email address. M.A",
@@ -144619,7 +144619,7 @@
   "author": "Omar Muflahi",
   "version": "1.63",
   "date": "2026-11-18",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again. M.A",
@@ -145006,7 +145006,7 @@
   "author": "Froust Xatashi",
   "version": "1.63",
   "date": "2026-11-21",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "We're sorry to hear this. We'd like to better understand what went wrong so we can make it right. Please email us at appreview@adcb.com from your registered email address. M.J",
@@ -145124,7 +145124,7 @@
   "author": "Balaji Muruganidhi",
   "version": "1.63",
   "date": "2026-11-21",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "We're sorry to hear this. We'd like to better understand what went wrong so we can make it right. Please email us at appreview@adcb.com from your registered email address. M.J",
@@ -145347,7 +145347,7 @@
   "author": "Rangrez Siddiqi",
   "version": "1.63",
   "date": "2026-11-23",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": null,
   "generation": "new"
@@ -145436,6 +145436,136 @@
   "votes_helpful": 0,
   "votes_total": null,
   "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-4035b483-41f4-46a3-9455-7739f26e23c5",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good transfer instantly",
+  "author": "VINO Sekar",
+  "version": "1.63",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Thank you for your review! We're happy the app is meeting your expectations. R.B",
+   "date": "2026-11-24"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-78a265e4-c777-4e5b-a48d-5c5e45830010",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 4,
+  "title": "",
+  "body": "it's easy to send money",
+  "author": "Rinchen Bhutia",
+  "version": "1.63",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "So glad to hear you're having a good experience! We're always here to make it even better R.B",
+   "date": "2026-11-24"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-5a0bc2e1-3d69-44cf-8ddc-cc75eb484f22",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "love it",
+  "author": "Roro Booss",
+  "version": "1.63",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Appreciate the love! We're glad the app is working well for you. R.B",
+   "date": "2026-11-24"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-7f5d67d6-1c80-4219-a426-791dd562fb48",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Super",
+  "author": "ֆʜᴏʀ፝֟፝ɪꜰ ꫝ፝֟፝ʙᴅᴜʟʟᴀ፝֟፝ʜ",
+  "version": "1.63",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "We're so happy you're enjoying the app & thank you for trusting us with your banking needs. R.B",
+   "date": "2026-11-24"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-5123fa43-2366-4b4e-b5ff-8f94fd2b8829",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "fast and easy",
+  "author": "Verus Casapao",
+  "version": "1.63",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "So glad to hear you're having a good experience! We're always here to make it even better R.B",
+   "date": "2026-11-24"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-42e17082-0983-4797-ad75-23ef6de376a4",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "zabardast",
+  "author": "Fine Notes",
+  "version": "1.63",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-821bb5fc-0e83-4a3b-afc4-e0342c3b3ffa",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "very helpful thanks ADCB",
+  "author": "Amir Khan",
+  "version": "1.62",
+  "date": "2026-11-23",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Thank you for your review! We're happy the app is meeting your expectations. R.B",
+   "date": "2026-11-24"
+  },
   "generation": "new"
  }
 ]
