@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "months": [
   "2023-07",
   "2023-08",
@@ -43,7 +43,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-25",
+ "collected": "2026-11-26",
  "coverage": {
   "phase": 2,
   "text": "complete",
@@ -68,21 +68,21 @@
   "play_url": "https://play.google.com/store/apps/details?id=io.wio.retail",
   "store_rating": {
    "ios": {
-    "avg": 4.79872,
-    "count": 7164,
+    "avg": 4.799050000000001,
+    "count": 7176,
     "version": "1.77.0"
    },
    "android": {
-    "avg": 4.604369,
-    "count": 6285,
+    "avg": 4.6076555,
+    "count": 6291,
     "reviews": 558,
     "version": "1.76.1",
     "histogram": [
-     411,
-     15,
-     152,
-     487,
-     5215
+     404,
+     13,
+     149,
+     496,
+     5222
     ],
     "installs": "500,000+"
    }
@@ -92,8 +92,8 @@
     "all": {
      "trackName": "Wio Personal",
      "sellerName": "WIO BANK P.J.S.C",
-     "averageUserRating": 4.79872,
-     "userRatingCount": 7164,
+     "averageUserRating": 4.79905,
+     "userRatingCount": 7176,
      "version": "1.77.0",
      "currentVersionReleaseDate": "2026-11-20T08:51:50Z",
      "releaseDate": "2023-07-25T07:00:00Z",
@@ -110,15 +110,15 @@
    "android": {
     "all": {
      "title": "Wio Personal",
-     "score": 4.604369,
-     "ratings": 6285,
+     "score": 4.6076555,
+     "ratings": 6291,
      "reviews": 558,
      "histogram": [
-      411,
-      15,
-      152,
-      487,
-      5215
+      404,
+      13,
+      149,
+      496,
+      5222
      ],
      "version": "1.76.1",
      "installs": "500,000+",

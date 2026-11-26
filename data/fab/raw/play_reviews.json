@@ -15646,8 +15646,8 @@
   "votes_helpful": 0,
   "votes_total": null,
   "reply": {
-   "body": "Dear Tariq, thank you for your kind words. We're glad you're enjoying the experience.",
-   "date": "2026-04-28"
+   "body": "Dear Tariq, we're happy to hear you're having a positive experience using our app. Your feedback is truly appreciated.",
+   "date": "2026-11-26"
   }
  },
  {
@@ -274834,7 +274834,7 @@
   "author": "jayvi javier",
   "version": "3.7.93",
   "date": "2026-11-17",
-  "votes_helpful": 6,
+  "votes_helpful": 7,
   "votes_total": null,
   "reply": {
    "body": "Dear Jayvi, thank you for your kind words and recommendation. We appreciate your support and are always here for you.",
@@ -275484,6 +275484,60 @@
   "reply": {
    "body": "!عميلنا العزيز، نقدّر ملاحظاتك الإيجابية. شكراً لك",
    "date": "2026-11-24"
+  }
+ },
+ {
+  "id": "play-6383d904-bcaa-43e6-bbf8-1ff836da60c3",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Logging in its so complicated... You need to bring always ur Emirates id theres a lot of step not same before just only finger print it consume a lot of time...",
+  "author": "Jonathan Keiser",
+  "version": "3.7.96",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Jonathan, thank you for your feedback. We recommend enabling biometric login to ensure quicker, more secure access to your account in the future, using face or fingerprint recognition.",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-da8da07d-25fe-4b70-b1db-b3ad18d8d9e3",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "very good service. but an option of immediate transfer without adding beneficiary would be amazing",
+  "author": "Azeem AbdulAzeez",
+  "version": "3.7.96",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Azeem, thank you for your positive review. We really appreciate it. We've noted your suggestion and will share it with the relevant team.",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-0b82b547-63a2-4b75-ae8e-a50ca3b2dc50",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "ممتاز",
+  "author": "fadi Jawech",
+  "version": "3.7.96",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": ".عميلنا العزيز، نشكرك على مشاركة ملاحظاتك معنا ونقدّر اهتمامك. شكراً لك",
+   "date": "2026-11-25"
   }
  }
 ]

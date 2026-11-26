@@ -922,5 +922,19 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14828282459",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 3,
+  "title": "Good",
+  "body": "My favorite bank but i will rate 3 stars because of the KYC update issues.",
+  "author": "_Rourr_",
+  "version": "8.11.10",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

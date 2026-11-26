@@ -423826,7 +423826,7 @@
   "author": "Mahmoud Salah",
   "version": "26.11.2",
   "date": "2026-11-17",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "Hi Mahmoud, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-02970. Once fixed, we would appreciate it if you could update your app rating.",
@@ -426822,6 +426822,294 @@
   "reply": {
    "body": "Hello Ahmed, we are delighted to receive your positive feedback regarding our Mobile Banking App. Your encouraging words about our services truly matter to us. We remain committed to delivering the best experience possible and will keep working towards excellence. Thank you for your support.",
    "date": "2026-11-24"
+  }
+ },
+ {
+  "id": "play-7833557e-fc9c-4ebd-9f98-be4d76d0798e",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "their customer service teamS over the App and emails are useless",
+  "author": "Ahmed mamdouh Ahmed",
+  "version": "26.11.3",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Ahmed, thank you for taking the time to provide your feedback about our customer service. Your experience matters to us, and we would love to learn more about the challenges you've encountered. Please contact us at mobilebankingdev@emiratesnbd.com with your reference number EBG-03042 in the subject line.",
+   "date": "2026-11-26"
+  }
+ },
+ {
+  "id": "play-b3fc18ad-220a-4154-a72c-35df9fd9e441",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "very good service",
+  "author": "Rick",
+  "version": "26.11.3",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Rick, we’re thrilled to receive your positive feedback about our Mobile Banking App. It’s wonderful to hear that you are satisfied with our services. Your kind words motivate us to keep delivering an outstanding banking experience for all our esteemed customers.",
+   "date": "2026-11-26"
+  }
+ },
+ {
+  "id": "play-ce557834-0f15-4642-8af2-f2628a2714b2",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Very glitchy. Impossible to make a Trusted Device.",
+  "author": "Tariq Saboor",
+  "version": "",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi Tariq, we appreciate your feedback regarding the Mobile Banking App. Your input is important to us, and we are here to help you further. Please reach out to us at mobilebankingdev@emiratesnbd.com and include your reference number EBG-03041 in the subject line for additional assistance.",
+   "date": "2026-11-26"
+  }
+ },
+ {
+  "id": "play-55e5ef31-f86b-4445-9e09-11cf486b11e8",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Can't even open the app. It says turn off talk back to access the app while it's already off. What to do ?",
+  "author": "Hakkim Salim",
+  "version": "26.11.3",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Hakkim, please go to Settings > Accessibility, turn off Talkback, and disable everything under Installed Apps. If you still need assistance, email us at mobilebankingdev@emiratesnbd.com using the subject line EBG-03040. Once fixed, we would appreciate it if you could update your app rating.",
+   "date": "2026-11-26"
+  }
+ },
+ {
+  "id": "play-a5a6006a-8fd3-4bc9-be49-c646a8ad4746",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "super smooth and easy to understand",
+  "author": "Kishan Pavithran",
+  "version": "26.11.3",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Kishan, we are thrilled to receive your positive feedback about our Mobile Banking App. It's wonderful to hear that you find it easy to use and simple. Your encouraging words inspire us to keep providing outstanding service to all our cherished customers.",
+   "date": "2026-11-26"
+  }
+ },
+ {
+  "id": "play-8f69ae34-f02b-4643-9c83-8c9091747d90",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Good",
+  "author": "Mayur Dakhole",
+  "version": "26.11.3",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Mayur Dakhole, we're thrilled to hear your positive feedback about our Mobile Banking App. It's wonderful to know that our services align with your expectations. Your support motivates us to keep delivering outstanding experiences for all our cherished customers.",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-61c5dcb6-444c-457b-b06d-45196d3fe327",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Great",
+  "author": "Albert Goba",
+  "version": "26.11.3",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Albert, thank you for your fantastic feedback about our Mobile Banking App. We're thrilled to know that you are happy with our services. Your support motivates us to continue delivering outstanding service to all our valued customers. We appreciate it!",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-4b39ff7d-061e-4561-9434-f5ab219c782c",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Good service",
+  "author": "Sohaib Gujjar",
+  "version": "26.11.3",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Sohaib, we are delighted to hear your positive feedback about our Mobile Banking App. It’s wonderful to know that you are happy with our services. Your encouraging words inspire us to keep providing outstanding experiences to all our valued customers. Thank you for your support.",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-b969ddfb-4a8c-4eeb-b364-ecca58df5c34",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "excellent",
+  "author": "Gopal Raj",
+  "version": "26.11.3",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Gopal, we are thrilled to receive your positive feedback about our Mobile Banking App. Your encouraging words motivate us to continue providing outstanding service. Thank you for sharing your thoughts, and we truly value your support.",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-e7ec6902-c9e8-4264-add4-c909dbfdad64",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "superb",
+  "author": "Faqir Khan",
+  "version": "26.11.3",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Faqir, we are thrilled to hear your positive feedback about our Mobile Banking App. Your comments motivate us to keep providing the best banking experience for our valued customers. Thank you for your continued support!",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-7f531f2e-569d-4331-b193-81ad9bf9b698",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good",
+  "author": "Hyjo",
+  "version": "26.11.3",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Hyjo, we truly appreciate your fantastic feedback on our Mobile Banking App. It’s wonderful to hear that you are satisfied with our services. Your support motivates us to continue enhancing and delivering outstanding service to all our valued customers.",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-49a81e9c-7b34-463b-86b4-be381713d629",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "excellent",
+  "author": "Mazhar Rashid",
+  "version": "26.11.3",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Mazhar, your wonderful feedback about our Mobile Banking App truly brightened our day. We're thrilled to hear that you're happy with our service. We can't wait to keep supporting your banking needs. Thank you!",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-8bbae45e-afbe-45b6-9cc6-564ee7a4d0c3",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 2,
+  "title": "",
+  "body": "it was a great app before but now keeps having problem when logging in using fingerprint. i was forced to recover access as it was blocked. uninstall and install the app many times and remove and re-registered my fingerprint on phone but still not able to login. a bug also happened to this few days about voice talkbalk issue.",
+  "author": "Riza Fernandez (Apple)",
+  "version": "15.13.3",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Riza, thank you for taking the time to share your experience with us. We strive to ensure a smooth login process. For additional help, please contact us at mobilebankingdev@emiratesnbd.com and include reference number EBG-03039 in the subject line.",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-90f7deaf-48e8-4436-96aa-9d23092e0d83",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "nice🤩🤩",
+  "author": "Muhammad Aqeel",
+  "version": "26.11.3",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Muhammad, we are so pleased to hear your wonderful feedback about our Mobile Banking App. It's fantastic to know that you find it enjoyable to use. Your encouraging words motivate us to continue providing the best banking experience. Thank you for your support!",
+   "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-71a6d16a-3257-4811-abed-7bbb42da3696",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 5,
+  "title": "",
+  "body": "شكرا",
+  "author": "Mohamed Abu Zaid",
+  "version": "26.11.3",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello Mohamed, we truly appreciate your positive feedback about our Mobile Banking App. It's fantastic to hear from happy users like you. Your support motivates us to continue providing the best banking experience we can.",
+   "date": "2026-11-26"
+  }
+ },
+ {
+  "id": "play-722f958f-ca7a-4e10-8110-e142172bbd7f",
+  "platform": "android",
+  "storefront": "fr",
+  "lang": "fr",
+  "rating": 5,
+  "title": "",
+  "body": "يعطيني null",
+  "author": "Hassan Abichmou",
+  "version": "26.11.3",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi Hassan, thank you so much for your positive rating and feedback about our Mobile Banking App. Your support is incredibly important to us, and we are dedicated to providing an excellent experience for all our users. We truly appreciate you taking the time to share your thoughts.",
+   "date": "2026-11-25"
   }
  }
 ]

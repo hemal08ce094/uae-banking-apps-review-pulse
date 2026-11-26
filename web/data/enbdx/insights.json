@@ -1,6 +1,6 @@
 {
  "headline": "56% of written reviews give ENBD X five stars, yet 36% give one or two. The deepest dips in the monthly rating follow changes to access: the forced migration, Smart Pass approvals, mandatory biometrics and device checks.",
- "lede": "Emirates NBD answers 100% of Google Play reviews and 96% of App Store reviews, typically within a day, and customers notice when fixes land. The recurring damage comes from access: forced migration in 2022-23, Smart Pass approvals in 2024, mandatory biometrics in May 2026 and device-integrity checks in the 26.x releases. 3,076 of 13,940 negative reviews (22%) mention login, approvals or device checks.",
+ "lede": "Emirates NBD answers 100% of Google Play reviews and 96% of App Store reviews, typically within a day, and customers notice when fixes land. The recurring damage comes from access: forced migration in 2022-23, Smart Pass approvals in 2024, mandatory biometrics in May 2026 and device-integrity checks in the 26.x releases. 3,077 of 13,953 negative reviews (22%) mention login, approvals or device checks.",
  "method": "Averages here are of written reviews only. Store ratings (4.73 App Store, 4.74 Google Play) include star-only ratings, which are not public and skew positive: 87% of Google Play's star ratings are five stars against 56% of its written reviews. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged in English and Arabic, so a review can carry several themes and short reviews such as 'good app' carry none. Counts are written reviews only; star-only ratings are not public.",
  "events": [
   {
@@ -584,5 +584,5 @@
    ]
   }
  ],
- "generated": "2026-11-25"
+ "generated": "2026-11-26"
 }

@@ -3453,7 +3453,7 @@
   "author": "Robyn Webb",
   "version": "1.62",
   "date": "2026-11-17",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "Hi, I’m sorry for this experience and thank you for your review. We will share your feedback with the dedicated team.\nM.A",
@@ -144139,7 +144139,7 @@
   "author": "Varun Kumar",
   "version": "1.63",
   "date": "2026-11-16",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again. M.A",
@@ -144267,11 +144267,14 @@
   "title": "",
   "body": "good",
   "author": "musfiq rahman",
-  "version": "1.62",
-  "date": "2026-11-17",
+  "version": "1.63",
+  "date": "2026-11-25",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null,
+  "reply": {
+   "body": "Thank you for your review! We're happy the app is meeting your expectations. M.A",
+   "date": "2026-11-25"
+  },
   "generation": "new"
  },
  {
@@ -144387,7 +144390,7 @@
   "author": "Sampath Alwar",
   "version": "1.63",
   "date": "2026-11-17",
-  "votes_helpful": 3,
+  "votes_helpful": 5,
   "votes_total": null,
   "reply": {
    "body": "We hear your concern and are committed to improving your experience. Please share more details with us at appreview@adcb.com from your registered email. H.A",
@@ -144765,7 +144768,7 @@
   "author": "Mary castilyn Castillon",
   "version": "1.63",
   "date": "2026-11-20",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "We're sorry to hear this. We'd like to better understand what went wrong so we can make it right. Please email us at appreview@adcb.com from your registered email address. M.J",
@@ -145043,7 +145046,10 @@
   "date": "2026-11-20",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null,
+  "reply": {
+   "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again. M.J",
+   "date": "2026-11-25"
+  },
   "generation": "new"
  },
  {
@@ -145124,7 +145130,7 @@
   "author": "Balaji Muruganidhi",
   "version": "1.63",
   "date": "2026-11-21",
-  "votes_helpful": 1,
+  "votes_helpful": 2,
   "votes_total": null,
   "reply": {
    "body": "We're sorry to hear this. We'd like to better understand what went wrong so we can make it right. Please email us at appreview@adcb.com from your registered email address. M.J",
@@ -145347,7 +145353,7 @@
   "author": "Rangrez Siddiqi",
   "version": "1.63",
   "date": "2026-11-23",
-  "votes_helpful": 2,
+  "votes_helpful": 3,
   "votes_total": null,
   "reply": null,
   "generation": "new"
@@ -145468,7 +145474,7 @@
   "author": "Rinchen Bhutia",
   "version": "1.63",
   "date": "2026-11-24",
-  "votes_helpful": 0,
+  "votes_helpful": 1,
   "votes_total": null,
   "reply": {
    "body": "So glad to hear you're having a good experience! We're always here to make it even better R.B",
@@ -145566,6 +145572,263 @@
    "body": "Thank you for your review! We're happy the app is meeting your expectations. R.B",
    "date": "2026-11-24"
   },
+  "generation": "new"
+ },
+ {
+  "id": "play-7c4d5ab2-4a3b-474a-ab9e-edc81b853e46",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Not recommend this app. i apply for account closure and they decline now they are deducting my account 100aed everymonth. this is basically a scam app.",
+  "author": "Juswa Castro",
+  "version": "1.63",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi, you can request account closure through the ADCB Mobile App. Please ensure that any remaining balance in your account is withdrawn or transferred first, as the account cannot be closed while funds are still available. For further assistance, please call 600 502030 from your registered mobile number. M.A.",
+   "date": "2026-11-26"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-bc17eaca-9e70-4dab-a0c2-f437335ad4d3",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "rubbish poor",
+  "author": "Venkatesh Raghavachari",
+  "version": "1.63",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "We're sorry to hear this. We'd like to better understand what went wrong so we can make it right. Please email us at appreview@adcb.com from your registered email address. M.A",
+   "date": "2026-11-25"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-90ca1b7e-cb79-4b89-aa1f-40183057f2f6",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "The app always have problem cannot open the bimometric every 2 days some issue comes up",
+  "author": "shabaz sayyed",
+  "version": "",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hi, we're very sorry to hear that. Please check if your device’s date and time settings are set to manual; if yes, change them to automatic, restart the device, and try logging in again. M.A",
+   "date": "2026-11-25"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-3a3ebcf6-be03-440f-adef-c58a9b81522f",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "not able to open the mob app. experienced many times",
+  "author": "Arun Padinjarethil",
+  "version": "1.63",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again. M.A",
+   "date": "2026-11-25"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-4b26a634-1e7e-4150-9744-ead6ffbe918d",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "great and easy",
+  "author": "Caren 14",
+  "version": "1.63",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Thank you for your review! We're happy the app is meeting your expectations. M.A",
+   "date": "2026-11-25"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-dfbc5c2f-0480-4717-9004-6ca4ea24f90a",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good",
+  "author": "Ealhaj Khan",
+  "version": "1.63",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Thank you for your review! We're happy the app is meeting your expectations. M.A",
+   "date": "2026-11-25"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-a464040b-641e-4862-8f97-1367e8a74b1d",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Very cronfotabol App and very Nice",
+  "author": "Amran Hussain",
+  "version": "1.63",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Thank you for your review! We're happy the app is meeting your expectations. M.A",
+   "date": "2026-11-25"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-71f0230a-929b-4419-9ed3-b035db89f523",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "App is not working it showing sign in by password but cant pass that step",
+  "author": "Husnain Ahmed",
+  "version": "1.63",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again. M.A",
+   "date": "2026-11-25"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-1a29d42d-c38b-406f-84ec-2405900e5a3b",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 2,
+  "title": "",
+  "body": "why school fees directing only from touch points",
+  "author": "mohamed sudheer p s",
+  "version": "1.63",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-df028048-5774-40d9-b18d-cbe03ba7e0ce",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 2,
+  "title": "",
+  "body": "not good, always deducting money from my account..i already went to the office but still they are deducting...they are scam..dont use adcb bank..i want to change my bank now..",
+  "author": "Rona joy Reyes",
+  "version": "",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null,
+  "generation": "new"
+ },
+ {
+  "id": "play-2261b830-9d79-47ae-b45c-2b55750d2eb9",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "What problems! Not login in my account in ADCB apps?",
+  "author": "Yeasin Arafat",
+  "version": "1.63",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello, please try clearing the app data by following the steps below: Settings → Apps → ADCB App → Storage → Clear Data Once completed, please open the app and try logging in again. M.A",
+   "date": "2026-11-25"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-582856e8-e205-4839-97cf-ac5bbe08fbf3",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "best banking In UAE",
+  "author": "Omar Chowdhury",
+  "version": "1.63",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Thank you for your review! We're happy the app is meeting your expectations. M.A",
+   "date": "2026-11-25"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-64b9d1fb-6aca-48a0-8dda-0df7b8cddda8",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "good service",
+  "author": "M.junaid Junaid",
+  "version": "1.63",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Thank you for your review! We're happy the app is meeting your expectations. M.A",
+   "date": "2026-11-25"
+  },
+  "generation": "new"
+ },
+ {
+  "id": "play-7a612005-366e-4bfa-8437-e928ee369de9",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "why day every day _ balnes not good my visa in prosass",
+  "author": "Muhammad Zafran",
+  "version": "1.63",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": null,
   "generation": "new"
  }
 ]

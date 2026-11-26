@@ -1,19 +1,19 @@
 {
  "title": "ENBD X",
- "score": 4.741613,
- "ratings": 239563,
- "reviews": 18078,
+ "score": 4.741946,
+ "ratings": 239834,
+ "reviews": 18089,
  "histogram": [
-  7851,
-  1456,
-  4342,
-  17436,
-  208473
+  7831,
+  1481,
+  4339,
+  17437,
+  208742
  ],
- "version": "26.11.3",
+ "version": "26.11.10",
  "installs": "1,000,000+",
  "released": "Dec 12, 2021",
- "updated": 1794919521,
+ "updated": 1795546220,
  "developer": "Emirates NBD",
  "genre": "Finance"
 }
