@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26",
+ "generated": "2026-11-27",
  "months": [
   "2016-10",
   "2016-11",
@@ -124,7 +124,7 @@
   "2026-10",
   "2026-11"
  ],
- "collected": "2026-11-26",
+ "collected": "2026-11-27",
  "coverage": {
   "phase": 1,
   "text": "deep crawl phase 1 of 2 complete, phase 2 running",
@@ -149,21 +149,21 @@
   "play_url": "https://play.google.com/store/apps/details?id=com.adib.mobile",
   "store_rating": {
    "ios": {
-    "avg": 4.69224,
-    "count": 259482,
+    "avg": 4.69209,
+    "count": 259579,
     "version": "8.11.10"
    },
    "android": {
-    "avg": 4.6041217,
-    "count": 46501,
-    "reviews": 15444,
+    "avg": 4.60196,
+    "count": 46511,
+    "reviews": 15453,
     "version": "8.11.0",
     "histogram": [
-     3163,
-     568,
-     857,
-     2328,
-     39580
+     3201,
+     555,
+     855,
+     2322,
+     39572
     ],
     "installs": "1,000,000+"
    }
@@ -173,8 +173,8 @@
     "all": {
      "trackName": "ADIB Mobile Banking",
      "sellerName": "ABU DHABI ISLAMIC BANK",
-     "averageUserRating": 4.69224,
-     "userRatingCount": 259482,
+     "averageUserRating": 4.69209,
+     "userRatingCount": 259579,
      "version": "8.11.10",
      "currentVersionReleaseDate": "2026-11-16T07:25:46Z",
      "releaseDate": "2016-09-29T11:47:00Z",
@@ -190,15 +190,15 @@
    "android": {
     "all": {
      "title": "ADIB Mobile Banking",
-     "score": 4.6041217,
-     "ratings": 46501,
-     "reviews": 15444,
+     "score": 4.60196,
+     "ratings": 46511,
+     "reviews": 15453,
      "histogram": [
-      3163,
-      568,
-      857,
-      2328,
-      39580
+      3201,
+      555,
+      855,
+      2322,
+      39572
      ],
      "version": "8.11.0",
      "installs": "1,000,000+",
@@ -211,20 +211,20 @@
   }
  },
  "totals": {
-  "all": 19550,
+  "all": 19554,
   "ios": 2277,
-  "android": 17273,
+  "android": 17277,
   "first": "2016-10-19",
-  "last": "2026-11-25",
+  "last": "2026-11-26",
   "avg": 4.14,
   "avg_ios": 3.58,
   "avg_android": 4.22,
   "hist": [
-   3253,
+   3254,
    497,
    577,
    1088,
-   14135
+   14138
   ],
   "hist_ios": [
    655,
@@ -234,25 +234,25 @@
    1313
   ],
   "hist_android": [
-   2598,
+   2599,
    399,
    467,
    987,
-   12822
+   12825
   ],
   "sentiment": {
-   "negative": 3843,
-   "positive": 15365,
+   "positive": 15368,
+   "negative": 3844,
    "neutral": 342
   },
   "langs": [
    [
     "en",
-    9871
+    9872
    ],
    [
     "ar",
-    9556
+    9559
    ],
    [
     "fr",
@@ -329,7 +329,7 @@
     3
    ]
   ],
-  "with_text": 19550,
+  "with_text": 19554,
   "untagged": 2832
  },
  "monthly": {
@@ -2030,16 +2030,16 @@
    },
    {
     "month": "2026-11",
-    "count": 204,
+    "count": 208,
     "avg": 3.72,
-    "neg": 63,
-    "pos": 136,
+    "neg": 64,
+    "pos": 139,
     "hist": [
-     55,
+     56,
      8,
      7,
      4,
-     130
+     133
     ]
    }
   ],
@@ -5450,16 +5450,16 @@
    },
    {
     "month": "2026-11",
-    "count": 176,
+    "count": 180,
     "avg": 3.74,
-    "neg": 54,
-    "pos": 119,
+    "neg": 55,
+    "pos": 122,
     "hist": [
-     48,
+     49,
      6,
      4,
      4,
-     114
+     117
     ]
    }
   ]
@@ -6713,7 +6713,7 @@
    "avg": 1.95,
    "ios": 390,
    "android": 1118,
-   "share_of_negative": 0.301,
+   "share_of_negative": 0.3,
    "monthly": {
     "ios": [
      [
@@ -7944,14 +7944,14 @@
   {
    "key": "update",
    "label": "App updates",
-   "count": 1277,
-   "negative": 916,
+   "count": 1278,
+   "negative": 917,
    "positive": 306,
    "neutral": 55,
    "avg": 2.12,
    "ios": 316,
-   "android": 961,
-   "share_of_negative": 0.238,
+   "android": 962,
+   "share_of_negative": 0.239,
    "monthly": {
     "ios": [
      [
@@ -9172,8 +9172,8 @@
       2
      ],
      [
-      16,
-      12,
+      17,
+      13,
       3
      ]
     ]
@@ -14134,13 +14134,13 @@
   {
    "key": "branch",
    "label": "Branch & staff",
-   "count": 508,
+   "count": 509,
    "negative": 192,
-   "positive": 312,
+   "positive": 313,
    "neutral": 4,
    "avg": 3.46,
    "ios": 101,
-   "android": 407,
+   "android": 408,
    "share_of_negative": 0.05,
    "monthly": {
     "ios": [
@@ -15362,9 +15362,9 @@
       4
      ],
      [
+      1,
       0,
-      0,
-      0
+      1
      ]
     ]
    }
@@ -16617,7 +16617,7 @@
    "avg": 2.45,
    "ios": 101,
    "android": 258,
-   "share_of_negative": 0.058,
+   "share_of_negative": 0.057,
    "monthly": {
     "ios": [
      [
@@ -31859,14 +31859,14 @@
   {
    "platform": "android",
    "version": "8.5.2",
-   "count": 73,
-   "avg": 4.15,
-   "neg_share": 0.219,
+   "count": 74,
+   "avg": 4.11,
+   "neg_share": 0.23,
    "first": "2026-05-23",
-   "last": "2026-08-29",
+   "last": "2026-11-25",
    "top_themes": [
-    "notifications",
     "update",
+    "notifications",
     "transfers"
    ]
   },
@@ -31969,11 +31969,11 @@
   {
    "platform": "android",
    "version": "8.10.6",
-   "count": 41,
-   "avg": 4.17,
-   "neg_share": 0.195,
+   "count": 42,
+   "avg": 4.19,
+   "neg_share": 0.19,
    "first": "2026-11-08",
-   "last": "2026-11-25",
+   "last": "2026-11-26",
    "top_themes": [
     "stability",
     "cards",
@@ -31983,11 +31983,11 @@
   {
    "platform": "android",
    "version": "8.11.0",
-   "count": 57,
-   "avg": 2.88,
-   "neg_share": 0.544,
+   "count": 59,
+   "avg": 2.95,
+   "neg_share": 0.525,
    "first": "2026-11-17",
-   "last": "2026-11-25",
+   "last": "2026-11-26",
    "top_themes": [
     "stability",
     "update",
@@ -31996,14 +31996,14 @@
   }
  ],
  "replies": {
-  "count": 12461,
-  "android": 10970,
+  "count": 12465,
+  "android": 10974,
   "ios": 1491,
   "rate_android": 0.635,
   "rate_ios": 0.655,
   "median_lag_days": 0.0,
   "by_year": {
-   "2026": 2028,
+   "2026": 2032,
    "2025": 2323,
    "2024": 1977,
    "2023": 2128,
@@ -32015,8 +32015,8 @@
   {
    "year": "2026",
    "file": "reviews/2026.json",
-   "count": 2138,
-   "bytes": 1399596
+   "count": 2142,
+   "bytes": 1402311
   },
   {
    "year": "2025",
@@ -32081,6 +32081,6 @@
  ],
  "index": {
   "file": "index.json",
-  "bytes": 276271
+  "bytes": 276329
  }
 }

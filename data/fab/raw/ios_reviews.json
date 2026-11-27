@@ -2154,5 +2154,47 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14831639301",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "Poor support from the bank for their customers who are with them for many years",
+  "body": "Poor support from the bank for their customers who are with them for many years",
+  "author": "Alpha3456",
+  "version": "3.0.02",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14831569629",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 1,
+  "title": "Very slow",
+  "body": "The app around a year and it's slow and freezes.",
+  "author": "aladaide",
+  "version": "3.0.02",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
+ },
+ {
+  "id": "ios-14831510361",
+  "platform": "ios",
+  "storefront": "ae",
+  "rating": 5,
+  "title": "Amazing",
+  "body": "Amazing bank easy to use and access",
+  "author": "mai031d",
+  "version": "3.0.02",
+  "date": "2026-11-24",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

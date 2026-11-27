@@ -1,16 +1,16 @@
 {
  "title": "Wio Personal",
- "score": 4.6076555,
- "ratings": 6291,
- "reviews": 558,
+ "score": 4.6053267,
+ "ratings": 6294,
+ "reviews": 559,
  "histogram": [
-  404,
-  13,
-  149,
-  496,
-  5222
+  410,
+  15,
+  136,
+  517,
+  5210
  ],
- "version": "1.76.1",
+ "version": "1.77.0",
  "installs": "500,000+",
  "released": "Apr 16, 2023",
  "updated": 1795104097,
