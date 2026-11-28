@@ -72616,5 +72616,19 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14835983050",
+  "platform": "ios",
+  "storefront": "in",
+  "rating": 1,
+  "title": "Too many notifications asking for reviewing the app",
+  "body": "Many issues with the wealth tab of the app repeatedly over the last 2 months",
+  "author": "disppointed PNB customer",
+  "version": "26.11.10",
+  "date": "2026-11-26",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

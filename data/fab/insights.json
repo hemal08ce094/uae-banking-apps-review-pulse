@@ -1,6 +1,6 @@
 {
  "headline": "64% of written reviews give FAB Mobile five stars and 28% give one or two. Most of the low months follow a release: sign-in changes in 2021 and 2022, and an update in March 2026 that broke OTP delivery and device checks.",
- "lede": "First Abu Dhabi Bank answered 72% of the written reviews collected, but the median wait for a reply is 9 days. The most common reasons for one and two stars are Call centre & chat (1174), Crashes & errors (1142), Login & access (1007), App updates (705). The best month on record is 2021-07 (average 4.64); the worst with at least 100 reviews is 2018-12 (average 2.42).",
+ "lede": "First Abu Dhabi Bank answered 72% of the written reviews collected, but the median wait for a reply is 9 days. The most common reasons for one and two stars are Call centre & chat (1174), Crashes & errors (1142), Login & access (1009), App updates (705). The best month on record is 2021-07 (average 4.64); the worst with at least 100 reviews is 2018-12 (average 2.42).",
  "method": "Averages here are of written reviews only. Store ratings (4.63 App Store, 4.29 Google Play) include star-only ratings, which are not public and skew positive. Sentiment comes from the star rating (1-2 negative, 4-5 positive, 3 resolved by wording). Themes are keyword-tagged in English and Arabic, so a review can carry several themes and short reviews such as 'good app' carry none. The App Store side of this app is complete; Google Play holds 85% of the reviews here.",
  "events": [
   {
@@ -36,7 +36,7 @@
   {
    "month": "2026-03",
    "label": "March 2026 update: OTP delays and device limit",
-   "detail": "674 reviews in March 2026, against a typical 290 a month in 2026, average 2.92. 38 mention an OTP and 6 mention the device limit or delinking. Negative themes: Crashes & errors (109), Login & access (70), Call centre & chat (50).",
+   "detail": "674 reviews in March 2026, against a typical 289 a month in 2026, average 2.92. 38 mention an OTP and 6 mention the device limit or delinking. Negative themes: Crashes & errors (109), Login & access (70), Call centre & chat (50).",
    "kind": "pain"
   }
  ],
@@ -460,5 +460,5 @@
    ]
   }
  ],
- "generated": "2026-11-27"
+ "generated": "2026-11-28"
 }

@@ -2196,5 +2196,19 @@
   "votes_helpful": 0,
   "votes_total": 0,
   "reply": null
+ },
+ {
+  "id": "ios-14835469229",
+  "platform": "ios",
+  "storefront": "qa",
+  "rating": 5,
+  "title": "User friendly App",
+  "body": "Excellent app for usage.  Good service.",
+  "author": "Naaz0010",
+  "version": "3.0.02",
+  "date": "2026-11-25",
+  "votes_helpful": 0,
+  "votes_total": 0,
+  "reply": null
  }
 ]

@@ -13460,14 +13460,14 @@
  {
   "id": "play-bc642afe-2073-4ba4-ac01-e9d5cb280cea",
   "platform": "android",
-  "storefront": "ae",
+  "storefront": "eg",
   "lang": "en",
   "rating": 5,
   "title": "",
-  "body": "Now 8 months I use fab.fab banking good and trusting bank.",
+  "body": "Now 8 months I use fab.fab banking good and trusting bank.But we need a loan options for minimum categories.that made more happy for public.",
   "author": "Resham Poudel",
-  "version": "3.7.40",
-  "date": "2026-05-13",
+  "version": "3.7.96",
+  "date": "2026-11-27",
   "votes_helpful": 0,
   "votes_total": null,
   "reply": {
@@ -223957,12 +223957,12 @@
   "platform": "android",
   "storefront": "ae",
   "lang": "ar",
-  "rating": 5,
+  "rating": 1,
   "title": "",
-  "body": "التطبيق ممتاز وسهل",
+  "body": "التطبيق كان ممتاز وسهل يوم كان دخول التطبيق بالارقام كان اسهل واسرع الان عن طريق الوجة ليس جيدا بالمرة الرجاء تعديل واعادة الخاصية السابقة او اضافتها في الخيارات كل عميل يختار الخاصية التي تناسبة حتى خاصية البصمة لا تنفع معي الرجاء النظر في موضوعي واعادة خاصية فتح التطبيق بالأرقام وليس بالوجة أو البصمة",
   "author": "جوري المجر",
-  "version": "3.7.61",
-  "date": "2026-07-29",
+  "version": "3.7.96",
+  "date": "2026-11-26",
   "votes_helpful": 0,
   "votes_total": null,
   "reply": {
@@ -275607,7 +275607,10 @@
   "date": "2026-11-25",
   "votes_helpful": 0,
   "votes_total": null,
-  "reply": null
+  "reply": {
+   "body": "Dear Sahad, we appreciate your feedback and want to help resolve your concerns. Kindly write to us using the ‘Email us’ option under ‘Help & Support’ in the app. This will help us understand the issue better and provide a relevant solution.",
+   "date": "2026-11-27"
+  }
  },
  {
   "id": "play-02f5b756-7cf2-4fdf-847b-066ad54c84ad",
@@ -275625,6 +275628,114 @@
   "reply": {
    "body": "عميلنا العزيز، شكراً لتواصلك معنا. نأسف لسماع أنك تواجه صعوبة في استخدام التطبيق. حتى يتمكن فريقنا من مراجعة الأمر، يُرجى مشاركة بياناتك معنا عبر رسالة خاصة على: ‏Facebook @FAB ‏X (formerly Twitter) @FABConnects",
    "date": "2026-11-25"
+  }
+ },
+ {
+  "id": "play-e6aac935-92ea-4e6d-b8f0-3923aaf162ca",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "one of the worst banking service that I ever had in my whole career . Minor issues with their own mistakes needs weeks to be solved and every time you call them to listen the poor word that they are forwarding to concerned team and you wasted your 10 to 15 aed on every call . and guess what they don't even like to work on your complain it seems . but any way dear concerned team please try to solve the issues then to prolong the matters. Will never recommend.",
+  "author": "Muhammad Sarfraz",
+  "version": "3.7.96",
+  "date": "2026-11-27",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Muhammad, we appreciate your feedback and want to help resolve your concerns. Kindly write to us using the ‘Email us’ option under ‘Help & Support’ in the app. This will help us understand the issue better and provide a relevant solution.",
+   "date": "2026-11-27"
+  }
+ },
+ {
+  "id": "play-04af851e-fa0f-4895-96b4-e80199d17b0e",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "Number one",
+  "author": "Mohamed Magdy.",
+  "version": "3.7.96",
+  "date": "2026-11-27",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Mohamed, thank you for your support. We truly appreciate your feedback.",
+   "date": "2026-11-27"
+  }
+ },
+ {
+  "id": "play-1135741e-b6ab-42fc-b4e6-e7cefdcad906",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "great banking services",
+  "author": "Faraz Khan",
+  "version": "",
+  "date": "2026-11-27",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Faraz, thank you for your positive feedback about our banking services. We appreciate your support.",
+   "date": "2026-11-27"
+  }
+ },
+ {
+  "id": "play-b0ee66f6-79a2-489a-b5fc-65cce2d3dd51",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "login to app becomes more and more problematic. first you enter 6 digit pin, then you need to scan EID, then face recognition, then blinking eye. after all these steps you get into the app...",
+  "author": "Tamer Koksalan",
+  "version": "3.7.96",
+  "date": "2026-11-27",
+  "votes_helpful": 4,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Tamer, thank you for your feedback. We understand your frustration. We recommend enabling biometric login to ensure quicker, more secure access to your account in the future.",
+   "date": "2026-11-27"
+  }
+ },
+ {
+  "id": "play-37661f5b-fffd-4145-9b56-34d7036d051f",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 5,
+  "title": "",
+  "body": "I love fab banking , super nice apps",
+  "author": "Ram Mahto",
+  "version": "3.7.96",
+  "date": "2026-11-26",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Dear Ram, we appreciate your positive feedback about our app. Thank you for your support.",
+   "date": "2026-11-27"
+  }
+ },
+ {
+  "id": "play-52f7a10c-98cb-4a48-91eb-6f379904581a",
+  "platform": "android",
+  "storefront": "ae",
+  "lang": "ar",
+  "rating": 1,
+  "title": "",
+  "body": "عطل في تطبيق الهويه تقره وبصمه الوجه اوكي وتحقق اوكي اخر خطوه هناك عطل مشكله والله اسبوع وانا اعاني ارجو الفاده في الموضوع",
+  "author": "Ae Mohammed",
+  "version": "3.7.96",
+  "date": "2026-11-26",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "عميلنا العزيز، شكراً لتواصلك معنا. نأسف لسماع أنك تواجه صعوبة في استخدام التطبيق. حتى يتمكن فريقنا من مراجعة الأمر، يُرجى مشاركة بياناتك معنا عبر رسالة خاصة على: ‏Facebook @FAB ‏X (formerly Twitter) @FABConnects",
+   "date": "2026-11-27"
   }
  }
 ]

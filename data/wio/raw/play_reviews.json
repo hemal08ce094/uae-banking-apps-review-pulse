@@ -200,14 +200,14 @@
  {
   "id": "play-50b6fa51-9b73-48c0-9563-cf6a4a6425ee",
   "platform": "android",
-  "storefront": "ae",
+  "storefront": "eg",
   "lang": "en",
   "rating": 1,
   "title": "",
-  "body": "Does not run on my phone",
+  "body": "Does not run on worlds most secure mobile os GrapheneOS but also does not run in my Huawei, FireOS devices. Lame.",
   "author": "Gordon Freeman",
-  "version": "1.73.0",
-  "date": "2026-10-01",
+  "version": "1.74.1",
+  "date": "2026-11-26",
   "votes_helpful": 0,
   "votes_total": null,
   "reply": {
@@ -15036,6 +15036,24 @@
   "reply": {
    "body": "Hello Ahmed. Thank you for your feedback. We’re happy to let you know that the Wio does support Arabic. Please share your contact details with us via DM on any of our official social media channels so our team can assist you further.",
    "date": "2026-11-20"
+  }
+ },
+ {
+  "id": "play-e2764efd-a2d3-45b8-9596-61ea984a6621",
+  "platform": "android",
+  "storefront": "eg",
+  "lang": "en",
+  "rating": 1,
+  "title": "",
+  "body": "Worst customer service and verifying. Y information taking a month and they freeze mY money. This bank is from ABU DHABI SHAME ON IT",
+  "author": "MUHAMMAD alz",
+  "version": "1.76.1",
+  "date": "2026-11-26",
+  "votes_helpful": 0,
+  "votes_total": null,
+  "reply": {
+   "body": "Hello. We apologize for the inconvenience and frustration you've experienced. We're unable to identify you. We'd like to kindly ask you to share your contact details via DM through Facebook, Instagram, or X so that we can get this checked for you.",
+   "date": "2026-11-27"
   }
  }
 ]
